@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project >
+  <ItemGroup>
+	  <Content Include="$(MSBuildThisFileDirectory)..\runtimes\**\*.*">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		  <Link>runtimes\%(RecursiveDir)%(FileName)%(Extension)</Link>
+	  </Content>
+  </ItemGroup>
+</Project>

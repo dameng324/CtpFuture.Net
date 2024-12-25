@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "CTPFutureMdTests": {
+      "commandName": "Project",
+      "nativeDebugging": true
+    }
+  }
+}
