@@ -2,7 +2,8 @@
     <PropertyGroup>
         <OutputType>Exe</OutputType>
         <LangVersion>preview</LangVersion>
-        <TargetFrameworks>net45;net46;net6</TargetFrameworks>
+        <Nullable>enable</Nullable>
+        <TargetFramework>net6.0</TargetFramework>
     </PropertyGroup>
     <ItemGroup>
         <PackageReference Version="0.1.5" Include="CTPFuture.Net" />
