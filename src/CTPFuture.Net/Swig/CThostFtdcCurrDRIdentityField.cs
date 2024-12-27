@@ -8,7 +8,7 @@
 // the SWIG interface file instead.
 //------------------------------------------------------------------------------
 
-namespace CtpFuture.Net.Swig {
+namespace CtpFuture.Net {
 
 public class CThostFtdcCurrDRIdentityField : global::System.IDisposable {
   private global::System.Runtime.InteropServices.HandleRef swigCPtr;

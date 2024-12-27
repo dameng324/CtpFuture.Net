@@ -8,7 +8,7 @@
 // the SWIG interface file instead.
 //------------------------------------------------------------------------------
 
-namespace CtpFuture.Net.Swig {
+namespace CtpFuture.Net {
 
 public class CTPFutureApi {
   public static readonly char THOST_FTDC_EXP_Normal = CTPFutureApiPINVOKE.THOST_FTDC_EXP_Normal_get();

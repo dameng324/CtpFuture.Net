@@ -8,7 +8,7 @@
 // the SWIG interface file instead.
 //------------------------------------------------------------------------------
 
-namespace CtpFuture.Net.Swig {
+namespace CtpFuture.Net {
 
 public enum THOST_TE_RESUME_TYPE {
   THOST_TERT_RESTART = 0,

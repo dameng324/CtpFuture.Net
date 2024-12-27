@@ -1,8 +1,0 @@
-{
-  "profiles": {
-    "CTPFutureTests": {
-      "commandName": "Project",
-      "nativeDebugging": true
-    }
-  }
-}

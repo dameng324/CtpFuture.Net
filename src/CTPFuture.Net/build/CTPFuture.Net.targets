@@ -1,7 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project >
   <ItemGroup>
-	  <Content Include="$(MSBuildThisFileDirectory)..\runtimes\**\*.*">
+	  <Content Condition="$(TargetFramework.StartsWith('net4'))" Include="$(MSBuildThisFileDirectory)..\runtimes\**\*.dll">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		  <Link>%(FileName)%(Extension)</Link>
+	  </Content>
+	  <Content Condition="!$(TargetFramework.StartsWith('net4'))" Include="$(MSBuildThisFileDirectory)..\runtimes\**\*.*">
 		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 		  <Link>runtimes\%(RecursiveDir)%(FileName)%(Extension)</Link>
 	  </Content>

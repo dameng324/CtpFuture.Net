@@ -1,1 +1,1 @@
-mkdir -p ../CtpFuture.Net/Swig && swig -c++ -csharp -namespace CtpFuture.Net.Swig -outdir ../CtpFuture.Net/Swig/ swig.i
+mkdir -p ../CtpFuture.Net/Swig && swig -c++ -csharp -namespace CtpFuture.Net -outdir ../CtpFuture.Net/Swig/ swig.i

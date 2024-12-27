@@ -1,22 +1,29 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 	<PropertyGroup>
-		<TargetFrameworks>net6.0;net8.0;netstandard2.0</TargetFrameworks>
+		<TargetFrameworks>net6.0;net8.0;netstandard2.0;net45;net46;</TargetFrameworks>
 		<OutputType>Library</OutputType>
 		<Nullable>enable</Nullable>
+		<RepositoryType>git</RepositoryType>
 		<LangVersion>preview</LangVersion>
 		<AllowUnsafeBlocks>true</AllowUnsafeBlocks>
 		<RootNamespace>CTPFuture</RootNamespace>
+		<Version>0.1.5</Version>
+		<PackageTags>Future;Trade;CTP;China;Quant</PackageTags>
+		<RepositoryUrl>https://github.com/dameng324/CtpFuture.Net.git</RepositoryUrl>
+		<PackageProjectUrl>https://github.com/dameng324/CtpFuture.Net</PackageProjectUrl>
+		<Title>CTPFuture.Net</Title>
+		<Description>Provides simple access to fast and efficient "Protocol Buffers" serialization from .NET applications</Description>
 	</PropertyGroup>
 
 	<ItemGroup>
-		<None Include="..\CTPFutureApi\$(Configuration)\x64\**\*.dll" Link="%(FileName)%(Extension)">
+		<None Include="..\CTPFutureApi\$(Configuration)\x64\**\*.dll" Link="runtimes\win-x64\native\%(RecursiveDir)%(FileName)%(Extension)">
 			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 			<Pack>true</Pack>
 			<PackagePath>runtimes\win-x64\native\%(RecursiveDir)%(FileName)%(Extension)</PackagePath>
 		</None>
 	</ItemGroup>
 	<ItemGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
-		<None Include="..\CTPFutureApi\$(Configuration)\x64\**\*.pdb" Link="%(FileName)%(Extension)">
+		<None Include="..\CTPFutureApi\$(Configuration)\x64\**\*.pdb" Link="runtimes\win-x64\native\%(RecursiveDir)%(FileName)%(Extension)">
 			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 			<Pack>true</Pack>
 			<PackagePath>runtimes\win-x64\native\%(RecursiveDir)%(FileName)%(Extension)</PackagePath>
@@ -24,10 +31,9 @@
 	</ItemGroup>
 	<ItemGroup>
 		<PackageReference Condition="$(TargetFramework)=='netstandard2.0'" Include="System.Text.Encoding.CodePages" Version="9.0.0" />
-		<PackageReference Include="System.Reactive" Version="6.0.1"/>
 	</ItemGroup>
 	<ItemGroup>
-		<Content Include="build\*.*">
+		<Content Include="build\*.*" >
 			<Pack>true</Pack>
 			<PackagePath>build;</PackagePath>
 		</Content>

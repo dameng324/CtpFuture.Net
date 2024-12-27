@@ -4,7 +4,10 @@ using System.Text;
 
 namespace CtpFuture;
 
-internal static class SwigStringHelper
+/// <summary>
+///
+/// </summary>
+public static class SwigStringHelper
 {
     private delegate string SwigStringDelegate(IntPtr message);
 
@@ -14,16 +17,30 @@ internal static class SwigStringHelper
     static extern void SWIGRegisterStringCallback_CTPFutureApi(SwigStringDelegate stringDelegate);
 
     // ReSharper disable once InconsistentNaming
+#if NETFRAMEWORK
+    private static Encoding GB2312 { get; } = Encoding.GetEncoding("GB2312");
+#else
     private static Encoding GB2312 { get; } = CodePagesEncodingProvider.Instance.GetEncoding("GB2312")!;
+#endif
 
-    static unsafe string CreateString(IntPtr ptr)
+    static
+#if !NET45
+    unsafe
+#endif
+    string CreateString(IntPtr ptr)
     {
         if (ptr == IntPtr.Zero)
             return string.Empty;
 
         int count = 0;
         while (Marshal.ReadByte(ptr, count++) != 0) { }
+#if NET45
+        var buffer = new byte[count];
+        Marshal.Copy(ptr, buffer, 0, count);
+        return GB2312.GetString(buffer);
+#else
         return GB2312.GetString((byte*)ptr, count);
+#endif
     }
 
     public static void Register()
