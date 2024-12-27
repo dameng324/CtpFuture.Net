@@ -6,8 +6,7 @@
 		<RepositoryType>git</RepositoryType>
 		<LangVersion>preview</LangVersion>
 		<AllowUnsafeBlocks>true</AllowUnsafeBlocks>
-		<RootNamespace>CTPFuture</RootNamespace>
-		<Version>0.1.5</Version>
+		<Version>0.1.6</Version>
 		<PackageTags>Future;Trade;CTP;China;Quant</PackageTags>
 		<RepositoryUrl>https://github.com/dameng324/CtpFuture.Net.git</RepositoryUrl>
 		<PackageProjectUrl>https://github.com/dameng324/CtpFuture.Net</PackageProjectUrl>

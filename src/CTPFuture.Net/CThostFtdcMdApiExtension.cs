@@ -1,7 +1,7 @@
 ﻿using System.Runtime.InteropServices;
 using CtpFuture.Net;
 
-namespace CtpFuture;
+namespace CtpFuture.Net;
 
 public static class CThostFtdcMdApiExtension
 {
