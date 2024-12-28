@@ -397,3 +397,6 @@ FodyWeavers.xsd
 # JetBrains Rider
 *.sln.iml
 /.idea
+/src/CTPFutureApi/win-build
+/src/CTPFutureApi/linux-build
+*.con

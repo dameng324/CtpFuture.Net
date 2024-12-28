@@ -2,17 +2,16 @@
 
 %module(directors="1") CTPFutureApi
 %{ 
-    #define _WIN32
-    #include "api_x64/ThostFtdcUserApiDataType.h"
-    #include "api_x64/ThostFtdcUserApiStruct.h"
-    #include "api_x64/ThostFtdcTraderApi.h"
-    #include "api_x64/ThostFtdcMdApi.h"
+    #include "include/ThostFtdcUserApiDataType.h"
+    #include "include/ThostFtdcUserApiStruct.h"
+    #include "include/ThostFtdcTraderApi.h"
+    #include "include/ThostFtdcMdApi.h"
 %}
 /* turn on director wrapping Callback */
 %feature("director") CThostFtdcTraderSpi;
 %feature("director") CThostFtdcMdSpi;
 
-%include "api_x64/ThostFtdcUserApiDataType.h"
-%include "api_x64/ThostFtdcUserApiStruct.h"
-%include "api_x64/ThostFtdcTraderApi.h"
-%include "api_x64/ThostFtdcMdApi.h"
+%include "include/ThostFtdcUserApiDataType.h"
+%include "include/ThostFtdcUserApiStruct.h"
+%include "include/ThostFtdcTraderApi.h"
+%include "include/ThostFtdcMdApi.h"

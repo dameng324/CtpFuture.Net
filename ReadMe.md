@@ -10,9 +10,10 @@ It only works on Windows now, It's possible to work on Linux, but I haven't fini
 
 ## Features
 
-- Support both CTP Future and CTP Market API
+- Support both CTP Trade and CTP Market API
 - Support .Net framework 4.5 and .Net Standard 2.0 and Modern .Net6 and .Net8
-- Auto copy the native dlls to the output directory, root directory when .net framework, and rumtime/win-x64/win-x64 when .net core
+- Auto copy the native dlls to the output directory
+- Native AOT support
 - Solved the GB2312 encoding problem
 
 
@@ -110,13 +111,13 @@ public class TraderSpiImpl : CThostFtdcTraderSpi
 
 - dotnet sdk 8.0 or later
 - swig 4.3.0 or later, use `scoop install swig` to install swig on windows, do not use `winget`.
-- Visual Studio 2022 with .NET and C++ development workload
+- cmake 3.31.3 or later.
 
 ### Build
 
 1. Clone the repository and open the solution file `CTPFuture.sln` with Visual Studio 2022.
 2. run the command in `CTPFutureApi/SwigGenerator.sh` to generate the cpp and C# wrapper code.
-3. Build the `CTPFutureApi` cpp project.
+3. run `win-build.sh` for windows native build or `linux-build.sh` for linux native build.
 4. Build the `CTPFuture.Net` C# project.
 
 ## FAQ
@@ -131,11 +132,11 @@ SwigStringHelper.Register();
 
 ### The version of the CTP API?
 
-v6.5.1_20200908 10:25:08
+v6.3.15_20190220 20:39:53
 
-### Linux support?
+### dll doesn't copy to the output directory?
 
-Maybe in the future, if you are interested in this, contributions are welcome.
+set `RuntimeIdentifier` to `win-x64` in the project file.
 
 ## License
 
