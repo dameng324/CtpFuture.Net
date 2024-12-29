@@ -6,7 +6,6 @@ CTPFuture.Net is a .NET library for the CTP Futures API. It is a wrapper of the 
 
 Please read FAQ before using this library.[FAQ](#faq)
 
-It only works on Windows now, It's possible to work on Linux, but I haven't finished it yet.
 
 ## Features
 
@@ -15,6 +14,7 @@ It only works on Windows now, It's possible to work on Linux, but I haven't fini
 - Auto copy the native dlls to the output directory
 - Native AOT support
 - Solved the GB2312 encoding problem
+- Both Windows and Linux supported.
 
 
 ## Installation
