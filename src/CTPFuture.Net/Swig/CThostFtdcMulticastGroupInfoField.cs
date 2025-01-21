@@ -10,20 +10,20 @@
 
 namespace CtpFuture.Net {
 
-public class CThostFtdcAuthIPField : global::System.IDisposable {
+public class CThostFtdcMulticastGroupInfoField : global::System.IDisposable {
   private global::System.Runtime.InteropServices.HandleRef swigCPtr;
   protected bool swigCMemOwn;
 
-  internal CThostFtdcAuthIPField(global::System.IntPtr cPtr, bool cMemoryOwn) {
+  internal CThostFtdcMulticastGroupInfoField(global::System.IntPtr cPtr, bool cMemoryOwn) {
     swigCMemOwn = cMemoryOwn;
     swigCPtr = new global::System.Runtime.InteropServices.HandleRef(this, cPtr);
   }
 
-  internal static global::System.Runtime.InteropServices.HandleRef getCPtr(CThostFtdcAuthIPField obj) {
+  internal static global::System.Runtime.InteropServices.HandleRef getCPtr(CThostFtdcMulticastGroupInfoField obj) {
     return (obj == null) ? new global::System.Runtime.InteropServices.HandleRef(null, global::System.IntPtr.Zero) : obj.swigCPtr;
   }
 
-  internal static global::System.Runtime.InteropServices.HandleRef swigRelease(CThostFtdcAuthIPField obj) {
+  internal static global::System.Runtime.InteropServices.HandleRef swigRelease(CThostFtdcMulticastGroupInfoField obj) {
     if (obj != null) {
       if (!obj.swigCMemOwn)
         throw new global::System.ApplicationException("Cannot release ownership as memory is not owned");
@@ -36,7 +36,7 @@ public class CThostFtdcAuthIPField : global::System.IDisposable {
     }
   }
 
-  ~CThostFtdcAuthIPField() {
+  ~CThostFtdcMulticastGroupInfoField() {
     Dispose(false);
   }
 
@@ -50,44 +50,44 @@ public class CThostFtdcAuthIPField : global::System.IDisposable {
       if (swigCPtr.Handle != global::System.IntPtr.Zero) {
         if (swigCMemOwn) {
           swigCMemOwn = false;
-          CTPFutureApiPINVOKE.delete_CThostFtdcAuthIPField(swigCPtr);
+          CTPFutureApiPINVOKE.delete_CThostFtdcMulticastGroupInfoField(swigCPtr);
         }
         swigCPtr = new global::System.Runtime.InteropServices.HandleRef(null, global::System.IntPtr.Zero);
       }
     }
   }
 
-  public string BrokerID {
+  public string GroupIP {
     set {
-      CTPFutureApiPINVOKE.CThostFtdcAuthIPField_BrokerID_set(swigCPtr, value);
+      CTPFutureApiPINVOKE.CThostFtdcMulticastGroupInfoField_GroupIP_set(swigCPtr, value);
     } 
     get {
-      string ret = CTPFutureApiPINVOKE.CThostFtdcAuthIPField_BrokerID_get(swigCPtr);
+      string ret = CTPFutureApiPINVOKE.CThostFtdcMulticastGroupInfoField_GroupIP_get(swigCPtr);
       return ret;
     } 
   }
 
-  public string AppID {
+  public int GroupPort {
     set {
-      CTPFutureApiPINVOKE.CThostFtdcAuthIPField_AppID_set(swigCPtr, value);
+      CTPFutureApiPINVOKE.CThostFtdcMulticastGroupInfoField_GroupPort_set(swigCPtr, value);
     } 
     get {
-      string ret = CTPFutureApiPINVOKE.CThostFtdcAuthIPField_AppID_get(swigCPtr);
+      int ret = CTPFutureApiPINVOKE.CThostFtdcMulticastGroupInfoField_GroupPort_get(swigCPtr);
       return ret;
     } 
   }
 
-  public string IPAddress {
+  public string SourceIP {
     set {
-      CTPFutureApiPINVOKE.CThostFtdcAuthIPField_IPAddress_set(swigCPtr, value);
+      CTPFutureApiPINVOKE.CThostFtdcMulticastGroupInfoField_SourceIP_set(swigCPtr, value);
     } 
     get {
-      string ret = CTPFutureApiPINVOKE.CThostFtdcAuthIPField_IPAddress_get(swigCPtr);
+      string ret = CTPFutureApiPINVOKE.CThostFtdcMulticastGroupInfoField_SourceIP_get(swigCPtr);
       return ret;
     } 
   }
 
-  public CThostFtdcAuthIPField() : this(CTPFutureApiPINVOKE.new_CThostFtdcAuthIPField(), true) {
+  public CThostFtdcMulticastGroupInfoField() : this(CTPFutureApiPINVOKE.new_CThostFtdcMulticastGroupInfoField(), true) {
   }
 
 }

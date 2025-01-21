@@ -207,12 +207,12 @@ public class CThostFtdcExchangeOptionSelfCloseActionField : global::System.IDisp
     } 
   }
 
-  public string reserve1 {
+  public string IPAddress {
     set {
-      CTPFutureApiPINVOKE.CThostFtdcExchangeOptionSelfCloseActionField_reserve1_set(swigCPtr, value);
+      CTPFutureApiPINVOKE.CThostFtdcExchangeOptionSelfCloseActionField_IPAddress_set(swigCPtr, value);
     } 
     get {
-      string ret = CTPFutureApiPINVOKE.CThostFtdcExchangeOptionSelfCloseActionField_reserve1_get(swigCPtr);
+      string ret = CTPFutureApiPINVOKE.CThostFtdcExchangeOptionSelfCloseActionField_IPAddress_get(swigCPtr);
       return ret;
     } 
   }
@@ -227,12 +227,12 @@ public class CThostFtdcExchangeOptionSelfCloseActionField : global::System.IDisp
     } 
   }
 
-  public string reserve2 {
+  public string ExchangeInstID {
     set {
-      CTPFutureApiPINVOKE.CThostFtdcExchangeOptionSelfCloseActionField_reserve2_set(swigCPtr, value);
+      CTPFutureApiPINVOKE.CThostFtdcExchangeOptionSelfCloseActionField_ExchangeInstID_set(swigCPtr, value);
     } 
     get {
-      string ret = CTPFutureApiPINVOKE.CThostFtdcExchangeOptionSelfCloseActionField_reserve2_get(swigCPtr);
+      string ret = CTPFutureApiPINVOKE.CThostFtdcExchangeOptionSelfCloseActionField_ExchangeInstID_get(swigCPtr);
       return ret;
     } 
   }
@@ -243,26 +243,6 @@ public class CThostFtdcExchangeOptionSelfCloseActionField : global::System.IDisp
     } 
     get {
       char ret = CTPFutureApiPINVOKE.CThostFtdcExchangeOptionSelfCloseActionField_OptSelfCloseFlag_get(swigCPtr);
-      return ret;
-    } 
-  }
-
-  public string IPAddress {
-    set {
-      CTPFutureApiPINVOKE.CThostFtdcExchangeOptionSelfCloseActionField_IPAddress_set(swigCPtr, value);
-    } 
-    get {
-      string ret = CTPFutureApiPINVOKE.CThostFtdcExchangeOptionSelfCloseActionField_IPAddress_get(swigCPtr);
-      return ret;
-    } 
-  }
-
-  public string ExchangeInstID {
-    set {
-      CTPFutureApiPINVOKE.CThostFtdcExchangeOptionSelfCloseActionField_ExchangeInstID_set(swigCPtr, value);
-    } 
-    get {
-      string ret = CTPFutureApiPINVOKE.CThostFtdcExchangeOptionSelfCloseActionField_ExchangeInstID_get(swigCPtr);
       return ret;
     } 
   }

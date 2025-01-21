@@ -57,12 +57,12 @@ public class CThostFtdcInstrumentCommissionRateField : global::System.IDisposabl
     }
   }
 
-  public string reserve1 {
+  public string InstrumentID {
     set {
-      CTPFutureApiPINVOKE.CThostFtdcInstrumentCommissionRateField_reserve1_set(swigCPtr, value);
+      CTPFutureApiPINVOKE.CThostFtdcInstrumentCommissionRateField_InstrumentID_set(swigCPtr, value);
     } 
     get {
-      string ret = CTPFutureApiPINVOKE.CThostFtdcInstrumentCommissionRateField_reserve1_get(swigCPtr);
+      string ret = CTPFutureApiPINVOKE.CThostFtdcInstrumentCommissionRateField_InstrumentID_get(swigCPtr);
       return ret;
     } 
   }
@@ -183,16 +183,6 @@ public class CThostFtdcInstrumentCommissionRateField : global::System.IDisposabl
     } 
     get {
       string ret = CTPFutureApiPINVOKE.CThostFtdcInstrumentCommissionRateField_InvestUnitID_get(swigCPtr);
-      return ret;
-    } 
-  }
-
-  public string InstrumentID {
-    set {
-      CTPFutureApiPINVOKE.CThostFtdcInstrumentCommissionRateField_InstrumentID_set(swigCPtr, value);
-    } 
-    get {
-      string ret = CTPFutureApiPINVOKE.CThostFtdcInstrumentCommissionRateField_InstrumentID_get(swigCPtr);
       return ret;
     } 
   }

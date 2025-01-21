@@ -57,12 +57,12 @@ public class CThostFtdcInvestorPositionDetailField : global::System.IDisposable 
     }
   }
 
-  public string reserve1 {
+  public string InstrumentID {
     set {
-      CTPFutureApiPINVOKE.CThostFtdcInvestorPositionDetailField_reserve1_set(swigCPtr, value);
+      CTPFutureApiPINVOKE.CThostFtdcInvestorPositionDetailField_InstrumentID_set(swigCPtr, value);
     } 
     get {
-      string ret = CTPFutureApiPINVOKE.CThostFtdcInvestorPositionDetailField_reserve1_get(swigCPtr);
+      string ret = CTPFutureApiPINVOKE.CThostFtdcInvestorPositionDetailField_InstrumentID_get(swigCPtr);
       return ret;
     } 
   }
@@ -177,12 +177,12 @@ public class CThostFtdcInvestorPositionDetailField : global::System.IDisposable 
     } 
   }
 
-  public string reserve2 {
+  public string CombInstrumentID {
     set {
-      CTPFutureApiPINVOKE.CThostFtdcInvestorPositionDetailField_reserve2_set(swigCPtr, value);
+      CTPFutureApiPINVOKE.CThostFtdcInvestorPositionDetailField_CombInstrumentID_set(swigCPtr, value);
     } 
     get {
-      string ret = CTPFutureApiPINVOKE.CThostFtdcInvestorPositionDetailField_reserve2_get(swigCPtr);
+      string ret = CTPFutureApiPINVOKE.CThostFtdcInvestorPositionDetailField_CombInstrumentID_get(swigCPtr);
       return ret;
     } 
   }
@@ -333,36 +333,6 @@ public class CThostFtdcInvestorPositionDetailField : global::System.IDisposable 
     } 
     get {
       string ret = CTPFutureApiPINVOKE.CThostFtdcInvestorPositionDetailField_InvestUnitID_get(swigCPtr);
-      return ret;
-    } 
-  }
-
-  public char SpecPosiType {
-    set {
-      CTPFutureApiPINVOKE.CThostFtdcInvestorPositionDetailField_SpecPosiType_set(swigCPtr, value);
-    } 
-    get {
-      char ret = CTPFutureApiPINVOKE.CThostFtdcInvestorPositionDetailField_SpecPosiType_get(swigCPtr);
-      return ret;
-    } 
-  }
-
-  public string InstrumentID {
-    set {
-      CTPFutureApiPINVOKE.CThostFtdcInvestorPositionDetailField_InstrumentID_set(swigCPtr, value);
-    } 
-    get {
-      string ret = CTPFutureApiPINVOKE.CThostFtdcInvestorPositionDetailField_InstrumentID_get(swigCPtr);
-      return ret;
-    } 
-  }
-
-  public string CombInstrumentID {
-    set {
-      CTPFutureApiPINVOKE.CThostFtdcInvestorPositionDetailField_CombInstrumentID_set(swigCPtr, value);
-    } 
-    get {
-      string ret = CTPFutureApiPINVOKE.CThostFtdcInvestorPositionDetailField_CombInstrumentID_get(swigCPtr);
       return ret;
     } 
   }

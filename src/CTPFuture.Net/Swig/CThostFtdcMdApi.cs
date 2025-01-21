@@ -150,11 +150,6 @@ public class CThostFtdcMdApi : global::System.IDisposable {
     return ret;
   }
 
-  public virtual int ReqQryMulticastInstrument(CThostFtdcQryMulticastInstrumentField pQryMulticastInstrument, int nRequestID) {
-    int ret = CTPFutureApiPINVOKE.CThostFtdcMdApi_ReqQryMulticastInstrument(swigCPtr, CThostFtdcQryMulticastInstrumentField.getCPtr(pQryMulticastInstrument), nRequestID);
-    return ret;
-  }
-
 }
 
 }

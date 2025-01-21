@@ -227,12 +227,12 @@ public class CThostFtdcExchangeOrderActionField : global::System.IDisposable {
     } 
   }
 
-  public string reserve1 {
+  public string IPAddress {
     set {
-      CTPFutureApiPINVOKE.CThostFtdcExchangeOrderActionField_reserve1_set(swigCPtr, value);
+      CTPFutureApiPINVOKE.CThostFtdcExchangeOrderActionField_IPAddress_set(swigCPtr, value);
     } 
     get {
-      string ret = CTPFutureApiPINVOKE.CThostFtdcExchangeOrderActionField_reserve1_get(swigCPtr);
+      string ret = CTPFutureApiPINVOKE.CThostFtdcExchangeOrderActionField_IPAddress_get(swigCPtr);
       return ret;
     } 
   }
@@ -243,16 +243,6 @@ public class CThostFtdcExchangeOrderActionField : global::System.IDisposable {
     } 
     get {
       string ret = CTPFutureApiPINVOKE.CThostFtdcExchangeOrderActionField_MacAddress_get(swigCPtr);
-      return ret;
-    } 
-  }
-
-  public string IPAddress {
-    set {
-      CTPFutureApiPINVOKE.CThostFtdcExchangeOrderActionField_IPAddress_set(swigCPtr, value);
-    } 
-    get {
-      string ret = CTPFutureApiPINVOKE.CThostFtdcExchangeOrderActionField_IPAddress_get(swigCPtr);
       return ret;
     } 
   }

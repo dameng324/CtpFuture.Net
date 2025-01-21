@@ -117,8 +117,8 @@ public class CThostFtdcTraderSpi : global::System.IDisposable {
     if (SwigDerivedClassHasMethod("OnRspOrderAction", swigMethodTypes14)) CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRspOrderActionSwigExplicitCThostFtdcTraderSpi(swigCPtr, CThostFtdcInputOrderActionField.getCPtr(pInputOrderAction), CThostFtdcRspInfoField.getCPtr(pRspInfo), nRequestID, bIsLast); else CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRspOrderAction(swigCPtr, CThostFtdcInputOrderActionField.getCPtr(pInputOrderAction), CThostFtdcRspInfoField.getCPtr(pRspInfo), nRequestID, bIsLast);
   }
 
-  public virtual void OnRspQryMaxOrderVolume(CThostFtdcQryMaxOrderVolumeField pQryMaxOrderVolume, CThostFtdcRspInfoField pRspInfo, int nRequestID, bool bIsLast) {
-    if (SwigDerivedClassHasMethod("OnRspQryMaxOrderVolume", swigMethodTypes15)) CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRspQryMaxOrderVolumeSwigExplicitCThostFtdcTraderSpi(swigCPtr, CThostFtdcQryMaxOrderVolumeField.getCPtr(pQryMaxOrderVolume), CThostFtdcRspInfoField.getCPtr(pRspInfo), nRequestID, bIsLast); else CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRspQryMaxOrderVolume(swigCPtr, CThostFtdcQryMaxOrderVolumeField.getCPtr(pQryMaxOrderVolume), CThostFtdcRspInfoField.getCPtr(pRspInfo), nRequestID, bIsLast);
+  public virtual void OnRspQueryMaxOrderVolume(CThostFtdcQueryMaxOrderVolumeField pQueryMaxOrderVolume, CThostFtdcRspInfoField pRspInfo, int nRequestID, bool bIsLast) {
+    if (SwigDerivedClassHasMethod("OnRspQueryMaxOrderVolume", swigMethodTypes15)) CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRspQueryMaxOrderVolumeSwigExplicitCThostFtdcTraderSpi(swigCPtr, CThostFtdcQueryMaxOrderVolumeField.getCPtr(pQueryMaxOrderVolume), CThostFtdcRspInfoField.getCPtr(pRspInfo), nRequestID, bIsLast); else CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRspQueryMaxOrderVolume(swigCPtr, CThostFtdcQueryMaxOrderVolumeField.getCPtr(pQueryMaxOrderVolume), CThostFtdcRspInfoField.getCPtr(pRspInfo), nRequestID, bIsLast);
   }
 
   public virtual void OnRspSettlementInfoConfirm(CThostFtdcSettlementInfoConfirmField pSettlementInfoConfirm, CThostFtdcRspInfoField pRspInfo, int nRequestID, bool bIsLast) {
@@ -557,14 +557,6 @@ public class CThostFtdcTraderSpi : global::System.IDisposable {
     if (SwigDerivedClassHasMethod("OnRtnChangeAccountByBank", swigMethodTypes124)) CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRtnChangeAccountByBankSwigExplicitCThostFtdcTraderSpi(swigCPtr, CThostFtdcChangeAccountField.getCPtr(pChangeAccount)); else CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRtnChangeAccountByBank(swigCPtr, CThostFtdcChangeAccountField.getCPtr(pChangeAccount));
   }
 
-  public virtual void OnRspQryClassifiedInstrument(CThostFtdcInstrumentField pInstrument, CThostFtdcRspInfoField pRspInfo, int nRequestID, bool bIsLast) {
-    if (SwigDerivedClassHasMethod("OnRspQryClassifiedInstrument", swigMethodTypes125)) CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRspQryClassifiedInstrumentSwigExplicitCThostFtdcTraderSpi(swigCPtr, CThostFtdcInstrumentField.getCPtr(pInstrument), CThostFtdcRspInfoField.getCPtr(pRspInfo), nRequestID, bIsLast); else CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRspQryClassifiedInstrument(swigCPtr, CThostFtdcInstrumentField.getCPtr(pInstrument), CThostFtdcRspInfoField.getCPtr(pRspInfo), nRequestID, bIsLast);
-  }
-
-  public virtual void OnRspQryCombPromotionParam(CThostFtdcCombPromotionParamField pCombPromotionParam, CThostFtdcRspInfoField pRspInfo, int nRequestID, bool bIsLast) {
-    if (SwigDerivedClassHasMethod("OnRspQryCombPromotionParam", swigMethodTypes126)) CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRspQryCombPromotionParamSwigExplicitCThostFtdcTraderSpi(swigCPtr, CThostFtdcCombPromotionParamField.getCPtr(pCombPromotionParam), CThostFtdcRspInfoField.getCPtr(pRspInfo), nRequestID, bIsLast); else CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRspQryCombPromotionParam(swigCPtr, CThostFtdcCombPromotionParamField.getCPtr(pCombPromotionParam), CThostFtdcRspInfoField.getCPtr(pRspInfo), nRequestID, bIsLast);
-  }
-
   public CThostFtdcTraderSpi() : this(CTPFutureApiPINVOKE.new_CThostFtdcTraderSpi(), true) {
     SwigDirectorConnect();
   }
@@ -600,8 +592,8 @@ public class CThostFtdcTraderSpi : global::System.IDisposable {
       swigDelegate13 = new SwigDelegateCThostFtdcTraderSpi_13(SwigDirectorMethodOnRspParkedOrderAction);
     if (SwigDerivedClassHasMethod("OnRspOrderAction", swigMethodTypes14))
       swigDelegate14 = new SwigDelegateCThostFtdcTraderSpi_14(SwigDirectorMethodOnRspOrderAction);
-    if (SwigDerivedClassHasMethod("OnRspQryMaxOrderVolume", swigMethodTypes15))
-      swigDelegate15 = new SwigDelegateCThostFtdcTraderSpi_15(SwigDirectorMethodOnRspQryMaxOrderVolume);
+    if (SwigDerivedClassHasMethod("OnRspQueryMaxOrderVolume", swigMethodTypes15))
+      swigDelegate15 = new SwigDelegateCThostFtdcTraderSpi_15(SwigDirectorMethodOnRspQueryMaxOrderVolume);
     if (SwigDerivedClassHasMethod("OnRspSettlementInfoConfirm", swigMethodTypes16))
       swigDelegate16 = new SwigDelegateCThostFtdcTraderSpi_16(SwigDirectorMethodOnRspSettlementInfoConfirm);
     if (SwigDerivedClassHasMethod("OnRspRemoveParkedOrder", swigMethodTypes17))
@@ -820,11 +812,7 @@ public class CThostFtdcTraderSpi : global::System.IDisposable {
       swigDelegate123 = new SwigDelegateCThostFtdcTraderSpi_123(SwigDirectorMethodOnRtnCancelAccountByBank);
     if (SwigDerivedClassHasMethod("OnRtnChangeAccountByBank", swigMethodTypes124))
       swigDelegate124 = new SwigDelegateCThostFtdcTraderSpi_124(SwigDirectorMethodOnRtnChangeAccountByBank);
-    if (SwigDerivedClassHasMethod("OnRspQryClassifiedInstrument", swigMethodTypes125))
-      swigDelegate125 = new SwigDelegateCThostFtdcTraderSpi_125(SwigDirectorMethodOnRspQryClassifiedInstrument);
-    if (SwigDerivedClassHasMethod("OnRspQryCombPromotionParam", swigMethodTypes126))
-      swigDelegate126 = new SwigDelegateCThostFtdcTraderSpi_126(SwigDirectorMethodOnRspQryCombPromotionParam);
-    CTPFutureApiPINVOKE.CThostFtdcTraderSpi_director_connect(swigCPtr, swigDelegate0, swigDelegate1, swigDelegate2, swigDelegate3, swigDelegate4, swigDelegate5, swigDelegate6, swigDelegate7, swigDelegate8, swigDelegate9, swigDelegate10, swigDelegate11, swigDelegate12, swigDelegate13, swigDelegate14, swigDelegate15, swigDelegate16, swigDelegate17, swigDelegate18, swigDelegate19, swigDelegate20, swigDelegate21, swigDelegate22, swigDelegate23, swigDelegate24, swigDelegate25, swigDelegate26, swigDelegate27, swigDelegate28, swigDelegate29, swigDelegate30, swigDelegate31, swigDelegate32, swigDelegate33, swigDelegate34, swigDelegate35, swigDelegate36, swigDelegate37, swigDelegate38, swigDelegate39, swigDelegate40, swigDelegate41, swigDelegate42, swigDelegate43, swigDelegate44, swigDelegate45, swigDelegate46, swigDelegate47, swigDelegate48, swigDelegate49, swigDelegate50, swigDelegate51, swigDelegate52, swigDelegate53, swigDelegate54, swigDelegate55, swigDelegate56, swigDelegate57, swigDelegate58, swigDelegate59, swigDelegate60, swigDelegate61, swigDelegate62, swigDelegate63, swigDelegate64, swigDelegate65, swigDelegate66, swigDelegate67, swigDelegate68, swigDelegate69, swigDelegate70, swigDelegate71, swigDelegate72, swigDelegate73, swigDelegate74, swigDelegate75, swigDelegate76, swigDelegate77, swigDelegate78, swigDelegate79, swigDelegate80, swigDelegate81, swigDelegate82, swigDelegate83, swigDelegate84, swigDelegate85, swigDelegate86, swigDelegate87, swigDelegate88, swigDelegate89, swigDelegate90, swigDelegate91, swigDelegate92, swigDelegate93, swigDelegate94, swigDelegate95, swigDelegate96, swigDelegate97, swigDelegate98, swigDelegate99, swigDelegate100, swigDelegate101, swigDelegate102, swigDelegate103, swigDelegate104, swigDelegate105, swigDelegate106, swigDelegate107, swigDelegate108, swigDelegate109, swigDelegate110, swigDelegate111, swigDelegate112, swigDelegate113, swigDelegate114, swigDelegate115, swigDelegate116, swigDelegate117, swigDelegate118, swigDelegate119, swigDelegate120, swigDelegate121, swigDelegate122, swigDelegate123, swigDelegate124, swigDelegate125, swigDelegate126);
+    CTPFutureApiPINVOKE.CThostFtdcTraderSpi_director_connect(swigCPtr, swigDelegate0, swigDelegate1, swigDelegate2, swigDelegate3, swigDelegate4, swigDelegate5, swigDelegate6, swigDelegate7, swigDelegate8, swigDelegate9, swigDelegate10, swigDelegate11, swigDelegate12, swigDelegate13, swigDelegate14, swigDelegate15, swigDelegate16, swigDelegate17, swigDelegate18, swigDelegate19, swigDelegate20, swigDelegate21, swigDelegate22, swigDelegate23, swigDelegate24, swigDelegate25, swigDelegate26, swigDelegate27, swigDelegate28, swigDelegate29, swigDelegate30, swigDelegate31, swigDelegate32, swigDelegate33, swigDelegate34, swigDelegate35, swigDelegate36, swigDelegate37, swigDelegate38, swigDelegate39, swigDelegate40, swigDelegate41, swigDelegate42, swigDelegate43, swigDelegate44, swigDelegate45, swigDelegate46, swigDelegate47, swigDelegate48, swigDelegate49, swigDelegate50, swigDelegate51, swigDelegate52, swigDelegate53, swigDelegate54, swigDelegate55, swigDelegate56, swigDelegate57, swigDelegate58, swigDelegate59, swigDelegate60, swigDelegate61, swigDelegate62, swigDelegate63, swigDelegate64, swigDelegate65, swigDelegate66, swigDelegate67, swigDelegate68, swigDelegate69, swigDelegate70, swigDelegate71, swigDelegate72, swigDelegate73, swigDelegate74, swigDelegate75, swigDelegate76, swigDelegate77, swigDelegate78, swigDelegate79, swigDelegate80, swigDelegate81, swigDelegate82, swigDelegate83, swigDelegate84, swigDelegate85, swigDelegate86, swigDelegate87, swigDelegate88, swigDelegate89, swigDelegate90, swigDelegate91, swigDelegate92, swigDelegate93, swigDelegate94, swigDelegate95, swigDelegate96, swigDelegate97, swigDelegate98, swigDelegate99, swigDelegate100, swigDelegate101, swigDelegate102, swigDelegate103, swigDelegate104, swigDelegate105, swigDelegate106, swigDelegate107, swigDelegate108, swigDelegate109, swigDelegate110, swigDelegate111, swigDelegate112, swigDelegate113, swigDelegate114, swigDelegate115, swigDelegate116, swigDelegate117, swigDelegate118, swigDelegate119, swigDelegate120, swigDelegate121, swigDelegate122, swigDelegate123, swigDelegate124);
   }
 
   private bool SwigDerivedClassHasMethod(string methodName, global::System.Type[] methodTypes) {
@@ -921,8 +909,8 @@ public class CThostFtdcTraderSpi : global::System.IDisposable {
     OnRspOrderAction((pInputOrderAction == global::System.IntPtr.Zero) ? null : new CThostFtdcInputOrderActionField(pInputOrderAction, false), (pRspInfo == global::System.IntPtr.Zero) ? null : new CThostFtdcRspInfoField(pRspInfo, false), nRequestID, bIsLast);
   }
 
-  private void SwigDirectorMethodOnRspQryMaxOrderVolume(global::System.IntPtr pQryMaxOrderVolume, global::System.IntPtr pRspInfo, int nRequestID, bool bIsLast) {
-    OnRspQryMaxOrderVolume((pQryMaxOrderVolume == global::System.IntPtr.Zero) ? null : new CThostFtdcQryMaxOrderVolumeField(pQryMaxOrderVolume, false), (pRspInfo == global::System.IntPtr.Zero) ? null : new CThostFtdcRspInfoField(pRspInfo, false), nRequestID, bIsLast);
+  private void SwigDirectorMethodOnRspQueryMaxOrderVolume(global::System.IntPtr pQueryMaxOrderVolume, global::System.IntPtr pRspInfo, int nRequestID, bool bIsLast) {
+    OnRspQueryMaxOrderVolume((pQueryMaxOrderVolume == global::System.IntPtr.Zero) ? null : new CThostFtdcQueryMaxOrderVolumeField(pQueryMaxOrderVolume, false), (pRspInfo == global::System.IntPtr.Zero) ? null : new CThostFtdcRspInfoField(pRspInfo, false), nRequestID, bIsLast);
   }
 
   private void SwigDirectorMethodOnRspSettlementInfoConfirm(global::System.IntPtr pSettlementInfoConfirm, global::System.IntPtr pRspInfo, int nRequestID, bool bIsLast) {
@@ -1361,14 +1349,6 @@ public class CThostFtdcTraderSpi : global::System.IDisposable {
     OnRtnChangeAccountByBank((pChangeAccount == global::System.IntPtr.Zero) ? null : new CThostFtdcChangeAccountField(pChangeAccount, false));
   }
 
-  private void SwigDirectorMethodOnRspQryClassifiedInstrument(global::System.IntPtr pInstrument, global::System.IntPtr pRspInfo, int nRequestID, bool bIsLast) {
-    OnRspQryClassifiedInstrument((pInstrument == global::System.IntPtr.Zero) ? null : new CThostFtdcInstrumentField(pInstrument, false), (pRspInfo == global::System.IntPtr.Zero) ? null : new CThostFtdcRspInfoField(pRspInfo, false), nRequestID, bIsLast);
-  }
-
-  private void SwigDirectorMethodOnRspQryCombPromotionParam(global::System.IntPtr pCombPromotionParam, global::System.IntPtr pRspInfo, int nRequestID, bool bIsLast) {
-    OnRspQryCombPromotionParam((pCombPromotionParam == global::System.IntPtr.Zero) ? null : new CThostFtdcCombPromotionParamField(pCombPromotionParam, false), (pRspInfo == global::System.IntPtr.Zero) ? null : new CThostFtdcRspInfoField(pRspInfo, false), nRequestID, bIsLast);
-  }
-
   public delegate void SwigDelegateCThostFtdcTraderSpi_0();
   public delegate void SwigDelegateCThostFtdcTraderSpi_1(int nReason);
   public delegate void SwigDelegateCThostFtdcTraderSpi_2(int nTimeLapse);
@@ -1384,7 +1364,7 @@ public class CThostFtdcTraderSpi : global::System.IDisposable {
   public delegate void SwigDelegateCThostFtdcTraderSpi_12(global::System.IntPtr pParkedOrder, global::System.IntPtr pRspInfo, int nRequestID, bool bIsLast);
   public delegate void SwigDelegateCThostFtdcTraderSpi_13(global::System.IntPtr pParkedOrderAction, global::System.IntPtr pRspInfo, int nRequestID, bool bIsLast);
   public delegate void SwigDelegateCThostFtdcTraderSpi_14(global::System.IntPtr pInputOrderAction, global::System.IntPtr pRspInfo, int nRequestID, bool bIsLast);
-  public delegate void SwigDelegateCThostFtdcTraderSpi_15(global::System.IntPtr pQryMaxOrderVolume, global::System.IntPtr pRspInfo, int nRequestID, bool bIsLast);
+  public delegate void SwigDelegateCThostFtdcTraderSpi_15(global::System.IntPtr pQueryMaxOrderVolume, global::System.IntPtr pRspInfo, int nRequestID, bool bIsLast);
   public delegate void SwigDelegateCThostFtdcTraderSpi_16(global::System.IntPtr pSettlementInfoConfirm, global::System.IntPtr pRspInfo, int nRequestID, bool bIsLast);
   public delegate void SwigDelegateCThostFtdcTraderSpi_17(global::System.IntPtr pRemoveParkedOrder, global::System.IntPtr pRspInfo, int nRequestID, bool bIsLast);
   public delegate void SwigDelegateCThostFtdcTraderSpi_18(global::System.IntPtr pRemoveParkedOrderAction, global::System.IntPtr pRspInfo, int nRequestID, bool bIsLast);
@@ -1494,8 +1474,6 @@ public class CThostFtdcTraderSpi : global::System.IDisposable {
   public delegate void SwigDelegateCThostFtdcTraderSpi_122(global::System.IntPtr pOpenAccount);
   public delegate void SwigDelegateCThostFtdcTraderSpi_123(global::System.IntPtr pCancelAccount);
   public delegate void SwigDelegateCThostFtdcTraderSpi_124(global::System.IntPtr pChangeAccount);
-  public delegate void SwigDelegateCThostFtdcTraderSpi_125(global::System.IntPtr pInstrument, global::System.IntPtr pRspInfo, int nRequestID, bool bIsLast);
-  public delegate void SwigDelegateCThostFtdcTraderSpi_126(global::System.IntPtr pCombPromotionParam, global::System.IntPtr pRspInfo, int nRequestID, bool bIsLast);
 
   private SwigDelegateCThostFtdcTraderSpi_0 swigDelegate0;
   private SwigDelegateCThostFtdcTraderSpi_1 swigDelegate1;
@@ -1622,8 +1600,6 @@ public class CThostFtdcTraderSpi : global::System.IDisposable {
   private SwigDelegateCThostFtdcTraderSpi_122 swigDelegate122;
   private SwigDelegateCThostFtdcTraderSpi_123 swigDelegate123;
   private SwigDelegateCThostFtdcTraderSpi_124 swigDelegate124;
-  private SwigDelegateCThostFtdcTraderSpi_125 swigDelegate125;
-  private SwigDelegateCThostFtdcTraderSpi_126 swigDelegate126;
 
   private static global::System.Type[] swigMethodTypes0 = new global::System.Type[] {  };
   private static global::System.Type[] swigMethodTypes1 = new global::System.Type[] { typeof(int) };
@@ -1640,7 +1616,7 @@ public class CThostFtdcTraderSpi : global::System.IDisposable {
   private static global::System.Type[] swigMethodTypes12 = new global::System.Type[] { typeof(CThostFtdcParkedOrderField), typeof(CThostFtdcRspInfoField), typeof(int), typeof(bool) };
   private static global::System.Type[] swigMethodTypes13 = new global::System.Type[] { typeof(CThostFtdcParkedOrderActionField), typeof(CThostFtdcRspInfoField), typeof(int), typeof(bool) };
   private static global::System.Type[] swigMethodTypes14 = new global::System.Type[] { typeof(CThostFtdcInputOrderActionField), typeof(CThostFtdcRspInfoField), typeof(int), typeof(bool) };
-  private static global::System.Type[] swigMethodTypes15 = new global::System.Type[] { typeof(CThostFtdcQryMaxOrderVolumeField), typeof(CThostFtdcRspInfoField), typeof(int), typeof(bool) };
+  private static global::System.Type[] swigMethodTypes15 = new global::System.Type[] { typeof(CThostFtdcQueryMaxOrderVolumeField), typeof(CThostFtdcRspInfoField), typeof(int), typeof(bool) };
   private static global::System.Type[] swigMethodTypes16 = new global::System.Type[] { typeof(CThostFtdcSettlementInfoConfirmField), typeof(CThostFtdcRspInfoField), typeof(int), typeof(bool) };
   private static global::System.Type[] swigMethodTypes17 = new global::System.Type[] { typeof(CThostFtdcRemoveParkedOrderField), typeof(CThostFtdcRspInfoField), typeof(int), typeof(bool) };
   private static global::System.Type[] swigMethodTypes18 = new global::System.Type[] { typeof(CThostFtdcRemoveParkedOrderActionField), typeof(CThostFtdcRspInfoField), typeof(int), typeof(bool) };
@@ -1750,8 +1726,6 @@ public class CThostFtdcTraderSpi : global::System.IDisposable {
   private static global::System.Type[] swigMethodTypes122 = new global::System.Type[] { typeof(CThostFtdcOpenAccountField) };
   private static global::System.Type[] swigMethodTypes123 = new global::System.Type[] { typeof(CThostFtdcCancelAccountField) };
   private static global::System.Type[] swigMethodTypes124 = new global::System.Type[] { typeof(CThostFtdcChangeAccountField) };
-  private static global::System.Type[] swigMethodTypes125 = new global::System.Type[] { typeof(CThostFtdcInstrumentField), typeof(CThostFtdcRspInfoField), typeof(int), typeof(bool) };
-  private static global::System.Type[] swigMethodTypes126 = new global::System.Type[] { typeof(CThostFtdcCombPromotionParamField), typeof(CThostFtdcRspInfoField), typeof(int), typeof(bool) };
 }
 
 }

@@ -19,12 +19,16 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "items", "items", "{A98F0B49
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CtpFuture.Demo", "tests\CtpFuture.Demo\CtpFuture.Demo.csproj", "{0D9B07C3-A6E2-4ABC-AC6A-177B9BE24815}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "_build", "build\_build.csproj", "{40AFA226-991E-4FCE-8E78-EAE06BC47616}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{40AFA226-991E-4FCE-8E78-EAE06BC47616}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40AFA226-991E-4FCE-8E78-EAE06BC47616}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{14F6C32B-3A98-4201-A5FB-AC6E67C25F60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{14F6C32B-3A98-4201-A5FB-AC6E67C25F60}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{14F6C32B-3A98-4201-A5FB-AC6E67C25F60}.Release|Any CPU.ActiveCfg = Release|Any CPU

@@ -57,12 +57,12 @@ public class CThostFtdcInvestorPositionField : global::System.IDisposable {
     }
   }
 
-  public string reserve1 {
+  public string InstrumentID {
     set {
-      CTPFutureApiPINVOKE.CThostFtdcInvestorPositionField_reserve1_set(swigCPtr, value);
+      CTPFutureApiPINVOKE.CThostFtdcInvestorPositionField_InstrumentID_set(swigCPtr, value);
     } 
     get {
-      string ret = CTPFutureApiPINVOKE.CThostFtdcInvestorPositionField_reserve1_get(swigCPtr);
+      string ret = CTPFutureApiPINVOKE.CThostFtdcInvestorPositionField_InstrumentID_get(swigCPtr);
       return ret;
     } 
   }
@@ -523,36 +523,6 @@ public class CThostFtdcInvestorPositionField : global::System.IDisposable {
     } 
     get {
       double ret = CTPFutureApiPINVOKE.CThostFtdcInvestorPositionField_PositionCostOffset_get(swigCPtr);
-      return ret;
-    } 
-  }
-
-  public int TasPosition {
-    set {
-      CTPFutureApiPINVOKE.CThostFtdcInvestorPositionField_TasPosition_set(swigCPtr, value);
-    } 
-    get {
-      int ret = CTPFutureApiPINVOKE.CThostFtdcInvestorPositionField_TasPosition_get(swigCPtr);
-      return ret;
-    } 
-  }
-
-  public double TasPositionCost {
-    set {
-      CTPFutureApiPINVOKE.CThostFtdcInvestorPositionField_TasPositionCost_set(swigCPtr, value);
-    } 
-    get {
-      double ret = CTPFutureApiPINVOKE.CThostFtdcInvestorPositionField_TasPositionCost_get(swigCPtr);
-      return ret;
-    } 
-  }
-
-  public string InstrumentID {
-    set {
-      CTPFutureApiPINVOKE.CThostFtdcInvestorPositionField_InstrumentID_set(swigCPtr, value);
-    } 
-    get {
-      string ret = CTPFutureApiPINVOKE.CThostFtdcInvestorPositionField_InstrumentID_get(swigCPtr);
       return ret;
     } 
   }

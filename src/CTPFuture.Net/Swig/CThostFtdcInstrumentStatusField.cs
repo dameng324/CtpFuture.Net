@@ -67,12 +67,12 @@ public class CThostFtdcInstrumentStatusField : global::System.IDisposable {
     } 
   }
 
-  public string reserve1 {
+  public string ExchangeInstID {
     set {
-      CTPFutureApiPINVOKE.CThostFtdcInstrumentStatusField_reserve1_set(swigCPtr, value);
+      CTPFutureApiPINVOKE.CThostFtdcInstrumentStatusField_ExchangeInstID_set(swigCPtr, value);
     } 
     get {
-      string ret = CTPFutureApiPINVOKE.CThostFtdcInstrumentStatusField_reserve1_get(swigCPtr);
+      string ret = CTPFutureApiPINVOKE.CThostFtdcInstrumentStatusField_ExchangeInstID_get(swigCPtr);
       return ret;
     } 
   }
@@ -87,12 +87,12 @@ public class CThostFtdcInstrumentStatusField : global::System.IDisposable {
     } 
   }
 
-  public string reserve2 {
+  public string InstrumentID {
     set {
-      CTPFutureApiPINVOKE.CThostFtdcInstrumentStatusField_reserve2_set(swigCPtr, value);
+      CTPFutureApiPINVOKE.CThostFtdcInstrumentStatusField_InstrumentID_set(swigCPtr, value);
     } 
     get {
-      string ret = CTPFutureApiPINVOKE.CThostFtdcInstrumentStatusField_reserve2_get(swigCPtr);
+      string ret = CTPFutureApiPINVOKE.CThostFtdcInstrumentStatusField_InstrumentID_get(swigCPtr);
       return ret;
     } 
   }
@@ -133,26 +133,6 @@ public class CThostFtdcInstrumentStatusField : global::System.IDisposable {
     } 
     get {
       char ret = CTPFutureApiPINVOKE.CThostFtdcInstrumentStatusField_EnterReason_get(swigCPtr);
-      return ret;
-    } 
-  }
-
-  public string ExchangeInstID {
-    set {
-      CTPFutureApiPINVOKE.CThostFtdcInstrumentStatusField_ExchangeInstID_set(swigCPtr, value);
-    } 
-    get {
-      string ret = CTPFutureApiPINVOKE.CThostFtdcInstrumentStatusField_ExchangeInstID_get(swigCPtr);
-      return ret;
-    } 
-  }
-
-  public string InstrumentID {
-    set {
-      CTPFutureApiPINVOKE.CThostFtdcInstrumentStatusField_InstrumentID_set(swigCPtr, value);
-    } 
-    get {
-      string ret = CTPFutureApiPINVOKE.CThostFtdcInstrumentStatusField_InstrumentID_get(swigCPtr);
       return ret;
     } 
   }

@@ -34,8 +34,6 @@ public class CTPFutureApi {
   public static readonly char THOST_FTDC_ICT_AccountsPermits = CTPFutureApiPINVOKE.THOST_FTDC_ICT_AccountsPermits_get();
   public static readonly char THOST_FTDC_ICT_FrgPrmtRdCard = CTPFutureApiPINVOKE.THOST_FTDC_ICT_FrgPrmtRdCard_get();
   public static readonly char THOST_FTDC_ICT_CptMngPrdLetter = CTPFutureApiPINVOKE.THOST_FTDC_ICT_CptMngPrdLetter_get();
-  public static readonly char THOST_FTDC_ICT_UniformSocialCreditCode = CTPFutureApiPINVOKE.THOST_FTDC_ICT_UniformSocialCreditCode_get();
-  public static readonly char THOST_FTDC_ICT_CorporationCertNo = CTPFutureApiPINVOKE.THOST_FTDC_ICT_CorporationCertNo_get();
   public static readonly char THOST_FTDC_ICT_OtherCard = CTPFutureApiPINVOKE.THOST_FTDC_ICT_OtherCard_get();
   public static readonly char THOST_FTDC_IR_All = CTPFutureApiPINVOKE.THOST_FTDC_IR_All_get();
   public static readonly char THOST_FTDC_IR_Group = CTPFutureApiPINVOKE.THOST_FTDC_IR_Group_get();
@@ -157,16 +155,6 @@ public class CTPFutureApi {
   public static readonly char THOST_FTDC_PC_Spot = CTPFutureApiPINVOKE.THOST_FTDC_PC_Spot_get();
   public static readonly char THOST_FTDC_PC_EFP = CTPFutureApiPINVOKE.THOST_FTDC_PC_EFP_get();
   public static readonly char THOST_FTDC_PC_SpotOption = CTPFutureApiPINVOKE.THOST_FTDC_PC_SpotOption_get();
-  public static readonly char THOST_FTDC_PC_TAS = CTPFutureApiPINVOKE.THOST_FTDC_PC_TAS_get();
-  public static readonly char THOST_FTDC_PC_MI = CTPFutureApiPINVOKE.THOST_FTDC_PC_MI_get();
-  public static readonly char THOST_FTDC_APC_FutureSingle = CTPFutureApiPINVOKE.THOST_FTDC_APC_FutureSingle_get();
-  public static readonly char THOST_FTDC_APC_OptionSingle = CTPFutureApiPINVOKE.THOST_FTDC_APC_OptionSingle_get();
-  public static readonly char THOST_FTDC_APC_Futures = CTPFutureApiPINVOKE.THOST_FTDC_APC_Futures_get();
-  public static readonly char THOST_FTDC_APC_Options = CTPFutureApiPINVOKE.THOST_FTDC_APC_Options_get();
-  public static readonly char THOST_FTDC_APC_TradingComb = CTPFutureApiPINVOKE.THOST_FTDC_APC_TradingComb_get();
-  public static readonly char THOST_FTDC_APC_UnTradingComb = CTPFutureApiPINVOKE.THOST_FTDC_APC_UnTradingComb_get();
-  public static readonly char THOST_FTDC_APC_AllTrading = CTPFutureApiPINVOKE.THOST_FTDC_APC_AllTrading_get();
-  public static readonly char THOST_FTDC_APC_All = CTPFutureApiPINVOKE.THOST_FTDC_APC_All_get();
   public static readonly char THOST_FTDC_IP_NotStart = CTPFutureApiPINVOKE.THOST_FTDC_IP_NotStart_get();
   public static readonly char THOST_FTDC_IP_Started = CTPFutureApiPINVOKE.THOST_FTDC_IP_Started_get();
   public static readonly char THOST_FTDC_IP_Pause = CTPFutureApiPINVOKE.THOST_FTDC_IP_Pause_get();
@@ -276,8 +264,6 @@ public class CTPFutureApi {
   public static readonly char THOST_FTDC_TRDT_EFPDerived = CTPFutureApiPINVOKE.THOST_FTDC_TRDT_EFPDerived_get();
   public static readonly char THOST_FTDC_TRDT_CombinationDerived = CTPFutureApiPINVOKE.THOST_FTDC_TRDT_CombinationDerived_get();
   public static readonly char THOST_FTDC_TRDT_BlockTrade = CTPFutureApiPINVOKE.THOST_FTDC_TRDT_BlockTrade_get();
-  public static readonly char THOST_FTDC_SPOST_Common = CTPFutureApiPINVOKE.THOST_FTDC_SPOST_Common_get();
-  public static readonly char THOST_FTDC_SPOST_Tas = CTPFutureApiPINVOKE.THOST_FTDC_SPOST_Tas_get();
   public static readonly char THOST_FTDC_PSRC_LastPrice = CTPFutureApiPINVOKE.THOST_FTDC_PSRC_LastPrice_get();
   public static readonly char THOST_FTDC_PSRC_Buy = CTPFutureApiPINVOKE.THOST_FTDC_PSRC_Buy_get();
   public static readonly char THOST_FTDC_PSRC_Sell = CTPFutureApiPINVOKE.THOST_FTDC_PSRC_Sell_get();
@@ -533,8 +519,6 @@ public class CTPFutureApi {
   public static readonly char THOST_FTDC_UET_TradingError = CTPFutureApiPINVOKE.THOST_FTDC_UET_TradingError_get();
   public static readonly char THOST_FTDC_UET_UpdatePassword = CTPFutureApiPINVOKE.THOST_FTDC_UET_UpdatePassword_get();
   public static readonly char THOST_FTDC_UET_Authenticate = CTPFutureApiPINVOKE.THOST_FTDC_UET_Authenticate_get();
-  public static readonly char THOST_FTDC_UET_SubmitSysInfo = CTPFutureApiPINVOKE.THOST_FTDC_UET_SubmitSysInfo_get();
-  public static readonly char THOST_FTDC_UET_Transfer = CTPFutureApiPINVOKE.THOST_FTDC_UET_Transfer_get();
   public static readonly char THOST_FTDC_UET_Other = CTPFutureApiPINVOKE.THOST_FTDC_UET_Other_get();
   public static readonly char THOST_FTDC_ICS_Close = CTPFutureApiPINVOKE.THOST_FTDC_ICS_Close_get();
   public static readonly char THOST_FTDC_ICS_CloseToday = CTPFutureApiPINVOKE.THOST_FTDC_ICS_CloseToday_get();
@@ -565,6 +549,10 @@ public class CTPFutureApi {
   public static readonly char THOST_FTDC_VAA_NoAvailAbility = CTPFutureApiPINVOKE.THOST_FTDC_VAA_NoAvailAbility_get();
   public static readonly char THOST_FTDC_VAA_AvailAbility = CTPFutureApiPINVOKE.THOST_FTDC_VAA_AvailAbility_get();
   public static readonly char THOST_FTDC_VAA_Repeal = CTPFutureApiPINVOKE.THOST_FTDC_VAA_Repeal_get();
+  public static readonly char THOST_FTDC_VTC_BankBankToFuture = CTPFutureApiPINVOKE.THOST_FTDC_VTC_BankBankToFuture_get();
+  public static readonly char THOST_FTDC_VTC_BankFutureToBank = CTPFutureApiPINVOKE.THOST_FTDC_VTC_BankFutureToBank_get();
+  public static readonly char THOST_FTDC_VTC_FutureBankToFuture = CTPFutureApiPINVOKE.THOST_FTDC_VTC_FutureBankToFuture_get();
+  public static readonly char THOST_FTDC_VTC_FutureFutureToBank = CTPFutureApiPINVOKE.THOST_FTDC_VTC_FutureFutureToBank_get();
   public static readonly char THOST_FTDC_GEN_Program = CTPFutureApiPINVOKE.THOST_FTDC_GEN_Program_get();
   public static readonly char THOST_FTDC_GEN_HandWork = CTPFutureApiPINVOKE.THOST_FTDC_GEN_HandWork_get();
   public static readonly char THOST_FTDC_CFMMCKK_REQUEST = CTPFutureApiPINVOKE.THOST_FTDC_CFMMCKK_REQUEST_get();
@@ -879,6 +867,10 @@ public class CTPFutureApi {
   public static readonly char THOST_FTDC_MBTS_ByInstrument = CTPFutureApiPINVOKE.THOST_FTDC_MBTS_ByInstrument_get();
   public static readonly char THOST_FTDC_MBTS_ByDayInsPrc = CTPFutureApiPINVOKE.THOST_FTDC_MBTS_ByDayInsPrc_get();
   public static readonly char THOST_FTDC_MBTS_ByDayIns = CTPFutureApiPINVOKE.THOST_FTDC_MBTS_ByDayIns_get();
+  public static readonly char THOST_FTDC_FTC_BankLaunchBankToBroker = CTPFutureApiPINVOKE.THOST_FTDC_FTC_BankLaunchBankToBroker_get();
+  public static readonly char THOST_FTDC_FTC_BrokerLaunchBankToBroker = CTPFutureApiPINVOKE.THOST_FTDC_FTC_BrokerLaunchBankToBroker_get();
+  public static readonly char THOST_FTDC_FTC_BankLaunchBrokerToBank = CTPFutureApiPINVOKE.THOST_FTDC_FTC_BankLaunchBrokerToBank_get();
+  public static readonly char THOST_FTDC_FTC_BrokerLaunchBrokerToBank = CTPFutureApiPINVOKE.THOST_FTDC_FTC_BrokerLaunchBrokerToBank_get();
   public static readonly char THOST_FTDC_OTP_NONE = CTPFutureApiPINVOKE.THOST_FTDC_OTP_NONE_get();
   public static readonly char THOST_FTDC_OTP_TOTP = CTPFutureApiPINVOKE.THOST_FTDC_OTP_TOTP_get();
   public static readonly char THOST_FTDC_OTPS_Unused = CTPFutureApiPINVOKE.THOST_FTDC_OTPS_Unused_get();
@@ -1160,11 +1152,7 @@ public class CTPFutureApi {
   public static readonly char THOST_FTDC_COMBT_STD = CTPFutureApiPINVOKE.THOST_FTDC_COMBT_STD_get();
   public static readonly char THOST_FTDC_COMBT_STG = CTPFutureApiPINVOKE.THOST_FTDC_COMBT_STG_get();
   public static readonly char THOST_FTDC_COMBT_PRT = CTPFutureApiPINVOKE.THOST_FTDC_COMBT_PRT_get();
-  public static readonly char THOST_FTDC_COMBT_CAS = CTPFutureApiPINVOKE.THOST_FTDC_COMBT_CAS_get();
-  public static readonly char THOST_FTDC_COMBT_OPL = CTPFutureApiPINVOKE.THOST_FTDC_COMBT_OPL_get();
-  public static readonly char THOST_FTDC_COMBT_BFO = CTPFutureApiPINVOKE.THOST_FTDC_COMBT_BFO_get();
-  public static readonly char THOST_FTDC_COMBT_BLS = CTPFutureApiPINVOKE.THOST_FTDC_COMBT_BLS_get();
-  public static readonly char THOST_FTDC_COMBT_BES = CTPFutureApiPINVOKE.THOST_FTDC_COMBT_BES_get();
+  public static readonly char THOST_FTDC_COMBT_CLD = CTPFutureApiPINVOKE.THOST_FTDC_COMBT_CLD_get();
   public static readonly char THOST_FTDC_DCECOMBT_SPL = CTPFutureApiPINVOKE.THOST_FTDC_DCECOMBT_SPL_get();
   public static readonly char THOST_FTDC_DCECOMBT_OPL = CTPFutureApiPINVOKE.THOST_FTDC_DCECOMBT_OPL_get();
   public static readonly char THOST_FTDC_DCECOMBT_SP = CTPFutureApiPINVOKE.THOST_FTDC_DCECOMBT_SP_get();
@@ -1220,7 +1208,6 @@ public class CTPFutureApi {
   public static readonly char THOST_FTDC_CFUFN_SUFN_S = CTPFutureApiPINVOKE.THOST_FTDC_CFUFN_SUFN_S_get();
   public static readonly char THOST_FTDC_CMDR_Comb = CTPFutureApiPINVOKE.THOST_FTDC_CMDR_Comb_get();
   public static readonly char THOST_FTDC_CMDR_UnComb = CTPFutureApiPINVOKE.THOST_FTDC_CMDR_UnComb_get();
-  public static readonly char THOST_FTDC_CMDR_DelComb = CTPFutureApiPINVOKE.THOST_FTDC_CMDR_DelComb_get();
   public static readonly char THOST_FTDC_STOV_RealValue = CTPFutureApiPINVOKE.THOST_FTDC_STOV_RealValue_get();
   public static readonly char THOST_FTDC_STOV_ProfitValue = CTPFutureApiPINVOKE.THOST_FTDC_STOV_ProfitValue_get();
   public static readonly char THOST_FTDC_STOV_RealRatio = CTPFutureApiPINVOKE.THOST_FTDC_STOV_RealRatio_get();
@@ -1247,15 +1234,6 @@ public class CTPFutureApi {
   public static readonly char THOST_FTDC_OTC_TRDT_EFP = CTPFutureApiPINVOKE.THOST_FTDC_OTC_TRDT_EFP_get();
   public static readonly char THOST_FTDC_OTC_MT_DV01 = CTPFutureApiPINVOKE.THOST_FTDC_OTC_MT_DV01_get();
   public static readonly char THOST_FTDC_OTC_MT_ParValue = CTPFutureApiPINVOKE.THOST_FTDC_OTC_MT_ParValue_get();
-  public static readonly char THOST_FTDC_AU_WHITE = CTPFutureApiPINVOKE.THOST_FTDC_AU_WHITE_get();
-  public static readonly char THOST_FTDC_AU_BLACK = CTPFutureApiPINVOKE.THOST_FTDC_AU_BLACK_get();
-  public static readonly char THOST_FTDC_INS_ALL = CTPFutureApiPINVOKE.THOST_FTDC_INS_ALL_get();
-  public static readonly char THOST_FTDC_INS_FUTURE = CTPFutureApiPINVOKE.THOST_FTDC_INS_FUTURE_get();
-  public static readonly char THOST_FTDC_INS_OPTION = CTPFutureApiPINVOKE.THOST_FTDC_INS_OPTION_get();
-  public static readonly char THOST_FTDC_INS_COMB = CTPFutureApiPINVOKE.THOST_FTDC_INS_COMB_get();
-  public static readonly char THOST_FTDC_TD_ALL = CTPFutureApiPINVOKE.THOST_FTDC_TD_ALL_get();
-  public static readonly char THOST_FTDC_TD_TRADE = CTPFutureApiPINVOKE.THOST_FTDC_TD_TRADE_get();
-  public static readonly char THOST_FTDC_TD_UNTRADE = CTPFutureApiPINVOKE.THOST_FTDC_TD_UNTRADE_get();
 }
 
 }

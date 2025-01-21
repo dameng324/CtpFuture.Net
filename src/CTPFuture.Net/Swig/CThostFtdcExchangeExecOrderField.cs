@@ -187,12 +187,12 @@ public class CThostFtdcExchangeExecOrderField : global::System.IDisposable {
     } 
   }
 
-  public string reserve1 {
+  public string ExchangeInstID {
     set {
-      CTPFutureApiPINVOKE.CThostFtdcExchangeExecOrderField_reserve1_set(swigCPtr, value);
+      CTPFutureApiPINVOKE.CThostFtdcExchangeExecOrderField_ExchangeInstID_set(swigCPtr, value);
     } 
     get {
-      string ret = CTPFutureApiPINVOKE.CThostFtdcExchangeExecOrderField_reserve1_get(swigCPtr);
+      string ret = CTPFutureApiPINVOKE.CThostFtdcExchangeExecOrderField_ExchangeInstID_get(swigCPtr);
       return ret;
     } 
   }
@@ -337,12 +337,12 @@ public class CThostFtdcExchangeExecOrderField : global::System.IDisposable {
     } 
   }
 
-  public string reserve2 {
+  public string IPAddress {
     set {
-      CTPFutureApiPINVOKE.CThostFtdcExchangeExecOrderField_reserve2_set(swigCPtr, value);
+      CTPFutureApiPINVOKE.CThostFtdcExchangeExecOrderField_IPAddress_set(swigCPtr, value);
     } 
     get {
-      string ret = CTPFutureApiPINVOKE.CThostFtdcExchangeExecOrderField_reserve2_get(swigCPtr);
+      string ret = CTPFutureApiPINVOKE.CThostFtdcExchangeExecOrderField_IPAddress_get(swigCPtr);
       return ret;
     } 
   }
@@ -353,26 +353,6 @@ public class CThostFtdcExchangeExecOrderField : global::System.IDisposable {
     } 
     get {
       string ret = CTPFutureApiPINVOKE.CThostFtdcExchangeExecOrderField_MacAddress_get(swigCPtr);
-      return ret;
-    } 
-  }
-
-  public string ExchangeInstID {
-    set {
-      CTPFutureApiPINVOKE.CThostFtdcExchangeExecOrderField_ExchangeInstID_set(swigCPtr, value);
-    } 
-    get {
-      string ret = CTPFutureApiPINVOKE.CThostFtdcExchangeExecOrderField_ExchangeInstID_get(swigCPtr);
-      return ret;
-    } 
-  }
-
-  public string IPAddress {
-    set {
-      CTPFutureApiPINVOKE.CThostFtdcExchangeExecOrderField_IPAddress_set(swigCPtr, value);
-    } 
-    get {
-      string ret = CTPFutureApiPINVOKE.CThostFtdcExchangeExecOrderField_IPAddress_get(swigCPtr);
       return ret;
     } 
   }

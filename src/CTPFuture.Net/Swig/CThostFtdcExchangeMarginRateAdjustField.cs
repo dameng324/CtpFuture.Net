@@ -67,12 +67,12 @@ public class CThostFtdcExchangeMarginRateAdjustField : global::System.IDisposabl
     } 
   }
 
-  public string reserve1 {
+  public string InstrumentID {
     set {
-      CTPFutureApiPINVOKE.CThostFtdcExchangeMarginRateAdjustField_reserve1_set(swigCPtr, value);
+      CTPFutureApiPINVOKE.CThostFtdcExchangeMarginRateAdjustField_InstrumentID_set(swigCPtr, value);
     } 
     get {
-      string ret = CTPFutureApiPINVOKE.CThostFtdcExchangeMarginRateAdjustField_reserve1_get(swigCPtr);
+      string ret = CTPFutureApiPINVOKE.CThostFtdcExchangeMarginRateAdjustField_InstrumentID_get(swigCPtr);
       return ret;
     } 
   }
@@ -203,16 +203,6 @@ public class CThostFtdcExchangeMarginRateAdjustField : global::System.IDisposabl
     } 
     get {
       double ret = CTPFutureApiPINVOKE.CThostFtdcExchangeMarginRateAdjustField_NoShortMarginRatioByVolume_get(swigCPtr);
-      return ret;
-    } 
-  }
-
-  public string InstrumentID {
-    set {
-      CTPFutureApiPINVOKE.CThostFtdcExchangeMarginRateAdjustField_InstrumentID_set(swigCPtr, value);
-    } 
-    get {
-      string ret = CTPFutureApiPINVOKE.CThostFtdcExchangeMarginRateAdjustField_InstrumentID_get(swigCPtr);
       return ret;
     } 
   }

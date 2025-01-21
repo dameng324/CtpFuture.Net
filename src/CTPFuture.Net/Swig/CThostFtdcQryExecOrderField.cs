@@ -77,12 +77,12 @@ public class CThostFtdcQryExecOrderField : global::System.IDisposable {
     } 
   }
 
-  public string reserve1 {
+  public string InstrumentID {
     set {
-      CTPFutureApiPINVOKE.CThostFtdcQryExecOrderField_reserve1_set(swigCPtr, value);
+      CTPFutureApiPINVOKE.CThostFtdcQryExecOrderField_InstrumentID_set(swigCPtr, value);
     } 
     get {
-      string ret = CTPFutureApiPINVOKE.CThostFtdcQryExecOrderField_reserve1_get(swigCPtr);
+      string ret = CTPFutureApiPINVOKE.CThostFtdcQryExecOrderField_InstrumentID_get(swigCPtr);
       return ret;
     } 
   }
@@ -123,16 +123,6 @@ public class CThostFtdcQryExecOrderField : global::System.IDisposable {
     } 
     get {
       string ret = CTPFutureApiPINVOKE.CThostFtdcQryExecOrderField_InsertTimeEnd_get(swigCPtr);
-      return ret;
-    } 
-  }
-
-  public string InstrumentID {
-    set {
-      CTPFutureApiPINVOKE.CThostFtdcQryExecOrderField_InstrumentID_set(swigCPtr, value);
-    } 
-    get {
-      string ret = CTPFutureApiPINVOKE.CThostFtdcQryExecOrderField_InstrumentID_get(swigCPtr);
       return ret;
     } 
   }

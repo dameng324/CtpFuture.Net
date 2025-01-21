@@ -297,12 +297,12 @@ public class CThostFtdcOrderActionField : global::System.IDisposable {
     } 
   }
 
-  public string reserve1 {
+  public string InstrumentID {
     set {
-      CTPFutureApiPINVOKE.CThostFtdcOrderActionField_reserve1_set(swigCPtr, value);
+      CTPFutureApiPINVOKE.CThostFtdcOrderActionField_InstrumentID_set(swigCPtr, value);
     } 
     get {
-      string ret = CTPFutureApiPINVOKE.CThostFtdcOrderActionField_reserve1_get(swigCPtr);
+      string ret = CTPFutureApiPINVOKE.CThostFtdcOrderActionField_InstrumentID_get(swigCPtr);
       return ret;
     } 
   }
@@ -327,12 +327,12 @@ public class CThostFtdcOrderActionField : global::System.IDisposable {
     } 
   }
 
-  public string reserve2 {
+  public string IPAddress {
     set {
-      CTPFutureApiPINVOKE.CThostFtdcOrderActionField_reserve2_set(swigCPtr, value);
+      CTPFutureApiPINVOKE.CThostFtdcOrderActionField_IPAddress_set(swigCPtr, value);
     } 
     get {
-      string ret = CTPFutureApiPINVOKE.CThostFtdcOrderActionField_reserve2_get(swigCPtr);
+      string ret = CTPFutureApiPINVOKE.CThostFtdcOrderActionField_IPAddress_get(swigCPtr);
       return ret;
     } 
   }
@@ -343,26 +343,6 @@ public class CThostFtdcOrderActionField : global::System.IDisposable {
     } 
     get {
       string ret = CTPFutureApiPINVOKE.CThostFtdcOrderActionField_MacAddress_get(swigCPtr);
-      return ret;
-    } 
-  }
-
-  public string InstrumentID {
-    set {
-      CTPFutureApiPINVOKE.CThostFtdcOrderActionField_InstrumentID_set(swigCPtr, value);
-    } 
-    get {
-      string ret = CTPFutureApiPINVOKE.CThostFtdcOrderActionField_InstrumentID_get(swigCPtr);
-      return ret;
-    } 
-  }
-
-  public string IPAddress {
-    set {
-      CTPFutureApiPINVOKE.CThostFtdcOrderActionField_IPAddress_set(swigCPtr, value);
-    } 
-    get {
-      string ret = CTPFutureApiPINVOKE.CThostFtdcOrderActionField_IPAddress_get(swigCPtr);
       return ret;
     } 
   }

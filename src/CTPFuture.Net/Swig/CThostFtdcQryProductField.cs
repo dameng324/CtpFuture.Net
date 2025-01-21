@@ -57,12 +57,12 @@ public class CThostFtdcQryProductField : global::System.IDisposable {
     }
   }
 
-  public string reserve1 {
+  public string ProductID {
     set {
-      CTPFutureApiPINVOKE.CThostFtdcQryProductField_reserve1_set(swigCPtr, value);
+      CTPFutureApiPINVOKE.CThostFtdcQryProductField_ProductID_set(swigCPtr, value);
     } 
     get {
-      string ret = CTPFutureApiPINVOKE.CThostFtdcQryProductField_reserve1_get(swigCPtr);
+      string ret = CTPFutureApiPINVOKE.CThostFtdcQryProductField_ProductID_get(swigCPtr);
       return ret;
     } 
   }
@@ -83,16 +83,6 @@ public class CThostFtdcQryProductField : global::System.IDisposable {
     } 
     get {
       string ret = CTPFutureApiPINVOKE.CThostFtdcQryProductField_ExchangeID_get(swigCPtr);
-      return ret;
-    } 
-  }
-
-  public string ProductID {
-    set {
-      CTPFutureApiPINVOKE.CThostFtdcQryProductField_ProductID_set(swigCPtr, value);
-    } 
-    get {
-      string ret = CTPFutureApiPINVOKE.CThostFtdcQryProductField_ProductID_get(swigCPtr);
       return ret;
     } 
   }

@@ -137,12 +137,12 @@ public class CThostFtdcExchangeCombActionField : global::System.IDisposable {
     } 
   }
 
-  public string reserve1 {
+  public string ExchangeInstID {
     set {
-      CTPFutureApiPINVOKE.CThostFtdcExchangeCombActionField_reserve1_set(swigCPtr, value);
+      CTPFutureApiPINVOKE.CThostFtdcExchangeCombActionField_ExchangeInstID_set(swigCPtr, value);
     } 
     get {
-      string ret = CTPFutureApiPINVOKE.CThostFtdcExchangeCombActionField_reserve1_get(swigCPtr);
+      string ret = CTPFutureApiPINVOKE.CThostFtdcExchangeCombActionField_ExchangeInstID_get(swigCPtr);
       return ret;
     } 
   }
@@ -217,12 +217,12 @@ public class CThostFtdcExchangeCombActionField : global::System.IDisposable {
     } 
   }
 
-  public string reserve2 {
+  public string IPAddress {
     set {
-      CTPFutureApiPINVOKE.CThostFtdcExchangeCombActionField_reserve2_set(swigCPtr, value);
+      CTPFutureApiPINVOKE.CThostFtdcExchangeCombActionField_IPAddress_set(swigCPtr, value);
     } 
     get {
-      string ret = CTPFutureApiPINVOKE.CThostFtdcExchangeCombActionField_reserve2_get(swigCPtr);
+      string ret = CTPFutureApiPINVOKE.CThostFtdcExchangeCombActionField_IPAddress_get(swigCPtr);
       return ret;
     } 
   }
@@ -253,26 +253,6 @@ public class CThostFtdcExchangeCombActionField : global::System.IDisposable {
     } 
     get {
       string ret = CTPFutureApiPINVOKE.CThostFtdcExchangeCombActionField_BranchID_get(swigCPtr);
-      return ret;
-    } 
-  }
-
-  public string ExchangeInstID {
-    set {
-      CTPFutureApiPINVOKE.CThostFtdcExchangeCombActionField_ExchangeInstID_set(swigCPtr, value);
-    } 
-    get {
-      string ret = CTPFutureApiPINVOKE.CThostFtdcExchangeCombActionField_ExchangeInstID_get(swigCPtr);
-      return ret;
-    } 
-  }
-
-  public string IPAddress {
-    set {
-      CTPFutureApiPINVOKE.CThostFtdcExchangeCombActionField_IPAddress_set(swigCPtr, value);
-    } 
-    get {
-      string ret = CTPFutureApiPINVOKE.CThostFtdcExchangeCombActionField_IPAddress_get(swigCPtr);
       return ret;
     } 
   }

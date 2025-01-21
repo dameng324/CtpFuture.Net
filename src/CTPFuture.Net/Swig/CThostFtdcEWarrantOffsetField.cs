@@ -97,12 +97,12 @@ public class CThostFtdcEWarrantOffsetField : global::System.IDisposable {
     } 
   }
 
-  public string reserve1 {
+  public string InstrumentID {
     set {
-      CTPFutureApiPINVOKE.CThostFtdcEWarrantOffsetField_reserve1_set(swigCPtr, value);
+      CTPFutureApiPINVOKE.CThostFtdcEWarrantOffsetField_InstrumentID_set(swigCPtr, value);
     } 
     get {
-      string ret = CTPFutureApiPINVOKE.CThostFtdcEWarrantOffsetField_reserve1_get(swigCPtr);
+      string ret = CTPFutureApiPINVOKE.CThostFtdcEWarrantOffsetField_InstrumentID_get(swigCPtr);
       return ret;
     } 
   }
@@ -143,16 +143,6 @@ public class CThostFtdcEWarrantOffsetField : global::System.IDisposable {
     } 
     get {
       string ret = CTPFutureApiPINVOKE.CThostFtdcEWarrantOffsetField_InvestUnitID_get(swigCPtr);
-      return ret;
-    } 
-  }
-
-  public string InstrumentID {
-    set {
-      CTPFutureApiPINVOKE.CThostFtdcEWarrantOffsetField_InstrumentID_set(swigCPtr, value);
-    } 
-    get {
-      string ret = CTPFutureApiPINVOKE.CThostFtdcEWarrantOffsetField_InstrumentID_get(swigCPtr);
       return ret;
     } 
   }

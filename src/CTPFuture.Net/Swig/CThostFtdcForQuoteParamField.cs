@@ -67,12 +67,12 @@ public class CThostFtdcForQuoteParamField : global::System.IDisposable {
     } 
   }
 
-  public string reserve1 {
+  public string InstrumentID {
     set {
-      CTPFutureApiPINVOKE.CThostFtdcForQuoteParamField_reserve1_set(swigCPtr, value);
+      CTPFutureApiPINVOKE.CThostFtdcForQuoteParamField_InstrumentID_set(swigCPtr, value);
     } 
     get {
-      string ret = CTPFutureApiPINVOKE.CThostFtdcForQuoteParamField_reserve1_get(swigCPtr);
+      string ret = CTPFutureApiPINVOKE.CThostFtdcForQuoteParamField_InstrumentID_get(swigCPtr);
       return ret;
     } 
   }
@@ -103,16 +103,6 @@ public class CThostFtdcForQuoteParamField : global::System.IDisposable {
     } 
     get {
       double ret = CTPFutureApiPINVOKE.CThostFtdcForQuoteParamField_PriceInterval_get(swigCPtr);
-      return ret;
-    } 
-  }
-
-  public string InstrumentID {
-    set {
-      CTPFutureApiPINVOKE.CThostFtdcForQuoteParamField_InstrumentID_set(swigCPtr, value);
-    } 
-    get {
-      string ret = CTPFutureApiPINVOKE.CThostFtdcForQuoteParamField_InstrumentID_get(swigCPtr);
       return ret;
     } 
   }

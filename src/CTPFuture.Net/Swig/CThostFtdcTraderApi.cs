@@ -201,8 +201,8 @@ public class CThostFtdcTraderApi : global::System.IDisposable {
     return ret;
   }
 
-  public virtual int ReqQryMaxOrderVolume(CThostFtdcQryMaxOrderVolumeField pQryMaxOrderVolume, int nRequestID) {
-    int ret = CTPFutureApiPINVOKE.CThostFtdcTraderApi_ReqQryMaxOrderVolume(swigCPtr, CThostFtdcQryMaxOrderVolumeField.getCPtr(pQryMaxOrderVolume), nRequestID);
+  public virtual int ReqQueryMaxOrderVolume(CThostFtdcQueryMaxOrderVolumeField pQueryMaxOrderVolume, int nRequestID) {
+    int ret = CTPFutureApiPINVOKE.CThostFtdcTraderApi_ReqQueryMaxOrderVolume(swigCPtr, CThostFtdcQueryMaxOrderVolumeField.getCPtr(pQueryMaxOrderVolume), nRequestID);
     return ret;
   }
 
@@ -533,16 +533,6 @@ public class CThostFtdcTraderApi : global::System.IDisposable {
 
   public virtual int ReqQueryBankAccountMoneyByFuture(CThostFtdcReqQueryAccountField pReqQueryAccount, int nRequestID) {
     int ret = CTPFutureApiPINVOKE.CThostFtdcTraderApi_ReqQueryBankAccountMoneyByFuture(swigCPtr, CThostFtdcReqQueryAccountField.getCPtr(pReqQueryAccount), nRequestID);
-    return ret;
-  }
-
-  public virtual int ReqQryClassifiedInstrument(CThostFtdcQryClassifiedInstrumentField pQryClassifiedInstrument, int nRequestID) {
-    int ret = CTPFutureApiPINVOKE.CThostFtdcTraderApi_ReqQryClassifiedInstrument(swigCPtr, CThostFtdcQryClassifiedInstrumentField.getCPtr(pQryClassifiedInstrument), nRequestID);
-    return ret;
-  }
-
-  public virtual int ReqQryCombPromotionParam(CThostFtdcQryCombPromotionParamField pQryCombPromotionParam, int nRequestID) {
-    int ret = CTPFutureApiPINVOKE.CThostFtdcTraderApi_ReqQryCombPromotionParam(swigCPtr, CThostFtdcQryCombPromotionParamField.getCPtr(pQryCombPromotionParam), nRequestID);
     return ret;
   }
 

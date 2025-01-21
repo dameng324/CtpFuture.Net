@@ -167,12 +167,12 @@ public class CThostFtdcExchangeBatchOrderActionField : global::System.IDisposabl
     } 
   }
 
-  public string reserve1 {
+  public string IPAddress {
     set {
-      CTPFutureApiPINVOKE.CThostFtdcExchangeBatchOrderActionField_reserve1_set(swigCPtr, value);
+      CTPFutureApiPINVOKE.CThostFtdcExchangeBatchOrderActionField_IPAddress_set(swigCPtr, value);
     } 
     get {
-      string ret = CTPFutureApiPINVOKE.CThostFtdcExchangeBatchOrderActionField_reserve1_get(swigCPtr);
+      string ret = CTPFutureApiPINVOKE.CThostFtdcExchangeBatchOrderActionField_IPAddress_get(swigCPtr);
       return ret;
     } 
   }
@@ -183,16 +183,6 @@ public class CThostFtdcExchangeBatchOrderActionField : global::System.IDisposabl
     } 
     get {
       string ret = CTPFutureApiPINVOKE.CThostFtdcExchangeBatchOrderActionField_MacAddress_get(swigCPtr);
-      return ret;
-    } 
-  }
-
-  public string IPAddress {
-    set {
-      CTPFutureApiPINVOKE.CThostFtdcExchangeBatchOrderActionField_IPAddress_set(swigCPtr, value);
-    } 
-    get {
-      string ret = CTPFutureApiPINVOKE.CThostFtdcExchangeBatchOrderActionField_IPAddress_get(swigCPtr);
       return ret;
     } 
   }

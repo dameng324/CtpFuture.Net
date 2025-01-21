@@ -77,12 +77,12 @@ public class CThostFtdcInputCombActionField : global::System.IDisposable {
     } 
   }
 
-  public string reserve1 {
+  public string InstrumentID {
     set {
-      CTPFutureApiPINVOKE.CThostFtdcInputCombActionField_reserve1_set(swigCPtr, value);
+      CTPFutureApiPINVOKE.CThostFtdcInputCombActionField_InstrumentID_set(swigCPtr, value);
     } 
     get {
-      string ret = CTPFutureApiPINVOKE.CThostFtdcInputCombActionField_reserve1_get(swigCPtr);
+      string ret = CTPFutureApiPINVOKE.CThostFtdcInputCombActionField_InstrumentID_get(swigCPtr);
       return ret;
     } 
   }
@@ -157,12 +157,12 @@ public class CThostFtdcInputCombActionField : global::System.IDisposable {
     } 
   }
 
-  public string reserve2 {
+  public string IPAddress {
     set {
-      CTPFutureApiPINVOKE.CThostFtdcInputCombActionField_reserve2_set(swigCPtr, value);
+      CTPFutureApiPINVOKE.CThostFtdcInputCombActionField_IPAddress_set(swigCPtr, value);
     } 
     get {
-      string ret = CTPFutureApiPINVOKE.CThostFtdcInputCombActionField_reserve2_get(swigCPtr);
+      string ret = CTPFutureApiPINVOKE.CThostFtdcInputCombActionField_IPAddress_get(swigCPtr);
       return ret;
     } 
   }
@@ -183,46 +183,6 @@ public class CThostFtdcInputCombActionField : global::System.IDisposable {
     } 
     get {
       string ret = CTPFutureApiPINVOKE.CThostFtdcInputCombActionField_InvestUnitID_get(swigCPtr);
-      return ret;
-    } 
-  }
-
-  public int FrontID {
-    set {
-      CTPFutureApiPINVOKE.CThostFtdcInputCombActionField_FrontID_set(swigCPtr, value);
-    } 
-    get {
-      int ret = CTPFutureApiPINVOKE.CThostFtdcInputCombActionField_FrontID_get(swigCPtr);
-      return ret;
-    } 
-  }
-
-  public int SessionID {
-    set {
-      CTPFutureApiPINVOKE.CThostFtdcInputCombActionField_SessionID_set(swigCPtr, value);
-    } 
-    get {
-      int ret = CTPFutureApiPINVOKE.CThostFtdcInputCombActionField_SessionID_get(swigCPtr);
-      return ret;
-    } 
-  }
-
-  public string InstrumentID {
-    set {
-      CTPFutureApiPINVOKE.CThostFtdcInputCombActionField_InstrumentID_set(swigCPtr, value);
-    } 
-    get {
-      string ret = CTPFutureApiPINVOKE.CThostFtdcInputCombActionField_InstrumentID_get(swigCPtr);
-      return ret;
-    } 
-  }
-
-  public string IPAddress {
-    set {
-      CTPFutureApiPINVOKE.CThostFtdcInputCombActionField_IPAddress_set(swigCPtr, value);
-    } 
-    get {
-      string ret = CTPFutureApiPINVOKE.CThostFtdcInputCombActionField_IPAddress_get(swigCPtr);
       return ret;
     } 
   }

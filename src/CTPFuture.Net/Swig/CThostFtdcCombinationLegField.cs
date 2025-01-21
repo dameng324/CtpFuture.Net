@@ -57,12 +57,12 @@ public class CThostFtdcCombinationLegField : global::System.IDisposable {
     }
   }
 
-  public string reserve1 {
+  public string CombInstrumentID {
     set {
-      CTPFutureApiPINVOKE.CThostFtdcCombinationLegField_reserve1_set(swigCPtr, value);
+      CTPFutureApiPINVOKE.CThostFtdcCombinationLegField_CombInstrumentID_set(swigCPtr, value);
     } 
     get {
-      string ret = CTPFutureApiPINVOKE.CThostFtdcCombinationLegField_reserve1_get(swigCPtr);
+      string ret = CTPFutureApiPINVOKE.CThostFtdcCombinationLegField_CombInstrumentID_get(swigCPtr);
       return ret;
     } 
   }
@@ -77,12 +77,12 @@ public class CThostFtdcCombinationLegField : global::System.IDisposable {
     } 
   }
 
-  public string reserve2 {
+  public string LegInstrumentID {
     set {
-      CTPFutureApiPINVOKE.CThostFtdcCombinationLegField_reserve2_set(swigCPtr, value);
+      CTPFutureApiPINVOKE.CThostFtdcCombinationLegField_LegInstrumentID_set(swigCPtr, value);
     } 
     get {
-      string ret = CTPFutureApiPINVOKE.CThostFtdcCombinationLegField_reserve2_get(swigCPtr);
+      string ret = CTPFutureApiPINVOKE.CThostFtdcCombinationLegField_LegInstrumentID_get(swigCPtr);
       return ret;
     } 
   }
@@ -113,26 +113,6 @@ public class CThostFtdcCombinationLegField : global::System.IDisposable {
     } 
     get {
       int ret = CTPFutureApiPINVOKE.CThostFtdcCombinationLegField_ImplyLevel_get(swigCPtr);
-      return ret;
-    } 
-  }
-
-  public string CombInstrumentID {
-    set {
-      CTPFutureApiPINVOKE.CThostFtdcCombinationLegField_CombInstrumentID_set(swigCPtr, value);
-    } 
-    get {
-      string ret = CTPFutureApiPINVOKE.CThostFtdcCombinationLegField_CombInstrumentID_get(swigCPtr);
-      return ret;
-    } 
-  }
-
-  public string LegInstrumentID {
-    set {
-      CTPFutureApiPINVOKE.CThostFtdcCombinationLegField_LegInstrumentID_set(swigCPtr, value);
-    } 
-    get {
-      string ret = CTPFutureApiPINVOKE.CThostFtdcCombinationLegField_LegInstrumentID_get(swigCPtr);
       return ret;
     } 
   }

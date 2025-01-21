@@ -77,16 +77,6 @@ public class CThostFtdcQryInstrumentTradingRightField : global::System.IDisposab
     } 
   }
 
-  public string reserve1 {
-    set {
-      CTPFutureApiPINVOKE.CThostFtdcQryInstrumentTradingRightField_reserve1_set(swigCPtr, value);
-    } 
-    get {
-      string ret = CTPFutureApiPINVOKE.CThostFtdcQryInstrumentTradingRightField_reserve1_get(swigCPtr);
-      return ret;
-    } 
-  }
-
   public string InstrumentID {
     set {
       CTPFutureApiPINVOKE.CThostFtdcQryInstrumentTradingRightField_InstrumentID_set(swigCPtr, value);

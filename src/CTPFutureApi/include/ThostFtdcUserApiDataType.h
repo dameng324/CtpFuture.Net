@@ -2646,13 +2646,13 @@ typedef char TThostFtdcVirementAvailAbilityType;
 ///TFtdcVirementTradeCodeType是一个交易代码类型
 /////////////////////////////////////////////////////////////////////////
 ///银行发起银行资金转期货
-#define THOST_FTDC_VTC_BankBankToFuture '102001'
+#define THOST_FTDC_VTC_BankBankToFuture '0'
 ///银行发起期货资金转银行
-#define THOST_FTDC_VTC_BankFutureToBank '102002'
+#define THOST_FTDC_VTC_BankFutureToBank '1'
 ///期货发起银行资金转期货
-#define THOST_FTDC_VTC_FutureBankToFuture '202001'
+#define THOST_FTDC_VTC_FutureBankToFuture '2'
 ///期货发起期货资金转银行
-#define THOST_FTDC_VTC_FutureFutureToBank '202002'
+#define THOST_FTDC_VTC_FutureFutureToBank '3'
 
 typedef char TThostFtdcVirementTradeCodeType;
 
@@ -4537,13 +4537,13 @@ typedef char TThostFtdcMonthBillTradeSumType;
 ///TFtdcFBTTradeCodeEnumType是一个银期交易代码枚举类型
 /////////////////////////////////////////////////////////////////////////
 ///银行发起银行转期货
-#define THOST_FTDC_FTC_BankLaunchBankToBroker '102001'
+#define THOST_FTDC_FTC_BankLaunchBankToBroker '0'
 ///期货发起银行转期货
-#define THOST_FTDC_FTC_BrokerLaunchBankToBroker '202001'
+#define THOST_FTDC_FTC_BrokerLaunchBankToBroker '1'
 ///银行发起期货转银行
-#define THOST_FTDC_FTC_BankLaunchBrokerToBank '102002'
+#define THOST_FTDC_FTC_BankLaunchBrokerToBank '2'
 ///期货发起期货转银行
-#define THOST_FTDC_FTC_BrokerLaunchBrokerToBank '202002'
+#define THOST_FTDC_FTC_BrokerLaunchBrokerToBank '3'
 
 typedef char TThostFtdcFBTTradeCodeEnumType;
 

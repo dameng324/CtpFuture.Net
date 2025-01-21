@@ -77,16 +77,6 @@ public class CThostFtdcLoginForbiddenUserField : global::System.IDisposable {
     } 
   }
 
-  public string reserve1 {
-    set {
-      CTPFutureApiPINVOKE.CThostFtdcLoginForbiddenUserField_reserve1_set(swigCPtr, value);
-    } 
-    get {
-      string ret = CTPFutureApiPINVOKE.CThostFtdcLoginForbiddenUserField_reserve1_get(swigCPtr);
-      return ret;
-    } 
-  }
-
   public string IPAddress {
     set {
       CTPFutureApiPINVOKE.CThostFtdcLoginForbiddenUserField_IPAddress_set(swigCPtr, value);

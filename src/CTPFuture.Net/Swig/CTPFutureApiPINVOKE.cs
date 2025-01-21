@@ -294,12 +294,6 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_THOST_FTDC_ICT_CptMngPrdLetter_get___")]
   public static extern char THOST_FTDC_ICT_CptMngPrdLetter_get();
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_THOST_FTDC_ICT_UniformSocialCreditCode_get___")]
-  public static extern char THOST_FTDC_ICT_UniformSocialCreditCode_get();
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_THOST_FTDC_ICT_CorporationCertNo_get___")]
-  public static extern char THOST_FTDC_ICT_CorporationCertNo_get();
-
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_THOST_FTDC_ICT_OtherCard_get___")]
   public static extern char THOST_FTDC_ICT_OtherCard_get();
 
@@ -663,36 +657,6 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_THOST_FTDC_PC_SpotOption_get___")]
   public static extern char THOST_FTDC_PC_SpotOption_get();
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_THOST_FTDC_PC_TAS_get___")]
-  public static extern char THOST_FTDC_PC_TAS_get();
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_THOST_FTDC_PC_MI_get___")]
-  public static extern char THOST_FTDC_PC_MI_get();
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_THOST_FTDC_APC_FutureSingle_get___")]
-  public static extern char THOST_FTDC_APC_FutureSingle_get();
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_THOST_FTDC_APC_OptionSingle_get___")]
-  public static extern char THOST_FTDC_APC_OptionSingle_get();
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_THOST_FTDC_APC_Futures_get___")]
-  public static extern char THOST_FTDC_APC_Futures_get();
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_THOST_FTDC_APC_Options_get___")]
-  public static extern char THOST_FTDC_APC_Options_get();
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_THOST_FTDC_APC_TradingComb_get___")]
-  public static extern char THOST_FTDC_APC_TradingComb_get();
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_THOST_FTDC_APC_UnTradingComb_get___")]
-  public static extern char THOST_FTDC_APC_UnTradingComb_get();
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_THOST_FTDC_APC_AllTrading_get___")]
-  public static extern char THOST_FTDC_APC_AllTrading_get();
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_THOST_FTDC_APC_All_get___")]
-  public static extern char THOST_FTDC_APC_All_get();
-
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_THOST_FTDC_IP_NotStart_get___")]
   public static extern char THOST_FTDC_IP_NotStart_get();
 
@@ -1019,12 +983,6 @@ class CTPFutureApiPINVOKE {
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_THOST_FTDC_TRDT_BlockTrade_get___")]
   public static extern char THOST_FTDC_TRDT_BlockTrade_get();
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_THOST_FTDC_SPOST_Common_get___")]
-  public static extern char THOST_FTDC_SPOST_Common_get();
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_THOST_FTDC_SPOST_Tas_get___")]
-  public static extern char THOST_FTDC_SPOST_Tas_get();
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_THOST_FTDC_PSRC_LastPrice_get___")]
   public static extern char THOST_FTDC_PSRC_LastPrice_get();
@@ -1791,12 +1749,6 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_THOST_FTDC_UET_Authenticate_get___")]
   public static extern char THOST_FTDC_UET_Authenticate_get();
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_THOST_FTDC_UET_SubmitSysInfo_get___")]
-  public static extern char THOST_FTDC_UET_SubmitSysInfo_get();
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_THOST_FTDC_UET_Transfer_get___")]
-  public static extern char THOST_FTDC_UET_Transfer_get();
-
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_THOST_FTDC_UET_Other_get___")]
   public static extern char THOST_FTDC_UET_Other_get();
 
@@ -1886,6 +1838,18 @@ class CTPFutureApiPINVOKE {
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_THOST_FTDC_VAA_Repeal_get___")]
   public static extern char THOST_FTDC_VAA_Repeal_get();
+
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_THOST_FTDC_VTC_BankBankToFuture_get___")]
+  public static extern char THOST_FTDC_VTC_BankBankToFuture_get();
+
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_THOST_FTDC_VTC_BankFutureToBank_get___")]
+  public static extern char THOST_FTDC_VTC_BankFutureToBank_get();
+
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_THOST_FTDC_VTC_FutureBankToFuture_get___")]
+  public static extern char THOST_FTDC_VTC_FutureBankToFuture_get();
+
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_THOST_FTDC_VTC_FutureFutureToBank_get___")]
+  public static extern char THOST_FTDC_VTC_FutureFutureToBank_get();
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_THOST_FTDC_GEN_Program_get___")]
   public static extern char THOST_FTDC_GEN_Program_get();
@@ -2829,6 +2793,18 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_THOST_FTDC_MBTS_ByDayIns_get___")]
   public static extern char THOST_FTDC_MBTS_ByDayIns_get();
 
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_THOST_FTDC_FTC_BankLaunchBankToBroker_get___")]
+  public static extern char THOST_FTDC_FTC_BankLaunchBankToBroker_get();
+
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_THOST_FTDC_FTC_BrokerLaunchBankToBroker_get___")]
+  public static extern char THOST_FTDC_FTC_BrokerLaunchBankToBroker_get();
+
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_THOST_FTDC_FTC_BankLaunchBrokerToBank_get___")]
+  public static extern char THOST_FTDC_FTC_BankLaunchBrokerToBank_get();
+
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_THOST_FTDC_FTC_BrokerLaunchBrokerToBank_get___")]
+  public static extern char THOST_FTDC_FTC_BrokerLaunchBrokerToBank_get();
+
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_THOST_FTDC_OTP_NONE_get___")]
   public static extern char THOST_FTDC_OTP_NONE_get();
 
@@ -3672,20 +3648,8 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_THOST_FTDC_COMBT_PRT_get___")]
   public static extern char THOST_FTDC_COMBT_PRT_get();
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_THOST_FTDC_COMBT_CAS_get___")]
-  public static extern char THOST_FTDC_COMBT_CAS_get();
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_THOST_FTDC_COMBT_OPL_get___")]
-  public static extern char THOST_FTDC_COMBT_OPL_get();
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_THOST_FTDC_COMBT_BFO_get___")]
-  public static extern char THOST_FTDC_COMBT_BFO_get();
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_THOST_FTDC_COMBT_BLS_get___")]
-  public static extern char THOST_FTDC_COMBT_BLS_get();
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_THOST_FTDC_COMBT_BES_get___")]
-  public static extern char THOST_FTDC_COMBT_BES_get();
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_THOST_FTDC_COMBT_CLD_get___")]
+  public static extern char THOST_FTDC_COMBT_CLD_get();
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_THOST_FTDC_DCECOMBT_SPL_get___")]
   public static extern char THOST_FTDC_DCECOMBT_SPL_get();
@@ -3852,9 +3816,6 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_THOST_FTDC_CMDR_UnComb_get___")]
   public static extern char THOST_FTDC_CMDR_UnComb_get();
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_THOST_FTDC_CMDR_DelComb_get___")]
-  public static extern char THOST_FTDC_CMDR_DelComb_get();
-
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_THOST_FTDC_STOV_RealValue_get___")]
   public static extern char THOST_FTDC_STOV_RealValue_get();
 
@@ -3933,33 +3894,6 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_THOST_FTDC_OTC_MT_ParValue_get___")]
   public static extern char THOST_FTDC_OTC_MT_ParValue_get();
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_THOST_FTDC_AU_WHITE_get___")]
-  public static extern char THOST_FTDC_AU_WHITE_get();
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_THOST_FTDC_AU_BLACK_get___")]
-  public static extern char THOST_FTDC_AU_BLACK_get();
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_THOST_FTDC_INS_ALL_get___")]
-  public static extern char THOST_FTDC_INS_ALL_get();
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_THOST_FTDC_INS_FUTURE_get___")]
-  public static extern char THOST_FTDC_INS_FUTURE_get();
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_THOST_FTDC_INS_OPTION_get___")]
-  public static extern char THOST_FTDC_INS_OPTION_get();
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_THOST_FTDC_INS_COMB_get___")]
-  public static extern char THOST_FTDC_INS_COMB_get();
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_THOST_FTDC_TD_ALL_get___")]
-  public static extern char THOST_FTDC_TD_ALL_get();
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_THOST_FTDC_TD_TRADE_get___")]
-  public static extern char THOST_FTDC_TD_TRADE_get();
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_THOST_FTDC_TD_UNTRADE_get___")]
-  public static extern char THOST_FTDC_TD_UNTRADE_get();
-
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcDisseminationField_SequenceSeries_set___")]
   public static extern void CThostFtdcDisseminationField_SequenceSeries_set(global::System.Runtime.InteropServices.HandleRef jarg1, short jarg2);
 
@@ -4032,11 +3966,11 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcReqUserLoginField_OneTimePassword_get___")]
   public static extern string CThostFtdcReqUserLoginField_OneTimePassword_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcReqUserLoginField_reserve1_set___")]
-  public static extern void CThostFtdcReqUserLoginField_reserve1_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcReqUserLoginField_ClientIPAddress_set___")]
+  public static extern void CThostFtdcReqUserLoginField_ClientIPAddress_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcReqUserLoginField_reserve1_get___")]
-  public static extern string CThostFtdcReqUserLoginField_reserve1_get(global::System.Runtime.InteropServices.HandleRef jarg1);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcReqUserLoginField_ClientIPAddress_get___")]
+  public static extern string CThostFtdcReqUserLoginField_ClientIPAddress_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcReqUserLoginField_LoginRemark_set___")]
   public static extern void CThostFtdcReqUserLoginField_LoginRemark_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
@@ -4049,12 +3983,6 @@ class CTPFutureApiPINVOKE {
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcReqUserLoginField_ClientIPPort_get___")]
   public static extern int CThostFtdcReqUserLoginField_ClientIPPort_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcReqUserLoginField_ClientIPAddress_set___")]
-  public static extern void CThostFtdcReqUserLoginField_ClientIPAddress_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcReqUserLoginField_ClientIPAddress_get___")]
-  public static extern string CThostFtdcReqUserLoginField_ClientIPAddress_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_new_CThostFtdcReqUserLoginField___")]
   public static extern global::System.IntPtr new_CThostFtdcReqUserLoginField();
@@ -4295,18 +4223,6 @@ class CTPFutureApiPINVOKE {
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcAuthenticationInfoField_AppType_get___")]
   public static extern char CThostFtdcAuthenticationInfoField_AppType_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcAuthenticationInfoField_reserve1_set___")]
-  public static extern void CThostFtdcAuthenticationInfoField_reserve1_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcAuthenticationInfoField_reserve1_get___")]
-  public static extern string CThostFtdcAuthenticationInfoField_reserve1_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcAuthenticationInfoField_ClientIPAddress_set___")]
-  public static extern void CThostFtdcAuthenticationInfoField_ClientIPAddress_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcAuthenticationInfoField_ClientIPAddress_get___")]
-  public static extern string CThostFtdcAuthenticationInfoField_ClientIPAddress_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_new_CThostFtdcAuthenticationInfoField___")]
   public static extern global::System.IntPtr new_CThostFtdcAuthenticationInfoField();
@@ -4878,11 +4794,11 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_delete_CThostFtdcExchangeField___")]
   public static extern void delete_CThostFtdcExchangeField(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcProductField_reserve1_set___")]
-  public static extern void CThostFtdcProductField_reserve1_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcProductField_ProductID_set___")]
+  public static extern void CThostFtdcProductField_ProductID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcProductField_reserve1_get___")]
-  public static extern string CThostFtdcProductField_reserve1_get(global::System.Runtime.InteropServices.HandleRef jarg1);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcProductField_ProductID_get___")]
+  public static extern string CThostFtdcProductField_ProductID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcProductField_ProductName_set___")]
   public static extern void CThostFtdcProductField_ProductName_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
@@ -4968,11 +4884,11 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcProductField_MortgageFundUseRange_get___")]
   public static extern char CThostFtdcProductField_MortgageFundUseRange_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcProductField_reserve2_set___")]
-  public static extern void CThostFtdcProductField_reserve2_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcProductField_ExchangeProductID_set___")]
+  public static extern void CThostFtdcProductField_ExchangeProductID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcProductField_reserve2_get___")]
-  public static extern string CThostFtdcProductField_reserve2_get(global::System.Runtime.InteropServices.HandleRef jarg1);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcProductField_ExchangeProductID_get___")]
+  public static extern string CThostFtdcProductField_ExchangeProductID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcProductField_UnderlyingMultiple_set___")]
   public static extern void CThostFtdcProductField_UnderlyingMultiple_set(global::System.Runtime.InteropServices.HandleRef jarg1, double jarg2);
@@ -4980,29 +4896,17 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcProductField_UnderlyingMultiple_get___")]
   public static extern double CThostFtdcProductField_UnderlyingMultiple_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcProductField_ProductID_set___")]
-  public static extern void CThostFtdcProductField_ProductID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcProductField_ProductID_get___")]
-  public static extern string CThostFtdcProductField_ProductID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcProductField_ExchangeProductID_set___")]
-  public static extern void CThostFtdcProductField_ExchangeProductID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcProductField_ExchangeProductID_get___")]
-  public static extern string CThostFtdcProductField_ExchangeProductID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_new_CThostFtdcProductField___")]
   public static extern global::System.IntPtr new_CThostFtdcProductField();
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_delete_CThostFtdcProductField___")]
   public static extern void delete_CThostFtdcProductField(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInstrumentField_reserve1_set___")]
-  public static extern void CThostFtdcInstrumentField_reserve1_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInstrumentField_InstrumentID_set___")]
+  public static extern void CThostFtdcInstrumentField_InstrumentID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInstrumentField_reserve1_get___")]
-  public static extern string CThostFtdcInstrumentField_reserve1_get(global::System.Runtime.InteropServices.HandleRef jarg1);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInstrumentField_InstrumentID_get___")]
+  public static extern string CThostFtdcInstrumentField_InstrumentID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInstrumentField_ExchangeID_set___")]
   public static extern void CThostFtdcInstrumentField_ExchangeID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
@@ -5016,17 +4920,17 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInstrumentField_InstrumentName_get___")]
   public static extern string CThostFtdcInstrumentField_InstrumentName_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInstrumentField_reserve2_set___")]
-  public static extern void CThostFtdcInstrumentField_reserve2_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInstrumentField_ExchangeInstID_set___")]
+  public static extern void CThostFtdcInstrumentField_ExchangeInstID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInstrumentField_reserve2_get___")]
-  public static extern string CThostFtdcInstrumentField_reserve2_get(global::System.Runtime.InteropServices.HandleRef jarg1);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInstrumentField_ExchangeInstID_get___")]
+  public static extern string CThostFtdcInstrumentField_ExchangeInstID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInstrumentField_reserve3_set___")]
-  public static extern void CThostFtdcInstrumentField_reserve3_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInstrumentField_ProductID_set___")]
+  public static extern void CThostFtdcInstrumentField_ProductID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInstrumentField_reserve3_get___")]
-  public static extern string CThostFtdcInstrumentField_reserve3_get(global::System.Runtime.InteropServices.HandleRef jarg1);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInstrumentField_ProductID_get___")]
+  public static extern string CThostFtdcInstrumentField_ProductID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInstrumentField_ProductClass_set___")]
   public static extern void CThostFtdcInstrumentField_ProductClass_set(global::System.Runtime.InteropServices.HandleRef jarg1, char jarg2);
@@ -5154,11 +5058,11 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInstrumentField_MaxMarginSideAlgorithm_get___")]
   public static extern char CThostFtdcInstrumentField_MaxMarginSideAlgorithm_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInstrumentField_reserve4_set___")]
-  public static extern void CThostFtdcInstrumentField_reserve4_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInstrumentField_UnderlyingInstrID_set___")]
+  public static extern void CThostFtdcInstrumentField_UnderlyingInstrID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInstrumentField_reserve4_get___")]
-  public static extern string CThostFtdcInstrumentField_reserve4_get(global::System.Runtime.InteropServices.HandleRef jarg1);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInstrumentField_UnderlyingInstrID_get___")]
+  public static extern string CThostFtdcInstrumentField_UnderlyingInstrID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInstrumentField_StrikePrice_set___")]
   public static extern void CThostFtdcInstrumentField_StrikePrice_set(global::System.Runtime.InteropServices.HandleRef jarg1, double jarg2);
@@ -5183,30 +5087,6 @@ class CTPFutureApiPINVOKE {
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInstrumentField_CombinationType_get___")]
   public static extern char CThostFtdcInstrumentField_CombinationType_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInstrumentField_InstrumentID_set___")]
-  public static extern void CThostFtdcInstrumentField_InstrumentID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInstrumentField_InstrumentID_get___")]
-  public static extern string CThostFtdcInstrumentField_InstrumentID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInstrumentField_ExchangeInstID_set___")]
-  public static extern void CThostFtdcInstrumentField_ExchangeInstID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInstrumentField_ExchangeInstID_get___")]
-  public static extern string CThostFtdcInstrumentField_ExchangeInstID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInstrumentField_ProductID_set___")]
-  public static extern void CThostFtdcInstrumentField_ProductID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInstrumentField_ProductID_get___")]
-  public static extern string CThostFtdcInstrumentField_ProductID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInstrumentField_UnderlyingInstrID_set___")]
-  public static extern void CThostFtdcInstrumentField_UnderlyingInstrID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInstrumentField_UnderlyingInstrID_get___")]
-  public static extern string CThostFtdcInstrumentField_UnderlyingInstrID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_new_CThostFtdcInstrumentField___")]
   public static extern global::System.IntPtr new_CThostFtdcInstrumentField();
@@ -5832,11 +5712,11 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_delete_CThostFtdcTradingAccountField___")]
   public static extern void delete_CThostFtdcTradingAccountField(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInvestorPositionField_reserve1_set___")]
-  public static extern void CThostFtdcInvestorPositionField_reserve1_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInvestorPositionField_InstrumentID_set___")]
+  public static extern void CThostFtdcInvestorPositionField_InstrumentID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInvestorPositionField_reserve1_get___")]
-  public static extern string CThostFtdcInvestorPositionField_reserve1_get(global::System.Runtime.InteropServices.HandleRef jarg1);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInvestorPositionField_InstrumentID_get___")]
+  public static extern string CThostFtdcInvestorPositionField_InstrumentID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInvestorPositionField_BrokerID_set___")]
   public static extern void CThostFtdcInvestorPositionField_BrokerID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
@@ -6114,35 +5994,17 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInvestorPositionField_PositionCostOffset_get___")]
   public static extern double CThostFtdcInvestorPositionField_PositionCostOffset_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInvestorPositionField_TasPosition_set___")]
-  public static extern void CThostFtdcInvestorPositionField_TasPosition_set(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInvestorPositionField_TasPosition_get___")]
-  public static extern int CThostFtdcInvestorPositionField_TasPosition_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInvestorPositionField_TasPositionCost_set___")]
-  public static extern void CThostFtdcInvestorPositionField_TasPositionCost_set(global::System.Runtime.InteropServices.HandleRef jarg1, double jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInvestorPositionField_TasPositionCost_get___")]
-  public static extern double CThostFtdcInvestorPositionField_TasPositionCost_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInvestorPositionField_InstrumentID_set___")]
-  public static extern void CThostFtdcInvestorPositionField_InstrumentID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInvestorPositionField_InstrumentID_get___")]
-  public static extern string CThostFtdcInvestorPositionField_InstrumentID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_new_CThostFtdcInvestorPositionField___")]
   public static extern global::System.IntPtr new_CThostFtdcInvestorPositionField();
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_delete_CThostFtdcInvestorPositionField___")]
   public static extern void delete_CThostFtdcInvestorPositionField(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInstrumentMarginRateField_reserve1_set___")]
-  public static extern void CThostFtdcInstrumentMarginRateField_reserve1_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInstrumentMarginRateField_InstrumentID_set___")]
+  public static extern void CThostFtdcInstrumentMarginRateField_InstrumentID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInstrumentMarginRateField_reserve1_get___")]
-  public static extern string CThostFtdcInstrumentMarginRateField_reserve1_get(global::System.Runtime.InteropServices.HandleRef jarg1);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInstrumentMarginRateField_InstrumentID_get___")]
+  public static extern string CThostFtdcInstrumentMarginRateField_InstrumentID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInstrumentMarginRateField_InvestorRange_set___")]
   public static extern void CThostFtdcInstrumentMarginRateField_InvestorRange_set(global::System.Runtime.InteropServices.HandleRef jarg1, char jarg2);
@@ -6210,23 +6072,17 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInstrumentMarginRateField_InvestUnitID_get___")]
   public static extern string CThostFtdcInstrumentMarginRateField_InvestUnitID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInstrumentMarginRateField_InstrumentID_set___")]
-  public static extern void CThostFtdcInstrumentMarginRateField_InstrumentID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInstrumentMarginRateField_InstrumentID_get___")]
-  public static extern string CThostFtdcInstrumentMarginRateField_InstrumentID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_new_CThostFtdcInstrumentMarginRateField___")]
   public static extern global::System.IntPtr new_CThostFtdcInstrumentMarginRateField();
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_delete_CThostFtdcInstrumentMarginRateField___")]
   public static extern void delete_CThostFtdcInstrumentMarginRateField(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInstrumentCommissionRateField_reserve1_set___")]
-  public static extern void CThostFtdcInstrumentCommissionRateField_reserve1_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInstrumentCommissionRateField_InstrumentID_set___")]
+  public static extern void CThostFtdcInstrumentCommissionRateField_InstrumentID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInstrumentCommissionRateField_reserve1_get___")]
-  public static extern string CThostFtdcInstrumentCommissionRateField_reserve1_get(global::System.Runtime.InteropServices.HandleRef jarg1);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInstrumentCommissionRateField_InstrumentID_get___")]
+  public static extern string CThostFtdcInstrumentCommissionRateField_InstrumentID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInstrumentCommissionRateField_InvestorRange_set___")]
   public static extern void CThostFtdcInstrumentCommissionRateField_InvestorRange_set(global::System.Runtime.InteropServices.HandleRef jarg1, char jarg2);
@@ -6300,12 +6156,6 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInstrumentCommissionRateField_InvestUnitID_get___")]
   public static extern string CThostFtdcInstrumentCommissionRateField_InvestUnitID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInstrumentCommissionRateField_InstrumentID_set___")]
-  public static extern void CThostFtdcInstrumentCommissionRateField_InstrumentID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInstrumentCommissionRateField_InstrumentID_get___")]
-  public static extern string CThostFtdcInstrumentCommissionRateField_InstrumentID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_new_CThostFtdcInstrumentCommissionRateField___")]
   public static extern global::System.IntPtr new_CThostFtdcInstrumentCommissionRateField();
 
@@ -6318,11 +6168,11 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcDepthMarketDataField_TradingDay_get___")]
   public static extern string CThostFtdcDepthMarketDataField_TradingDay_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcDepthMarketDataField_reserve1_set___")]
-  public static extern void CThostFtdcDepthMarketDataField_reserve1_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcDepthMarketDataField_InstrumentID_set___")]
+  public static extern void CThostFtdcDepthMarketDataField_InstrumentID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcDepthMarketDataField_reserve1_get___")]
-  public static extern string CThostFtdcDepthMarketDataField_reserve1_get(global::System.Runtime.InteropServices.HandleRef jarg1);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcDepthMarketDataField_InstrumentID_get___")]
+  public static extern string CThostFtdcDepthMarketDataField_InstrumentID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcDepthMarketDataField_ExchangeID_set___")]
   public static extern void CThostFtdcDepthMarketDataField_ExchangeID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
@@ -6330,11 +6180,11 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcDepthMarketDataField_ExchangeID_get___")]
   public static extern string CThostFtdcDepthMarketDataField_ExchangeID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcDepthMarketDataField_reserve2_set___")]
-  public static extern void CThostFtdcDepthMarketDataField_reserve2_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcDepthMarketDataField_ExchangeInstID_set___")]
+  public static extern void CThostFtdcDepthMarketDataField_ExchangeInstID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcDepthMarketDataField_reserve2_get___")]
-  public static extern string CThostFtdcDepthMarketDataField_reserve2_get(global::System.Runtime.InteropServices.HandleRef jarg1);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcDepthMarketDataField_ExchangeInstID_get___")]
+  public static extern string CThostFtdcDepthMarketDataField_ExchangeInstID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcDepthMarketDataField_LastPrice_set___")]
   public static extern void CThostFtdcDepthMarketDataField_LastPrice_set(global::System.Runtime.InteropServices.HandleRef jarg1, double jarg2);
@@ -6576,29 +6426,17 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcDepthMarketDataField_ActionDay_get___")]
   public static extern string CThostFtdcDepthMarketDataField_ActionDay_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcDepthMarketDataField_InstrumentID_set___")]
-  public static extern void CThostFtdcDepthMarketDataField_InstrumentID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcDepthMarketDataField_InstrumentID_get___")]
-  public static extern string CThostFtdcDepthMarketDataField_InstrumentID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcDepthMarketDataField_ExchangeInstID_set___")]
-  public static extern void CThostFtdcDepthMarketDataField_ExchangeInstID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcDepthMarketDataField_ExchangeInstID_get___")]
-  public static extern string CThostFtdcDepthMarketDataField_ExchangeInstID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_new_CThostFtdcDepthMarketDataField___")]
   public static extern global::System.IntPtr new_CThostFtdcDepthMarketDataField();
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_delete_CThostFtdcDepthMarketDataField___")]
   public static extern void delete_CThostFtdcDepthMarketDataField(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInstrumentTradingRightField_reserve1_set___")]
-  public static extern void CThostFtdcInstrumentTradingRightField_reserve1_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInstrumentTradingRightField_InstrumentID_set___")]
+  public static extern void CThostFtdcInstrumentTradingRightField_InstrumentID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInstrumentTradingRightField_reserve1_get___")]
-  public static extern string CThostFtdcInstrumentTradingRightField_reserve1_get(global::System.Runtime.InteropServices.HandleRef jarg1);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInstrumentTradingRightField_InstrumentID_get___")]
+  public static extern string CThostFtdcInstrumentTradingRightField_InstrumentID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInstrumentTradingRightField_InvestorRange_set___")]
   public static extern void CThostFtdcInstrumentTradingRightField_InvestorRange_set(global::System.Runtime.InteropServices.HandleRef jarg1, char jarg2);
@@ -6623,12 +6461,6 @@ class CTPFutureApiPINVOKE {
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInstrumentTradingRightField_TradingRight_get___")]
   public static extern char CThostFtdcInstrumentTradingRightField_TradingRight_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInstrumentTradingRightField_InstrumentID_set___")]
-  public static extern void CThostFtdcInstrumentTradingRightField_InstrumentID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInstrumentTradingRightField_InstrumentID_get___")]
-  public static extern string CThostFtdcInstrumentTradingRightField_InstrumentID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_new_CThostFtdcInstrumentTradingRightField___")]
   public static extern global::System.IntPtr new_CThostFtdcInstrumentTradingRightField();
@@ -6930,11 +6762,11 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_delete_CThostFtdcSettlementInfoField___")]
   public static extern void delete_CThostFtdcSettlementInfoField(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInstrumentMarginRateAdjustField_reserve1_set___")]
-  public static extern void CThostFtdcInstrumentMarginRateAdjustField_reserve1_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInstrumentMarginRateAdjustField_InstrumentID_set___")]
+  public static extern void CThostFtdcInstrumentMarginRateAdjustField_InstrumentID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInstrumentMarginRateAdjustField_reserve1_get___")]
-  public static extern string CThostFtdcInstrumentMarginRateAdjustField_reserve1_get(global::System.Runtime.InteropServices.HandleRef jarg1);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInstrumentMarginRateAdjustField_InstrumentID_get___")]
+  public static extern string CThostFtdcInstrumentMarginRateAdjustField_InstrumentID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInstrumentMarginRateAdjustField_InvestorRange_set___")]
   public static extern void CThostFtdcInstrumentMarginRateAdjustField_InvestorRange_set(global::System.Runtime.InteropServices.HandleRef jarg1, char jarg2);
@@ -6990,12 +6822,6 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInstrumentMarginRateAdjustField_IsRelative_get___")]
   public static extern int CThostFtdcInstrumentMarginRateAdjustField_IsRelative_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInstrumentMarginRateAdjustField_InstrumentID_set___")]
-  public static extern void CThostFtdcInstrumentMarginRateAdjustField_InstrumentID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInstrumentMarginRateAdjustField_InstrumentID_get___")]
-  public static extern string CThostFtdcInstrumentMarginRateAdjustField_InstrumentID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_new_CThostFtdcInstrumentMarginRateAdjustField___")]
   public static extern global::System.IntPtr new_CThostFtdcInstrumentMarginRateAdjustField();
 
@@ -7008,11 +6834,11 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExchangeMarginRateField_BrokerID_get___")]
   public static extern string CThostFtdcExchangeMarginRateField_BrokerID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExchangeMarginRateField_reserve1_set___")]
-  public static extern void CThostFtdcExchangeMarginRateField_reserve1_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExchangeMarginRateField_InstrumentID_set___")]
+  public static extern void CThostFtdcExchangeMarginRateField_InstrumentID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExchangeMarginRateField_reserve1_get___")]
-  public static extern string CThostFtdcExchangeMarginRateField_reserve1_get(global::System.Runtime.InteropServices.HandleRef jarg1);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExchangeMarginRateField_InstrumentID_get___")]
+  public static extern string CThostFtdcExchangeMarginRateField_InstrumentID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExchangeMarginRateField_HedgeFlag_set___")]
   public static extern void CThostFtdcExchangeMarginRateField_HedgeFlag_set(global::System.Runtime.InteropServices.HandleRef jarg1, char jarg2);
@@ -7050,12 +6876,6 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExchangeMarginRateField_ExchangeID_get___")]
   public static extern string CThostFtdcExchangeMarginRateField_ExchangeID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExchangeMarginRateField_InstrumentID_set___")]
-  public static extern void CThostFtdcExchangeMarginRateField_InstrumentID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExchangeMarginRateField_InstrumentID_get___")]
-  public static extern string CThostFtdcExchangeMarginRateField_InstrumentID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_new_CThostFtdcExchangeMarginRateField___")]
   public static extern global::System.IntPtr new_CThostFtdcExchangeMarginRateField();
 
@@ -7068,11 +6888,11 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExchangeMarginRateAdjustField_BrokerID_get___")]
   public static extern string CThostFtdcExchangeMarginRateAdjustField_BrokerID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExchangeMarginRateAdjustField_reserve1_set___")]
-  public static extern void CThostFtdcExchangeMarginRateAdjustField_reserve1_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExchangeMarginRateAdjustField_InstrumentID_set___")]
+  public static extern void CThostFtdcExchangeMarginRateAdjustField_InstrumentID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExchangeMarginRateAdjustField_reserve1_get___")]
-  public static extern string CThostFtdcExchangeMarginRateAdjustField_reserve1_get(global::System.Runtime.InteropServices.HandleRef jarg1);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExchangeMarginRateAdjustField_InstrumentID_get___")]
+  public static extern string CThostFtdcExchangeMarginRateAdjustField_InstrumentID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExchangeMarginRateAdjustField_HedgeFlag_set___")]
   public static extern void CThostFtdcExchangeMarginRateAdjustField_HedgeFlag_set(global::System.Runtime.InteropServices.HandleRef jarg1, char jarg2);
@@ -7151,12 +6971,6 @@ class CTPFutureApiPINVOKE {
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExchangeMarginRateAdjustField_NoShortMarginRatioByVolume_get___")]
   public static extern double CThostFtdcExchangeMarginRateAdjustField_NoShortMarginRatioByVolume_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExchangeMarginRateAdjustField_InstrumentID_set___")]
-  public static extern void CThostFtdcExchangeMarginRateAdjustField_InstrumentID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExchangeMarginRateAdjustField_InstrumentID_get___")]
-  public static extern string CThostFtdcExchangeMarginRateAdjustField_InstrumentID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_new_CThostFtdcExchangeMarginRateAdjustField___")]
   public static extern global::System.IntPtr new_CThostFtdcExchangeMarginRateAdjustField();
@@ -7308,11 +7122,11 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcLoginInfoField_LoginTime_get___")]
   public static extern string CThostFtdcLoginInfoField_LoginTime_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcLoginInfoField_reserve1_set___")]
-  public static extern void CThostFtdcLoginInfoField_reserve1_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcLoginInfoField_IPAddress_set___")]
+  public static extern void CThostFtdcLoginInfoField_IPAddress_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcLoginInfoField_reserve1_get___")]
-  public static extern string CThostFtdcLoginInfoField_reserve1_get(global::System.Runtime.InteropServices.HandleRef jarg1);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcLoginInfoField_IPAddress_get___")]
+  public static extern string CThostFtdcLoginInfoField_IPAddress_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcLoginInfoField_UserProductInfo_set___")]
   public static extern void CThostFtdcLoginInfoField_UserProductInfo_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
@@ -7409,12 +7223,6 @@ class CTPFutureApiPINVOKE {
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcLoginInfoField_Password_get___")]
   public static extern string CThostFtdcLoginInfoField_Password_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcLoginInfoField_IPAddress_set___")]
-  public static extern void CThostFtdcLoginInfoField_IPAddress_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcLoginInfoField_IPAddress_get___")]
-  public static extern string CThostFtdcLoginInfoField_IPAddress_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_new_CThostFtdcLoginInfoField___")]
   public static extern global::System.IntPtr new_CThostFtdcLoginInfoField();
@@ -7518,11 +7326,11 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInputOrderField_InvestorID_get___")]
   public static extern string CThostFtdcInputOrderField_InvestorID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInputOrderField_reserve1_set___")]
-  public static extern void CThostFtdcInputOrderField_reserve1_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInputOrderField_InstrumentID_set___")]
+  public static extern void CThostFtdcInputOrderField_InstrumentID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInputOrderField_reserve1_get___")]
-  public static extern string CThostFtdcInputOrderField_reserve1_get(global::System.Runtime.InteropServices.HandleRef jarg1);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInputOrderField_InstrumentID_get___")]
+  public static extern string CThostFtdcInputOrderField_InstrumentID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInputOrderField_OrderRef_set___")]
   public static extern void CThostFtdcInputOrderField_OrderRef_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
@@ -7674,29 +7482,17 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInputOrderField_ClientID_get___")]
   public static extern string CThostFtdcInputOrderField_ClientID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInputOrderField_reserve2_set___")]
-  public static extern void CThostFtdcInputOrderField_reserve2_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInputOrderField_IPAddress_set___")]
+  public static extern void CThostFtdcInputOrderField_IPAddress_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInputOrderField_reserve2_get___")]
-  public static extern string CThostFtdcInputOrderField_reserve2_get(global::System.Runtime.InteropServices.HandleRef jarg1);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInputOrderField_IPAddress_get___")]
+  public static extern string CThostFtdcInputOrderField_IPAddress_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInputOrderField_MacAddress_set___")]
   public static extern void CThostFtdcInputOrderField_MacAddress_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInputOrderField_MacAddress_get___")]
   public static extern string CThostFtdcInputOrderField_MacAddress_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInputOrderField_InstrumentID_set___")]
-  public static extern void CThostFtdcInputOrderField_InstrumentID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInputOrderField_InstrumentID_get___")]
-  public static extern string CThostFtdcInputOrderField_InstrumentID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInputOrderField_IPAddress_set___")]
-  public static extern void CThostFtdcInputOrderField_IPAddress_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInputOrderField_IPAddress_get___")]
-  public static extern string CThostFtdcInputOrderField_IPAddress_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_new_CThostFtdcInputOrderField___")]
   public static extern global::System.IntPtr new_CThostFtdcInputOrderField();
@@ -7716,11 +7512,11 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcOrderField_InvestorID_get___")]
   public static extern string CThostFtdcOrderField_InvestorID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcOrderField_reserve1_set___")]
-  public static extern void CThostFtdcOrderField_reserve1_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcOrderField_InstrumentID_set___")]
+  public static extern void CThostFtdcOrderField_InstrumentID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcOrderField_reserve1_get___")]
-  public static extern string CThostFtdcOrderField_reserve1_get(global::System.Runtime.InteropServices.HandleRef jarg1);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcOrderField_InstrumentID_get___")]
+  public static extern string CThostFtdcOrderField_InstrumentID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcOrderField_OrderRef_set___")]
   public static extern void CThostFtdcOrderField_OrderRef_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
@@ -7854,11 +7650,11 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcOrderField_ClientID_get___")]
   public static extern string CThostFtdcOrderField_ClientID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcOrderField_reserve2_set___")]
-  public static extern void CThostFtdcOrderField_reserve2_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcOrderField_ExchangeInstID_set___")]
+  public static extern void CThostFtdcOrderField_ExchangeInstID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcOrderField_reserve2_get___")]
-  public static extern string CThostFtdcOrderField_reserve2_get(global::System.Runtime.InteropServices.HandleRef jarg1);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcOrderField_ExchangeInstID_get___")]
+  public static extern string CThostFtdcOrderField_ExchangeInstID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcOrderField_TraderID_set___")]
   public static extern void CThostFtdcOrderField_TraderID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
@@ -8070,35 +7866,17 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcOrderField_CurrencyID_get___")]
   public static extern string CThostFtdcOrderField_CurrencyID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcOrderField_reserve3_set___")]
-  public static extern void CThostFtdcOrderField_reserve3_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcOrderField_IPAddress_set___")]
+  public static extern void CThostFtdcOrderField_IPAddress_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcOrderField_reserve3_get___")]
-  public static extern string CThostFtdcOrderField_reserve3_get(global::System.Runtime.InteropServices.HandleRef jarg1);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcOrderField_IPAddress_get___")]
+  public static extern string CThostFtdcOrderField_IPAddress_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcOrderField_MacAddress_set___")]
   public static extern void CThostFtdcOrderField_MacAddress_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcOrderField_MacAddress_get___")]
   public static extern string CThostFtdcOrderField_MacAddress_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcOrderField_InstrumentID_set___")]
-  public static extern void CThostFtdcOrderField_InstrumentID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcOrderField_InstrumentID_get___")]
-  public static extern string CThostFtdcOrderField_InstrumentID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcOrderField_ExchangeInstID_set___")]
-  public static extern void CThostFtdcOrderField_ExchangeInstID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcOrderField_ExchangeInstID_get___")]
-  public static extern string CThostFtdcOrderField_ExchangeInstID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcOrderField_IPAddress_set___")]
-  public static extern void CThostFtdcOrderField_IPAddress_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcOrderField_IPAddress_get___")]
-  public static extern string CThostFtdcOrderField_IPAddress_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_new_CThostFtdcOrderField___")]
   public static extern global::System.IntPtr new_CThostFtdcOrderField();
@@ -8226,11 +8004,11 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExchangeOrderField_ClientID_get___")]
   public static extern string CThostFtdcExchangeOrderField_ClientID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExchangeOrderField_reserve1_set___")]
-  public static extern void CThostFtdcExchangeOrderField_reserve1_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExchangeOrderField_ExchangeInstID_set___")]
+  public static extern void CThostFtdcExchangeOrderField_ExchangeInstID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExchangeOrderField_reserve1_get___")]
-  public static extern string CThostFtdcExchangeOrderField_reserve1_get(global::System.Runtime.InteropServices.HandleRef jarg1);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExchangeOrderField_ExchangeInstID_get___")]
+  public static extern string CThostFtdcExchangeOrderField_ExchangeInstID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExchangeOrderField_TraderID_set___")]
   public static extern void CThostFtdcExchangeOrderField_TraderID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
@@ -8364,29 +8142,17 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExchangeOrderField_BranchID_get___")]
   public static extern string CThostFtdcExchangeOrderField_BranchID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExchangeOrderField_reserve2_set___")]
-  public static extern void CThostFtdcExchangeOrderField_reserve2_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExchangeOrderField_IPAddress_set___")]
+  public static extern void CThostFtdcExchangeOrderField_IPAddress_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExchangeOrderField_reserve2_get___")]
-  public static extern string CThostFtdcExchangeOrderField_reserve2_get(global::System.Runtime.InteropServices.HandleRef jarg1);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExchangeOrderField_IPAddress_get___")]
+  public static extern string CThostFtdcExchangeOrderField_IPAddress_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExchangeOrderField_MacAddress_set___")]
   public static extern void CThostFtdcExchangeOrderField_MacAddress_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExchangeOrderField_MacAddress_get___")]
   public static extern string CThostFtdcExchangeOrderField_MacAddress_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExchangeOrderField_ExchangeInstID_set___")]
-  public static extern void CThostFtdcExchangeOrderField_ExchangeInstID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExchangeOrderField_ExchangeInstID_get___")]
-  public static extern string CThostFtdcExchangeOrderField_ExchangeInstID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExchangeOrderField_IPAddress_set___")]
-  public static extern void CThostFtdcExchangeOrderField_IPAddress_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExchangeOrderField_IPAddress_get___")]
-  public static extern string CThostFtdcExchangeOrderField_IPAddress_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_new_CThostFtdcExchangeOrderField___")]
   public static extern global::System.IntPtr new_CThostFtdcExchangeOrderField();
@@ -8520,11 +8286,11 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInputOrderActionField_UserID_get___")]
   public static extern string CThostFtdcInputOrderActionField_UserID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInputOrderActionField_reserve1_set___")]
-  public static extern void CThostFtdcInputOrderActionField_reserve1_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInputOrderActionField_InstrumentID_set___")]
+  public static extern void CThostFtdcInputOrderActionField_InstrumentID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInputOrderActionField_reserve1_get___")]
-  public static extern string CThostFtdcInputOrderActionField_reserve1_get(global::System.Runtime.InteropServices.HandleRef jarg1);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInputOrderActionField_InstrumentID_get___")]
+  public static extern string CThostFtdcInputOrderActionField_InstrumentID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInputOrderActionField_InvestUnitID_set___")]
   public static extern void CThostFtdcInputOrderActionField_InvestUnitID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
@@ -8532,29 +8298,17 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInputOrderActionField_InvestUnitID_get___")]
   public static extern string CThostFtdcInputOrderActionField_InvestUnitID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInputOrderActionField_reserve2_set___")]
-  public static extern void CThostFtdcInputOrderActionField_reserve2_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInputOrderActionField_IPAddress_set___")]
+  public static extern void CThostFtdcInputOrderActionField_IPAddress_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInputOrderActionField_reserve2_get___")]
-  public static extern string CThostFtdcInputOrderActionField_reserve2_get(global::System.Runtime.InteropServices.HandleRef jarg1);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInputOrderActionField_IPAddress_get___")]
+  public static extern string CThostFtdcInputOrderActionField_IPAddress_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInputOrderActionField_MacAddress_set___")]
   public static extern void CThostFtdcInputOrderActionField_MacAddress_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInputOrderActionField_MacAddress_get___")]
   public static extern string CThostFtdcInputOrderActionField_MacAddress_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInputOrderActionField_InstrumentID_set___")]
-  public static extern void CThostFtdcInputOrderActionField_InstrumentID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInputOrderActionField_InstrumentID_get___")]
-  public static extern string CThostFtdcInputOrderActionField_InstrumentID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInputOrderActionField_IPAddress_set___")]
-  public static extern void CThostFtdcInputOrderActionField_IPAddress_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInputOrderActionField_IPAddress_get___")]
-  public static extern string CThostFtdcInputOrderActionField_IPAddress_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_new_CThostFtdcInputOrderActionField___")]
   public static extern global::System.IntPtr new_CThostFtdcInputOrderActionField();
@@ -8706,11 +8460,11 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcOrderActionField_StatusMsg_get___")]
   public static extern string CThostFtdcOrderActionField_StatusMsg_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcOrderActionField_reserve1_set___")]
-  public static extern void CThostFtdcOrderActionField_reserve1_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcOrderActionField_InstrumentID_set___")]
+  public static extern void CThostFtdcOrderActionField_InstrumentID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcOrderActionField_reserve1_get___")]
-  public static extern string CThostFtdcOrderActionField_reserve1_get(global::System.Runtime.InteropServices.HandleRef jarg1);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcOrderActionField_InstrumentID_get___")]
+  public static extern string CThostFtdcOrderActionField_InstrumentID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcOrderActionField_BranchID_set___")]
   public static extern void CThostFtdcOrderActionField_BranchID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
@@ -8724,29 +8478,17 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcOrderActionField_InvestUnitID_get___")]
   public static extern string CThostFtdcOrderActionField_InvestUnitID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcOrderActionField_reserve2_set___")]
-  public static extern void CThostFtdcOrderActionField_reserve2_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcOrderActionField_IPAddress_set___")]
+  public static extern void CThostFtdcOrderActionField_IPAddress_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcOrderActionField_reserve2_get___")]
-  public static extern string CThostFtdcOrderActionField_reserve2_get(global::System.Runtime.InteropServices.HandleRef jarg1);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcOrderActionField_IPAddress_get___")]
+  public static extern string CThostFtdcOrderActionField_IPAddress_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcOrderActionField_MacAddress_set___")]
   public static extern void CThostFtdcOrderActionField_MacAddress_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcOrderActionField_MacAddress_get___")]
   public static extern string CThostFtdcOrderActionField_MacAddress_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcOrderActionField_InstrumentID_set___")]
-  public static extern void CThostFtdcOrderActionField_InstrumentID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcOrderActionField_InstrumentID_get___")]
-  public static extern string CThostFtdcOrderActionField_InstrumentID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcOrderActionField_IPAddress_set___")]
-  public static extern void CThostFtdcOrderActionField_IPAddress_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcOrderActionField_IPAddress_get___")]
-  public static extern string CThostFtdcOrderActionField_IPAddress_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_new_CThostFtdcOrderActionField___")]
   public static extern global::System.IntPtr new_CThostFtdcOrderActionField();
@@ -8856,23 +8598,17 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExchangeOrderActionField_BranchID_get___")]
   public static extern string CThostFtdcExchangeOrderActionField_BranchID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExchangeOrderActionField_reserve1_set___")]
-  public static extern void CThostFtdcExchangeOrderActionField_reserve1_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExchangeOrderActionField_IPAddress_set___")]
+  public static extern void CThostFtdcExchangeOrderActionField_IPAddress_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExchangeOrderActionField_reserve1_get___")]
-  public static extern string CThostFtdcExchangeOrderActionField_reserve1_get(global::System.Runtime.InteropServices.HandleRef jarg1);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExchangeOrderActionField_IPAddress_get___")]
+  public static extern string CThostFtdcExchangeOrderActionField_IPAddress_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExchangeOrderActionField_MacAddress_set___")]
   public static extern void CThostFtdcExchangeOrderActionField_MacAddress_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExchangeOrderActionField_MacAddress_get___")]
   public static extern string CThostFtdcExchangeOrderActionField_MacAddress_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExchangeOrderActionField_IPAddress_set___")]
-  public static extern void CThostFtdcExchangeOrderActionField_IPAddress_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExchangeOrderActionField_IPAddress_get___")]
-  public static extern string CThostFtdcExchangeOrderActionField_IPAddress_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_new_CThostFtdcExchangeOrderActionField___")]
   public static extern global::System.IntPtr new_CThostFtdcExchangeOrderActionField();
@@ -8976,11 +8712,11 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExchangeTradeField_TradingRole_get___")]
   public static extern char CThostFtdcExchangeTradeField_TradingRole_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExchangeTradeField_reserve1_set___")]
-  public static extern void CThostFtdcExchangeTradeField_reserve1_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExchangeTradeField_ExchangeInstID_set___")]
+  public static extern void CThostFtdcExchangeTradeField_ExchangeInstID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExchangeTradeField_reserve1_get___")]
-  public static extern string CThostFtdcExchangeTradeField_reserve1_get(global::System.Runtime.InteropServices.HandleRef jarg1);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExchangeTradeField_ExchangeInstID_get___")]
+  public static extern string CThostFtdcExchangeTradeField_ExchangeInstID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExchangeTradeField_OffsetFlag_set___")]
   public static extern void CThostFtdcExchangeTradeField_OffsetFlag_set(global::System.Runtime.InteropServices.HandleRef jarg1, char jarg2);
@@ -9066,12 +8802,6 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExchangeTradeField_TradeSource_get___")]
   public static extern char CThostFtdcExchangeTradeField_TradeSource_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExchangeTradeField_ExchangeInstID_set___")]
-  public static extern void CThostFtdcExchangeTradeField_ExchangeInstID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExchangeTradeField_ExchangeInstID_get___")]
-  public static extern string CThostFtdcExchangeTradeField_ExchangeInstID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_new_CThostFtdcExchangeTradeField___")]
   public static extern global::System.IntPtr new_CThostFtdcExchangeTradeField();
 
@@ -9090,11 +8820,11 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcTradeField_InvestorID_get___")]
   public static extern string CThostFtdcTradeField_InvestorID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcTradeField_reserve1_set___")]
-  public static extern void CThostFtdcTradeField_reserve1_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcTradeField_InstrumentID_set___")]
+  public static extern void CThostFtdcTradeField_InstrumentID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcTradeField_reserve1_get___")]
-  public static extern string CThostFtdcTradeField_reserve1_get(global::System.Runtime.InteropServices.HandleRef jarg1);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcTradeField_InstrumentID_get___")]
+  public static extern string CThostFtdcTradeField_InstrumentID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcTradeField_OrderRef_set___")]
   public static extern void CThostFtdcTradeField_OrderRef_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
@@ -9150,11 +8880,11 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcTradeField_TradingRole_get___")]
   public static extern char CThostFtdcTradeField_TradingRole_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcTradeField_reserve2_set___")]
-  public static extern void CThostFtdcTradeField_reserve2_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcTradeField_ExchangeInstID_set___")]
+  public static extern void CThostFtdcTradeField_ExchangeInstID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcTradeField_reserve2_get___")]
-  public static extern string CThostFtdcTradeField_reserve2_get(global::System.Runtime.InteropServices.HandleRef jarg1);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcTradeField_ExchangeInstID_get___")]
+  public static extern string CThostFtdcTradeField_ExchangeInstID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcTradeField_OffsetFlag_set___")]
   public static extern void CThostFtdcTradeField_OffsetFlag_set(global::System.Runtime.InteropServices.HandleRef jarg1, char jarg2);
@@ -9264,18 +8994,6 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcTradeField_InvestUnitID_get___")]
   public static extern string CThostFtdcTradeField_InvestUnitID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcTradeField_InstrumentID_set___")]
-  public static extern void CThostFtdcTradeField_InstrumentID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcTradeField_InstrumentID_get___")]
-  public static extern string CThostFtdcTradeField_InstrumentID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcTradeField_ExchangeInstID_set___")]
-  public static extern void CThostFtdcTradeField_ExchangeInstID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcTradeField_ExchangeInstID_get___")]
-  public static extern string CThostFtdcTradeField_ExchangeInstID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_new_CThostFtdcTradeField___")]
   public static extern global::System.IntPtr new_CThostFtdcTradeField();
 
@@ -9318,11 +9036,11 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcUserSessionField_LoginTime_get___")]
   public static extern string CThostFtdcUserSessionField_LoginTime_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcUserSessionField_reserve1_set___")]
-  public static extern void CThostFtdcUserSessionField_reserve1_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcUserSessionField_IPAddress_set___")]
+  public static extern void CThostFtdcUserSessionField_IPAddress_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcUserSessionField_reserve1_get___")]
-  public static extern string CThostFtdcUserSessionField_reserve1_get(global::System.Runtime.InteropServices.HandleRef jarg1);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcUserSessionField_IPAddress_get___")]
+  public static extern string CThostFtdcUserSessionField_IPAddress_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcUserSessionField_UserProductInfo_set___")]
   public static extern void CThostFtdcUserSessionField_UserProductInfo_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
@@ -9354,83 +9072,71 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcUserSessionField_LoginRemark_get___")]
   public static extern string CThostFtdcUserSessionField_LoginRemark_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcUserSessionField_IPAddress_set___")]
-  public static extern void CThostFtdcUserSessionField_IPAddress_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcUserSessionField_IPAddress_get___")]
-  public static extern string CThostFtdcUserSessionField_IPAddress_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_new_CThostFtdcUserSessionField___")]
   public static extern global::System.IntPtr new_CThostFtdcUserSessionField();
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_delete_CThostFtdcUserSessionField___")]
   public static extern void delete_CThostFtdcUserSessionField(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryMaxOrderVolumeField_BrokerID_set___")]
-  public static extern void CThostFtdcQryMaxOrderVolumeField_BrokerID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQueryMaxOrderVolumeField_BrokerID_set___")]
+  public static extern void CThostFtdcQueryMaxOrderVolumeField_BrokerID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryMaxOrderVolumeField_BrokerID_get___")]
-  public static extern string CThostFtdcQryMaxOrderVolumeField_BrokerID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQueryMaxOrderVolumeField_BrokerID_get___")]
+  public static extern string CThostFtdcQueryMaxOrderVolumeField_BrokerID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryMaxOrderVolumeField_InvestorID_set___")]
-  public static extern void CThostFtdcQryMaxOrderVolumeField_InvestorID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQueryMaxOrderVolumeField_InvestorID_set___")]
+  public static extern void CThostFtdcQueryMaxOrderVolumeField_InvestorID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryMaxOrderVolumeField_InvestorID_get___")]
-  public static extern string CThostFtdcQryMaxOrderVolumeField_InvestorID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQueryMaxOrderVolumeField_InvestorID_get___")]
+  public static extern string CThostFtdcQueryMaxOrderVolumeField_InvestorID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryMaxOrderVolumeField_reserve1_set___")]
-  public static extern void CThostFtdcQryMaxOrderVolumeField_reserve1_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQueryMaxOrderVolumeField_InstrumentID_set___")]
+  public static extern void CThostFtdcQueryMaxOrderVolumeField_InstrumentID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryMaxOrderVolumeField_reserve1_get___")]
-  public static extern string CThostFtdcQryMaxOrderVolumeField_reserve1_get(global::System.Runtime.InteropServices.HandleRef jarg1);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQueryMaxOrderVolumeField_InstrumentID_get___")]
+  public static extern string CThostFtdcQueryMaxOrderVolumeField_InstrumentID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryMaxOrderVolumeField_Direction_set___")]
-  public static extern void CThostFtdcQryMaxOrderVolumeField_Direction_set(global::System.Runtime.InteropServices.HandleRef jarg1, char jarg2);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQueryMaxOrderVolumeField_Direction_set___")]
+  public static extern void CThostFtdcQueryMaxOrderVolumeField_Direction_set(global::System.Runtime.InteropServices.HandleRef jarg1, char jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryMaxOrderVolumeField_Direction_get___")]
-  public static extern char CThostFtdcQryMaxOrderVolumeField_Direction_get(global::System.Runtime.InteropServices.HandleRef jarg1);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQueryMaxOrderVolumeField_Direction_get___")]
+  public static extern char CThostFtdcQueryMaxOrderVolumeField_Direction_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryMaxOrderVolumeField_OffsetFlag_set___")]
-  public static extern void CThostFtdcQryMaxOrderVolumeField_OffsetFlag_set(global::System.Runtime.InteropServices.HandleRef jarg1, char jarg2);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQueryMaxOrderVolumeField_OffsetFlag_set___")]
+  public static extern void CThostFtdcQueryMaxOrderVolumeField_OffsetFlag_set(global::System.Runtime.InteropServices.HandleRef jarg1, char jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryMaxOrderVolumeField_OffsetFlag_get___")]
-  public static extern char CThostFtdcQryMaxOrderVolumeField_OffsetFlag_get(global::System.Runtime.InteropServices.HandleRef jarg1);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQueryMaxOrderVolumeField_OffsetFlag_get___")]
+  public static extern char CThostFtdcQueryMaxOrderVolumeField_OffsetFlag_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryMaxOrderVolumeField_HedgeFlag_set___")]
-  public static extern void CThostFtdcQryMaxOrderVolumeField_HedgeFlag_set(global::System.Runtime.InteropServices.HandleRef jarg1, char jarg2);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQueryMaxOrderVolumeField_HedgeFlag_set___")]
+  public static extern void CThostFtdcQueryMaxOrderVolumeField_HedgeFlag_set(global::System.Runtime.InteropServices.HandleRef jarg1, char jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryMaxOrderVolumeField_HedgeFlag_get___")]
-  public static extern char CThostFtdcQryMaxOrderVolumeField_HedgeFlag_get(global::System.Runtime.InteropServices.HandleRef jarg1);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQueryMaxOrderVolumeField_HedgeFlag_get___")]
+  public static extern char CThostFtdcQueryMaxOrderVolumeField_HedgeFlag_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryMaxOrderVolumeField_MaxVolume_set___")]
-  public static extern void CThostFtdcQryMaxOrderVolumeField_MaxVolume_set(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQueryMaxOrderVolumeField_MaxVolume_set___")]
+  public static extern void CThostFtdcQueryMaxOrderVolumeField_MaxVolume_set(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryMaxOrderVolumeField_MaxVolume_get___")]
-  public static extern int CThostFtdcQryMaxOrderVolumeField_MaxVolume_get(global::System.Runtime.InteropServices.HandleRef jarg1);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQueryMaxOrderVolumeField_MaxVolume_get___")]
+  public static extern int CThostFtdcQueryMaxOrderVolumeField_MaxVolume_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryMaxOrderVolumeField_ExchangeID_set___")]
-  public static extern void CThostFtdcQryMaxOrderVolumeField_ExchangeID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQueryMaxOrderVolumeField_ExchangeID_set___")]
+  public static extern void CThostFtdcQueryMaxOrderVolumeField_ExchangeID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryMaxOrderVolumeField_ExchangeID_get___")]
-  public static extern string CThostFtdcQryMaxOrderVolumeField_ExchangeID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQueryMaxOrderVolumeField_ExchangeID_get___")]
+  public static extern string CThostFtdcQueryMaxOrderVolumeField_ExchangeID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryMaxOrderVolumeField_InvestUnitID_set___")]
-  public static extern void CThostFtdcQryMaxOrderVolumeField_InvestUnitID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQueryMaxOrderVolumeField_InvestUnitID_set___")]
+  public static extern void CThostFtdcQueryMaxOrderVolumeField_InvestUnitID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryMaxOrderVolumeField_InvestUnitID_get___")]
-  public static extern string CThostFtdcQryMaxOrderVolumeField_InvestUnitID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQueryMaxOrderVolumeField_InvestUnitID_get___")]
+  public static extern string CThostFtdcQueryMaxOrderVolumeField_InvestUnitID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryMaxOrderVolumeField_InstrumentID_set___")]
-  public static extern void CThostFtdcQryMaxOrderVolumeField_InstrumentID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_new_CThostFtdcQueryMaxOrderVolumeField___")]
+  public static extern global::System.IntPtr new_CThostFtdcQueryMaxOrderVolumeField();
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryMaxOrderVolumeField_InstrumentID_get___")]
-  public static extern string CThostFtdcQryMaxOrderVolumeField_InstrumentID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_new_CThostFtdcQryMaxOrderVolumeField___")]
-  public static extern global::System.IntPtr new_CThostFtdcQryMaxOrderVolumeField();
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_delete_CThostFtdcQryMaxOrderVolumeField___")]
-  public static extern void delete_CThostFtdcQryMaxOrderVolumeField(global::System.Runtime.InteropServices.HandleRef jarg1);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_delete_CThostFtdcQueryMaxOrderVolumeField___")]
+  public static extern void delete_CThostFtdcQueryMaxOrderVolumeField(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcSettlementInfoConfirmField_BrokerID_set___")]
   public static extern void CThostFtdcSettlementInfoConfirmField_BrokerID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
@@ -10020,11 +9726,11 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_delete_CThostFtdcSyncingTradingAccountField___")]
   public static extern void delete_CThostFtdcSyncingTradingAccountField(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcSyncingInvestorPositionField_reserve1_set___")]
-  public static extern void CThostFtdcSyncingInvestorPositionField_reserve1_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcSyncingInvestorPositionField_InstrumentID_set___")]
+  public static extern void CThostFtdcSyncingInvestorPositionField_InstrumentID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcSyncingInvestorPositionField_reserve1_get___")]
-  public static extern string CThostFtdcSyncingInvestorPositionField_reserve1_get(global::System.Runtime.InteropServices.HandleRef jarg1);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcSyncingInvestorPositionField_InstrumentID_get___")]
+  public static extern string CThostFtdcSyncingInvestorPositionField_InstrumentID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcSyncingInvestorPositionField_BrokerID_set___")]
   public static extern void CThostFtdcSyncingInvestorPositionField_BrokerID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
@@ -10302,35 +10008,17 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcSyncingInvestorPositionField_PositionCostOffset_get___")]
   public static extern double CThostFtdcSyncingInvestorPositionField_PositionCostOffset_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcSyncingInvestorPositionField_TasPosition_set___")]
-  public static extern void CThostFtdcSyncingInvestorPositionField_TasPosition_set(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcSyncingInvestorPositionField_TasPosition_get___")]
-  public static extern int CThostFtdcSyncingInvestorPositionField_TasPosition_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcSyncingInvestorPositionField_TasPositionCost_set___")]
-  public static extern void CThostFtdcSyncingInvestorPositionField_TasPositionCost_set(global::System.Runtime.InteropServices.HandleRef jarg1, double jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcSyncingInvestorPositionField_TasPositionCost_get___")]
-  public static extern double CThostFtdcSyncingInvestorPositionField_TasPositionCost_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcSyncingInvestorPositionField_InstrumentID_set___")]
-  public static extern void CThostFtdcSyncingInvestorPositionField_InstrumentID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcSyncingInvestorPositionField_InstrumentID_get___")]
-  public static extern string CThostFtdcSyncingInvestorPositionField_InstrumentID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_new_CThostFtdcSyncingInvestorPositionField___")]
   public static extern global::System.IntPtr new_CThostFtdcSyncingInvestorPositionField();
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_delete_CThostFtdcSyncingInvestorPositionField___")]
   public static extern void delete_CThostFtdcSyncingInvestorPositionField(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcSyncingInstrumentMarginRateField_reserve1_set___")]
-  public static extern void CThostFtdcSyncingInstrumentMarginRateField_reserve1_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcSyncingInstrumentMarginRateField_InstrumentID_set___")]
+  public static extern void CThostFtdcSyncingInstrumentMarginRateField_InstrumentID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcSyncingInstrumentMarginRateField_reserve1_get___")]
-  public static extern string CThostFtdcSyncingInstrumentMarginRateField_reserve1_get(global::System.Runtime.InteropServices.HandleRef jarg1);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcSyncingInstrumentMarginRateField_InstrumentID_get___")]
+  public static extern string CThostFtdcSyncingInstrumentMarginRateField_InstrumentID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcSyncingInstrumentMarginRateField_InvestorRange_set___")]
   public static extern void CThostFtdcSyncingInstrumentMarginRateField_InvestorRange_set(global::System.Runtime.InteropServices.HandleRef jarg1, char jarg2);
@@ -10386,23 +10074,17 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcSyncingInstrumentMarginRateField_IsRelative_get___")]
   public static extern int CThostFtdcSyncingInstrumentMarginRateField_IsRelative_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcSyncingInstrumentMarginRateField_InstrumentID_set___")]
-  public static extern void CThostFtdcSyncingInstrumentMarginRateField_InstrumentID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcSyncingInstrumentMarginRateField_InstrumentID_get___")]
-  public static extern string CThostFtdcSyncingInstrumentMarginRateField_InstrumentID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_new_CThostFtdcSyncingInstrumentMarginRateField___")]
   public static extern global::System.IntPtr new_CThostFtdcSyncingInstrumentMarginRateField();
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_delete_CThostFtdcSyncingInstrumentMarginRateField___")]
   public static extern void delete_CThostFtdcSyncingInstrumentMarginRateField(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcSyncingInstrumentCommissionRateField_reserve1_set___")]
-  public static extern void CThostFtdcSyncingInstrumentCommissionRateField_reserve1_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcSyncingInstrumentCommissionRateField_InstrumentID_set___")]
+  public static extern void CThostFtdcSyncingInstrumentCommissionRateField_InstrumentID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcSyncingInstrumentCommissionRateField_reserve1_get___")]
-  public static extern string CThostFtdcSyncingInstrumentCommissionRateField_reserve1_get(global::System.Runtime.InteropServices.HandleRef jarg1);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcSyncingInstrumentCommissionRateField_InstrumentID_get___")]
+  public static extern string CThostFtdcSyncingInstrumentCommissionRateField_InstrumentID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcSyncingInstrumentCommissionRateField_InvestorRange_set___")]
   public static extern void CThostFtdcSyncingInstrumentCommissionRateField_InvestorRange_set(global::System.Runtime.InteropServices.HandleRef jarg1, char jarg2);
@@ -10458,23 +10140,17 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcSyncingInstrumentCommissionRateField_CloseTodayRatioByVolume_get___")]
   public static extern double CThostFtdcSyncingInstrumentCommissionRateField_CloseTodayRatioByVolume_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcSyncingInstrumentCommissionRateField_InstrumentID_set___")]
-  public static extern void CThostFtdcSyncingInstrumentCommissionRateField_InstrumentID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcSyncingInstrumentCommissionRateField_InstrumentID_get___")]
-  public static extern string CThostFtdcSyncingInstrumentCommissionRateField_InstrumentID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_new_CThostFtdcSyncingInstrumentCommissionRateField___")]
   public static extern global::System.IntPtr new_CThostFtdcSyncingInstrumentCommissionRateField();
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_delete_CThostFtdcSyncingInstrumentCommissionRateField___")]
   public static extern void delete_CThostFtdcSyncingInstrumentCommissionRateField(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcSyncingInstrumentTradingRightField_reserve1_set___")]
-  public static extern void CThostFtdcSyncingInstrumentTradingRightField_reserve1_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcSyncingInstrumentTradingRightField_InstrumentID_set___")]
+  public static extern void CThostFtdcSyncingInstrumentTradingRightField_InstrumentID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcSyncingInstrumentTradingRightField_reserve1_get___")]
-  public static extern string CThostFtdcSyncingInstrumentTradingRightField_reserve1_get(global::System.Runtime.InteropServices.HandleRef jarg1);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcSyncingInstrumentTradingRightField_InstrumentID_get___")]
+  public static extern string CThostFtdcSyncingInstrumentTradingRightField_InstrumentID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcSyncingInstrumentTradingRightField_InvestorRange_set___")]
   public static extern void CThostFtdcSyncingInstrumentTradingRightField_InvestorRange_set(global::System.Runtime.InteropServices.HandleRef jarg1, char jarg2);
@@ -10500,12 +10176,6 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcSyncingInstrumentTradingRightField_TradingRight_get___")]
   public static extern char CThostFtdcSyncingInstrumentTradingRightField_TradingRight_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcSyncingInstrumentTradingRightField_InstrumentID_set___")]
-  public static extern void CThostFtdcSyncingInstrumentTradingRightField_InstrumentID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcSyncingInstrumentTradingRightField_InstrumentID_get___")]
-  public static extern string CThostFtdcSyncingInstrumentTradingRightField_InstrumentID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_new_CThostFtdcSyncingInstrumentTradingRightField___")]
   public static extern global::System.IntPtr new_CThostFtdcSyncingInstrumentTradingRightField();
 
@@ -10524,11 +10194,11 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryOrderField_InvestorID_get___")]
   public static extern string CThostFtdcQryOrderField_InvestorID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryOrderField_reserve1_set___")]
-  public static extern void CThostFtdcQryOrderField_reserve1_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryOrderField_InstrumentID_set___")]
+  public static extern void CThostFtdcQryOrderField_InstrumentID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryOrderField_reserve1_get___")]
-  public static extern string CThostFtdcQryOrderField_reserve1_get(global::System.Runtime.InteropServices.HandleRef jarg1);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryOrderField_InstrumentID_get___")]
+  public static extern string CThostFtdcQryOrderField_InstrumentID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryOrderField_ExchangeID_set___")]
   public static extern void CThostFtdcQryOrderField_ExchangeID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
@@ -10560,12 +10230,6 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryOrderField_InvestUnitID_get___")]
   public static extern string CThostFtdcQryOrderField_InvestUnitID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryOrderField_InstrumentID_set___")]
-  public static extern void CThostFtdcQryOrderField_InstrumentID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryOrderField_InstrumentID_get___")]
-  public static extern string CThostFtdcQryOrderField_InstrumentID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_new_CThostFtdcQryOrderField___")]
   public static extern global::System.IntPtr new_CThostFtdcQryOrderField();
 
@@ -10584,11 +10248,11 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryTradeField_InvestorID_get___")]
   public static extern string CThostFtdcQryTradeField_InvestorID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryTradeField_reserve1_set___")]
-  public static extern void CThostFtdcQryTradeField_reserve1_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryTradeField_InstrumentID_set___")]
+  public static extern void CThostFtdcQryTradeField_InstrumentID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryTradeField_reserve1_get___")]
-  public static extern string CThostFtdcQryTradeField_reserve1_get(global::System.Runtime.InteropServices.HandleRef jarg1);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryTradeField_InstrumentID_get___")]
+  public static extern string CThostFtdcQryTradeField_InstrumentID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryTradeField_ExchangeID_set___")]
   public static extern void CThostFtdcQryTradeField_ExchangeID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
@@ -10620,12 +10284,6 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryTradeField_InvestUnitID_get___")]
   public static extern string CThostFtdcQryTradeField_InvestUnitID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryTradeField_InstrumentID_set___")]
-  public static extern void CThostFtdcQryTradeField_InstrumentID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryTradeField_InstrumentID_get___")]
-  public static extern string CThostFtdcQryTradeField_InstrumentID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_new_CThostFtdcQryTradeField___")]
   public static extern global::System.IntPtr new_CThostFtdcQryTradeField();
 
@@ -10644,11 +10302,11 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryInvestorPositionField_InvestorID_get___")]
   public static extern string CThostFtdcQryInvestorPositionField_InvestorID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryInvestorPositionField_reserve1_set___")]
-  public static extern void CThostFtdcQryInvestorPositionField_reserve1_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryInvestorPositionField_InstrumentID_set___")]
+  public static extern void CThostFtdcQryInvestorPositionField_InstrumentID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryInvestorPositionField_reserve1_get___")]
-  public static extern string CThostFtdcQryInvestorPositionField_reserve1_get(global::System.Runtime.InteropServices.HandleRef jarg1);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryInvestorPositionField_InstrumentID_get___")]
+  public static extern string CThostFtdcQryInvestorPositionField_InstrumentID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryInvestorPositionField_ExchangeID_set___")]
   public static extern void CThostFtdcQryInvestorPositionField_ExchangeID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
@@ -10661,12 +10319,6 @@ class CTPFutureApiPINVOKE {
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryInvestorPositionField_InvestUnitID_get___")]
   public static extern string CThostFtdcQryInvestorPositionField_InvestUnitID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryInvestorPositionField_InstrumentID_set___")]
-  public static extern void CThostFtdcQryInvestorPositionField_InstrumentID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryInvestorPositionField_InstrumentID_get___")]
-  public static extern string CThostFtdcQryInvestorPositionField_InstrumentID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_new_CThostFtdcQryInvestorPositionField___")]
   public static extern global::System.IntPtr new_CThostFtdcQryInvestorPositionField();
@@ -10794,11 +10446,11 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryInstrumentMarginRateField_InvestorID_get___")]
   public static extern string CThostFtdcQryInstrumentMarginRateField_InvestorID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryInstrumentMarginRateField_reserve1_set___")]
-  public static extern void CThostFtdcQryInstrumentMarginRateField_reserve1_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryInstrumentMarginRateField_InstrumentID_set___")]
+  public static extern void CThostFtdcQryInstrumentMarginRateField_InstrumentID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryInstrumentMarginRateField_reserve1_get___")]
-  public static extern string CThostFtdcQryInstrumentMarginRateField_reserve1_get(global::System.Runtime.InteropServices.HandleRef jarg1);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryInstrumentMarginRateField_InstrumentID_get___")]
+  public static extern string CThostFtdcQryInstrumentMarginRateField_InstrumentID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryInstrumentMarginRateField_HedgeFlag_set___")]
   public static extern void CThostFtdcQryInstrumentMarginRateField_HedgeFlag_set(global::System.Runtime.InteropServices.HandleRef jarg1, char jarg2);
@@ -10818,12 +10470,6 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryInstrumentMarginRateField_InvestUnitID_get___")]
   public static extern string CThostFtdcQryInstrumentMarginRateField_InvestUnitID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryInstrumentMarginRateField_InstrumentID_set___")]
-  public static extern void CThostFtdcQryInstrumentMarginRateField_InstrumentID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryInstrumentMarginRateField_InstrumentID_get___")]
-  public static extern string CThostFtdcQryInstrumentMarginRateField_InstrumentID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_new_CThostFtdcQryInstrumentMarginRateField___")]
   public static extern global::System.IntPtr new_CThostFtdcQryInstrumentMarginRateField();
 
@@ -10842,11 +10488,11 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryInstrumentCommissionRateField_InvestorID_get___")]
   public static extern string CThostFtdcQryInstrumentCommissionRateField_InvestorID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryInstrumentCommissionRateField_reserve1_set___")]
-  public static extern void CThostFtdcQryInstrumentCommissionRateField_reserve1_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryInstrumentCommissionRateField_InstrumentID_set___")]
+  public static extern void CThostFtdcQryInstrumentCommissionRateField_InstrumentID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryInstrumentCommissionRateField_reserve1_get___")]
-  public static extern string CThostFtdcQryInstrumentCommissionRateField_reserve1_get(global::System.Runtime.InteropServices.HandleRef jarg1);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryInstrumentCommissionRateField_InstrumentID_get___")]
+  public static extern string CThostFtdcQryInstrumentCommissionRateField_InstrumentID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryInstrumentCommissionRateField_ExchangeID_set___")]
   public static extern void CThostFtdcQryInstrumentCommissionRateField_ExchangeID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
@@ -10859,12 +10505,6 @@ class CTPFutureApiPINVOKE {
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryInstrumentCommissionRateField_InvestUnitID_get___")]
   public static extern string CThostFtdcQryInstrumentCommissionRateField_InvestUnitID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryInstrumentCommissionRateField_InstrumentID_set___")]
-  public static extern void CThostFtdcQryInstrumentCommissionRateField_InstrumentID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryInstrumentCommissionRateField_InstrumentID_get___")]
-  public static extern string CThostFtdcQryInstrumentCommissionRateField_InstrumentID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_new_CThostFtdcQryInstrumentCommissionRateField___")]
   public static extern global::System.IntPtr new_CThostFtdcQryInstrumentCommissionRateField();
@@ -10883,12 +10523,6 @@ class CTPFutureApiPINVOKE {
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryInstrumentTradingRightField_InvestorID_get___")]
   public static extern string CThostFtdcQryInstrumentTradingRightField_InvestorID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryInstrumentTradingRightField_reserve1_set___")]
-  public static extern void CThostFtdcQryInstrumentTradingRightField_reserve1_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryInstrumentTradingRightField_reserve1_get___")]
-  public static extern string CThostFtdcQryInstrumentTradingRightField_reserve1_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryInstrumentTradingRightField_InstrumentID_set___")]
   public static extern void CThostFtdcQryInstrumentTradingRightField_InstrumentID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
@@ -11028,11 +10662,11 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryExchangeOrderField_ClientID_get___")]
   public static extern string CThostFtdcQryExchangeOrderField_ClientID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryExchangeOrderField_reserve1_set___")]
-  public static extern void CThostFtdcQryExchangeOrderField_reserve1_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryExchangeOrderField_ExchangeInstID_set___")]
+  public static extern void CThostFtdcQryExchangeOrderField_ExchangeInstID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryExchangeOrderField_reserve1_get___")]
-  public static extern string CThostFtdcQryExchangeOrderField_reserve1_get(global::System.Runtime.InteropServices.HandleRef jarg1);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryExchangeOrderField_ExchangeInstID_get___")]
+  public static extern string CThostFtdcQryExchangeOrderField_ExchangeInstID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryExchangeOrderField_ExchangeID_set___")]
   public static extern void CThostFtdcQryExchangeOrderField_ExchangeID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
@@ -11045,12 +10679,6 @@ class CTPFutureApiPINVOKE {
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryExchangeOrderField_TraderID_get___")]
   public static extern string CThostFtdcQryExchangeOrderField_TraderID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryExchangeOrderField_ExchangeInstID_set___")]
-  public static extern void CThostFtdcQryExchangeOrderField_ExchangeInstID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryExchangeOrderField_ExchangeInstID_get___")]
-  public static extern string CThostFtdcQryExchangeOrderField_ExchangeInstID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_new_CThostFtdcQryExchangeOrderField___")]
   public static extern global::System.IntPtr new_CThostFtdcQryExchangeOrderField();
@@ -11136,11 +10764,11 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_delete_CThostFtdcQryExchangeField___")]
   public static extern void delete_CThostFtdcQryExchangeField(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryProductField_reserve1_set___")]
-  public static extern void CThostFtdcQryProductField_reserve1_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryProductField_ProductID_set___")]
+  public static extern void CThostFtdcQryProductField_ProductID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryProductField_reserve1_get___")]
-  public static extern string CThostFtdcQryProductField_reserve1_get(global::System.Runtime.InteropServices.HandleRef jarg1);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryProductField_ProductID_get___")]
+  public static extern string CThostFtdcQryProductField_ProductID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryProductField_ProductClass_set___")]
   public static extern void CThostFtdcQryProductField_ProductClass_set(global::System.Runtime.InteropServices.HandleRef jarg1, char jarg2);
@@ -11154,47 +10782,23 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryProductField_ExchangeID_get___")]
   public static extern string CThostFtdcQryProductField_ExchangeID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryProductField_ProductID_set___")]
-  public static extern void CThostFtdcQryProductField_ProductID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryProductField_ProductID_get___")]
-  public static extern string CThostFtdcQryProductField_ProductID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_new_CThostFtdcQryProductField___")]
   public static extern global::System.IntPtr new_CThostFtdcQryProductField();
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_delete_CThostFtdcQryProductField___")]
   public static extern void delete_CThostFtdcQryProductField(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryInstrumentField_reserve1_set___")]
-  public static extern void CThostFtdcQryInstrumentField_reserve1_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryInstrumentField_InstrumentID_set___")]
+  public static extern void CThostFtdcQryInstrumentField_InstrumentID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryInstrumentField_reserve1_get___")]
-  public static extern string CThostFtdcQryInstrumentField_reserve1_get(global::System.Runtime.InteropServices.HandleRef jarg1);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryInstrumentField_InstrumentID_get___")]
+  public static extern string CThostFtdcQryInstrumentField_InstrumentID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryInstrumentField_ExchangeID_set___")]
   public static extern void CThostFtdcQryInstrumentField_ExchangeID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryInstrumentField_ExchangeID_get___")]
   public static extern string CThostFtdcQryInstrumentField_ExchangeID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryInstrumentField_reserve2_set___")]
-  public static extern void CThostFtdcQryInstrumentField_reserve2_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryInstrumentField_reserve2_get___")]
-  public static extern string CThostFtdcQryInstrumentField_reserve2_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryInstrumentField_reserve3_set___")]
-  public static extern void CThostFtdcQryInstrumentField_reserve3_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryInstrumentField_reserve3_get___")]
-  public static extern string CThostFtdcQryInstrumentField_reserve3_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryInstrumentField_InstrumentID_set___")]
-  public static extern void CThostFtdcQryInstrumentField_InstrumentID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryInstrumentField_InstrumentID_get___")]
-  public static extern string CThostFtdcQryInstrumentField_InstrumentID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryInstrumentField_ExchangeInstID_set___")]
   public static extern void CThostFtdcQryInstrumentField_ExchangeInstID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
@@ -11214,23 +10818,17 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_delete_CThostFtdcQryInstrumentField___")]
   public static extern void delete_CThostFtdcQryInstrumentField(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryDepthMarketDataField_reserve1_set___")]
-  public static extern void CThostFtdcQryDepthMarketDataField_reserve1_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryDepthMarketDataField_InstrumentID_set___")]
+  public static extern void CThostFtdcQryDepthMarketDataField_InstrumentID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryDepthMarketDataField_reserve1_get___")]
-  public static extern string CThostFtdcQryDepthMarketDataField_reserve1_get(global::System.Runtime.InteropServices.HandleRef jarg1);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryDepthMarketDataField_InstrumentID_get___")]
+  public static extern string CThostFtdcQryDepthMarketDataField_InstrumentID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryDepthMarketDataField_ExchangeID_set___")]
   public static extern void CThostFtdcQryDepthMarketDataField_ExchangeID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryDepthMarketDataField_ExchangeID_get___")]
   public static extern string CThostFtdcQryDepthMarketDataField_ExchangeID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryDepthMarketDataField_InstrumentID_set___")]
-  public static extern void CThostFtdcQryDepthMarketDataField_InstrumentID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryDepthMarketDataField_InstrumentID_get___")]
-  public static extern string CThostFtdcQryDepthMarketDataField_InstrumentID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_new_CThostFtdcQryDepthMarketDataField___")]
   public static extern global::System.IntPtr new_CThostFtdcQryDepthMarketDataField();
@@ -11358,11 +10956,11 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryExchangeMarginRateField_BrokerID_get___")]
   public static extern string CThostFtdcQryExchangeMarginRateField_BrokerID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryExchangeMarginRateField_reserve1_set___")]
-  public static extern void CThostFtdcQryExchangeMarginRateField_reserve1_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryExchangeMarginRateField_InstrumentID_set___")]
+  public static extern void CThostFtdcQryExchangeMarginRateField_InstrumentID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryExchangeMarginRateField_reserve1_get___")]
-  public static extern string CThostFtdcQryExchangeMarginRateField_reserve1_get(global::System.Runtime.InteropServices.HandleRef jarg1);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryExchangeMarginRateField_InstrumentID_get___")]
+  public static extern string CThostFtdcQryExchangeMarginRateField_InstrumentID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryExchangeMarginRateField_HedgeFlag_set___")]
   public static extern void CThostFtdcQryExchangeMarginRateField_HedgeFlag_set(global::System.Runtime.InteropServices.HandleRef jarg1, char jarg2);
@@ -11376,12 +10974,6 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryExchangeMarginRateField_ExchangeID_get___")]
   public static extern string CThostFtdcQryExchangeMarginRateField_ExchangeID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryExchangeMarginRateField_InstrumentID_set___")]
-  public static extern void CThostFtdcQryExchangeMarginRateField_InstrumentID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryExchangeMarginRateField_InstrumentID_get___")]
-  public static extern string CThostFtdcQryExchangeMarginRateField_InstrumentID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_new_CThostFtdcQryExchangeMarginRateField___")]
   public static extern global::System.IntPtr new_CThostFtdcQryExchangeMarginRateField();
 
@@ -11394,23 +10986,17 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryExchangeMarginRateAdjustField_BrokerID_get___")]
   public static extern string CThostFtdcQryExchangeMarginRateAdjustField_BrokerID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryExchangeMarginRateAdjustField_reserve1_set___")]
-  public static extern void CThostFtdcQryExchangeMarginRateAdjustField_reserve1_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryExchangeMarginRateAdjustField_InstrumentID_set___")]
+  public static extern void CThostFtdcQryExchangeMarginRateAdjustField_InstrumentID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryExchangeMarginRateAdjustField_reserve1_get___")]
-  public static extern string CThostFtdcQryExchangeMarginRateAdjustField_reserve1_get(global::System.Runtime.InteropServices.HandleRef jarg1);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryExchangeMarginRateAdjustField_InstrumentID_get___")]
+  public static extern string CThostFtdcQryExchangeMarginRateAdjustField_InstrumentID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryExchangeMarginRateAdjustField_HedgeFlag_set___")]
   public static extern void CThostFtdcQryExchangeMarginRateAdjustField_HedgeFlag_set(global::System.Runtime.InteropServices.HandleRef jarg1, char jarg2);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryExchangeMarginRateAdjustField_HedgeFlag_get___")]
   public static extern char CThostFtdcQryExchangeMarginRateAdjustField_HedgeFlag_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryExchangeMarginRateAdjustField_InstrumentID_set___")]
-  public static extern void CThostFtdcQryExchangeMarginRateAdjustField_InstrumentID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryExchangeMarginRateAdjustField_InstrumentID_get___")]
-  public static extern string CThostFtdcQryExchangeMarginRateAdjustField_InstrumentID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_new_CThostFtdcQryExchangeMarginRateAdjustField___")]
   public static extern global::System.IntPtr new_CThostFtdcQryExchangeMarginRateAdjustField();
@@ -11472,11 +11058,11 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryHisOrderField_InvestorID_get___")]
   public static extern string CThostFtdcQryHisOrderField_InvestorID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryHisOrderField_reserve1_set___")]
-  public static extern void CThostFtdcQryHisOrderField_reserve1_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryHisOrderField_InstrumentID_set___")]
+  public static extern void CThostFtdcQryHisOrderField_InstrumentID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryHisOrderField_reserve1_get___")]
-  public static extern string CThostFtdcQryHisOrderField_reserve1_get(global::System.Runtime.InteropServices.HandleRef jarg1);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryHisOrderField_InstrumentID_get___")]
+  public static extern string CThostFtdcQryHisOrderField_InstrumentID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryHisOrderField_ExchangeID_set___")]
   public static extern void CThostFtdcQryHisOrderField_ExchangeID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
@@ -11514,23 +11100,17 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryHisOrderField_SettlementID_get___")]
   public static extern int CThostFtdcQryHisOrderField_SettlementID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryHisOrderField_InstrumentID_set___")]
-  public static extern void CThostFtdcQryHisOrderField_InstrumentID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryHisOrderField_InstrumentID_get___")]
-  public static extern string CThostFtdcQryHisOrderField_InstrumentID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_new_CThostFtdcQryHisOrderField___")]
   public static extern global::System.IntPtr new_CThostFtdcQryHisOrderField();
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_delete_CThostFtdcQryHisOrderField___")]
   public static extern void delete_CThostFtdcQryHisOrderField(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcOptionInstrMiniMarginField_reserve1_set___")]
-  public static extern void CThostFtdcOptionInstrMiniMarginField_reserve1_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcOptionInstrMiniMarginField_InstrumentID_set___")]
+  public static extern void CThostFtdcOptionInstrMiniMarginField_InstrumentID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcOptionInstrMiniMarginField_reserve1_get___")]
-  public static extern string CThostFtdcOptionInstrMiniMarginField_reserve1_get(global::System.Runtime.InteropServices.HandleRef jarg1);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcOptionInstrMiniMarginField_InstrumentID_get___")]
+  public static extern string CThostFtdcOptionInstrMiniMarginField_InstrumentID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcOptionInstrMiniMarginField_InvestorRange_set___")]
   public static extern void CThostFtdcOptionInstrMiniMarginField_InvestorRange_set(global::System.Runtime.InteropServices.HandleRef jarg1, char jarg2);
@@ -11568,23 +11148,17 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcOptionInstrMiniMarginField_IsRelative_get___")]
   public static extern int CThostFtdcOptionInstrMiniMarginField_IsRelative_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcOptionInstrMiniMarginField_InstrumentID_set___")]
-  public static extern void CThostFtdcOptionInstrMiniMarginField_InstrumentID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcOptionInstrMiniMarginField_InstrumentID_get___")]
-  public static extern string CThostFtdcOptionInstrMiniMarginField_InstrumentID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_new_CThostFtdcOptionInstrMiniMarginField___")]
   public static extern global::System.IntPtr new_CThostFtdcOptionInstrMiniMarginField();
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_delete_CThostFtdcOptionInstrMiniMarginField___")]
   public static extern void delete_CThostFtdcOptionInstrMiniMarginField(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcOptionInstrMarginAdjustField_reserve1_set___")]
-  public static extern void CThostFtdcOptionInstrMarginAdjustField_reserve1_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcOptionInstrMarginAdjustField_InstrumentID_set___")]
+  public static extern void CThostFtdcOptionInstrMarginAdjustField_InstrumentID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcOptionInstrMarginAdjustField_reserve1_get___")]
-  public static extern string CThostFtdcOptionInstrMarginAdjustField_reserve1_get(global::System.Runtime.InteropServices.HandleRef jarg1);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcOptionInstrMarginAdjustField_InstrumentID_get___")]
+  public static extern string CThostFtdcOptionInstrMarginAdjustField_InstrumentID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcOptionInstrMarginAdjustField_InvestorRange_set___")]
   public static extern void CThostFtdcOptionInstrMarginAdjustField_InvestorRange_set(global::System.Runtime.InteropServices.HandleRef jarg1, char jarg2);
@@ -11658,23 +11232,17 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcOptionInstrMarginAdjustField_MShortMarginRatioByVolume_get___")]
   public static extern double CThostFtdcOptionInstrMarginAdjustField_MShortMarginRatioByVolume_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcOptionInstrMarginAdjustField_InstrumentID_set___")]
-  public static extern void CThostFtdcOptionInstrMarginAdjustField_InstrumentID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcOptionInstrMarginAdjustField_InstrumentID_get___")]
-  public static extern string CThostFtdcOptionInstrMarginAdjustField_InstrumentID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_new_CThostFtdcOptionInstrMarginAdjustField___")]
   public static extern global::System.IntPtr new_CThostFtdcOptionInstrMarginAdjustField();
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_delete_CThostFtdcOptionInstrMarginAdjustField___")]
   public static extern void delete_CThostFtdcOptionInstrMarginAdjustField(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcOptionInstrCommRateField_reserve1_set___")]
-  public static extern void CThostFtdcOptionInstrCommRateField_reserve1_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcOptionInstrCommRateField_InstrumentID_set___")]
+  public static extern void CThostFtdcOptionInstrCommRateField_InstrumentID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcOptionInstrCommRateField_reserve1_get___")]
-  public static extern string CThostFtdcOptionInstrCommRateField_reserve1_get(global::System.Runtime.InteropServices.HandleRef jarg1);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcOptionInstrCommRateField_InstrumentID_get___")]
+  public static extern string CThostFtdcOptionInstrCommRateField_InstrumentID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcOptionInstrCommRateField_InvestorRange_set___")]
   public static extern void CThostFtdcOptionInstrCommRateField_InvestorRange_set(global::System.Runtime.InteropServices.HandleRef jarg1, char jarg2);
@@ -11754,12 +11322,6 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcOptionInstrCommRateField_InvestUnitID_get___")]
   public static extern string CThostFtdcOptionInstrCommRateField_InvestUnitID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcOptionInstrCommRateField_InstrumentID_set___")]
-  public static extern void CThostFtdcOptionInstrCommRateField_InstrumentID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcOptionInstrCommRateField_InstrumentID_get___")]
-  public static extern string CThostFtdcOptionInstrCommRateField_InstrumentID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_new_CThostFtdcOptionInstrCommRateField___")]
   public static extern global::System.IntPtr new_CThostFtdcOptionInstrCommRateField();
 
@@ -11778,11 +11340,11 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcOptionInstrTradeCostField_InvestorID_get___")]
   public static extern string CThostFtdcOptionInstrTradeCostField_InvestorID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcOptionInstrTradeCostField_reserve1_set___")]
-  public static extern void CThostFtdcOptionInstrTradeCostField_reserve1_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcOptionInstrTradeCostField_InstrumentID_set___")]
+  public static extern void CThostFtdcOptionInstrTradeCostField_InstrumentID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcOptionInstrTradeCostField_reserve1_get___")]
-  public static extern string CThostFtdcOptionInstrTradeCostField_reserve1_get(global::System.Runtime.InteropServices.HandleRef jarg1);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcOptionInstrTradeCostField_InstrumentID_get___")]
+  public static extern string CThostFtdcOptionInstrTradeCostField_InstrumentID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcOptionInstrTradeCostField_HedgeFlag_set___")]
   public static extern void CThostFtdcOptionInstrTradeCostField_HedgeFlag_set(global::System.Runtime.InteropServices.HandleRef jarg1, char jarg2);
@@ -11832,12 +11394,6 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcOptionInstrTradeCostField_InvestUnitID_get___")]
   public static extern string CThostFtdcOptionInstrTradeCostField_InvestUnitID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcOptionInstrTradeCostField_InstrumentID_set___")]
-  public static extern void CThostFtdcOptionInstrTradeCostField_InstrumentID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcOptionInstrTradeCostField_InstrumentID_get___")]
-  public static extern string CThostFtdcOptionInstrTradeCostField_InstrumentID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_new_CThostFtdcOptionInstrTradeCostField___")]
   public static extern global::System.IntPtr new_CThostFtdcOptionInstrTradeCostField();
 
@@ -11856,11 +11412,11 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryOptionInstrTradeCostField_InvestorID_get___")]
   public static extern string CThostFtdcQryOptionInstrTradeCostField_InvestorID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryOptionInstrTradeCostField_reserve1_set___")]
-  public static extern void CThostFtdcQryOptionInstrTradeCostField_reserve1_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryOptionInstrTradeCostField_InstrumentID_set___")]
+  public static extern void CThostFtdcQryOptionInstrTradeCostField_InstrumentID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryOptionInstrTradeCostField_reserve1_get___")]
-  public static extern string CThostFtdcQryOptionInstrTradeCostField_reserve1_get(global::System.Runtime.InteropServices.HandleRef jarg1);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryOptionInstrTradeCostField_InstrumentID_get___")]
+  public static extern string CThostFtdcQryOptionInstrTradeCostField_InstrumentID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryOptionInstrTradeCostField_HedgeFlag_set___")]
   public static extern void CThostFtdcQryOptionInstrTradeCostField_HedgeFlag_set(global::System.Runtime.InteropServices.HandleRef jarg1, char jarg2);
@@ -11892,12 +11448,6 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryOptionInstrTradeCostField_InvestUnitID_get___")]
   public static extern string CThostFtdcQryOptionInstrTradeCostField_InvestUnitID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryOptionInstrTradeCostField_InstrumentID_set___")]
-  public static extern void CThostFtdcQryOptionInstrTradeCostField_InstrumentID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryOptionInstrTradeCostField_InstrumentID_get___")]
-  public static extern string CThostFtdcQryOptionInstrTradeCostField_InstrumentID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_new_CThostFtdcQryOptionInstrTradeCostField___")]
   public static extern global::System.IntPtr new_CThostFtdcQryOptionInstrTradeCostField();
 
@@ -11916,11 +11466,11 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryOptionInstrCommRateField_InvestorID_get___")]
   public static extern string CThostFtdcQryOptionInstrCommRateField_InvestorID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryOptionInstrCommRateField_reserve1_set___")]
-  public static extern void CThostFtdcQryOptionInstrCommRateField_reserve1_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryOptionInstrCommRateField_InstrumentID_set___")]
+  public static extern void CThostFtdcQryOptionInstrCommRateField_InstrumentID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryOptionInstrCommRateField_reserve1_get___")]
-  public static extern string CThostFtdcQryOptionInstrCommRateField_reserve1_get(global::System.Runtime.InteropServices.HandleRef jarg1);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryOptionInstrCommRateField_InstrumentID_get___")]
+  public static extern string CThostFtdcQryOptionInstrCommRateField_InstrumentID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryOptionInstrCommRateField_ExchangeID_set___")]
   public static extern void CThostFtdcQryOptionInstrCommRateField_ExchangeID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
@@ -11934,12 +11484,6 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryOptionInstrCommRateField_InvestUnitID_get___")]
   public static extern string CThostFtdcQryOptionInstrCommRateField_InvestUnitID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryOptionInstrCommRateField_InstrumentID_set___")]
-  public static extern void CThostFtdcQryOptionInstrCommRateField_InstrumentID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryOptionInstrCommRateField_InstrumentID_get___")]
-  public static extern string CThostFtdcQryOptionInstrCommRateField_InstrumentID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_new_CThostFtdcQryOptionInstrCommRateField___")]
   public static extern global::System.IntPtr new_CThostFtdcQryOptionInstrCommRateField();
 
@@ -11952,23 +11496,17 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcIndexPriceField_BrokerID_get___")]
   public static extern string CThostFtdcIndexPriceField_BrokerID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcIndexPriceField_reserve1_set___")]
-  public static extern void CThostFtdcIndexPriceField_reserve1_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcIndexPriceField_InstrumentID_set___")]
+  public static extern void CThostFtdcIndexPriceField_InstrumentID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcIndexPriceField_reserve1_get___")]
-  public static extern string CThostFtdcIndexPriceField_reserve1_get(global::System.Runtime.InteropServices.HandleRef jarg1);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcIndexPriceField_InstrumentID_get___")]
+  public static extern string CThostFtdcIndexPriceField_InstrumentID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcIndexPriceField_ClosePrice_set___")]
   public static extern void CThostFtdcIndexPriceField_ClosePrice_set(global::System.Runtime.InteropServices.HandleRef jarg1, double jarg2);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcIndexPriceField_ClosePrice_get___")]
   public static extern double CThostFtdcIndexPriceField_ClosePrice_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcIndexPriceField_InstrumentID_set___")]
-  public static extern void CThostFtdcIndexPriceField_InstrumentID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcIndexPriceField_InstrumentID_get___")]
-  public static extern string CThostFtdcIndexPriceField_InstrumentID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_new_CThostFtdcIndexPriceField___")]
   public static extern global::System.IntPtr new_CThostFtdcIndexPriceField();
@@ -11988,11 +11526,11 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInputExecOrderField_InvestorID_get___")]
   public static extern string CThostFtdcInputExecOrderField_InvestorID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInputExecOrderField_reserve1_set___")]
-  public static extern void CThostFtdcInputExecOrderField_reserve1_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInputExecOrderField_InstrumentID_set___")]
+  public static extern void CThostFtdcInputExecOrderField_InstrumentID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInputExecOrderField_reserve1_get___")]
-  public static extern string CThostFtdcInputExecOrderField_reserve1_get(global::System.Runtime.InteropServices.HandleRef jarg1);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInputExecOrderField_InstrumentID_get___")]
+  public static extern string CThostFtdcInputExecOrderField_InstrumentID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInputExecOrderField_ExecOrderRef_set___")]
   public static extern void CThostFtdcInputExecOrderField_ExecOrderRef_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
@@ -12090,29 +11628,17 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInputExecOrderField_ClientID_get___")]
   public static extern string CThostFtdcInputExecOrderField_ClientID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInputExecOrderField_reserve2_set___")]
-  public static extern void CThostFtdcInputExecOrderField_reserve2_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInputExecOrderField_IPAddress_set___")]
+  public static extern void CThostFtdcInputExecOrderField_IPAddress_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInputExecOrderField_reserve2_get___")]
-  public static extern string CThostFtdcInputExecOrderField_reserve2_get(global::System.Runtime.InteropServices.HandleRef jarg1);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInputExecOrderField_IPAddress_get___")]
+  public static extern string CThostFtdcInputExecOrderField_IPAddress_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInputExecOrderField_MacAddress_set___")]
   public static extern void CThostFtdcInputExecOrderField_MacAddress_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInputExecOrderField_MacAddress_get___")]
   public static extern string CThostFtdcInputExecOrderField_MacAddress_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInputExecOrderField_InstrumentID_set___")]
-  public static extern void CThostFtdcInputExecOrderField_InstrumentID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInputExecOrderField_InstrumentID_get___")]
-  public static extern string CThostFtdcInputExecOrderField_InstrumentID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInputExecOrderField_IPAddress_set___")]
-  public static extern void CThostFtdcInputExecOrderField_IPAddress_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInputExecOrderField_IPAddress_get___")]
-  public static extern string CThostFtdcInputExecOrderField_IPAddress_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_new_CThostFtdcInputExecOrderField___")]
   public static extern global::System.IntPtr new_CThostFtdcInputExecOrderField();
@@ -12186,11 +11712,11 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInputExecOrderActionField_UserID_get___")]
   public static extern string CThostFtdcInputExecOrderActionField_UserID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInputExecOrderActionField_reserve1_set___")]
-  public static extern void CThostFtdcInputExecOrderActionField_reserve1_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInputExecOrderActionField_InstrumentID_set___")]
+  public static extern void CThostFtdcInputExecOrderActionField_InstrumentID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInputExecOrderActionField_reserve1_get___")]
-  public static extern string CThostFtdcInputExecOrderActionField_reserve1_get(global::System.Runtime.InteropServices.HandleRef jarg1);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInputExecOrderActionField_InstrumentID_get___")]
+  public static extern string CThostFtdcInputExecOrderActionField_InstrumentID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInputExecOrderActionField_InvestUnitID_set___")]
   public static extern void CThostFtdcInputExecOrderActionField_InvestUnitID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
@@ -12198,29 +11724,17 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInputExecOrderActionField_InvestUnitID_get___")]
   public static extern string CThostFtdcInputExecOrderActionField_InvestUnitID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInputExecOrderActionField_reserve2_set___")]
-  public static extern void CThostFtdcInputExecOrderActionField_reserve2_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInputExecOrderActionField_IPAddress_set___")]
+  public static extern void CThostFtdcInputExecOrderActionField_IPAddress_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInputExecOrderActionField_reserve2_get___")]
-  public static extern string CThostFtdcInputExecOrderActionField_reserve2_get(global::System.Runtime.InteropServices.HandleRef jarg1);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInputExecOrderActionField_IPAddress_get___")]
+  public static extern string CThostFtdcInputExecOrderActionField_IPAddress_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInputExecOrderActionField_MacAddress_set___")]
   public static extern void CThostFtdcInputExecOrderActionField_MacAddress_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInputExecOrderActionField_MacAddress_get___")]
   public static extern string CThostFtdcInputExecOrderActionField_MacAddress_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInputExecOrderActionField_InstrumentID_set___")]
-  public static extern void CThostFtdcInputExecOrderActionField_InstrumentID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInputExecOrderActionField_InstrumentID_get___")]
-  public static extern string CThostFtdcInputExecOrderActionField_InstrumentID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInputExecOrderActionField_IPAddress_set___")]
-  public static extern void CThostFtdcInputExecOrderActionField_IPAddress_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInputExecOrderActionField_IPAddress_get___")]
-  public static extern string CThostFtdcInputExecOrderActionField_IPAddress_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_new_CThostFtdcInputExecOrderActionField___")]
   public static extern global::System.IntPtr new_CThostFtdcInputExecOrderActionField();
@@ -12240,11 +11754,11 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExecOrderField_InvestorID_get___")]
   public static extern string CThostFtdcExecOrderField_InvestorID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExecOrderField_reserve1_set___")]
-  public static extern void CThostFtdcExecOrderField_reserve1_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExecOrderField_InstrumentID_set___")]
+  public static extern void CThostFtdcExecOrderField_InstrumentID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExecOrderField_reserve1_get___")]
-  public static extern string CThostFtdcExecOrderField_reserve1_get(global::System.Runtime.InteropServices.HandleRef jarg1);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExecOrderField_InstrumentID_get___")]
+  public static extern string CThostFtdcExecOrderField_InstrumentID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExecOrderField_ExecOrderRef_set___")]
   public static extern void CThostFtdcExecOrderField_ExecOrderRef_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
@@ -12336,11 +11850,11 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExecOrderField_ClientID_get___")]
   public static extern string CThostFtdcExecOrderField_ClientID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExecOrderField_reserve2_set___")]
-  public static extern void CThostFtdcExecOrderField_reserve2_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExecOrderField_ExchangeInstID_set___")]
+  public static extern void CThostFtdcExecOrderField_ExchangeInstID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExecOrderField_reserve2_get___")]
-  public static extern string CThostFtdcExecOrderField_reserve2_get(global::System.Runtime.InteropServices.HandleRef jarg1);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExecOrderField_ExchangeInstID_get___")]
+  public static extern string CThostFtdcExecOrderField_ExchangeInstID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExecOrderField_TraderID_set___")]
   public static extern void CThostFtdcExecOrderField_TraderID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
@@ -12480,35 +11994,17 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExecOrderField_CurrencyID_get___")]
   public static extern string CThostFtdcExecOrderField_CurrencyID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExecOrderField_reserve3_set___")]
-  public static extern void CThostFtdcExecOrderField_reserve3_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExecOrderField_IPAddress_set___")]
+  public static extern void CThostFtdcExecOrderField_IPAddress_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExecOrderField_reserve3_get___")]
-  public static extern string CThostFtdcExecOrderField_reserve3_get(global::System.Runtime.InteropServices.HandleRef jarg1);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExecOrderField_IPAddress_get___")]
+  public static extern string CThostFtdcExecOrderField_IPAddress_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExecOrderField_MacAddress_set___")]
   public static extern void CThostFtdcExecOrderField_MacAddress_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExecOrderField_MacAddress_get___")]
   public static extern string CThostFtdcExecOrderField_MacAddress_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExecOrderField_InstrumentID_set___")]
-  public static extern void CThostFtdcExecOrderField_InstrumentID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExecOrderField_InstrumentID_get___")]
-  public static extern string CThostFtdcExecOrderField_InstrumentID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExecOrderField_ExchangeInstID_set___")]
-  public static extern void CThostFtdcExecOrderField_ExchangeInstID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExecOrderField_ExchangeInstID_get___")]
-  public static extern string CThostFtdcExecOrderField_ExchangeInstID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExecOrderField_IPAddress_set___")]
-  public static extern void CThostFtdcExecOrderField_IPAddress_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExecOrderField_IPAddress_get___")]
-  public static extern string CThostFtdcExecOrderField_IPAddress_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_new_CThostFtdcExecOrderField___")]
   public static extern global::System.IntPtr new_CThostFtdcExecOrderField();
@@ -12654,11 +12150,11 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExecOrderActionField_StatusMsg_get___")]
   public static extern string CThostFtdcExecOrderActionField_StatusMsg_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExecOrderActionField_reserve1_set___")]
-  public static extern void CThostFtdcExecOrderActionField_reserve1_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExecOrderActionField_InstrumentID_set___")]
+  public static extern void CThostFtdcExecOrderActionField_InstrumentID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExecOrderActionField_reserve1_get___")]
-  public static extern string CThostFtdcExecOrderActionField_reserve1_get(global::System.Runtime.InteropServices.HandleRef jarg1);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExecOrderActionField_InstrumentID_get___")]
+  public static extern string CThostFtdcExecOrderActionField_InstrumentID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExecOrderActionField_BranchID_set___")]
   public static extern void CThostFtdcExecOrderActionField_BranchID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
@@ -12672,29 +12168,17 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExecOrderActionField_InvestUnitID_get___")]
   public static extern string CThostFtdcExecOrderActionField_InvestUnitID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExecOrderActionField_reserve2_set___")]
-  public static extern void CThostFtdcExecOrderActionField_reserve2_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExecOrderActionField_IPAddress_set___")]
+  public static extern void CThostFtdcExecOrderActionField_IPAddress_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExecOrderActionField_reserve2_get___")]
-  public static extern string CThostFtdcExecOrderActionField_reserve2_get(global::System.Runtime.InteropServices.HandleRef jarg1);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExecOrderActionField_IPAddress_get___")]
+  public static extern string CThostFtdcExecOrderActionField_IPAddress_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExecOrderActionField_MacAddress_set___")]
   public static extern void CThostFtdcExecOrderActionField_MacAddress_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExecOrderActionField_MacAddress_get___")]
   public static extern string CThostFtdcExecOrderActionField_MacAddress_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExecOrderActionField_InstrumentID_set___")]
-  public static extern void CThostFtdcExecOrderActionField_InstrumentID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExecOrderActionField_InstrumentID_get___")]
-  public static extern string CThostFtdcExecOrderActionField_InstrumentID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExecOrderActionField_IPAddress_set___")]
-  public static extern void CThostFtdcExecOrderActionField_IPAddress_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExecOrderActionField_IPAddress_get___")]
-  public static extern string CThostFtdcExecOrderActionField_IPAddress_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_new_CThostFtdcExecOrderActionField___")]
   public static extern global::System.IntPtr new_CThostFtdcExecOrderActionField();
@@ -12714,11 +12198,11 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryExecOrderField_InvestorID_get___")]
   public static extern string CThostFtdcQryExecOrderField_InvestorID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryExecOrderField_reserve1_set___")]
-  public static extern void CThostFtdcQryExecOrderField_reserve1_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryExecOrderField_InstrumentID_set___")]
+  public static extern void CThostFtdcQryExecOrderField_InstrumentID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryExecOrderField_reserve1_get___")]
-  public static extern string CThostFtdcQryExecOrderField_reserve1_get(global::System.Runtime.InteropServices.HandleRef jarg1);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryExecOrderField_InstrumentID_get___")]
+  public static extern string CThostFtdcQryExecOrderField_InstrumentID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryExecOrderField_ExchangeID_set___")]
   public static extern void CThostFtdcQryExecOrderField_ExchangeID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
@@ -12743,12 +12227,6 @@ class CTPFutureApiPINVOKE {
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryExecOrderField_InsertTimeEnd_get___")]
   public static extern string CThostFtdcQryExecOrderField_InsertTimeEnd_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryExecOrderField_InstrumentID_set___")]
-  public static extern void CThostFtdcQryExecOrderField_InstrumentID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryExecOrderField_InstrumentID_get___")]
-  public static extern string CThostFtdcQryExecOrderField_InstrumentID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_new_CThostFtdcQryExecOrderField___")]
   public static extern global::System.IntPtr new_CThostFtdcQryExecOrderField();
@@ -12834,11 +12312,11 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExchangeExecOrderField_ClientID_get___")]
   public static extern string CThostFtdcExchangeExecOrderField_ClientID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExchangeExecOrderField_reserve1_set___")]
-  public static extern void CThostFtdcExchangeExecOrderField_reserve1_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExchangeExecOrderField_ExchangeInstID_set___")]
+  public static extern void CThostFtdcExchangeExecOrderField_ExchangeInstID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExchangeExecOrderField_reserve1_get___")]
-  public static extern string CThostFtdcExchangeExecOrderField_reserve1_get(global::System.Runtime.InteropServices.HandleRef jarg1);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExchangeExecOrderField_ExchangeInstID_get___")]
+  public static extern string CThostFtdcExchangeExecOrderField_ExchangeInstID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExchangeExecOrderField_TraderID_set___")]
   public static extern void CThostFtdcExchangeExecOrderField_TraderID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
@@ -12924,29 +12402,17 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExchangeExecOrderField_BranchID_get___")]
   public static extern string CThostFtdcExchangeExecOrderField_BranchID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExchangeExecOrderField_reserve2_set___")]
-  public static extern void CThostFtdcExchangeExecOrderField_reserve2_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExchangeExecOrderField_IPAddress_set___")]
+  public static extern void CThostFtdcExchangeExecOrderField_IPAddress_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExchangeExecOrderField_reserve2_get___")]
-  public static extern string CThostFtdcExchangeExecOrderField_reserve2_get(global::System.Runtime.InteropServices.HandleRef jarg1);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExchangeExecOrderField_IPAddress_get___")]
+  public static extern string CThostFtdcExchangeExecOrderField_IPAddress_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExchangeExecOrderField_MacAddress_set___")]
   public static extern void CThostFtdcExchangeExecOrderField_MacAddress_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExchangeExecOrderField_MacAddress_get___")]
   public static extern string CThostFtdcExchangeExecOrderField_MacAddress_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExchangeExecOrderField_ExchangeInstID_set___")]
-  public static extern void CThostFtdcExchangeExecOrderField_ExchangeInstID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExchangeExecOrderField_ExchangeInstID_get___")]
-  public static extern string CThostFtdcExchangeExecOrderField_ExchangeInstID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExchangeExecOrderField_IPAddress_set___")]
-  public static extern void CThostFtdcExchangeExecOrderField_IPAddress_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExchangeExecOrderField_IPAddress_get___")]
-  public static extern string CThostFtdcExchangeExecOrderField_IPAddress_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_new_CThostFtdcExchangeExecOrderField___")]
   public static extern global::System.IntPtr new_CThostFtdcExchangeExecOrderField();
@@ -12966,11 +12432,11 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryExchangeExecOrderField_ClientID_get___")]
   public static extern string CThostFtdcQryExchangeExecOrderField_ClientID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryExchangeExecOrderField_reserve1_set___")]
-  public static extern void CThostFtdcQryExchangeExecOrderField_reserve1_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryExchangeExecOrderField_ExchangeInstID_set___")]
+  public static extern void CThostFtdcQryExchangeExecOrderField_ExchangeInstID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryExchangeExecOrderField_reserve1_get___")]
-  public static extern string CThostFtdcQryExchangeExecOrderField_reserve1_get(global::System.Runtime.InteropServices.HandleRef jarg1);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryExchangeExecOrderField_ExchangeInstID_get___")]
+  public static extern string CThostFtdcQryExchangeExecOrderField_ExchangeInstID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryExchangeExecOrderField_ExchangeID_set___")]
   public static extern void CThostFtdcQryExchangeExecOrderField_ExchangeID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
@@ -12983,12 +12449,6 @@ class CTPFutureApiPINVOKE {
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryExchangeExecOrderField_TraderID_get___")]
   public static extern string CThostFtdcQryExchangeExecOrderField_TraderID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryExchangeExecOrderField_ExchangeInstID_set___")]
-  public static extern void CThostFtdcQryExchangeExecOrderField_ExchangeInstID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryExchangeExecOrderField_ExchangeInstID_get___")]
-  public static extern string CThostFtdcQryExchangeExecOrderField_ExchangeInstID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_new_CThostFtdcQryExchangeExecOrderField___")]
   public static extern global::System.IntPtr new_CThostFtdcQryExchangeExecOrderField();
@@ -13116,11 +12576,11 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExchangeExecOrderActionField_BranchID_get___")]
   public static extern string CThostFtdcExchangeExecOrderActionField_BranchID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExchangeExecOrderActionField_reserve1_set___")]
-  public static extern void CThostFtdcExchangeExecOrderActionField_reserve1_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExchangeExecOrderActionField_IPAddress_set___")]
+  public static extern void CThostFtdcExchangeExecOrderActionField_IPAddress_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExchangeExecOrderActionField_reserve1_get___")]
-  public static extern string CThostFtdcExchangeExecOrderActionField_reserve1_get(global::System.Runtime.InteropServices.HandleRef jarg1);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExchangeExecOrderActionField_IPAddress_get___")]
+  public static extern string CThostFtdcExchangeExecOrderActionField_IPAddress_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExchangeExecOrderActionField_MacAddress_set___")]
   public static extern void CThostFtdcExchangeExecOrderActionField_MacAddress_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
@@ -13128,29 +12588,17 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExchangeExecOrderActionField_MacAddress_get___")]
   public static extern string CThostFtdcExchangeExecOrderActionField_MacAddress_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExchangeExecOrderActionField_reserve2_set___")]
-  public static extern void CThostFtdcExchangeExecOrderActionField_reserve2_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExchangeExecOrderActionField_ExchangeInstID_set___")]
+  public static extern void CThostFtdcExchangeExecOrderActionField_ExchangeInstID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExchangeExecOrderActionField_reserve2_get___")]
-  public static extern string CThostFtdcExchangeExecOrderActionField_reserve2_get(global::System.Runtime.InteropServices.HandleRef jarg1);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExchangeExecOrderActionField_ExchangeInstID_get___")]
+  public static extern string CThostFtdcExchangeExecOrderActionField_ExchangeInstID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExchangeExecOrderActionField_Volume_set___")]
   public static extern void CThostFtdcExchangeExecOrderActionField_Volume_set(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExchangeExecOrderActionField_Volume_get___")]
   public static extern int CThostFtdcExchangeExecOrderActionField_Volume_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExchangeExecOrderActionField_IPAddress_set___")]
-  public static extern void CThostFtdcExchangeExecOrderActionField_IPAddress_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExchangeExecOrderActionField_IPAddress_get___")]
-  public static extern string CThostFtdcExchangeExecOrderActionField_IPAddress_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExchangeExecOrderActionField_ExchangeInstID_set___")]
-  public static extern void CThostFtdcExchangeExecOrderActionField_ExchangeInstID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExchangeExecOrderActionField_ExchangeInstID_get___")]
-  public static extern string CThostFtdcExchangeExecOrderActionField_ExchangeInstID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_new_CThostFtdcExchangeExecOrderActionField___")]
   public static extern global::System.IntPtr new_CThostFtdcExchangeExecOrderActionField();
@@ -13200,11 +12648,11 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcErrExecOrderField_InvestorID_get___")]
   public static extern string CThostFtdcErrExecOrderField_InvestorID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcErrExecOrderField_reserve1_set___")]
-  public static extern void CThostFtdcErrExecOrderField_reserve1_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcErrExecOrderField_InstrumentID_set___")]
+  public static extern void CThostFtdcErrExecOrderField_InstrumentID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcErrExecOrderField_reserve1_get___")]
-  public static extern string CThostFtdcErrExecOrderField_reserve1_get(global::System.Runtime.InteropServices.HandleRef jarg1);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcErrExecOrderField_InstrumentID_get___")]
+  public static extern string CThostFtdcErrExecOrderField_InstrumentID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcErrExecOrderField_ExecOrderRef_set___")]
   public static extern void CThostFtdcErrExecOrderField_ExecOrderRef_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
@@ -13302,11 +12750,11 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcErrExecOrderField_ClientID_get___")]
   public static extern string CThostFtdcErrExecOrderField_ClientID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcErrExecOrderField_reserve2_set___")]
-  public static extern void CThostFtdcErrExecOrderField_reserve2_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcErrExecOrderField_IPAddress_set___")]
+  public static extern void CThostFtdcErrExecOrderField_IPAddress_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcErrExecOrderField_reserve2_get___")]
-  public static extern string CThostFtdcErrExecOrderField_reserve2_get(global::System.Runtime.InteropServices.HandleRef jarg1);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcErrExecOrderField_IPAddress_get___")]
+  public static extern string CThostFtdcErrExecOrderField_IPAddress_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcErrExecOrderField_MacAddress_set___")]
   public static extern void CThostFtdcErrExecOrderField_MacAddress_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
@@ -13325,18 +12773,6 @@ class CTPFutureApiPINVOKE {
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcErrExecOrderField_ErrorMsg_get___")]
   public static extern string CThostFtdcErrExecOrderField_ErrorMsg_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcErrExecOrderField_InstrumentID_set___")]
-  public static extern void CThostFtdcErrExecOrderField_InstrumentID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcErrExecOrderField_InstrumentID_get___")]
-  public static extern string CThostFtdcErrExecOrderField_InstrumentID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcErrExecOrderField_IPAddress_set___")]
-  public static extern void CThostFtdcErrExecOrderField_IPAddress_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcErrExecOrderField_IPAddress_get___")]
-  public static extern string CThostFtdcErrExecOrderField_IPAddress_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_new_CThostFtdcErrExecOrderField___")]
   public static extern global::System.IntPtr new_CThostFtdcErrExecOrderField();
@@ -13428,11 +12864,11 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcErrExecOrderActionField_UserID_get___")]
   public static extern string CThostFtdcErrExecOrderActionField_UserID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcErrExecOrderActionField_reserve1_set___")]
-  public static extern void CThostFtdcErrExecOrderActionField_reserve1_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcErrExecOrderActionField_InstrumentID_set___")]
+  public static extern void CThostFtdcErrExecOrderActionField_InstrumentID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcErrExecOrderActionField_reserve1_get___")]
-  public static extern string CThostFtdcErrExecOrderActionField_reserve1_get(global::System.Runtime.InteropServices.HandleRef jarg1);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcErrExecOrderActionField_InstrumentID_get___")]
+  public static extern string CThostFtdcErrExecOrderActionField_InstrumentID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcErrExecOrderActionField_InvestUnitID_set___")]
   public static extern void CThostFtdcErrExecOrderActionField_InvestUnitID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
@@ -13440,11 +12876,11 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcErrExecOrderActionField_InvestUnitID_get___")]
   public static extern string CThostFtdcErrExecOrderActionField_InvestUnitID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcErrExecOrderActionField_reserve2_set___")]
-  public static extern void CThostFtdcErrExecOrderActionField_reserve2_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcErrExecOrderActionField_IPAddress_set___")]
+  public static extern void CThostFtdcErrExecOrderActionField_IPAddress_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcErrExecOrderActionField_reserve2_get___")]
-  public static extern string CThostFtdcErrExecOrderActionField_reserve2_get(global::System.Runtime.InteropServices.HandleRef jarg1);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcErrExecOrderActionField_IPAddress_get___")]
+  public static extern string CThostFtdcErrExecOrderActionField_IPAddress_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcErrExecOrderActionField_MacAddress_set___")]
   public static extern void CThostFtdcErrExecOrderActionField_MacAddress_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
@@ -13463,18 +12899,6 @@ class CTPFutureApiPINVOKE {
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcErrExecOrderActionField_ErrorMsg_get___")]
   public static extern string CThostFtdcErrExecOrderActionField_ErrorMsg_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcErrExecOrderActionField_InstrumentID_set___")]
-  public static extern void CThostFtdcErrExecOrderActionField_InstrumentID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcErrExecOrderActionField_InstrumentID_get___")]
-  public static extern string CThostFtdcErrExecOrderActionField_InstrumentID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcErrExecOrderActionField_IPAddress_set___")]
-  public static extern void CThostFtdcErrExecOrderActionField_IPAddress_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcErrExecOrderActionField_IPAddress_get___")]
-  public static extern string CThostFtdcErrExecOrderActionField_IPAddress_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_new_CThostFtdcErrExecOrderActionField___")]
   public static extern global::System.IntPtr new_CThostFtdcErrExecOrderActionField();
@@ -13500,11 +12924,11 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_delete_CThostFtdcQryErrExecOrderActionField___")]
   public static extern void delete_CThostFtdcQryErrExecOrderActionField(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcOptionInstrTradingRightField_reserve1_set___")]
-  public static extern void CThostFtdcOptionInstrTradingRightField_reserve1_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcOptionInstrTradingRightField_InstrumentID_set___")]
+  public static extern void CThostFtdcOptionInstrTradingRightField_InstrumentID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcOptionInstrTradingRightField_reserve1_get___")]
-  public static extern string CThostFtdcOptionInstrTradingRightField_reserve1_get(global::System.Runtime.InteropServices.HandleRef jarg1);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcOptionInstrTradingRightField_InstrumentID_get___")]
+  public static extern string CThostFtdcOptionInstrTradingRightField_InstrumentID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcOptionInstrTradingRightField_InvestorRange_set___")]
   public static extern void CThostFtdcOptionInstrTradingRightField_InvestorRange_set(global::System.Runtime.InteropServices.HandleRef jarg1, char jarg2);
@@ -13536,12 +12960,6 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcOptionInstrTradingRightField_TradingRight_get___")]
   public static extern char CThostFtdcOptionInstrTradingRightField_TradingRight_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcOptionInstrTradingRightField_InstrumentID_set___")]
-  public static extern void CThostFtdcOptionInstrTradingRightField_InstrumentID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcOptionInstrTradingRightField_InstrumentID_get___")]
-  public static extern string CThostFtdcOptionInstrTradingRightField_InstrumentID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_new_CThostFtdcOptionInstrTradingRightField___")]
   public static extern global::System.IntPtr new_CThostFtdcOptionInstrTradingRightField();
 
@@ -13560,23 +12978,17 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryOptionInstrTradingRightField_InvestorID_get___")]
   public static extern string CThostFtdcQryOptionInstrTradingRightField_InvestorID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryOptionInstrTradingRightField_reserve1_set___")]
-  public static extern void CThostFtdcQryOptionInstrTradingRightField_reserve1_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryOptionInstrTradingRightField_InstrumentID_set___")]
+  public static extern void CThostFtdcQryOptionInstrTradingRightField_InstrumentID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryOptionInstrTradingRightField_reserve1_get___")]
-  public static extern string CThostFtdcQryOptionInstrTradingRightField_reserve1_get(global::System.Runtime.InteropServices.HandleRef jarg1);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryOptionInstrTradingRightField_InstrumentID_get___")]
+  public static extern string CThostFtdcQryOptionInstrTradingRightField_InstrumentID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryOptionInstrTradingRightField_Direction_set___")]
   public static extern void CThostFtdcQryOptionInstrTradingRightField_Direction_set(global::System.Runtime.InteropServices.HandleRef jarg1, char jarg2);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryOptionInstrTradingRightField_Direction_get___")]
   public static extern char CThostFtdcQryOptionInstrTradingRightField_Direction_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryOptionInstrTradingRightField_InstrumentID_set___")]
-  public static extern void CThostFtdcQryOptionInstrTradingRightField_InstrumentID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryOptionInstrTradingRightField_InstrumentID_get___")]
-  public static extern string CThostFtdcQryOptionInstrTradingRightField_InstrumentID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_new_CThostFtdcQryOptionInstrTradingRightField___")]
   public static extern global::System.IntPtr new_CThostFtdcQryOptionInstrTradingRightField();
@@ -13596,11 +13008,11 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInputForQuoteField_InvestorID_get___")]
   public static extern string CThostFtdcInputForQuoteField_InvestorID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInputForQuoteField_reserve1_set___")]
-  public static extern void CThostFtdcInputForQuoteField_reserve1_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInputForQuoteField_InstrumentID_set___")]
+  public static extern void CThostFtdcInputForQuoteField_InstrumentID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInputForQuoteField_reserve1_get___")]
-  public static extern string CThostFtdcInputForQuoteField_reserve1_get(global::System.Runtime.InteropServices.HandleRef jarg1);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInputForQuoteField_InstrumentID_get___")]
+  public static extern string CThostFtdcInputForQuoteField_InstrumentID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInputForQuoteField_ForQuoteRef_set___")]
   public static extern void CThostFtdcInputForQuoteField_ForQuoteRef_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
@@ -13626,29 +13038,17 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInputForQuoteField_InvestUnitID_get___")]
   public static extern string CThostFtdcInputForQuoteField_InvestUnitID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInputForQuoteField_reserve2_set___")]
-  public static extern void CThostFtdcInputForQuoteField_reserve2_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInputForQuoteField_IPAddress_set___")]
+  public static extern void CThostFtdcInputForQuoteField_IPAddress_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInputForQuoteField_reserve2_get___")]
-  public static extern string CThostFtdcInputForQuoteField_reserve2_get(global::System.Runtime.InteropServices.HandleRef jarg1);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInputForQuoteField_IPAddress_get___")]
+  public static extern string CThostFtdcInputForQuoteField_IPAddress_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInputForQuoteField_MacAddress_set___")]
   public static extern void CThostFtdcInputForQuoteField_MacAddress_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInputForQuoteField_MacAddress_get___")]
   public static extern string CThostFtdcInputForQuoteField_MacAddress_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInputForQuoteField_InstrumentID_set___")]
-  public static extern void CThostFtdcInputForQuoteField_InstrumentID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInputForQuoteField_InstrumentID_get___")]
-  public static extern string CThostFtdcInputForQuoteField_InstrumentID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInputForQuoteField_IPAddress_set___")]
-  public static extern void CThostFtdcInputForQuoteField_IPAddress_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInputForQuoteField_IPAddress_get___")]
-  public static extern string CThostFtdcInputForQuoteField_IPAddress_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_new_CThostFtdcInputForQuoteField___")]
   public static extern global::System.IntPtr new_CThostFtdcInputForQuoteField();
@@ -13668,11 +13068,11 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcForQuoteField_InvestorID_get___")]
   public static extern string CThostFtdcForQuoteField_InvestorID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcForQuoteField_reserve1_set___")]
-  public static extern void CThostFtdcForQuoteField_reserve1_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcForQuoteField_InstrumentID_set___")]
+  public static extern void CThostFtdcForQuoteField_InstrumentID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcForQuoteField_reserve1_get___")]
-  public static extern string CThostFtdcForQuoteField_reserve1_get(global::System.Runtime.InteropServices.HandleRef jarg1);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcForQuoteField_InstrumentID_get___")]
+  public static extern string CThostFtdcForQuoteField_InstrumentID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcForQuoteField_ForQuoteRef_set___")]
   public static extern void CThostFtdcForQuoteField_ForQuoteRef_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
@@ -13710,11 +13110,11 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcForQuoteField_ClientID_get___")]
   public static extern string CThostFtdcForQuoteField_ClientID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcForQuoteField_reserve2_set___")]
-  public static extern void CThostFtdcForQuoteField_reserve2_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcForQuoteField_ExchangeInstID_set___")]
+  public static extern void CThostFtdcForQuoteField_ExchangeInstID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcForQuoteField_reserve2_get___")]
-  public static extern string CThostFtdcForQuoteField_reserve2_get(global::System.Runtime.InteropServices.HandleRef jarg1);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcForQuoteField_ExchangeInstID_get___")]
+  public static extern string CThostFtdcForQuoteField_ExchangeInstID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcForQuoteField_TraderID_set___")]
   public static extern void CThostFtdcForQuoteField_TraderID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
@@ -13782,35 +13182,17 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcForQuoteField_InvestUnitID_get___")]
   public static extern string CThostFtdcForQuoteField_InvestUnitID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcForQuoteField_reserve3_set___")]
-  public static extern void CThostFtdcForQuoteField_reserve3_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcForQuoteField_IPAddress_set___")]
+  public static extern void CThostFtdcForQuoteField_IPAddress_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcForQuoteField_reserve3_get___")]
-  public static extern string CThostFtdcForQuoteField_reserve3_get(global::System.Runtime.InteropServices.HandleRef jarg1);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcForQuoteField_IPAddress_get___")]
+  public static extern string CThostFtdcForQuoteField_IPAddress_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcForQuoteField_MacAddress_set___")]
   public static extern void CThostFtdcForQuoteField_MacAddress_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcForQuoteField_MacAddress_get___")]
   public static extern string CThostFtdcForQuoteField_MacAddress_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcForQuoteField_InstrumentID_set___")]
-  public static extern void CThostFtdcForQuoteField_InstrumentID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcForQuoteField_InstrumentID_get___")]
-  public static extern string CThostFtdcForQuoteField_InstrumentID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcForQuoteField_ExchangeInstID_set___")]
-  public static extern void CThostFtdcForQuoteField_ExchangeInstID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcForQuoteField_ExchangeInstID_get___")]
-  public static extern string CThostFtdcForQuoteField_ExchangeInstID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcForQuoteField_IPAddress_set___")]
-  public static extern void CThostFtdcForQuoteField_IPAddress_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcForQuoteField_IPAddress_get___")]
-  public static extern string CThostFtdcForQuoteField_IPAddress_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_new_CThostFtdcForQuoteField___")]
   public static extern global::System.IntPtr new_CThostFtdcForQuoteField();
@@ -13830,11 +13212,11 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryForQuoteField_InvestorID_get___")]
   public static extern string CThostFtdcQryForQuoteField_InvestorID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryForQuoteField_reserve1_set___")]
-  public static extern void CThostFtdcQryForQuoteField_reserve1_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryForQuoteField_InstrumentID_set___")]
+  public static extern void CThostFtdcQryForQuoteField_InstrumentID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryForQuoteField_reserve1_get___")]
-  public static extern string CThostFtdcQryForQuoteField_reserve1_get(global::System.Runtime.InteropServices.HandleRef jarg1);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryForQuoteField_InstrumentID_get___")]
+  public static extern string CThostFtdcQryForQuoteField_InstrumentID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryForQuoteField_ExchangeID_set___")]
   public static extern void CThostFtdcQryForQuoteField_ExchangeID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
@@ -13859,12 +13241,6 @@ class CTPFutureApiPINVOKE {
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryForQuoteField_InvestUnitID_get___")]
   public static extern string CThostFtdcQryForQuoteField_InvestUnitID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryForQuoteField_InstrumentID_set___")]
-  public static extern void CThostFtdcQryForQuoteField_InstrumentID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryForQuoteField_InstrumentID_get___")]
-  public static extern string CThostFtdcQryForQuoteField_InstrumentID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_new_CThostFtdcQryForQuoteField___")]
   public static extern global::System.IntPtr new_CThostFtdcQryForQuoteField();
@@ -13896,11 +13272,11 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExchangeForQuoteField_ClientID_get___")]
   public static extern string CThostFtdcExchangeForQuoteField_ClientID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExchangeForQuoteField_reserve1_set___")]
-  public static extern void CThostFtdcExchangeForQuoteField_reserve1_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExchangeForQuoteField_ExchangeInstID_set___")]
+  public static extern void CThostFtdcExchangeForQuoteField_ExchangeInstID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExchangeForQuoteField_reserve1_get___")]
-  public static extern string CThostFtdcExchangeForQuoteField_reserve1_get(global::System.Runtime.InteropServices.HandleRef jarg1);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExchangeForQuoteField_ExchangeInstID_get___")]
+  public static extern string CThostFtdcExchangeForQuoteField_ExchangeInstID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExchangeForQuoteField_TraderID_set___")]
   public static extern void CThostFtdcExchangeForQuoteField_TraderID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
@@ -13932,29 +13308,17 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExchangeForQuoteField_ForQuoteStatus_get___")]
   public static extern char CThostFtdcExchangeForQuoteField_ForQuoteStatus_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExchangeForQuoteField_reserve2_set___")]
-  public static extern void CThostFtdcExchangeForQuoteField_reserve2_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExchangeForQuoteField_IPAddress_set___")]
+  public static extern void CThostFtdcExchangeForQuoteField_IPAddress_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExchangeForQuoteField_reserve2_get___")]
-  public static extern string CThostFtdcExchangeForQuoteField_reserve2_get(global::System.Runtime.InteropServices.HandleRef jarg1);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExchangeForQuoteField_IPAddress_get___")]
+  public static extern string CThostFtdcExchangeForQuoteField_IPAddress_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExchangeForQuoteField_MacAddress_set___")]
   public static extern void CThostFtdcExchangeForQuoteField_MacAddress_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExchangeForQuoteField_MacAddress_get___")]
   public static extern string CThostFtdcExchangeForQuoteField_MacAddress_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExchangeForQuoteField_ExchangeInstID_set___")]
-  public static extern void CThostFtdcExchangeForQuoteField_ExchangeInstID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExchangeForQuoteField_ExchangeInstID_get___")]
-  public static extern string CThostFtdcExchangeForQuoteField_ExchangeInstID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExchangeForQuoteField_IPAddress_set___")]
-  public static extern void CThostFtdcExchangeForQuoteField_IPAddress_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExchangeForQuoteField_IPAddress_get___")]
-  public static extern string CThostFtdcExchangeForQuoteField_IPAddress_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_new_CThostFtdcExchangeForQuoteField___")]
   public static extern global::System.IntPtr new_CThostFtdcExchangeForQuoteField();
@@ -13974,11 +13338,11 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryExchangeForQuoteField_ClientID_get___")]
   public static extern string CThostFtdcQryExchangeForQuoteField_ClientID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryExchangeForQuoteField_reserve1_set___")]
-  public static extern void CThostFtdcQryExchangeForQuoteField_reserve1_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryExchangeForQuoteField_ExchangeInstID_set___")]
+  public static extern void CThostFtdcQryExchangeForQuoteField_ExchangeInstID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryExchangeForQuoteField_reserve1_get___")]
-  public static extern string CThostFtdcQryExchangeForQuoteField_reserve1_get(global::System.Runtime.InteropServices.HandleRef jarg1);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryExchangeForQuoteField_ExchangeInstID_get___")]
+  public static extern string CThostFtdcQryExchangeForQuoteField_ExchangeInstID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryExchangeForQuoteField_ExchangeID_set___")]
   public static extern void CThostFtdcQryExchangeForQuoteField_ExchangeID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
@@ -13991,12 +13355,6 @@ class CTPFutureApiPINVOKE {
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryExchangeForQuoteField_TraderID_get___")]
   public static extern string CThostFtdcQryExchangeForQuoteField_TraderID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryExchangeForQuoteField_ExchangeInstID_set___")]
-  public static extern void CThostFtdcQryExchangeForQuoteField_ExchangeInstID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryExchangeForQuoteField_ExchangeInstID_get___")]
-  public static extern string CThostFtdcQryExchangeForQuoteField_ExchangeInstID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_new_CThostFtdcQryExchangeForQuoteField___")]
   public static extern global::System.IntPtr new_CThostFtdcQryExchangeForQuoteField();
@@ -14016,11 +13374,11 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInputQuoteField_InvestorID_get___")]
   public static extern string CThostFtdcInputQuoteField_InvestorID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInputQuoteField_reserve1_set___")]
-  public static extern void CThostFtdcInputQuoteField_reserve1_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInputQuoteField_InstrumentID_set___")]
+  public static extern void CThostFtdcInputQuoteField_InstrumentID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInputQuoteField_reserve1_get___")]
-  public static extern string CThostFtdcInputQuoteField_reserve1_get(global::System.Runtime.InteropServices.HandleRef jarg1);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInputQuoteField_InstrumentID_get___")]
+  public static extern string CThostFtdcInputQuoteField_InstrumentID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInputQuoteField_QuoteRef_set___")]
   public static extern void CThostFtdcInputQuoteField_QuoteRef_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
@@ -14130,29 +13488,17 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInputQuoteField_ClientID_get___")]
   public static extern string CThostFtdcInputQuoteField_ClientID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInputQuoteField_reserve2_set___")]
-  public static extern void CThostFtdcInputQuoteField_reserve2_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInputQuoteField_IPAddress_set___")]
+  public static extern void CThostFtdcInputQuoteField_IPAddress_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInputQuoteField_reserve2_get___")]
-  public static extern string CThostFtdcInputQuoteField_reserve2_get(global::System.Runtime.InteropServices.HandleRef jarg1);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInputQuoteField_IPAddress_get___")]
+  public static extern string CThostFtdcInputQuoteField_IPAddress_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInputQuoteField_MacAddress_set___")]
   public static extern void CThostFtdcInputQuoteField_MacAddress_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInputQuoteField_MacAddress_get___")]
   public static extern string CThostFtdcInputQuoteField_MacAddress_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInputQuoteField_InstrumentID_set___")]
-  public static extern void CThostFtdcInputQuoteField_InstrumentID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInputQuoteField_InstrumentID_get___")]
-  public static extern string CThostFtdcInputQuoteField_InstrumentID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInputQuoteField_IPAddress_set___")]
-  public static extern void CThostFtdcInputQuoteField_IPAddress_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInputQuoteField_IPAddress_get___")]
-  public static extern string CThostFtdcInputQuoteField_IPAddress_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_new_CThostFtdcInputQuoteField___")]
   public static extern global::System.IntPtr new_CThostFtdcInputQuoteField();
@@ -14226,11 +13572,11 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInputQuoteActionField_UserID_get___")]
   public static extern string CThostFtdcInputQuoteActionField_UserID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInputQuoteActionField_reserve1_set___")]
-  public static extern void CThostFtdcInputQuoteActionField_reserve1_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInputQuoteActionField_InstrumentID_set___")]
+  public static extern void CThostFtdcInputQuoteActionField_InstrumentID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInputQuoteActionField_reserve1_get___")]
-  public static extern string CThostFtdcInputQuoteActionField_reserve1_get(global::System.Runtime.InteropServices.HandleRef jarg1);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInputQuoteActionField_InstrumentID_get___")]
+  public static extern string CThostFtdcInputQuoteActionField_InstrumentID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInputQuoteActionField_InvestUnitID_set___")]
   public static extern void CThostFtdcInputQuoteActionField_InvestUnitID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
@@ -14244,29 +13590,17 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInputQuoteActionField_ClientID_get___")]
   public static extern string CThostFtdcInputQuoteActionField_ClientID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInputQuoteActionField_reserve2_set___")]
-  public static extern void CThostFtdcInputQuoteActionField_reserve2_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInputQuoteActionField_IPAddress_set___")]
+  public static extern void CThostFtdcInputQuoteActionField_IPAddress_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInputQuoteActionField_reserve2_get___")]
-  public static extern string CThostFtdcInputQuoteActionField_reserve2_get(global::System.Runtime.InteropServices.HandleRef jarg1);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInputQuoteActionField_IPAddress_get___")]
+  public static extern string CThostFtdcInputQuoteActionField_IPAddress_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInputQuoteActionField_MacAddress_set___")]
   public static extern void CThostFtdcInputQuoteActionField_MacAddress_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInputQuoteActionField_MacAddress_get___")]
   public static extern string CThostFtdcInputQuoteActionField_MacAddress_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInputQuoteActionField_InstrumentID_set___")]
-  public static extern void CThostFtdcInputQuoteActionField_InstrumentID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInputQuoteActionField_InstrumentID_get___")]
-  public static extern string CThostFtdcInputQuoteActionField_InstrumentID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInputQuoteActionField_IPAddress_set___")]
-  public static extern void CThostFtdcInputQuoteActionField_IPAddress_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInputQuoteActionField_IPAddress_get___")]
-  public static extern string CThostFtdcInputQuoteActionField_IPAddress_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_new_CThostFtdcInputQuoteActionField___")]
   public static extern global::System.IntPtr new_CThostFtdcInputQuoteActionField();
@@ -14286,11 +13620,11 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQuoteField_InvestorID_get___")]
   public static extern string CThostFtdcQuoteField_InvestorID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQuoteField_reserve1_set___")]
-  public static extern void CThostFtdcQuoteField_reserve1_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQuoteField_InstrumentID_set___")]
+  public static extern void CThostFtdcQuoteField_InstrumentID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQuoteField_reserve1_get___")]
-  public static extern string CThostFtdcQuoteField_reserve1_get(global::System.Runtime.InteropServices.HandleRef jarg1);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQuoteField_InstrumentID_get___")]
+  public static extern string CThostFtdcQuoteField_InstrumentID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQuoteField_QuoteRef_set___")]
   public static extern void CThostFtdcQuoteField_QuoteRef_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
@@ -14388,11 +13722,11 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQuoteField_ClientID_get___")]
   public static extern string CThostFtdcQuoteField_ClientID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQuoteField_reserve2_set___")]
-  public static extern void CThostFtdcQuoteField_reserve2_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQuoteField_ExchangeInstID_set___")]
+  public static extern void CThostFtdcQuoteField_ExchangeInstID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQuoteField_reserve2_get___")]
-  public static extern string CThostFtdcQuoteField_reserve2_get(global::System.Runtime.InteropServices.HandleRef jarg1);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQuoteField_ExchangeInstID_get___")]
+  public static extern string CThostFtdcQuoteField_ExchangeInstID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQuoteField_TraderID_set___")]
   public static extern void CThostFtdcQuoteField_TraderID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
@@ -14562,35 +13896,17 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQuoteField_CurrencyID_get___")]
   public static extern string CThostFtdcQuoteField_CurrencyID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQuoteField_reserve3_set___")]
-  public static extern void CThostFtdcQuoteField_reserve3_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQuoteField_IPAddress_set___")]
+  public static extern void CThostFtdcQuoteField_IPAddress_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQuoteField_reserve3_get___")]
-  public static extern string CThostFtdcQuoteField_reserve3_get(global::System.Runtime.InteropServices.HandleRef jarg1);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQuoteField_IPAddress_get___")]
+  public static extern string CThostFtdcQuoteField_IPAddress_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQuoteField_MacAddress_set___")]
   public static extern void CThostFtdcQuoteField_MacAddress_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQuoteField_MacAddress_get___")]
   public static extern string CThostFtdcQuoteField_MacAddress_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQuoteField_InstrumentID_set___")]
-  public static extern void CThostFtdcQuoteField_InstrumentID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQuoteField_InstrumentID_get___")]
-  public static extern string CThostFtdcQuoteField_InstrumentID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQuoteField_ExchangeInstID_set___")]
-  public static extern void CThostFtdcQuoteField_ExchangeInstID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQuoteField_ExchangeInstID_get___")]
-  public static extern string CThostFtdcQuoteField_ExchangeInstID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQuoteField_IPAddress_set___")]
-  public static extern void CThostFtdcQuoteField_IPAddress_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQuoteField_IPAddress_get___")]
-  public static extern string CThostFtdcQuoteField_IPAddress_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_new_CThostFtdcQuoteField___")]
   public static extern global::System.IntPtr new_CThostFtdcQuoteField();
@@ -14730,11 +14046,11 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQuoteActionField_StatusMsg_get___")]
   public static extern string CThostFtdcQuoteActionField_StatusMsg_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQuoteActionField_reserve1_set___")]
-  public static extern void CThostFtdcQuoteActionField_reserve1_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQuoteActionField_InstrumentID_set___")]
+  public static extern void CThostFtdcQuoteActionField_InstrumentID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQuoteActionField_reserve1_get___")]
-  public static extern string CThostFtdcQuoteActionField_reserve1_get(global::System.Runtime.InteropServices.HandleRef jarg1);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQuoteActionField_InstrumentID_get___")]
+  public static extern string CThostFtdcQuoteActionField_InstrumentID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQuoteActionField_BranchID_set___")]
   public static extern void CThostFtdcQuoteActionField_BranchID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
@@ -14748,29 +14064,17 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQuoteActionField_InvestUnitID_get___")]
   public static extern string CThostFtdcQuoteActionField_InvestUnitID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQuoteActionField_reserve2_set___")]
-  public static extern void CThostFtdcQuoteActionField_reserve2_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQuoteActionField_IPAddress_set___")]
+  public static extern void CThostFtdcQuoteActionField_IPAddress_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQuoteActionField_reserve2_get___")]
-  public static extern string CThostFtdcQuoteActionField_reserve2_get(global::System.Runtime.InteropServices.HandleRef jarg1);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQuoteActionField_IPAddress_get___")]
+  public static extern string CThostFtdcQuoteActionField_IPAddress_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQuoteActionField_MacAddress_set___")]
   public static extern void CThostFtdcQuoteActionField_MacAddress_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQuoteActionField_MacAddress_get___")]
   public static extern string CThostFtdcQuoteActionField_MacAddress_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQuoteActionField_InstrumentID_set___")]
-  public static extern void CThostFtdcQuoteActionField_InstrumentID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQuoteActionField_InstrumentID_get___")]
-  public static extern string CThostFtdcQuoteActionField_InstrumentID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQuoteActionField_IPAddress_set___")]
-  public static extern void CThostFtdcQuoteActionField_IPAddress_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQuoteActionField_IPAddress_get___")]
-  public static extern string CThostFtdcQuoteActionField_IPAddress_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_new_CThostFtdcQuoteActionField___")]
   public static extern global::System.IntPtr new_CThostFtdcQuoteActionField();
@@ -14790,11 +14094,11 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryQuoteField_InvestorID_get___")]
   public static extern string CThostFtdcQryQuoteField_InvestorID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryQuoteField_reserve1_set___")]
-  public static extern void CThostFtdcQryQuoteField_reserve1_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryQuoteField_InstrumentID_set___")]
+  public static extern void CThostFtdcQryQuoteField_InstrumentID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryQuoteField_reserve1_get___")]
-  public static extern string CThostFtdcQryQuoteField_reserve1_get(global::System.Runtime.InteropServices.HandleRef jarg1);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryQuoteField_InstrumentID_get___")]
+  public static extern string CThostFtdcQryQuoteField_InstrumentID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryQuoteField_ExchangeID_set___")]
   public static extern void CThostFtdcQryQuoteField_ExchangeID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
@@ -14825,12 +14129,6 @@ class CTPFutureApiPINVOKE {
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryQuoteField_InvestUnitID_get___")]
   public static extern string CThostFtdcQryQuoteField_InvestUnitID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryQuoteField_InstrumentID_set___")]
-  public static extern void CThostFtdcQryQuoteField_InstrumentID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryQuoteField_InstrumentID_get___")]
-  public static extern string CThostFtdcQryQuoteField_InstrumentID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_new_CThostFtdcQryQuoteField___")]
   public static extern global::System.IntPtr new_CThostFtdcQryQuoteField();
@@ -14922,11 +14220,11 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExchangeQuoteField_ClientID_get___")]
   public static extern string CThostFtdcExchangeQuoteField_ClientID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExchangeQuoteField_reserve1_set___")]
-  public static extern void CThostFtdcExchangeQuoteField_reserve1_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExchangeQuoteField_ExchangeInstID_set___")]
+  public static extern void CThostFtdcExchangeQuoteField_ExchangeInstID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExchangeQuoteField_reserve1_get___")]
-  public static extern string CThostFtdcExchangeQuoteField_reserve1_get(global::System.Runtime.InteropServices.HandleRef jarg1);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExchangeQuoteField_ExchangeInstID_get___")]
+  public static extern string CThostFtdcExchangeQuoteField_ExchangeInstID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExchangeQuoteField_TraderID_set___")]
   public static extern void CThostFtdcExchangeQuoteField_TraderID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
@@ -15030,29 +14328,17 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExchangeQuoteField_BranchID_get___")]
   public static extern string CThostFtdcExchangeQuoteField_BranchID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExchangeQuoteField_reserve2_set___")]
-  public static extern void CThostFtdcExchangeQuoteField_reserve2_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExchangeQuoteField_IPAddress_set___")]
+  public static extern void CThostFtdcExchangeQuoteField_IPAddress_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExchangeQuoteField_reserve2_get___")]
-  public static extern string CThostFtdcExchangeQuoteField_reserve2_get(global::System.Runtime.InteropServices.HandleRef jarg1);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExchangeQuoteField_IPAddress_get___")]
+  public static extern string CThostFtdcExchangeQuoteField_IPAddress_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExchangeQuoteField_MacAddress_set___")]
   public static extern void CThostFtdcExchangeQuoteField_MacAddress_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExchangeQuoteField_MacAddress_get___")]
   public static extern string CThostFtdcExchangeQuoteField_MacAddress_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExchangeQuoteField_ExchangeInstID_set___")]
-  public static extern void CThostFtdcExchangeQuoteField_ExchangeInstID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExchangeQuoteField_ExchangeInstID_get___")]
-  public static extern string CThostFtdcExchangeQuoteField_ExchangeInstID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExchangeQuoteField_IPAddress_set___")]
-  public static extern void CThostFtdcExchangeQuoteField_IPAddress_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExchangeQuoteField_IPAddress_get___")]
-  public static extern string CThostFtdcExchangeQuoteField_IPAddress_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_new_CThostFtdcExchangeQuoteField___")]
   public static extern global::System.IntPtr new_CThostFtdcExchangeQuoteField();
@@ -15072,11 +14358,11 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryExchangeQuoteField_ClientID_get___")]
   public static extern string CThostFtdcQryExchangeQuoteField_ClientID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryExchangeQuoteField_reserve1_set___")]
-  public static extern void CThostFtdcQryExchangeQuoteField_reserve1_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryExchangeQuoteField_ExchangeInstID_set___")]
+  public static extern void CThostFtdcQryExchangeQuoteField_ExchangeInstID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryExchangeQuoteField_reserve1_get___")]
-  public static extern string CThostFtdcQryExchangeQuoteField_reserve1_get(global::System.Runtime.InteropServices.HandleRef jarg1);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryExchangeQuoteField_ExchangeInstID_get___")]
+  public static extern string CThostFtdcQryExchangeQuoteField_ExchangeInstID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryExchangeQuoteField_ExchangeID_set___")]
   public static extern void CThostFtdcQryExchangeQuoteField_ExchangeID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
@@ -15089,12 +14375,6 @@ class CTPFutureApiPINVOKE {
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryExchangeQuoteField_TraderID_get___")]
   public static extern string CThostFtdcQryExchangeQuoteField_TraderID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryExchangeQuoteField_ExchangeInstID_set___")]
-  public static extern void CThostFtdcQryExchangeQuoteField_ExchangeInstID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryExchangeQuoteField_ExchangeInstID_get___")]
-  public static extern string CThostFtdcQryExchangeQuoteField_ExchangeInstID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_new_CThostFtdcQryExchangeQuoteField___")]
   public static extern global::System.IntPtr new_CThostFtdcQryExchangeQuoteField();
@@ -15210,23 +14490,17 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExchangeQuoteActionField_UserID_get___")]
   public static extern string CThostFtdcExchangeQuoteActionField_UserID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExchangeQuoteActionField_reserve1_set___")]
-  public static extern void CThostFtdcExchangeQuoteActionField_reserve1_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExchangeQuoteActionField_IPAddress_set___")]
+  public static extern void CThostFtdcExchangeQuoteActionField_IPAddress_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExchangeQuoteActionField_reserve1_get___")]
-  public static extern string CThostFtdcExchangeQuoteActionField_reserve1_get(global::System.Runtime.InteropServices.HandleRef jarg1);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExchangeQuoteActionField_IPAddress_get___")]
+  public static extern string CThostFtdcExchangeQuoteActionField_IPAddress_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExchangeQuoteActionField_MacAddress_set___")]
   public static extern void CThostFtdcExchangeQuoteActionField_MacAddress_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExchangeQuoteActionField_MacAddress_get___")]
   public static extern string CThostFtdcExchangeQuoteActionField_MacAddress_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExchangeQuoteActionField_IPAddress_set___")]
-  public static extern void CThostFtdcExchangeQuoteActionField_IPAddress_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExchangeQuoteActionField_IPAddress_get___")]
-  public static extern string CThostFtdcExchangeQuoteActionField_IPAddress_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_new_CThostFtdcExchangeQuoteActionField___")]
   public static extern global::System.IntPtr new_CThostFtdcExchangeQuoteActionField();
@@ -15264,11 +14538,11 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_delete_CThostFtdcQryExchangeQuoteActionField___")]
   public static extern void delete_CThostFtdcQryExchangeQuoteActionField(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcOptionInstrDeltaField_reserve1_set___")]
-  public static extern void CThostFtdcOptionInstrDeltaField_reserve1_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcOptionInstrDeltaField_InstrumentID_set___")]
+  public static extern void CThostFtdcOptionInstrDeltaField_InstrumentID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcOptionInstrDeltaField_reserve1_get___")]
-  public static extern string CThostFtdcOptionInstrDeltaField_reserve1_get(global::System.Runtime.InteropServices.HandleRef jarg1);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcOptionInstrDeltaField_InstrumentID_get___")]
+  public static extern string CThostFtdcOptionInstrDeltaField_InstrumentID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcOptionInstrDeltaField_InvestorRange_set___")]
   public static extern void CThostFtdcOptionInstrDeltaField_InvestorRange_set(global::System.Runtime.InteropServices.HandleRef jarg1, char jarg2);
@@ -15294,12 +14568,6 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcOptionInstrDeltaField_Delta_get___")]
   public static extern double CThostFtdcOptionInstrDeltaField_Delta_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcOptionInstrDeltaField_InstrumentID_set___")]
-  public static extern void CThostFtdcOptionInstrDeltaField_InstrumentID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcOptionInstrDeltaField_InstrumentID_get___")]
-  public static extern string CThostFtdcOptionInstrDeltaField_InstrumentID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_new_CThostFtdcOptionInstrDeltaField___")]
   public static extern global::System.IntPtr new_CThostFtdcOptionInstrDeltaField();
 
@@ -15312,11 +14580,11 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcForQuoteRspField_TradingDay_get___")]
   public static extern string CThostFtdcForQuoteRspField_TradingDay_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcForQuoteRspField_reserve1_set___")]
-  public static extern void CThostFtdcForQuoteRspField_reserve1_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcForQuoteRspField_InstrumentID_set___")]
+  public static extern void CThostFtdcForQuoteRspField_InstrumentID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcForQuoteRspField_reserve1_get___")]
-  public static extern string CThostFtdcForQuoteRspField_reserve1_get(global::System.Runtime.InteropServices.HandleRef jarg1);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcForQuoteRspField_InstrumentID_get___")]
+  public static extern string CThostFtdcForQuoteRspField_InstrumentID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcForQuoteRspField_ForQuoteSysID_set___")]
   public static extern void CThostFtdcForQuoteRspField_ForQuoteSysID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
@@ -15342,23 +14610,17 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcForQuoteRspField_ExchangeID_get___")]
   public static extern string CThostFtdcForQuoteRspField_ExchangeID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcForQuoteRspField_InstrumentID_set___")]
-  public static extern void CThostFtdcForQuoteRspField_InstrumentID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcForQuoteRspField_InstrumentID_get___")]
-  public static extern string CThostFtdcForQuoteRspField_InstrumentID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_new_CThostFtdcForQuoteRspField___")]
   public static extern global::System.IntPtr new_CThostFtdcForQuoteRspField();
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_delete_CThostFtdcForQuoteRspField___")]
   public static extern void delete_CThostFtdcForQuoteRspField(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcStrikeOffsetField_reserve1_set___")]
-  public static extern void CThostFtdcStrikeOffsetField_reserve1_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcStrikeOffsetField_InstrumentID_set___")]
+  public static extern void CThostFtdcStrikeOffsetField_InstrumentID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcStrikeOffsetField_reserve1_get___")]
-  public static extern string CThostFtdcStrikeOffsetField_reserve1_get(global::System.Runtime.InteropServices.HandleRef jarg1);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcStrikeOffsetField_InstrumentID_get___")]
+  public static extern string CThostFtdcStrikeOffsetField_InstrumentID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcStrikeOffsetField_InvestorRange_set___")]
   public static extern void CThostFtdcStrikeOffsetField_InvestorRange_set(global::System.Runtime.InteropServices.HandleRef jarg1, char jarg2);
@@ -15390,12 +14652,6 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcStrikeOffsetField_OffsetType_get___")]
   public static extern char CThostFtdcStrikeOffsetField_OffsetType_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcStrikeOffsetField_InstrumentID_set___")]
-  public static extern void CThostFtdcStrikeOffsetField_InstrumentID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcStrikeOffsetField_InstrumentID_get___")]
-  public static extern string CThostFtdcStrikeOffsetField_InstrumentID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_new_CThostFtdcStrikeOffsetField___")]
   public static extern global::System.IntPtr new_CThostFtdcStrikeOffsetField();
 
@@ -15413,12 +14669,6 @@ class CTPFutureApiPINVOKE {
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryStrikeOffsetField_InvestorID_get___")]
   public static extern string CThostFtdcQryStrikeOffsetField_InvestorID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryStrikeOffsetField_reserve1_set___")]
-  public static extern void CThostFtdcQryStrikeOffsetField_reserve1_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryStrikeOffsetField_reserve1_get___")]
-  public static extern string CThostFtdcQryStrikeOffsetField_reserve1_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryStrikeOffsetField_InstrumentID_set___")]
   public static extern void CThostFtdcQryStrikeOffsetField_InstrumentID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
@@ -15486,23 +14736,17 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInputBatchOrderActionField_InvestUnitID_get___")]
   public static extern string CThostFtdcInputBatchOrderActionField_InvestUnitID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInputBatchOrderActionField_reserve1_set___")]
-  public static extern void CThostFtdcInputBatchOrderActionField_reserve1_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInputBatchOrderActionField_IPAddress_set___")]
+  public static extern void CThostFtdcInputBatchOrderActionField_IPAddress_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInputBatchOrderActionField_reserve1_get___")]
-  public static extern string CThostFtdcInputBatchOrderActionField_reserve1_get(global::System.Runtime.InteropServices.HandleRef jarg1);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInputBatchOrderActionField_IPAddress_get___")]
+  public static extern string CThostFtdcInputBatchOrderActionField_IPAddress_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInputBatchOrderActionField_MacAddress_set___")]
   public static extern void CThostFtdcInputBatchOrderActionField_MacAddress_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInputBatchOrderActionField_MacAddress_get___")]
   public static extern string CThostFtdcInputBatchOrderActionField_MacAddress_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInputBatchOrderActionField_IPAddress_set___")]
-  public static extern void CThostFtdcInputBatchOrderActionField_IPAddress_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInputBatchOrderActionField_IPAddress_get___")]
-  public static extern string CThostFtdcInputBatchOrderActionField_IPAddress_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_new_CThostFtdcInputBatchOrderActionField___")]
   public static extern global::System.IntPtr new_CThostFtdcInputBatchOrderActionField();
@@ -15624,23 +14868,17 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcBatchOrderActionField_InvestUnitID_get___")]
   public static extern string CThostFtdcBatchOrderActionField_InvestUnitID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcBatchOrderActionField_reserve1_set___")]
-  public static extern void CThostFtdcBatchOrderActionField_reserve1_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcBatchOrderActionField_IPAddress_set___")]
+  public static extern void CThostFtdcBatchOrderActionField_IPAddress_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcBatchOrderActionField_reserve1_get___")]
-  public static extern string CThostFtdcBatchOrderActionField_reserve1_get(global::System.Runtime.InteropServices.HandleRef jarg1);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcBatchOrderActionField_IPAddress_get___")]
+  public static extern string CThostFtdcBatchOrderActionField_IPAddress_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcBatchOrderActionField_MacAddress_set___")]
   public static extern void CThostFtdcBatchOrderActionField_MacAddress_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcBatchOrderActionField_MacAddress_get___")]
   public static extern string CThostFtdcBatchOrderActionField_MacAddress_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcBatchOrderActionField_IPAddress_set___")]
-  public static extern void CThostFtdcBatchOrderActionField_IPAddress_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcBatchOrderActionField_IPAddress_get___")]
-  public static extern string CThostFtdcBatchOrderActionField_IPAddress_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_new_CThostFtdcBatchOrderActionField___")]
   public static extern global::System.IntPtr new_CThostFtdcBatchOrderActionField();
@@ -15714,23 +14952,17 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExchangeBatchOrderActionField_UserID_get___")]
   public static extern string CThostFtdcExchangeBatchOrderActionField_UserID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExchangeBatchOrderActionField_reserve1_set___")]
-  public static extern void CThostFtdcExchangeBatchOrderActionField_reserve1_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExchangeBatchOrderActionField_IPAddress_set___")]
+  public static extern void CThostFtdcExchangeBatchOrderActionField_IPAddress_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExchangeBatchOrderActionField_reserve1_get___")]
-  public static extern string CThostFtdcExchangeBatchOrderActionField_reserve1_get(global::System.Runtime.InteropServices.HandleRef jarg1);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExchangeBatchOrderActionField_IPAddress_get___")]
+  public static extern string CThostFtdcExchangeBatchOrderActionField_IPAddress_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExchangeBatchOrderActionField_MacAddress_set___")]
   public static extern void CThostFtdcExchangeBatchOrderActionField_MacAddress_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExchangeBatchOrderActionField_MacAddress_get___")]
   public static extern string CThostFtdcExchangeBatchOrderActionField_MacAddress_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExchangeBatchOrderActionField_IPAddress_set___")]
-  public static extern void CThostFtdcExchangeBatchOrderActionField_IPAddress_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExchangeBatchOrderActionField_IPAddress_get___")]
-  public static extern string CThostFtdcExchangeBatchOrderActionField_IPAddress_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_new_CThostFtdcExchangeBatchOrderActionField___")]
   public static extern global::System.IntPtr new_CThostFtdcExchangeBatchOrderActionField();
@@ -15768,11 +15000,11 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcCombInstrumentGuardField_BrokerID_get___")]
   public static extern string CThostFtdcCombInstrumentGuardField_BrokerID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcCombInstrumentGuardField_reserve1_set___")]
-  public static extern void CThostFtdcCombInstrumentGuardField_reserve1_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcCombInstrumentGuardField_InstrumentID_set___")]
+  public static extern void CThostFtdcCombInstrumentGuardField_InstrumentID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcCombInstrumentGuardField_reserve1_get___")]
-  public static extern string CThostFtdcCombInstrumentGuardField_reserve1_get(global::System.Runtime.InteropServices.HandleRef jarg1);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcCombInstrumentGuardField_InstrumentID_get___")]
+  public static extern string CThostFtdcCombInstrumentGuardField_InstrumentID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcCombInstrumentGuardField_GuarantRatio_set___")]
   public static extern void CThostFtdcCombInstrumentGuardField_GuarantRatio_set(global::System.Runtime.InteropServices.HandleRef jarg1, double jarg2);
@@ -15786,12 +15018,6 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcCombInstrumentGuardField_ExchangeID_get___")]
   public static extern string CThostFtdcCombInstrumentGuardField_ExchangeID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcCombInstrumentGuardField_InstrumentID_set___")]
-  public static extern void CThostFtdcCombInstrumentGuardField_InstrumentID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcCombInstrumentGuardField_InstrumentID_get___")]
-  public static extern string CThostFtdcCombInstrumentGuardField_InstrumentID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_new_CThostFtdcCombInstrumentGuardField___")]
   public static extern global::System.IntPtr new_CThostFtdcCombInstrumentGuardField();
 
@@ -15804,23 +15030,17 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryCombInstrumentGuardField_BrokerID_get___")]
   public static extern string CThostFtdcQryCombInstrumentGuardField_BrokerID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryCombInstrumentGuardField_reserve1_set___")]
-  public static extern void CThostFtdcQryCombInstrumentGuardField_reserve1_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryCombInstrumentGuardField_InstrumentID_set___")]
+  public static extern void CThostFtdcQryCombInstrumentGuardField_InstrumentID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryCombInstrumentGuardField_reserve1_get___")]
-  public static extern string CThostFtdcQryCombInstrumentGuardField_reserve1_get(global::System.Runtime.InteropServices.HandleRef jarg1);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryCombInstrumentGuardField_InstrumentID_get___")]
+  public static extern string CThostFtdcQryCombInstrumentGuardField_InstrumentID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryCombInstrumentGuardField_ExchangeID_set___")]
   public static extern void CThostFtdcQryCombInstrumentGuardField_ExchangeID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryCombInstrumentGuardField_ExchangeID_get___")]
   public static extern string CThostFtdcQryCombInstrumentGuardField_ExchangeID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryCombInstrumentGuardField_InstrumentID_set___")]
-  public static extern void CThostFtdcQryCombInstrumentGuardField_InstrumentID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryCombInstrumentGuardField_InstrumentID_get___")]
-  public static extern string CThostFtdcQryCombInstrumentGuardField_InstrumentID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_new_CThostFtdcQryCombInstrumentGuardField___")]
   public static extern global::System.IntPtr new_CThostFtdcQryCombInstrumentGuardField();
@@ -15840,11 +15060,11 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInputCombActionField_InvestorID_get___")]
   public static extern string CThostFtdcInputCombActionField_InvestorID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInputCombActionField_reserve1_set___")]
-  public static extern void CThostFtdcInputCombActionField_reserve1_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInputCombActionField_InstrumentID_set___")]
+  public static extern void CThostFtdcInputCombActionField_InstrumentID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInputCombActionField_reserve1_get___")]
-  public static extern string CThostFtdcInputCombActionField_reserve1_get(global::System.Runtime.InteropServices.HandleRef jarg1);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInputCombActionField_InstrumentID_get___")]
+  public static extern string CThostFtdcInputCombActionField_InstrumentID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInputCombActionField_CombActionRef_set___")]
   public static extern void CThostFtdcInputCombActionField_CombActionRef_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
@@ -15888,11 +15108,11 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInputCombActionField_ExchangeID_get___")]
   public static extern string CThostFtdcInputCombActionField_ExchangeID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInputCombActionField_reserve2_set___")]
-  public static extern void CThostFtdcInputCombActionField_reserve2_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInputCombActionField_IPAddress_set___")]
+  public static extern void CThostFtdcInputCombActionField_IPAddress_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInputCombActionField_reserve2_get___")]
-  public static extern string CThostFtdcInputCombActionField_reserve2_get(global::System.Runtime.InteropServices.HandleRef jarg1);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInputCombActionField_IPAddress_get___")]
+  public static extern string CThostFtdcInputCombActionField_IPAddress_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInputCombActionField_MacAddress_set___")]
   public static extern void CThostFtdcInputCombActionField_MacAddress_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
@@ -15905,30 +15125,6 @@ class CTPFutureApiPINVOKE {
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInputCombActionField_InvestUnitID_get___")]
   public static extern string CThostFtdcInputCombActionField_InvestUnitID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInputCombActionField_FrontID_set___")]
-  public static extern void CThostFtdcInputCombActionField_FrontID_set(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInputCombActionField_FrontID_get___")]
-  public static extern int CThostFtdcInputCombActionField_FrontID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInputCombActionField_SessionID_set___")]
-  public static extern void CThostFtdcInputCombActionField_SessionID_set(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInputCombActionField_SessionID_get___")]
-  public static extern int CThostFtdcInputCombActionField_SessionID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInputCombActionField_InstrumentID_set___")]
-  public static extern void CThostFtdcInputCombActionField_InstrumentID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInputCombActionField_InstrumentID_get___")]
-  public static extern string CThostFtdcInputCombActionField_InstrumentID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInputCombActionField_IPAddress_set___")]
-  public static extern void CThostFtdcInputCombActionField_IPAddress_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInputCombActionField_IPAddress_get___")]
-  public static extern string CThostFtdcInputCombActionField_IPAddress_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_new_CThostFtdcInputCombActionField___")]
   public static extern global::System.IntPtr new_CThostFtdcInputCombActionField();
@@ -15948,11 +15144,11 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcCombActionField_InvestorID_get___")]
   public static extern string CThostFtdcCombActionField_InvestorID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcCombActionField_reserve1_set___")]
-  public static extern void CThostFtdcCombActionField_reserve1_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcCombActionField_InstrumentID_set___")]
+  public static extern void CThostFtdcCombActionField_InstrumentID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcCombActionField_reserve1_get___")]
-  public static extern string CThostFtdcCombActionField_reserve1_get(global::System.Runtime.InteropServices.HandleRef jarg1);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcCombActionField_InstrumentID_get___")]
+  public static extern string CThostFtdcCombActionField_InstrumentID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcCombActionField_CombActionRef_set___")]
   public static extern void CThostFtdcCombActionField_CombActionRef_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
@@ -16014,11 +15210,11 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcCombActionField_ClientID_get___")]
   public static extern string CThostFtdcCombActionField_ClientID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcCombActionField_reserve2_set___")]
-  public static extern void CThostFtdcCombActionField_reserve2_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcCombActionField_ExchangeInstID_set___")]
+  public static extern void CThostFtdcCombActionField_ExchangeInstID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcCombActionField_reserve2_get___")]
-  public static extern string CThostFtdcCombActionField_reserve2_get(global::System.Runtime.InteropServices.HandleRef jarg1);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcCombActionField_ExchangeInstID_get___")]
+  public static extern string CThostFtdcCombActionField_ExchangeInstID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcCombActionField_TraderID_set___")]
   public static extern void CThostFtdcCombActionField_TraderID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
@@ -16086,11 +15282,11 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcCombActionField_StatusMsg_get___")]
   public static extern string CThostFtdcCombActionField_StatusMsg_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcCombActionField_reserve3_set___")]
-  public static extern void CThostFtdcCombActionField_reserve3_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcCombActionField_IPAddress_set___")]
+  public static extern void CThostFtdcCombActionField_IPAddress_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcCombActionField_reserve3_get___")]
-  public static extern string CThostFtdcCombActionField_reserve3_get(global::System.Runtime.InteropServices.HandleRef jarg1);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcCombActionField_IPAddress_get___")]
+  public static extern string CThostFtdcCombActionField_IPAddress_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcCombActionField_MacAddress_set___")]
   public static extern void CThostFtdcCombActionField_MacAddress_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
@@ -16116,24 +15312,6 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcCombActionField_InvestUnitID_get___")]
   public static extern string CThostFtdcCombActionField_InvestUnitID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcCombActionField_InstrumentID_set___")]
-  public static extern void CThostFtdcCombActionField_InstrumentID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcCombActionField_InstrumentID_get___")]
-  public static extern string CThostFtdcCombActionField_InstrumentID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcCombActionField_ExchangeInstID_set___")]
-  public static extern void CThostFtdcCombActionField_ExchangeInstID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcCombActionField_ExchangeInstID_get___")]
-  public static extern string CThostFtdcCombActionField_ExchangeInstID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcCombActionField_IPAddress_set___")]
-  public static extern void CThostFtdcCombActionField_IPAddress_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcCombActionField_IPAddress_get___")]
-  public static extern string CThostFtdcCombActionField_IPAddress_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_new_CThostFtdcCombActionField___")]
   public static extern global::System.IntPtr new_CThostFtdcCombActionField();
 
@@ -16152,11 +15330,11 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryCombActionField_InvestorID_get___")]
   public static extern string CThostFtdcQryCombActionField_InvestorID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryCombActionField_reserve1_set___")]
-  public static extern void CThostFtdcQryCombActionField_reserve1_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryCombActionField_InstrumentID_set___")]
+  public static extern void CThostFtdcQryCombActionField_InstrumentID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryCombActionField_reserve1_get___")]
-  public static extern string CThostFtdcQryCombActionField_reserve1_get(global::System.Runtime.InteropServices.HandleRef jarg1);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryCombActionField_InstrumentID_get___")]
+  public static extern string CThostFtdcQryCombActionField_InstrumentID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryCombActionField_ExchangeID_set___")]
   public static extern void CThostFtdcQryCombActionField_ExchangeID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
@@ -16169,12 +15347,6 @@ class CTPFutureApiPINVOKE {
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryCombActionField_InvestUnitID_get___")]
   public static extern string CThostFtdcQryCombActionField_InvestUnitID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryCombActionField_InstrumentID_set___")]
-  public static extern void CThostFtdcQryCombActionField_InstrumentID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryCombActionField_InstrumentID_get___")]
-  public static extern string CThostFtdcQryCombActionField_InstrumentID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_new_CThostFtdcQryCombActionField___")]
   public static extern global::System.IntPtr new_CThostFtdcQryCombActionField();
@@ -16230,11 +15402,11 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExchangeCombActionField_ClientID_get___")]
   public static extern string CThostFtdcExchangeCombActionField_ClientID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExchangeCombActionField_reserve1_set___")]
-  public static extern void CThostFtdcExchangeCombActionField_reserve1_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExchangeCombActionField_ExchangeInstID_set___")]
+  public static extern void CThostFtdcExchangeCombActionField_ExchangeInstID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExchangeCombActionField_reserve1_get___")]
-  public static extern string CThostFtdcExchangeCombActionField_reserve1_get(global::System.Runtime.InteropServices.HandleRef jarg1);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExchangeCombActionField_ExchangeInstID_get___")]
+  public static extern string CThostFtdcExchangeCombActionField_ExchangeInstID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExchangeCombActionField_TraderID_set___")]
   public static extern void CThostFtdcExchangeCombActionField_TraderID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
@@ -16278,11 +15450,11 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExchangeCombActionField_SequenceNo_get___")]
   public static extern int CThostFtdcExchangeCombActionField_SequenceNo_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExchangeCombActionField_reserve2_set___")]
-  public static extern void CThostFtdcExchangeCombActionField_reserve2_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExchangeCombActionField_IPAddress_set___")]
+  public static extern void CThostFtdcExchangeCombActionField_IPAddress_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExchangeCombActionField_reserve2_get___")]
-  public static extern string CThostFtdcExchangeCombActionField_reserve2_get(global::System.Runtime.InteropServices.HandleRef jarg1);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExchangeCombActionField_IPAddress_get___")]
+  public static extern string CThostFtdcExchangeCombActionField_IPAddress_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExchangeCombActionField_MacAddress_set___")]
   public static extern void CThostFtdcExchangeCombActionField_MacAddress_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
@@ -16302,18 +15474,6 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExchangeCombActionField_BranchID_get___")]
   public static extern string CThostFtdcExchangeCombActionField_BranchID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExchangeCombActionField_ExchangeInstID_set___")]
-  public static extern void CThostFtdcExchangeCombActionField_ExchangeInstID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExchangeCombActionField_ExchangeInstID_get___")]
-  public static extern string CThostFtdcExchangeCombActionField_ExchangeInstID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExchangeCombActionField_IPAddress_set___")]
-  public static extern void CThostFtdcExchangeCombActionField_IPAddress_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExchangeCombActionField_IPAddress_get___")]
-  public static extern string CThostFtdcExchangeCombActionField_IPAddress_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_new_CThostFtdcExchangeCombActionField___")]
   public static extern global::System.IntPtr new_CThostFtdcExchangeCombActionField();
 
@@ -16332,11 +15492,11 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryExchangeCombActionField_ClientID_get___")]
   public static extern string CThostFtdcQryExchangeCombActionField_ClientID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryExchangeCombActionField_reserve1_set___")]
-  public static extern void CThostFtdcQryExchangeCombActionField_reserve1_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryExchangeCombActionField_ExchangeInstID_set___")]
+  public static extern void CThostFtdcQryExchangeCombActionField_ExchangeInstID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryExchangeCombActionField_reserve1_get___")]
-  public static extern string CThostFtdcQryExchangeCombActionField_reserve1_get(global::System.Runtime.InteropServices.HandleRef jarg1);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryExchangeCombActionField_ExchangeInstID_get___")]
+  public static extern string CThostFtdcQryExchangeCombActionField_ExchangeInstID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryExchangeCombActionField_ExchangeID_set___")]
   public static extern void CThostFtdcQryExchangeCombActionField_ExchangeID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
@@ -16350,23 +15510,17 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryExchangeCombActionField_TraderID_get___")]
   public static extern string CThostFtdcQryExchangeCombActionField_TraderID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryExchangeCombActionField_ExchangeInstID_set___")]
-  public static extern void CThostFtdcQryExchangeCombActionField_ExchangeInstID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryExchangeCombActionField_ExchangeInstID_get___")]
-  public static extern string CThostFtdcQryExchangeCombActionField_ExchangeInstID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_new_CThostFtdcQryExchangeCombActionField___")]
   public static extern global::System.IntPtr new_CThostFtdcQryExchangeCombActionField();
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_delete_CThostFtdcQryExchangeCombActionField___")]
   public static extern void delete_CThostFtdcQryExchangeCombActionField(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcProductExchRateField_reserve1_set___")]
-  public static extern void CThostFtdcProductExchRateField_reserve1_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcProductExchRateField_ProductID_set___")]
+  public static extern void CThostFtdcProductExchRateField_ProductID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcProductExchRateField_reserve1_get___")]
-  public static extern string CThostFtdcProductExchRateField_reserve1_get(global::System.Runtime.InteropServices.HandleRef jarg1);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcProductExchRateField_ProductID_get___")]
+  public static extern string CThostFtdcProductExchRateField_ProductID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcProductExchRateField_QuoteCurrencyID_set___")]
   public static extern void CThostFtdcProductExchRateField_QuoteCurrencyID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
@@ -16386,35 +15540,23 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcProductExchRateField_ExchangeID_get___")]
   public static extern string CThostFtdcProductExchRateField_ExchangeID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcProductExchRateField_ProductID_set___")]
-  public static extern void CThostFtdcProductExchRateField_ProductID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcProductExchRateField_ProductID_get___")]
-  public static extern string CThostFtdcProductExchRateField_ProductID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_new_CThostFtdcProductExchRateField___")]
   public static extern global::System.IntPtr new_CThostFtdcProductExchRateField();
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_delete_CThostFtdcProductExchRateField___")]
   public static extern void delete_CThostFtdcProductExchRateField(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryProductExchRateField_reserve1_set___")]
-  public static extern void CThostFtdcQryProductExchRateField_reserve1_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryProductExchRateField_ProductID_set___")]
+  public static extern void CThostFtdcQryProductExchRateField_ProductID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryProductExchRateField_reserve1_get___")]
-  public static extern string CThostFtdcQryProductExchRateField_reserve1_get(global::System.Runtime.InteropServices.HandleRef jarg1);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryProductExchRateField_ProductID_get___")]
+  public static extern string CThostFtdcQryProductExchRateField_ProductID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryProductExchRateField_ExchangeID_set___")]
   public static extern void CThostFtdcQryProductExchRateField_ExchangeID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryProductExchRateField_ExchangeID_get___")]
   public static extern string CThostFtdcQryProductExchRateField_ExchangeID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryProductExchRateField_ProductID_set___")]
-  public static extern void CThostFtdcQryProductExchRateField_ProductID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryProductExchRateField_ProductID_get___")]
-  public static extern string CThostFtdcQryProductExchRateField_ProductID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_new_CThostFtdcQryProductExchRateField___")]
   public static extern global::System.IntPtr new_CThostFtdcQryProductExchRateField();
@@ -16428,23 +15570,17 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryForQuoteParamField_BrokerID_get___")]
   public static extern string CThostFtdcQryForQuoteParamField_BrokerID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryForQuoteParamField_reserve1_set___")]
-  public static extern void CThostFtdcQryForQuoteParamField_reserve1_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryForQuoteParamField_InstrumentID_set___")]
+  public static extern void CThostFtdcQryForQuoteParamField_InstrumentID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryForQuoteParamField_reserve1_get___")]
-  public static extern string CThostFtdcQryForQuoteParamField_reserve1_get(global::System.Runtime.InteropServices.HandleRef jarg1);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryForQuoteParamField_InstrumentID_get___")]
+  public static extern string CThostFtdcQryForQuoteParamField_InstrumentID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryForQuoteParamField_ExchangeID_set___")]
   public static extern void CThostFtdcQryForQuoteParamField_ExchangeID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryForQuoteParamField_ExchangeID_get___")]
   public static extern string CThostFtdcQryForQuoteParamField_ExchangeID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryForQuoteParamField_InstrumentID_set___")]
-  public static extern void CThostFtdcQryForQuoteParamField_InstrumentID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryForQuoteParamField_InstrumentID_get___")]
-  public static extern string CThostFtdcQryForQuoteParamField_InstrumentID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_new_CThostFtdcQryForQuoteParamField___")]
   public static extern global::System.IntPtr new_CThostFtdcQryForQuoteParamField();
@@ -16458,11 +15594,11 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcForQuoteParamField_BrokerID_get___")]
   public static extern string CThostFtdcForQuoteParamField_BrokerID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcForQuoteParamField_reserve1_set___")]
-  public static extern void CThostFtdcForQuoteParamField_reserve1_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcForQuoteParamField_InstrumentID_set___")]
+  public static extern void CThostFtdcForQuoteParamField_InstrumentID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcForQuoteParamField_reserve1_get___")]
-  public static extern string CThostFtdcForQuoteParamField_reserve1_get(global::System.Runtime.InteropServices.HandleRef jarg1);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcForQuoteParamField_InstrumentID_get___")]
+  public static extern string CThostFtdcForQuoteParamField_InstrumentID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcForQuoteParamField_ExchangeID_set___")]
   public static extern void CThostFtdcForQuoteParamField_ExchangeID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
@@ -16482,23 +15618,17 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcForQuoteParamField_PriceInterval_get___")]
   public static extern double CThostFtdcForQuoteParamField_PriceInterval_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcForQuoteParamField_InstrumentID_set___")]
-  public static extern void CThostFtdcForQuoteParamField_InstrumentID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcForQuoteParamField_InstrumentID_get___")]
-  public static extern string CThostFtdcForQuoteParamField_InstrumentID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_new_CThostFtdcForQuoteParamField___")]
   public static extern global::System.IntPtr new_CThostFtdcForQuoteParamField();
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_delete_CThostFtdcForQuoteParamField___")]
   public static extern void delete_CThostFtdcForQuoteParamField(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcMMOptionInstrCommRateField_reserve1_set___")]
-  public static extern void CThostFtdcMMOptionInstrCommRateField_reserve1_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcMMOptionInstrCommRateField_InstrumentID_set___")]
+  public static extern void CThostFtdcMMOptionInstrCommRateField_InstrumentID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcMMOptionInstrCommRateField_reserve1_get___")]
-  public static extern string CThostFtdcMMOptionInstrCommRateField_reserve1_get(global::System.Runtime.InteropServices.HandleRef jarg1);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcMMOptionInstrCommRateField_InstrumentID_get___")]
+  public static extern string CThostFtdcMMOptionInstrCommRateField_InstrumentID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcMMOptionInstrCommRateField_InvestorRange_set___")]
   public static extern void CThostFtdcMMOptionInstrCommRateField_InvestorRange_set(global::System.Runtime.InteropServices.HandleRef jarg1, char jarg2);
@@ -16566,12 +15696,6 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcMMOptionInstrCommRateField_StrikeRatioByVolume_get___")]
   public static extern double CThostFtdcMMOptionInstrCommRateField_StrikeRatioByVolume_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcMMOptionInstrCommRateField_InstrumentID_set___")]
-  public static extern void CThostFtdcMMOptionInstrCommRateField_InstrumentID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcMMOptionInstrCommRateField_InstrumentID_get___")]
-  public static extern string CThostFtdcMMOptionInstrCommRateField_InstrumentID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_new_CThostFtdcMMOptionInstrCommRateField___")]
   public static extern global::System.IntPtr new_CThostFtdcMMOptionInstrCommRateField();
 
@@ -16590,12 +15714,6 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryMMOptionInstrCommRateField_InvestorID_get___")]
   public static extern string CThostFtdcQryMMOptionInstrCommRateField_InvestorID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryMMOptionInstrCommRateField_reserve1_set___")]
-  public static extern void CThostFtdcQryMMOptionInstrCommRateField_reserve1_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryMMOptionInstrCommRateField_reserve1_get___")]
-  public static extern string CThostFtdcQryMMOptionInstrCommRateField_reserve1_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryMMOptionInstrCommRateField_InstrumentID_set___")]
   public static extern void CThostFtdcQryMMOptionInstrCommRateField_InstrumentID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
@@ -16608,11 +15726,11 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_delete_CThostFtdcQryMMOptionInstrCommRateField___")]
   public static extern void delete_CThostFtdcQryMMOptionInstrCommRateField(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcMMInstrumentCommissionRateField_reserve1_set___")]
-  public static extern void CThostFtdcMMInstrumentCommissionRateField_reserve1_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcMMInstrumentCommissionRateField_InstrumentID_set___")]
+  public static extern void CThostFtdcMMInstrumentCommissionRateField_InstrumentID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcMMInstrumentCommissionRateField_reserve1_get___")]
-  public static extern string CThostFtdcMMInstrumentCommissionRateField_reserve1_get(global::System.Runtime.InteropServices.HandleRef jarg1);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcMMInstrumentCommissionRateField_InstrumentID_get___")]
+  public static extern string CThostFtdcMMInstrumentCommissionRateField_InstrumentID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcMMInstrumentCommissionRateField_InvestorRange_set___")]
   public static extern void CThostFtdcMMInstrumentCommissionRateField_InvestorRange_set(global::System.Runtime.InteropServices.HandleRef jarg1, char jarg2);
@@ -16668,12 +15786,6 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcMMInstrumentCommissionRateField_CloseTodayRatioByVolume_get___")]
   public static extern double CThostFtdcMMInstrumentCommissionRateField_CloseTodayRatioByVolume_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcMMInstrumentCommissionRateField_InstrumentID_set___")]
-  public static extern void CThostFtdcMMInstrumentCommissionRateField_InstrumentID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcMMInstrumentCommissionRateField_InstrumentID_get___")]
-  public static extern string CThostFtdcMMInstrumentCommissionRateField_InstrumentID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_new_CThostFtdcMMInstrumentCommissionRateField___")]
   public static extern global::System.IntPtr new_CThostFtdcMMInstrumentCommissionRateField();
 
@@ -16692,12 +15804,6 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryMMInstrumentCommissionRateField_InvestorID_get___")]
   public static extern string CThostFtdcQryMMInstrumentCommissionRateField_InvestorID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryMMInstrumentCommissionRateField_reserve1_set___")]
-  public static extern void CThostFtdcQryMMInstrumentCommissionRateField_reserve1_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryMMInstrumentCommissionRateField_reserve1_get___")]
-  public static extern string CThostFtdcQryMMInstrumentCommissionRateField_reserve1_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryMMInstrumentCommissionRateField_InstrumentID_set___")]
   public static extern void CThostFtdcQryMMInstrumentCommissionRateField_InstrumentID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
@@ -16710,11 +15816,11 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_delete_CThostFtdcQryMMInstrumentCommissionRateField___")]
   public static extern void delete_CThostFtdcQryMMInstrumentCommissionRateField(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInstrumentOrderCommRateField_reserve1_set___")]
-  public static extern void CThostFtdcInstrumentOrderCommRateField_reserve1_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInstrumentOrderCommRateField_InstrumentID_set___")]
+  public static extern void CThostFtdcInstrumentOrderCommRateField_InstrumentID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInstrumentOrderCommRateField_reserve1_get___")]
-  public static extern string CThostFtdcInstrumentOrderCommRateField_reserve1_get(global::System.Runtime.InteropServices.HandleRef jarg1);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInstrumentOrderCommRateField_InstrumentID_get___")]
+  public static extern string CThostFtdcInstrumentOrderCommRateField_InstrumentID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInstrumentOrderCommRateField_InvestorRange_set___")]
   public static extern void CThostFtdcInstrumentOrderCommRateField_InvestorRange_set(global::System.Runtime.InteropServices.HandleRef jarg1, char jarg2);
@@ -16764,12 +15870,6 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInstrumentOrderCommRateField_InvestUnitID_get___")]
   public static extern string CThostFtdcInstrumentOrderCommRateField_InvestUnitID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInstrumentOrderCommRateField_InstrumentID_set___")]
-  public static extern void CThostFtdcInstrumentOrderCommRateField_InstrumentID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInstrumentOrderCommRateField_InstrumentID_get___")]
-  public static extern string CThostFtdcInstrumentOrderCommRateField_InstrumentID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_new_CThostFtdcInstrumentOrderCommRateField___")]
   public static extern global::System.IntPtr new_CThostFtdcInstrumentOrderCommRateField();
 
@@ -16787,12 +15887,6 @@ class CTPFutureApiPINVOKE {
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryInstrumentOrderCommRateField_InvestorID_get___")]
   public static extern string CThostFtdcQryInstrumentOrderCommRateField_InvestorID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryInstrumentOrderCommRateField_reserve1_set___")]
-  public static extern void CThostFtdcQryInstrumentOrderCommRateField_reserve1_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryInstrumentOrderCommRateField_reserve1_get___")]
-  public static extern string CThostFtdcQryInstrumentOrderCommRateField_reserve1_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryInstrumentOrderCommRateField_InstrumentID_set___")]
   public static extern void CThostFtdcQryInstrumentOrderCommRateField_InstrumentID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
@@ -16836,11 +15930,11 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_delete_CThostFtdcTradeParamField___")]
   public static extern void delete_CThostFtdcTradeParamField(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInstrumentMarginRateULField_reserve1_set___")]
-  public static extern void CThostFtdcInstrumentMarginRateULField_reserve1_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInstrumentMarginRateULField_InstrumentID_set___")]
+  public static extern void CThostFtdcInstrumentMarginRateULField_InstrumentID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInstrumentMarginRateULField_reserve1_get___")]
-  public static extern string CThostFtdcInstrumentMarginRateULField_reserve1_get(global::System.Runtime.InteropServices.HandleRef jarg1);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInstrumentMarginRateULField_InstrumentID_get___")]
+  public static extern string CThostFtdcInstrumentMarginRateULField_InstrumentID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInstrumentMarginRateULField_InvestorRange_set___")]
   public static extern void CThostFtdcInstrumentMarginRateULField_InvestorRange_set(global::System.Runtime.InteropServices.HandleRef jarg1, char jarg2);
@@ -16890,12 +15984,6 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInstrumentMarginRateULField_ShortMarginRatioByVolume_get___")]
   public static extern double CThostFtdcInstrumentMarginRateULField_ShortMarginRatioByVolume_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInstrumentMarginRateULField_InstrumentID_set___")]
-  public static extern void CThostFtdcInstrumentMarginRateULField_InstrumentID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInstrumentMarginRateULField_InstrumentID_get___")]
-  public static extern string CThostFtdcInstrumentMarginRateULField_InstrumentID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_new_CThostFtdcInstrumentMarginRateULField___")]
   public static extern global::System.IntPtr new_CThostFtdcInstrumentMarginRateULField();
 
@@ -16920,11 +16008,11 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcFutureLimitPosiParamField_InvestorID_get___")]
   public static extern string CThostFtdcFutureLimitPosiParamField_InvestorID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcFutureLimitPosiParamField_reserve1_set___")]
-  public static extern void CThostFtdcFutureLimitPosiParamField_reserve1_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcFutureLimitPosiParamField_ProductID_set___")]
+  public static extern void CThostFtdcFutureLimitPosiParamField_ProductID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcFutureLimitPosiParamField_reserve1_get___")]
-  public static extern string CThostFtdcFutureLimitPosiParamField_reserve1_get(global::System.Runtime.InteropServices.HandleRef jarg1);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcFutureLimitPosiParamField_ProductID_get___")]
+  public static extern string CThostFtdcFutureLimitPosiParamField_ProductID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcFutureLimitPosiParamField_SpecOpenVolume_set___")]
   public static extern void CThostFtdcFutureLimitPosiParamField_SpecOpenVolume_set(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2);
@@ -16944,23 +16032,11 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcFutureLimitPosiParamField_OpenVolume_get___")]
   public static extern int CThostFtdcFutureLimitPosiParamField_OpenVolume_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcFutureLimitPosiParamField_ProductID_set___")]
-  public static extern void CThostFtdcFutureLimitPosiParamField_ProductID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcFutureLimitPosiParamField_ProductID_get___")]
-  public static extern string CThostFtdcFutureLimitPosiParamField_ProductID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_new_CThostFtdcFutureLimitPosiParamField___")]
   public static extern global::System.IntPtr new_CThostFtdcFutureLimitPosiParamField();
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_delete_CThostFtdcFutureLimitPosiParamField___")]
   public static extern void delete_CThostFtdcFutureLimitPosiParamField(global::System.Runtime.InteropServices.HandleRef jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcLoginForbiddenIPField_reserve1_set___")]
-  public static extern void CThostFtdcLoginForbiddenIPField_reserve1_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcLoginForbiddenIPField_reserve1_get___")]
-  public static extern string CThostFtdcLoginForbiddenIPField_reserve1_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcLoginForbiddenIPField_IPAddress_set___")]
   public static extern void CThostFtdcLoginForbiddenIPField_IPAddress_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
@@ -16974,23 +16050,17 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_delete_CThostFtdcLoginForbiddenIPField___")]
   public static extern void delete_CThostFtdcLoginForbiddenIPField(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcIPListField_reserve1_set___")]
-  public static extern void CThostFtdcIPListField_reserve1_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcIPListField_IPAddress_set___")]
+  public static extern void CThostFtdcIPListField_IPAddress_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcIPListField_reserve1_get___")]
-  public static extern string CThostFtdcIPListField_reserve1_get(global::System.Runtime.InteropServices.HandleRef jarg1);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcIPListField_IPAddress_get___")]
+  public static extern string CThostFtdcIPListField_IPAddress_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcIPListField_IsWhite_set___")]
   public static extern void CThostFtdcIPListField_IsWhite_set(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcIPListField_IsWhite_get___")]
   public static extern int CThostFtdcIPListField_IsWhite_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcIPListField_IPAddress_set___")]
-  public static extern void CThostFtdcIPListField_IPAddress_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcIPListField_IPAddress_get___")]
-  public static extern string CThostFtdcIPListField_IPAddress_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_new_CThostFtdcIPListField___")]
   public static extern global::System.IntPtr new_CThostFtdcIPListField();
@@ -17010,11 +16080,11 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInputOptionSelfCloseField_InvestorID_get___")]
   public static extern string CThostFtdcInputOptionSelfCloseField_InvestorID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInputOptionSelfCloseField_reserve1_set___")]
-  public static extern void CThostFtdcInputOptionSelfCloseField_reserve1_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInputOptionSelfCloseField_InstrumentID_set___")]
+  public static extern void CThostFtdcInputOptionSelfCloseField_InstrumentID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInputOptionSelfCloseField_reserve1_get___")]
-  public static extern string CThostFtdcInputOptionSelfCloseField_reserve1_get(global::System.Runtime.InteropServices.HandleRef jarg1);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInputOptionSelfCloseField_InstrumentID_get___")]
+  public static extern string CThostFtdcInputOptionSelfCloseField_InstrumentID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInputOptionSelfCloseField_OptionSelfCloseRef_set___")]
   public static extern void CThostFtdcInputOptionSelfCloseField_OptionSelfCloseRef_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
@@ -17088,29 +16158,17 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInputOptionSelfCloseField_ClientID_get___")]
   public static extern string CThostFtdcInputOptionSelfCloseField_ClientID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInputOptionSelfCloseField_reserve2_set___")]
-  public static extern void CThostFtdcInputOptionSelfCloseField_reserve2_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInputOptionSelfCloseField_IPAddress_set___")]
+  public static extern void CThostFtdcInputOptionSelfCloseField_IPAddress_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInputOptionSelfCloseField_reserve2_get___")]
-  public static extern string CThostFtdcInputOptionSelfCloseField_reserve2_get(global::System.Runtime.InteropServices.HandleRef jarg1);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInputOptionSelfCloseField_IPAddress_get___")]
+  public static extern string CThostFtdcInputOptionSelfCloseField_IPAddress_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInputOptionSelfCloseField_MacAddress_set___")]
   public static extern void CThostFtdcInputOptionSelfCloseField_MacAddress_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInputOptionSelfCloseField_MacAddress_get___")]
   public static extern string CThostFtdcInputOptionSelfCloseField_MacAddress_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInputOptionSelfCloseField_InstrumentID_set___")]
-  public static extern void CThostFtdcInputOptionSelfCloseField_InstrumentID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInputOptionSelfCloseField_InstrumentID_get___")]
-  public static extern string CThostFtdcInputOptionSelfCloseField_InstrumentID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInputOptionSelfCloseField_IPAddress_set___")]
-  public static extern void CThostFtdcInputOptionSelfCloseField_IPAddress_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInputOptionSelfCloseField_IPAddress_get___")]
-  public static extern string CThostFtdcInputOptionSelfCloseField_IPAddress_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_new_CThostFtdcInputOptionSelfCloseField___")]
   public static extern global::System.IntPtr new_CThostFtdcInputOptionSelfCloseField();
@@ -17184,11 +16242,11 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInputOptionSelfCloseActionField_UserID_get___")]
   public static extern string CThostFtdcInputOptionSelfCloseActionField_UserID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInputOptionSelfCloseActionField_reserve1_set___")]
-  public static extern void CThostFtdcInputOptionSelfCloseActionField_reserve1_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInputOptionSelfCloseActionField_InstrumentID_set___")]
+  public static extern void CThostFtdcInputOptionSelfCloseActionField_InstrumentID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInputOptionSelfCloseActionField_reserve1_get___")]
-  public static extern string CThostFtdcInputOptionSelfCloseActionField_reserve1_get(global::System.Runtime.InteropServices.HandleRef jarg1);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInputOptionSelfCloseActionField_InstrumentID_get___")]
+  public static extern string CThostFtdcInputOptionSelfCloseActionField_InstrumentID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInputOptionSelfCloseActionField_InvestUnitID_set___")]
   public static extern void CThostFtdcInputOptionSelfCloseActionField_InvestUnitID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
@@ -17196,29 +16254,17 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInputOptionSelfCloseActionField_InvestUnitID_get___")]
   public static extern string CThostFtdcInputOptionSelfCloseActionField_InvestUnitID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInputOptionSelfCloseActionField_reserve2_set___")]
-  public static extern void CThostFtdcInputOptionSelfCloseActionField_reserve2_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInputOptionSelfCloseActionField_IPAddress_set___")]
+  public static extern void CThostFtdcInputOptionSelfCloseActionField_IPAddress_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInputOptionSelfCloseActionField_reserve2_get___")]
-  public static extern string CThostFtdcInputOptionSelfCloseActionField_reserve2_get(global::System.Runtime.InteropServices.HandleRef jarg1);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInputOptionSelfCloseActionField_IPAddress_get___")]
+  public static extern string CThostFtdcInputOptionSelfCloseActionField_IPAddress_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInputOptionSelfCloseActionField_MacAddress_set___")]
   public static extern void CThostFtdcInputOptionSelfCloseActionField_MacAddress_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInputOptionSelfCloseActionField_MacAddress_get___")]
   public static extern string CThostFtdcInputOptionSelfCloseActionField_MacAddress_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInputOptionSelfCloseActionField_InstrumentID_set___")]
-  public static extern void CThostFtdcInputOptionSelfCloseActionField_InstrumentID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInputOptionSelfCloseActionField_InstrumentID_get___")]
-  public static extern string CThostFtdcInputOptionSelfCloseActionField_InstrumentID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInputOptionSelfCloseActionField_IPAddress_set___")]
-  public static extern void CThostFtdcInputOptionSelfCloseActionField_IPAddress_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInputOptionSelfCloseActionField_IPAddress_get___")]
-  public static extern string CThostFtdcInputOptionSelfCloseActionField_IPAddress_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_new_CThostFtdcInputOptionSelfCloseActionField___")]
   public static extern global::System.IntPtr new_CThostFtdcInputOptionSelfCloseActionField();
@@ -17238,11 +16284,11 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcOptionSelfCloseField_InvestorID_get___")]
   public static extern string CThostFtdcOptionSelfCloseField_InvestorID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcOptionSelfCloseField_reserve1_set___")]
-  public static extern void CThostFtdcOptionSelfCloseField_reserve1_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcOptionSelfCloseField_InstrumentID_set___")]
+  public static extern void CThostFtdcOptionSelfCloseField_InstrumentID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcOptionSelfCloseField_reserve1_get___")]
-  public static extern string CThostFtdcOptionSelfCloseField_reserve1_get(global::System.Runtime.InteropServices.HandleRef jarg1);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcOptionSelfCloseField_InstrumentID_get___")]
+  public static extern string CThostFtdcOptionSelfCloseField_InstrumentID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcOptionSelfCloseField_OptionSelfCloseRef_set___")]
   public static extern void CThostFtdcOptionSelfCloseField_OptionSelfCloseRef_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
@@ -17310,11 +16356,11 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcOptionSelfCloseField_ClientID_get___")]
   public static extern string CThostFtdcOptionSelfCloseField_ClientID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcOptionSelfCloseField_reserve2_set___")]
-  public static extern void CThostFtdcOptionSelfCloseField_reserve2_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcOptionSelfCloseField_ExchangeInstID_set___")]
+  public static extern void CThostFtdcOptionSelfCloseField_ExchangeInstID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcOptionSelfCloseField_reserve2_get___")]
-  public static extern string CThostFtdcOptionSelfCloseField_reserve2_get(global::System.Runtime.InteropServices.HandleRef jarg1);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcOptionSelfCloseField_ExchangeInstID_get___")]
+  public static extern string CThostFtdcOptionSelfCloseField_ExchangeInstID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcOptionSelfCloseField_TraderID_set___")]
   public static extern void CThostFtdcOptionSelfCloseField_TraderID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
@@ -17454,35 +16500,17 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcOptionSelfCloseField_CurrencyID_get___")]
   public static extern string CThostFtdcOptionSelfCloseField_CurrencyID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcOptionSelfCloseField_reserve3_set___")]
-  public static extern void CThostFtdcOptionSelfCloseField_reserve3_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcOptionSelfCloseField_IPAddress_set___")]
+  public static extern void CThostFtdcOptionSelfCloseField_IPAddress_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcOptionSelfCloseField_reserve3_get___")]
-  public static extern string CThostFtdcOptionSelfCloseField_reserve3_get(global::System.Runtime.InteropServices.HandleRef jarg1);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcOptionSelfCloseField_IPAddress_get___")]
+  public static extern string CThostFtdcOptionSelfCloseField_IPAddress_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcOptionSelfCloseField_MacAddress_set___")]
   public static extern void CThostFtdcOptionSelfCloseField_MacAddress_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcOptionSelfCloseField_MacAddress_get___")]
   public static extern string CThostFtdcOptionSelfCloseField_MacAddress_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcOptionSelfCloseField_InstrumentID_set___")]
-  public static extern void CThostFtdcOptionSelfCloseField_InstrumentID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcOptionSelfCloseField_InstrumentID_get___")]
-  public static extern string CThostFtdcOptionSelfCloseField_InstrumentID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcOptionSelfCloseField_ExchangeInstID_set___")]
-  public static extern void CThostFtdcOptionSelfCloseField_ExchangeInstID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcOptionSelfCloseField_ExchangeInstID_get___")]
-  public static extern string CThostFtdcOptionSelfCloseField_ExchangeInstID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcOptionSelfCloseField_IPAddress_set___")]
-  public static extern void CThostFtdcOptionSelfCloseField_IPAddress_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcOptionSelfCloseField_IPAddress_get___")]
-  public static extern string CThostFtdcOptionSelfCloseField_IPAddress_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_new_CThostFtdcOptionSelfCloseField___")]
   public static extern global::System.IntPtr new_CThostFtdcOptionSelfCloseField();
@@ -17622,11 +16650,11 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcOptionSelfCloseActionField_StatusMsg_get___")]
   public static extern string CThostFtdcOptionSelfCloseActionField_StatusMsg_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcOptionSelfCloseActionField_reserve1_set___")]
-  public static extern void CThostFtdcOptionSelfCloseActionField_reserve1_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcOptionSelfCloseActionField_InstrumentID_set___")]
+  public static extern void CThostFtdcOptionSelfCloseActionField_InstrumentID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcOptionSelfCloseActionField_reserve1_get___")]
-  public static extern string CThostFtdcOptionSelfCloseActionField_reserve1_get(global::System.Runtime.InteropServices.HandleRef jarg1);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcOptionSelfCloseActionField_InstrumentID_get___")]
+  public static extern string CThostFtdcOptionSelfCloseActionField_InstrumentID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcOptionSelfCloseActionField_BranchID_set___")]
   public static extern void CThostFtdcOptionSelfCloseActionField_BranchID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
@@ -17640,29 +16668,17 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcOptionSelfCloseActionField_InvestUnitID_get___")]
   public static extern string CThostFtdcOptionSelfCloseActionField_InvestUnitID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcOptionSelfCloseActionField_reserve2_set___")]
-  public static extern void CThostFtdcOptionSelfCloseActionField_reserve2_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcOptionSelfCloseActionField_IPAddress_set___")]
+  public static extern void CThostFtdcOptionSelfCloseActionField_IPAddress_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcOptionSelfCloseActionField_reserve2_get___")]
-  public static extern string CThostFtdcOptionSelfCloseActionField_reserve2_get(global::System.Runtime.InteropServices.HandleRef jarg1);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcOptionSelfCloseActionField_IPAddress_get___")]
+  public static extern string CThostFtdcOptionSelfCloseActionField_IPAddress_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcOptionSelfCloseActionField_MacAddress_set___")]
   public static extern void CThostFtdcOptionSelfCloseActionField_MacAddress_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcOptionSelfCloseActionField_MacAddress_get___")]
   public static extern string CThostFtdcOptionSelfCloseActionField_MacAddress_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcOptionSelfCloseActionField_InstrumentID_set___")]
-  public static extern void CThostFtdcOptionSelfCloseActionField_InstrumentID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcOptionSelfCloseActionField_InstrumentID_get___")]
-  public static extern string CThostFtdcOptionSelfCloseActionField_InstrumentID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcOptionSelfCloseActionField_IPAddress_set___")]
-  public static extern void CThostFtdcOptionSelfCloseActionField_IPAddress_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcOptionSelfCloseActionField_IPAddress_get___")]
-  public static extern string CThostFtdcOptionSelfCloseActionField_IPAddress_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_new_CThostFtdcOptionSelfCloseActionField___")]
   public static extern global::System.IntPtr new_CThostFtdcOptionSelfCloseActionField();
@@ -17682,11 +16698,11 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryOptionSelfCloseField_InvestorID_get___")]
   public static extern string CThostFtdcQryOptionSelfCloseField_InvestorID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryOptionSelfCloseField_reserve1_set___")]
-  public static extern void CThostFtdcQryOptionSelfCloseField_reserve1_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryOptionSelfCloseField_InstrumentID_set___")]
+  public static extern void CThostFtdcQryOptionSelfCloseField_InstrumentID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryOptionSelfCloseField_reserve1_get___")]
-  public static extern string CThostFtdcQryOptionSelfCloseField_reserve1_get(global::System.Runtime.InteropServices.HandleRef jarg1);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryOptionSelfCloseField_InstrumentID_get___")]
+  public static extern string CThostFtdcQryOptionSelfCloseField_InstrumentID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryOptionSelfCloseField_ExchangeID_set___")]
   public static extern void CThostFtdcQryOptionSelfCloseField_ExchangeID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
@@ -17711,12 +16727,6 @@ class CTPFutureApiPINVOKE {
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryOptionSelfCloseField_InsertTimeEnd_get___")]
   public static extern string CThostFtdcQryOptionSelfCloseField_InsertTimeEnd_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryOptionSelfCloseField_InstrumentID_set___")]
-  public static extern void CThostFtdcQryOptionSelfCloseField_InstrumentID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryOptionSelfCloseField_InstrumentID_get___")]
-  public static extern string CThostFtdcQryOptionSelfCloseField_InstrumentID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_new_CThostFtdcQryOptionSelfCloseField___")]
   public static extern global::System.IntPtr new_CThostFtdcQryOptionSelfCloseField();
@@ -17778,11 +16788,11 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExchangeOptionSelfCloseField_ClientID_get___")]
   public static extern string CThostFtdcExchangeOptionSelfCloseField_ClientID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExchangeOptionSelfCloseField_reserve1_set___")]
-  public static extern void CThostFtdcExchangeOptionSelfCloseField_reserve1_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExchangeOptionSelfCloseField_ExchangeInstID_set___")]
+  public static extern void CThostFtdcExchangeOptionSelfCloseField_ExchangeInstID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExchangeOptionSelfCloseField_reserve1_get___")]
-  public static extern string CThostFtdcExchangeOptionSelfCloseField_reserve1_get(global::System.Runtime.InteropServices.HandleRef jarg1);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExchangeOptionSelfCloseField_ExchangeInstID_get___")]
+  public static extern string CThostFtdcExchangeOptionSelfCloseField_ExchangeInstID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExchangeOptionSelfCloseField_TraderID_set___")]
   public static extern void CThostFtdcExchangeOptionSelfCloseField_TraderID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
@@ -17868,29 +16878,17 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExchangeOptionSelfCloseField_BranchID_get___")]
   public static extern string CThostFtdcExchangeOptionSelfCloseField_BranchID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExchangeOptionSelfCloseField_reserve2_set___")]
-  public static extern void CThostFtdcExchangeOptionSelfCloseField_reserve2_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExchangeOptionSelfCloseField_IPAddress_set___")]
+  public static extern void CThostFtdcExchangeOptionSelfCloseField_IPAddress_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExchangeOptionSelfCloseField_reserve2_get___")]
-  public static extern string CThostFtdcExchangeOptionSelfCloseField_reserve2_get(global::System.Runtime.InteropServices.HandleRef jarg1);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExchangeOptionSelfCloseField_IPAddress_get___")]
+  public static extern string CThostFtdcExchangeOptionSelfCloseField_IPAddress_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExchangeOptionSelfCloseField_MacAddress_set___")]
   public static extern void CThostFtdcExchangeOptionSelfCloseField_MacAddress_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExchangeOptionSelfCloseField_MacAddress_get___")]
   public static extern string CThostFtdcExchangeOptionSelfCloseField_MacAddress_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExchangeOptionSelfCloseField_ExchangeInstID_set___")]
-  public static extern void CThostFtdcExchangeOptionSelfCloseField_ExchangeInstID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExchangeOptionSelfCloseField_ExchangeInstID_get___")]
-  public static extern string CThostFtdcExchangeOptionSelfCloseField_ExchangeInstID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExchangeOptionSelfCloseField_IPAddress_set___")]
-  public static extern void CThostFtdcExchangeOptionSelfCloseField_IPAddress_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExchangeOptionSelfCloseField_IPAddress_get___")]
-  public static extern string CThostFtdcExchangeOptionSelfCloseField_IPAddress_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_new_CThostFtdcExchangeOptionSelfCloseField___")]
   public static extern global::System.IntPtr new_CThostFtdcExchangeOptionSelfCloseField();
@@ -18012,11 +17010,11 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExchangeOptionSelfCloseActionField_BranchID_get___")]
   public static extern string CThostFtdcExchangeOptionSelfCloseActionField_BranchID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExchangeOptionSelfCloseActionField_reserve1_set___")]
-  public static extern void CThostFtdcExchangeOptionSelfCloseActionField_reserve1_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExchangeOptionSelfCloseActionField_IPAddress_set___")]
+  public static extern void CThostFtdcExchangeOptionSelfCloseActionField_IPAddress_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExchangeOptionSelfCloseActionField_reserve1_get___")]
-  public static extern string CThostFtdcExchangeOptionSelfCloseActionField_reserve1_get(global::System.Runtime.InteropServices.HandleRef jarg1);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExchangeOptionSelfCloseActionField_IPAddress_get___")]
+  public static extern string CThostFtdcExchangeOptionSelfCloseActionField_IPAddress_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExchangeOptionSelfCloseActionField_MacAddress_set___")]
   public static extern void CThostFtdcExchangeOptionSelfCloseActionField_MacAddress_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
@@ -18024,29 +17022,17 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExchangeOptionSelfCloseActionField_MacAddress_get___")]
   public static extern string CThostFtdcExchangeOptionSelfCloseActionField_MacAddress_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExchangeOptionSelfCloseActionField_reserve2_set___")]
-  public static extern void CThostFtdcExchangeOptionSelfCloseActionField_reserve2_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExchangeOptionSelfCloseActionField_ExchangeInstID_set___")]
+  public static extern void CThostFtdcExchangeOptionSelfCloseActionField_ExchangeInstID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExchangeOptionSelfCloseActionField_reserve2_get___")]
-  public static extern string CThostFtdcExchangeOptionSelfCloseActionField_reserve2_get(global::System.Runtime.InteropServices.HandleRef jarg1);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExchangeOptionSelfCloseActionField_ExchangeInstID_get___")]
+  public static extern string CThostFtdcExchangeOptionSelfCloseActionField_ExchangeInstID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExchangeOptionSelfCloseActionField_OptSelfCloseFlag_set___")]
   public static extern void CThostFtdcExchangeOptionSelfCloseActionField_OptSelfCloseFlag_set(global::System.Runtime.InteropServices.HandleRef jarg1, char jarg2);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExchangeOptionSelfCloseActionField_OptSelfCloseFlag_get___")]
   public static extern char CThostFtdcExchangeOptionSelfCloseActionField_OptSelfCloseFlag_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExchangeOptionSelfCloseActionField_IPAddress_set___")]
-  public static extern void CThostFtdcExchangeOptionSelfCloseActionField_IPAddress_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExchangeOptionSelfCloseActionField_IPAddress_get___")]
-  public static extern string CThostFtdcExchangeOptionSelfCloseActionField_IPAddress_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExchangeOptionSelfCloseActionField_ExchangeInstID_set___")]
-  public static extern void CThostFtdcExchangeOptionSelfCloseActionField_ExchangeInstID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcExchangeOptionSelfCloseActionField_ExchangeInstID_get___")]
-  public static extern string CThostFtdcExchangeOptionSelfCloseActionField_ExchangeInstID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_new_CThostFtdcExchangeOptionSelfCloseActionField___")]
   public static extern global::System.IntPtr new_CThostFtdcExchangeOptionSelfCloseActionField();
@@ -18107,18 +17093,6 @@ class CTPFutureApiPINVOKE {
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcSyncDelaySwapField_ToAmount_get___")]
   public static extern double CThostFtdcSyncDelaySwapField_ToAmount_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcSyncDelaySwapField_IsManualSwap_set___")]
-  public static extern void CThostFtdcSyncDelaySwapField_IsManualSwap_set(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcSyncDelaySwapField_IsManualSwap_get___")]
-  public static extern int CThostFtdcSyncDelaySwapField_IsManualSwap_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcSyncDelaySwapField_IsAllRemainSetZero_set___")]
-  public static extern void CThostFtdcSyncDelaySwapField_IsAllRemainSetZero_set(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcSyncDelaySwapField_IsAllRemainSetZero_get___")]
-  public static extern int CThostFtdcSyncDelaySwapField_IsAllRemainSetZero_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_new_CThostFtdcSyncDelaySwapField___")]
   public static extern global::System.IntPtr new_CThostFtdcSyncDelaySwapField();
@@ -18300,11 +17274,11 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcMarketDataField_TradingDay_get___")]
   public static extern string CThostFtdcMarketDataField_TradingDay_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcMarketDataField_reserve1_set___")]
-  public static extern void CThostFtdcMarketDataField_reserve1_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcMarketDataField_InstrumentID_set___")]
+  public static extern void CThostFtdcMarketDataField_InstrumentID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcMarketDataField_reserve1_get___")]
-  public static extern string CThostFtdcMarketDataField_reserve1_get(global::System.Runtime.InteropServices.HandleRef jarg1);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcMarketDataField_InstrumentID_get___")]
+  public static extern string CThostFtdcMarketDataField_InstrumentID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcMarketDataField_ExchangeID_set___")]
   public static extern void CThostFtdcMarketDataField_ExchangeID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
@@ -18312,11 +17286,11 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcMarketDataField_ExchangeID_get___")]
   public static extern string CThostFtdcMarketDataField_ExchangeID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcMarketDataField_reserve2_set___")]
-  public static extern void CThostFtdcMarketDataField_reserve2_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcMarketDataField_ExchangeInstID_set___")]
+  public static extern void CThostFtdcMarketDataField_ExchangeInstID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcMarketDataField_reserve2_get___")]
-  public static extern string CThostFtdcMarketDataField_reserve2_get(global::System.Runtime.InteropServices.HandleRef jarg1);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcMarketDataField_ExchangeInstID_get___")]
+  public static extern string CThostFtdcMarketDataField_ExchangeInstID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcMarketDataField_LastPrice_set___")]
   public static extern void CThostFtdcMarketDataField_LastPrice_set(global::System.Runtime.InteropServices.HandleRef jarg1, double jarg2);
@@ -18431,18 +17405,6 @@ class CTPFutureApiPINVOKE {
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcMarketDataField_ActionDay_get___")]
   public static extern string CThostFtdcMarketDataField_ActionDay_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcMarketDataField_InstrumentID_set___")]
-  public static extern void CThostFtdcMarketDataField_InstrumentID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcMarketDataField_InstrumentID_get___")]
-  public static extern string CThostFtdcMarketDataField_InstrumentID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcMarketDataField_ExchangeInstID_set___")]
-  public static extern void CThostFtdcMarketDataField_ExchangeInstID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcMarketDataField_ExchangeInstID_get___")]
-  public static extern string CThostFtdcMarketDataField_ExchangeInstID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_new_CThostFtdcMarketDataField___")]
   public static extern global::System.IntPtr new_CThostFtdcMarketDataField();
@@ -18720,11 +17682,11 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_delete_CThostFtdcMarketDataAsk45Field___")]
   public static extern void delete_CThostFtdcMarketDataAsk45Field(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcMarketDataUpdateTimeField_reserve1_set___")]
-  public static extern void CThostFtdcMarketDataUpdateTimeField_reserve1_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcMarketDataUpdateTimeField_InstrumentID_set___")]
+  public static extern void CThostFtdcMarketDataUpdateTimeField_InstrumentID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcMarketDataUpdateTimeField_reserve1_get___")]
-  public static extern string CThostFtdcMarketDataUpdateTimeField_reserve1_get(global::System.Runtime.InteropServices.HandleRef jarg1);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcMarketDataUpdateTimeField_InstrumentID_get___")]
+  public static extern string CThostFtdcMarketDataUpdateTimeField_InstrumentID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcMarketDataUpdateTimeField_UpdateTime_set___")]
   public static extern void CThostFtdcMarketDataUpdateTimeField_UpdateTime_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
@@ -18744,12 +17706,6 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcMarketDataUpdateTimeField_ActionDay_get___")]
   public static extern string CThostFtdcMarketDataUpdateTimeField_ActionDay_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcMarketDataUpdateTimeField_InstrumentID_set___")]
-  public static extern void CThostFtdcMarketDataUpdateTimeField_InstrumentID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcMarketDataUpdateTimeField_InstrumentID_get___")]
-  public static extern string CThostFtdcMarketDataUpdateTimeField_InstrumentID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_new_CThostFtdcMarketDataUpdateTimeField___")]
   public static extern global::System.IntPtr new_CThostFtdcMarketDataUpdateTimeField();
 
@@ -18767,12 +17723,6 @@ class CTPFutureApiPINVOKE {
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_delete_CThostFtdcMarketDataExchangeField___")]
   public static extern void delete_CThostFtdcMarketDataExchangeField(global::System.Runtime.InteropServices.HandleRef jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcSpecificInstrumentField_reserve1_set___")]
-  public static extern void CThostFtdcSpecificInstrumentField_reserve1_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcSpecificInstrumentField_reserve1_get___")]
-  public static extern string CThostFtdcSpecificInstrumentField_reserve1_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcSpecificInstrumentField_InstrumentID_set___")]
   public static extern void CThostFtdcSpecificInstrumentField_InstrumentID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
@@ -18792,11 +17742,11 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInstrumentStatusField_ExchangeID_get___")]
   public static extern string CThostFtdcInstrumentStatusField_ExchangeID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInstrumentStatusField_reserve1_set___")]
-  public static extern void CThostFtdcInstrumentStatusField_reserve1_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInstrumentStatusField_ExchangeInstID_set___")]
+  public static extern void CThostFtdcInstrumentStatusField_ExchangeInstID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInstrumentStatusField_reserve1_get___")]
-  public static extern string CThostFtdcInstrumentStatusField_reserve1_get(global::System.Runtime.InteropServices.HandleRef jarg1);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInstrumentStatusField_ExchangeInstID_get___")]
+  public static extern string CThostFtdcInstrumentStatusField_ExchangeInstID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInstrumentStatusField_SettlementGroupID_set___")]
   public static extern void CThostFtdcInstrumentStatusField_SettlementGroupID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
@@ -18804,11 +17754,11 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInstrumentStatusField_SettlementGroupID_get___")]
   public static extern string CThostFtdcInstrumentStatusField_SettlementGroupID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInstrumentStatusField_reserve2_set___")]
-  public static extern void CThostFtdcInstrumentStatusField_reserve2_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInstrumentStatusField_InstrumentID_set___")]
+  public static extern void CThostFtdcInstrumentStatusField_InstrumentID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInstrumentStatusField_reserve2_get___")]
-  public static extern string CThostFtdcInstrumentStatusField_reserve2_get(global::System.Runtime.InteropServices.HandleRef jarg1);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInstrumentStatusField_InstrumentID_get___")]
+  public static extern string CThostFtdcInstrumentStatusField_InstrumentID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInstrumentStatusField_InstrumentStatus_set___")]
   public static extern void CThostFtdcInstrumentStatusField_InstrumentStatus_set(global::System.Runtime.InteropServices.HandleRef jarg1, char jarg2);
@@ -18834,18 +17784,6 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInstrumentStatusField_EnterReason_get___")]
   public static extern char CThostFtdcInstrumentStatusField_EnterReason_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInstrumentStatusField_ExchangeInstID_set___")]
-  public static extern void CThostFtdcInstrumentStatusField_ExchangeInstID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInstrumentStatusField_ExchangeInstID_get___")]
-  public static extern string CThostFtdcInstrumentStatusField_ExchangeInstID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInstrumentStatusField_InstrumentID_set___")]
-  public static extern void CThostFtdcInstrumentStatusField_InstrumentID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInstrumentStatusField_InstrumentID_get___")]
-  public static extern string CThostFtdcInstrumentStatusField_InstrumentID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_new_CThostFtdcInstrumentStatusField___")]
   public static extern global::System.IntPtr new_CThostFtdcInstrumentStatusField();
 
@@ -18857,12 +17795,6 @@ class CTPFutureApiPINVOKE {
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryInstrumentStatusField_ExchangeID_get___")]
   public static extern string CThostFtdcQryInstrumentStatusField_ExchangeID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryInstrumentStatusField_reserve1_set___")]
-  public static extern void CThostFtdcQryInstrumentStatusField_reserve1_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryInstrumentStatusField_reserve1_get___")]
-  public static extern string CThostFtdcQryInstrumentStatusField_reserve1_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryInstrumentStatusField_ExchangeInstID_set___")]
   public static extern void CThostFtdcQryInstrumentStatusField_ExchangeInstID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
@@ -19032,11 +17964,11 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryInvestorPositionDetailField_InvestorID_get___")]
   public static extern string CThostFtdcQryInvestorPositionDetailField_InvestorID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryInvestorPositionDetailField_reserve1_set___")]
-  public static extern void CThostFtdcQryInvestorPositionDetailField_reserve1_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryInvestorPositionDetailField_InstrumentID_set___")]
+  public static extern void CThostFtdcQryInvestorPositionDetailField_InstrumentID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryInvestorPositionDetailField_reserve1_get___")]
-  public static extern string CThostFtdcQryInvestorPositionDetailField_reserve1_get(global::System.Runtime.InteropServices.HandleRef jarg1);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryInvestorPositionDetailField_InstrumentID_get___")]
+  public static extern string CThostFtdcQryInvestorPositionDetailField_InstrumentID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryInvestorPositionDetailField_ExchangeID_set___")]
   public static extern void CThostFtdcQryInvestorPositionDetailField_ExchangeID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
@@ -19050,23 +17982,17 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryInvestorPositionDetailField_InvestUnitID_get___")]
   public static extern string CThostFtdcQryInvestorPositionDetailField_InvestUnitID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryInvestorPositionDetailField_InstrumentID_set___")]
-  public static extern void CThostFtdcQryInvestorPositionDetailField_InstrumentID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryInvestorPositionDetailField_InstrumentID_get___")]
-  public static extern string CThostFtdcQryInvestorPositionDetailField_InstrumentID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_new_CThostFtdcQryInvestorPositionDetailField___")]
   public static extern global::System.IntPtr new_CThostFtdcQryInvestorPositionDetailField();
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_delete_CThostFtdcQryInvestorPositionDetailField___")]
   public static extern void delete_CThostFtdcQryInvestorPositionDetailField(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInvestorPositionDetailField_reserve1_set___")]
-  public static extern void CThostFtdcInvestorPositionDetailField_reserve1_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInvestorPositionDetailField_InstrumentID_set___")]
+  public static extern void CThostFtdcInvestorPositionDetailField_InstrumentID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInvestorPositionDetailField_reserve1_get___")]
-  public static extern string CThostFtdcInvestorPositionDetailField_reserve1_get(global::System.Runtime.InteropServices.HandleRef jarg1);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInvestorPositionDetailField_InstrumentID_get___")]
+  public static extern string CThostFtdcInvestorPositionDetailField_InstrumentID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInvestorPositionDetailField_BrokerID_set___")]
   public static extern void CThostFtdcInvestorPositionDetailField_BrokerID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
@@ -19134,11 +18060,11 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInvestorPositionDetailField_TradeType_get___")]
   public static extern char CThostFtdcInvestorPositionDetailField_TradeType_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInvestorPositionDetailField_reserve2_set___")]
-  public static extern void CThostFtdcInvestorPositionDetailField_reserve2_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInvestorPositionDetailField_CombInstrumentID_set___")]
+  public static extern void CThostFtdcInvestorPositionDetailField_CombInstrumentID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInvestorPositionDetailField_reserve2_get___")]
-  public static extern string CThostFtdcInvestorPositionDetailField_reserve2_get(global::System.Runtime.InteropServices.HandleRef jarg1);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInvestorPositionDetailField_CombInstrumentID_get___")]
+  public static extern string CThostFtdcInvestorPositionDetailField_CombInstrumentID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInvestorPositionDetailField_ExchangeID_set___")]
   public static extern void CThostFtdcInvestorPositionDetailField_ExchangeID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
@@ -19229,24 +18155,6 @@ class CTPFutureApiPINVOKE {
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInvestorPositionDetailField_InvestUnitID_get___")]
   public static extern string CThostFtdcInvestorPositionDetailField_InvestUnitID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInvestorPositionDetailField_SpecPosiType_set___")]
-  public static extern void CThostFtdcInvestorPositionDetailField_SpecPosiType_set(global::System.Runtime.InteropServices.HandleRef jarg1, char jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInvestorPositionDetailField_SpecPosiType_get___")]
-  public static extern char CThostFtdcInvestorPositionDetailField_SpecPosiType_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInvestorPositionDetailField_InstrumentID_set___")]
-  public static extern void CThostFtdcInvestorPositionDetailField_InstrumentID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInvestorPositionDetailField_InstrumentID_get___")]
-  public static extern string CThostFtdcInvestorPositionDetailField_InstrumentID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInvestorPositionDetailField_CombInstrumentID_set___")]
-  public static extern void CThostFtdcInvestorPositionDetailField_CombInstrumentID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInvestorPositionDetailField_CombInstrumentID_get___")]
-  public static extern string CThostFtdcInvestorPositionDetailField_CombInstrumentID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_new_CThostFtdcInvestorPositionDetailField___")]
   public static extern global::System.IntPtr new_CThostFtdcInvestorPositionDetailField();
@@ -19668,29 +18576,17 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_delete_CThostFtdcTradingAccountPasswordUpdateField___")]
   public static extern void delete_CThostFtdcTradingAccountPasswordUpdateField(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryCombinationLegField_reserve1_set___")]
-  public static extern void CThostFtdcQryCombinationLegField_reserve1_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryCombinationLegField_CombInstrumentID_set___")]
+  public static extern void CThostFtdcQryCombinationLegField_CombInstrumentID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryCombinationLegField_reserve1_get___")]
-  public static extern string CThostFtdcQryCombinationLegField_reserve1_get(global::System.Runtime.InteropServices.HandleRef jarg1);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryCombinationLegField_CombInstrumentID_get___")]
+  public static extern string CThostFtdcQryCombinationLegField_CombInstrumentID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryCombinationLegField_LegID_set___")]
   public static extern void CThostFtdcQryCombinationLegField_LegID_set(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryCombinationLegField_LegID_get___")]
   public static extern int CThostFtdcQryCombinationLegField_LegID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryCombinationLegField_reserve2_set___")]
-  public static extern void CThostFtdcQryCombinationLegField_reserve2_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryCombinationLegField_reserve2_get___")]
-  public static extern string CThostFtdcQryCombinationLegField_reserve2_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryCombinationLegField_CombInstrumentID_set___")]
-  public static extern void CThostFtdcQryCombinationLegField_CombInstrumentID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryCombinationLegField_CombInstrumentID_get___")]
-  public static extern string CThostFtdcQryCombinationLegField_CombInstrumentID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryCombinationLegField_LegInstrumentID_set___")]
   public static extern void CThostFtdcQryCombinationLegField_LegInstrumentID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
@@ -19716,11 +18612,11 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_delete_CThostFtdcQrySyncStatusField___")]
   public static extern void delete_CThostFtdcQrySyncStatusField(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcCombinationLegField_reserve1_set___")]
-  public static extern void CThostFtdcCombinationLegField_reserve1_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcCombinationLegField_CombInstrumentID_set___")]
+  public static extern void CThostFtdcCombinationLegField_CombInstrumentID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcCombinationLegField_reserve1_get___")]
-  public static extern string CThostFtdcCombinationLegField_reserve1_get(global::System.Runtime.InteropServices.HandleRef jarg1);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcCombinationLegField_CombInstrumentID_get___")]
+  public static extern string CThostFtdcCombinationLegField_CombInstrumentID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcCombinationLegField_LegID_set___")]
   public static extern void CThostFtdcCombinationLegField_LegID_set(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2);
@@ -19728,11 +18624,11 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcCombinationLegField_LegID_get___")]
   public static extern int CThostFtdcCombinationLegField_LegID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcCombinationLegField_reserve2_set___")]
-  public static extern void CThostFtdcCombinationLegField_reserve2_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcCombinationLegField_LegInstrumentID_set___")]
+  public static extern void CThostFtdcCombinationLegField_LegInstrumentID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcCombinationLegField_reserve2_get___")]
-  public static extern string CThostFtdcCombinationLegField_reserve2_get(global::System.Runtime.InteropServices.HandleRef jarg1);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcCombinationLegField_LegInstrumentID_get___")]
+  public static extern string CThostFtdcCombinationLegField_LegInstrumentID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcCombinationLegField_Direction_set___")]
   public static extern void CThostFtdcCombinationLegField_Direction_set(global::System.Runtime.InteropServices.HandleRef jarg1, char jarg2);
@@ -19751,18 +18647,6 @@ class CTPFutureApiPINVOKE {
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcCombinationLegField_ImplyLevel_get___")]
   public static extern int CThostFtdcCombinationLegField_ImplyLevel_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcCombinationLegField_CombInstrumentID_set___")]
-  public static extern void CThostFtdcCombinationLegField_CombInstrumentID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcCombinationLegField_CombInstrumentID_get___")]
-  public static extern string CThostFtdcCombinationLegField_CombInstrumentID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcCombinationLegField_LegInstrumentID_set___")]
-  public static extern void CThostFtdcCombinationLegField_LegInstrumentID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcCombinationLegField_LegInstrumentID_get___")]
-  public static extern string CThostFtdcCombinationLegField_LegInstrumentID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_new_CThostFtdcCombinationLegField___")]
   public static extern global::System.IntPtr new_CThostFtdcCombinationLegField();
@@ -19956,12 +18840,6 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcBrokerUserEventField_InvestorID_get___")]
   public static extern string CThostFtdcBrokerUserEventField_InvestorID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcBrokerUserEventField_reserve1_set___")]
-  public static extern void CThostFtdcBrokerUserEventField_reserve1_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcBrokerUserEventField_reserve1_get___")]
-  public static extern string CThostFtdcBrokerUserEventField_reserve1_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcBrokerUserEventField_InstrumentID_set___")]
   public static extern void CThostFtdcBrokerUserEventField_InstrumentID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
@@ -20076,11 +18954,11 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInvestorPositionCombineDetailField_TradeID_get___")]
   public static extern string CThostFtdcInvestorPositionCombineDetailField_TradeID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInvestorPositionCombineDetailField_reserve1_set___")]
-  public static extern void CThostFtdcInvestorPositionCombineDetailField_reserve1_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInvestorPositionCombineDetailField_InstrumentID_set___")]
+  public static extern void CThostFtdcInvestorPositionCombineDetailField_InstrumentID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInvestorPositionCombineDetailField_reserve1_get___")]
-  public static extern string CThostFtdcInvestorPositionCombineDetailField_reserve1_get(global::System.Runtime.InteropServices.HandleRef jarg1);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInvestorPositionCombineDetailField_InstrumentID_get___")]
+  public static extern string CThostFtdcInvestorPositionCombineDetailField_InstrumentID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInvestorPositionCombineDetailField_HedgeFlag_set___")]
   public static extern void CThostFtdcInvestorPositionCombineDetailField_HedgeFlag_set(global::System.Runtime.InteropServices.HandleRef jarg1, char jarg2);
@@ -20136,11 +19014,11 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInvestorPositionCombineDetailField_LegMultiple_get___")]
   public static extern int CThostFtdcInvestorPositionCombineDetailField_LegMultiple_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInvestorPositionCombineDetailField_reserve2_set___")]
-  public static extern void CThostFtdcInvestorPositionCombineDetailField_reserve2_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInvestorPositionCombineDetailField_CombInstrumentID_set___")]
+  public static extern void CThostFtdcInvestorPositionCombineDetailField_CombInstrumentID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInvestorPositionCombineDetailField_reserve2_get___")]
-  public static extern string CThostFtdcInvestorPositionCombineDetailField_reserve2_get(global::System.Runtime.InteropServices.HandleRef jarg1);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInvestorPositionCombineDetailField_CombInstrumentID_get___")]
+  public static extern string CThostFtdcInvestorPositionCombineDetailField_CombInstrumentID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInvestorPositionCombineDetailField_TradeGroupID_set___")]
   public static extern void CThostFtdcInvestorPositionCombineDetailField_TradeGroupID_set(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2);
@@ -20153,18 +19031,6 @@ class CTPFutureApiPINVOKE {
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInvestorPositionCombineDetailField_InvestUnitID_get___")]
   public static extern string CThostFtdcInvestorPositionCombineDetailField_InvestUnitID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInvestorPositionCombineDetailField_InstrumentID_set___")]
-  public static extern void CThostFtdcInvestorPositionCombineDetailField_InstrumentID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInvestorPositionCombineDetailField_InstrumentID_get___")]
-  public static extern string CThostFtdcInvestorPositionCombineDetailField_InstrumentID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInvestorPositionCombineDetailField_CombInstrumentID_set___")]
-  public static extern void CThostFtdcInvestorPositionCombineDetailField_CombInstrumentID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInvestorPositionCombineDetailField_CombInstrumentID_get___")]
-  public static extern string CThostFtdcInvestorPositionCombineDetailField_CombInstrumentID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_new_CThostFtdcInvestorPositionCombineDetailField___")]
   public static extern global::System.IntPtr new_CThostFtdcInvestorPositionCombineDetailField();
@@ -20184,11 +19050,11 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcParkedOrderField_InvestorID_get___")]
   public static extern string CThostFtdcParkedOrderField_InvestorID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcParkedOrderField_reserve1_set___")]
-  public static extern void CThostFtdcParkedOrderField_reserve1_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcParkedOrderField_InstrumentID_set___")]
+  public static extern void CThostFtdcParkedOrderField_InstrumentID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcParkedOrderField_reserve1_get___")]
-  public static extern string CThostFtdcParkedOrderField_reserve1_get(global::System.Runtime.InteropServices.HandleRef jarg1);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcParkedOrderField_InstrumentID_get___")]
+  public static extern string CThostFtdcParkedOrderField_InstrumentID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcParkedOrderField_OrderRef_set___")]
   public static extern void CThostFtdcParkedOrderField_OrderRef_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
@@ -20370,29 +19236,17 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcParkedOrderField_InvestUnitID_get___")]
   public static extern string CThostFtdcParkedOrderField_InvestUnitID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcParkedOrderField_reserve2_set___")]
-  public static extern void CThostFtdcParkedOrderField_reserve2_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcParkedOrderField_IPAddress_set___")]
+  public static extern void CThostFtdcParkedOrderField_IPAddress_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcParkedOrderField_reserve2_get___")]
-  public static extern string CThostFtdcParkedOrderField_reserve2_get(global::System.Runtime.InteropServices.HandleRef jarg1);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcParkedOrderField_IPAddress_get___")]
+  public static extern string CThostFtdcParkedOrderField_IPAddress_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcParkedOrderField_MacAddress_set___")]
   public static extern void CThostFtdcParkedOrderField_MacAddress_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcParkedOrderField_MacAddress_get___")]
   public static extern string CThostFtdcParkedOrderField_MacAddress_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcParkedOrderField_InstrumentID_set___")]
-  public static extern void CThostFtdcParkedOrderField_InstrumentID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcParkedOrderField_InstrumentID_get___")]
-  public static extern string CThostFtdcParkedOrderField_InstrumentID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcParkedOrderField_IPAddress_set___")]
-  public static extern void CThostFtdcParkedOrderField_IPAddress_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcParkedOrderField_IPAddress_get___")]
-  public static extern string CThostFtdcParkedOrderField_IPAddress_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_new_CThostFtdcParkedOrderField___")]
   public static extern global::System.IntPtr new_CThostFtdcParkedOrderField();
@@ -20478,11 +19332,11 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcParkedOrderActionField_UserID_get___")]
   public static extern string CThostFtdcParkedOrderActionField_UserID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcParkedOrderActionField_reserve1_set___")]
-  public static extern void CThostFtdcParkedOrderActionField_reserve1_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcParkedOrderActionField_InstrumentID_set___")]
+  public static extern void CThostFtdcParkedOrderActionField_InstrumentID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcParkedOrderActionField_reserve1_get___")]
-  public static extern string CThostFtdcParkedOrderActionField_reserve1_get(global::System.Runtime.InteropServices.HandleRef jarg1);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcParkedOrderActionField_InstrumentID_get___")]
+  public static extern string CThostFtdcParkedOrderActionField_InstrumentID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcParkedOrderActionField_ParkedOrderActionID_set___")]
   public static extern void CThostFtdcParkedOrderActionField_ParkedOrderActionID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
@@ -20520,29 +19374,17 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcParkedOrderActionField_InvestUnitID_get___")]
   public static extern string CThostFtdcParkedOrderActionField_InvestUnitID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcParkedOrderActionField_reserve2_set___")]
-  public static extern void CThostFtdcParkedOrderActionField_reserve2_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcParkedOrderActionField_IPAddress_set___")]
+  public static extern void CThostFtdcParkedOrderActionField_IPAddress_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcParkedOrderActionField_reserve2_get___")]
-  public static extern string CThostFtdcParkedOrderActionField_reserve2_get(global::System.Runtime.InteropServices.HandleRef jarg1);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcParkedOrderActionField_IPAddress_get___")]
+  public static extern string CThostFtdcParkedOrderActionField_IPAddress_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcParkedOrderActionField_MacAddress_set___")]
   public static extern void CThostFtdcParkedOrderActionField_MacAddress_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcParkedOrderActionField_MacAddress_get___")]
   public static extern string CThostFtdcParkedOrderActionField_MacAddress_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcParkedOrderActionField_InstrumentID_set___")]
-  public static extern void CThostFtdcParkedOrderActionField_InstrumentID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcParkedOrderActionField_InstrumentID_get___")]
-  public static extern string CThostFtdcParkedOrderActionField_InstrumentID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcParkedOrderActionField_IPAddress_set___")]
-  public static extern void CThostFtdcParkedOrderActionField_IPAddress_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcParkedOrderActionField_IPAddress_get___")]
-  public static extern string CThostFtdcParkedOrderActionField_IPAddress_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_new_CThostFtdcParkedOrderActionField___")]
   public static extern global::System.IntPtr new_CThostFtdcParkedOrderActionField();
@@ -20562,11 +19404,11 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryParkedOrderField_InvestorID_get___")]
   public static extern string CThostFtdcQryParkedOrderField_InvestorID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryParkedOrderField_reserve1_set___")]
-  public static extern void CThostFtdcQryParkedOrderField_reserve1_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryParkedOrderField_InstrumentID_set___")]
+  public static extern void CThostFtdcQryParkedOrderField_InstrumentID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryParkedOrderField_reserve1_get___")]
-  public static extern string CThostFtdcQryParkedOrderField_reserve1_get(global::System.Runtime.InteropServices.HandleRef jarg1);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryParkedOrderField_InstrumentID_get___")]
+  public static extern string CThostFtdcQryParkedOrderField_InstrumentID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryParkedOrderField_ExchangeID_set___")]
   public static extern void CThostFtdcQryParkedOrderField_ExchangeID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
@@ -20579,12 +19421,6 @@ class CTPFutureApiPINVOKE {
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryParkedOrderField_InvestUnitID_get___")]
   public static extern string CThostFtdcQryParkedOrderField_InvestUnitID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryParkedOrderField_InstrumentID_set___")]
-  public static extern void CThostFtdcQryParkedOrderField_InstrumentID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryParkedOrderField_InstrumentID_get___")]
-  public static extern string CThostFtdcQryParkedOrderField_InstrumentID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_new_CThostFtdcQryParkedOrderField___")]
   public static extern global::System.IntPtr new_CThostFtdcQryParkedOrderField();
@@ -20604,11 +19440,11 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryParkedOrderActionField_InvestorID_get___")]
   public static extern string CThostFtdcQryParkedOrderActionField_InvestorID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryParkedOrderActionField_reserve1_set___")]
-  public static extern void CThostFtdcQryParkedOrderActionField_reserve1_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryParkedOrderActionField_InstrumentID_set___")]
+  public static extern void CThostFtdcQryParkedOrderActionField_InstrumentID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryParkedOrderActionField_reserve1_get___")]
-  public static extern string CThostFtdcQryParkedOrderActionField_reserve1_get(global::System.Runtime.InteropServices.HandleRef jarg1);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryParkedOrderActionField_InstrumentID_get___")]
+  public static extern string CThostFtdcQryParkedOrderActionField_InstrumentID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryParkedOrderActionField_ExchangeID_set___")]
   public static extern void CThostFtdcQryParkedOrderActionField_ExchangeID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
@@ -20621,12 +19457,6 @@ class CTPFutureApiPINVOKE {
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryParkedOrderActionField_InvestUnitID_get___")]
   public static extern string CThostFtdcQryParkedOrderActionField_InvestUnitID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryParkedOrderActionField_InstrumentID_set___")]
-  public static extern void CThostFtdcQryParkedOrderActionField_InstrumentID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryParkedOrderActionField_InstrumentID_get___")]
-  public static extern string CThostFtdcQryParkedOrderActionField_InstrumentID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_new_CThostFtdcQryParkedOrderActionField___")]
   public static extern global::System.IntPtr new_CThostFtdcQryParkedOrderActionField();
@@ -20748,11 +19578,11 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryInvestorPositionCombineDetailField_InvestorID_get___")]
   public static extern string CThostFtdcQryInvestorPositionCombineDetailField_InvestorID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryInvestorPositionCombineDetailField_reserve1_set___")]
-  public static extern void CThostFtdcQryInvestorPositionCombineDetailField_reserve1_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryInvestorPositionCombineDetailField_CombInstrumentID_set___")]
+  public static extern void CThostFtdcQryInvestorPositionCombineDetailField_CombInstrumentID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryInvestorPositionCombineDetailField_reserve1_get___")]
-  public static extern string CThostFtdcQryInvestorPositionCombineDetailField_reserve1_get(global::System.Runtime.InteropServices.HandleRef jarg1);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryInvestorPositionCombineDetailField_CombInstrumentID_get___")]
+  public static extern string CThostFtdcQryInvestorPositionCombineDetailField_CombInstrumentID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryInvestorPositionCombineDetailField_ExchangeID_set___")]
   public static extern void CThostFtdcQryInvestorPositionCombineDetailField_ExchangeID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
@@ -20765,12 +19595,6 @@ class CTPFutureApiPINVOKE {
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryInvestorPositionCombineDetailField_InvestUnitID_get___")]
   public static extern string CThostFtdcQryInvestorPositionCombineDetailField_InvestUnitID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryInvestorPositionCombineDetailField_CombInstrumentID_set___")]
-  public static extern void CThostFtdcQryInvestorPositionCombineDetailField_CombInstrumentID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryInvestorPositionCombineDetailField_CombInstrumentID_get___")]
-  public static extern string CThostFtdcQryInvestorPositionCombineDetailField_CombInstrumentID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_new_CThostFtdcQryInvestorPositionCombineDetailField___")]
   public static extern global::System.IntPtr new_CThostFtdcQryInvestorPositionCombineDetailField();
@@ -20826,24 +19650,6 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcUserIPField_UserID_get___")]
   public static extern string CThostFtdcUserIPField_UserID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcUserIPField_reserve1_set___")]
-  public static extern void CThostFtdcUserIPField_reserve1_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcUserIPField_reserve1_get___")]
-  public static extern string CThostFtdcUserIPField_reserve1_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcUserIPField_reserve2_set___")]
-  public static extern void CThostFtdcUserIPField_reserve2_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcUserIPField_reserve2_get___")]
-  public static extern string CThostFtdcUserIPField_reserve2_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcUserIPField_MacAddress_set___")]
-  public static extern void CThostFtdcUserIPField_MacAddress_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcUserIPField_MacAddress_get___")]
-  public static extern string CThostFtdcUserIPField_MacAddress_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcUserIPField_IPAddress_set___")]
   public static extern void CThostFtdcUserIPField_IPAddress_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
@@ -20855,6 +19661,12 @@ class CTPFutureApiPINVOKE {
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcUserIPField_IPMask_get___")]
   public static extern string CThostFtdcUserIPField_IPMask_get(global::System.Runtime.InteropServices.HandleRef jarg1);
+
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcUserIPField_MacAddress_set___")]
+  public static extern void CThostFtdcUserIPField_MacAddress_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
+
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcUserIPField_MacAddress_get___")]
+  public static extern string CThostFtdcUserIPField_MacAddress_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_new_CThostFtdcUserIPField___")]
   public static extern global::System.IntPtr new_CThostFtdcUserIPField();
@@ -21024,11 +19836,11 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcErrOrderField_InvestorID_get___")]
   public static extern string CThostFtdcErrOrderField_InvestorID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcErrOrderField_reserve1_set___")]
-  public static extern void CThostFtdcErrOrderField_reserve1_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcErrOrderField_InstrumentID_set___")]
+  public static extern void CThostFtdcErrOrderField_InstrumentID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcErrOrderField_reserve1_get___")]
-  public static extern string CThostFtdcErrOrderField_reserve1_get(global::System.Runtime.InteropServices.HandleRef jarg1);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcErrOrderField_InstrumentID_get___")]
+  public static extern string CThostFtdcErrOrderField_InstrumentID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcErrOrderField_OrderRef_set___")]
   public static extern void CThostFtdcErrOrderField_OrderRef_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
@@ -21192,29 +20004,17 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcErrOrderField_ClientID_get___")]
   public static extern string CThostFtdcErrOrderField_ClientID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcErrOrderField_reserve2_set___")]
-  public static extern void CThostFtdcErrOrderField_reserve2_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcErrOrderField_IPAddress_set___")]
+  public static extern void CThostFtdcErrOrderField_IPAddress_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcErrOrderField_reserve2_get___")]
-  public static extern string CThostFtdcErrOrderField_reserve2_get(global::System.Runtime.InteropServices.HandleRef jarg1);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcErrOrderField_IPAddress_get___")]
+  public static extern string CThostFtdcErrOrderField_IPAddress_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcErrOrderField_MacAddress_set___")]
   public static extern void CThostFtdcErrOrderField_MacAddress_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcErrOrderField_MacAddress_get___")]
   public static extern string CThostFtdcErrOrderField_MacAddress_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcErrOrderField_InstrumentID_set___")]
-  public static extern void CThostFtdcErrOrderField_InstrumentID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcErrOrderField_InstrumentID_get___")]
-  public static extern string CThostFtdcErrOrderField_InstrumentID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcErrOrderField_IPAddress_set___")]
-  public static extern void CThostFtdcErrOrderField_IPAddress_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcErrOrderField_IPAddress_get___")]
-  public static extern string CThostFtdcErrOrderField_IPAddress_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_new_CThostFtdcErrOrderField___")]
   public static extern global::System.IntPtr new_CThostFtdcErrOrderField();
@@ -21234,11 +20034,11 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcErrorConditionalOrderField_InvestorID_get___")]
   public static extern string CThostFtdcErrorConditionalOrderField_InvestorID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcErrorConditionalOrderField_reserve1_set___")]
-  public static extern void CThostFtdcErrorConditionalOrderField_reserve1_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcErrorConditionalOrderField_InstrumentID_set___")]
+  public static extern void CThostFtdcErrorConditionalOrderField_InstrumentID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcErrorConditionalOrderField_reserve1_get___")]
-  public static extern string CThostFtdcErrorConditionalOrderField_reserve1_get(global::System.Runtime.InteropServices.HandleRef jarg1);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcErrorConditionalOrderField_InstrumentID_get___")]
+  public static extern string CThostFtdcErrorConditionalOrderField_InstrumentID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcErrorConditionalOrderField_OrderRef_set___")]
   public static extern void CThostFtdcErrorConditionalOrderField_OrderRef_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
@@ -21372,11 +20172,11 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcErrorConditionalOrderField_ClientID_get___")]
   public static extern string CThostFtdcErrorConditionalOrderField_ClientID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcErrorConditionalOrderField_reserve2_set___")]
-  public static extern void CThostFtdcErrorConditionalOrderField_reserve2_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcErrorConditionalOrderField_ExchangeInstID_set___")]
+  public static extern void CThostFtdcErrorConditionalOrderField_ExchangeInstID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcErrorConditionalOrderField_reserve2_get___")]
-  public static extern string CThostFtdcErrorConditionalOrderField_reserve2_get(global::System.Runtime.InteropServices.HandleRef jarg1);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcErrorConditionalOrderField_ExchangeInstID_get___")]
+  public static extern string CThostFtdcErrorConditionalOrderField_ExchangeInstID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcErrorConditionalOrderField_TraderID_set___")]
   public static extern void CThostFtdcErrorConditionalOrderField_TraderID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
@@ -21600,35 +20400,17 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcErrorConditionalOrderField_CurrencyID_get___")]
   public static extern string CThostFtdcErrorConditionalOrderField_CurrencyID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcErrorConditionalOrderField_reserve3_set___")]
-  public static extern void CThostFtdcErrorConditionalOrderField_reserve3_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcErrorConditionalOrderField_IPAddress_set___")]
+  public static extern void CThostFtdcErrorConditionalOrderField_IPAddress_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcErrorConditionalOrderField_reserve3_get___")]
-  public static extern string CThostFtdcErrorConditionalOrderField_reserve3_get(global::System.Runtime.InteropServices.HandleRef jarg1);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcErrorConditionalOrderField_IPAddress_get___")]
+  public static extern string CThostFtdcErrorConditionalOrderField_IPAddress_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcErrorConditionalOrderField_MacAddress_set___")]
   public static extern void CThostFtdcErrorConditionalOrderField_MacAddress_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcErrorConditionalOrderField_MacAddress_get___")]
   public static extern string CThostFtdcErrorConditionalOrderField_MacAddress_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcErrorConditionalOrderField_InstrumentID_set___")]
-  public static extern void CThostFtdcErrorConditionalOrderField_InstrumentID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcErrorConditionalOrderField_InstrumentID_get___")]
-  public static extern string CThostFtdcErrorConditionalOrderField_InstrumentID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcErrorConditionalOrderField_ExchangeInstID_set___")]
-  public static extern void CThostFtdcErrorConditionalOrderField_ExchangeInstID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcErrorConditionalOrderField_ExchangeInstID_get___")]
-  public static extern string CThostFtdcErrorConditionalOrderField_ExchangeInstID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcErrorConditionalOrderField_IPAddress_set___")]
-  public static extern void CThostFtdcErrorConditionalOrderField_IPAddress_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcErrorConditionalOrderField_IPAddress_get___")]
-  public static extern string CThostFtdcErrorConditionalOrderField_IPAddress_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_new_CThostFtdcErrorConditionalOrderField___")]
   public static extern global::System.IntPtr new_CThostFtdcErrorConditionalOrderField();
@@ -21798,11 +20580,11 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcErrOrderActionField_StatusMsg_get___")]
   public static extern string CThostFtdcErrOrderActionField_StatusMsg_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcErrOrderActionField_reserve1_set___")]
-  public static extern void CThostFtdcErrOrderActionField_reserve1_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcErrOrderActionField_InstrumentID_set___")]
+  public static extern void CThostFtdcErrOrderActionField_InstrumentID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcErrOrderActionField_reserve1_get___")]
-  public static extern string CThostFtdcErrOrderActionField_reserve1_get(global::System.Runtime.InteropServices.HandleRef jarg1);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcErrOrderActionField_InstrumentID_get___")]
+  public static extern string CThostFtdcErrOrderActionField_InstrumentID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcErrOrderActionField_BranchID_set___")]
   public static extern void CThostFtdcErrOrderActionField_BranchID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
@@ -21816,11 +20598,11 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcErrOrderActionField_InvestUnitID_get___")]
   public static extern string CThostFtdcErrOrderActionField_InvestUnitID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcErrOrderActionField_reserve2_set___")]
-  public static extern void CThostFtdcErrOrderActionField_reserve2_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcErrOrderActionField_IPAddress_set___")]
+  public static extern void CThostFtdcErrOrderActionField_IPAddress_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcErrOrderActionField_reserve2_get___")]
-  public static extern string CThostFtdcErrOrderActionField_reserve2_get(global::System.Runtime.InteropServices.HandleRef jarg1);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcErrOrderActionField_IPAddress_get___")]
+  public static extern string CThostFtdcErrOrderActionField_IPAddress_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcErrOrderActionField_MacAddress_set___")]
   public static extern void CThostFtdcErrOrderActionField_MacAddress_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
@@ -21839,18 +20621,6 @@ class CTPFutureApiPINVOKE {
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcErrOrderActionField_ErrorMsg_get___")]
   public static extern string CThostFtdcErrOrderActionField_ErrorMsg_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcErrOrderActionField_InstrumentID_set___")]
-  public static extern void CThostFtdcErrOrderActionField_InstrumentID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcErrOrderActionField_InstrumentID_get___")]
-  public static extern string CThostFtdcErrOrderActionField_InstrumentID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcErrOrderActionField_IPAddress_set___")]
-  public static extern void CThostFtdcErrOrderActionField_IPAddress_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcErrOrderActionField_IPAddress_get___")]
-  public static extern string CThostFtdcErrOrderActionField_IPAddress_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_new_CThostFtdcErrOrderActionField___")]
   public static extern global::System.IntPtr new_CThostFtdcErrOrderActionField();
@@ -21894,77 +20664,71 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_delete_CThostFtdcExchangeSequenceField___")]
   public static extern void delete_CThostFtdcExchangeSequenceField(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryMaxOrderVolumeWithPriceField_BrokerID_set___")]
-  public static extern void CThostFtdcQryMaxOrderVolumeWithPriceField_BrokerID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQueryMaxOrderVolumeWithPriceField_BrokerID_set___")]
+  public static extern void CThostFtdcQueryMaxOrderVolumeWithPriceField_BrokerID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryMaxOrderVolumeWithPriceField_BrokerID_get___")]
-  public static extern string CThostFtdcQryMaxOrderVolumeWithPriceField_BrokerID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQueryMaxOrderVolumeWithPriceField_BrokerID_get___")]
+  public static extern string CThostFtdcQueryMaxOrderVolumeWithPriceField_BrokerID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryMaxOrderVolumeWithPriceField_InvestorID_set___")]
-  public static extern void CThostFtdcQryMaxOrderVolumeWithPriceField_InvestorID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQueryMaxOrderVolumeWithPriceField_InvestorID_set___")]
+  public static extern void CThostFtdcQueryMaxOrderVolumeWithPriceField_InvestorID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryMaxOrderVolumeWithPriceField_InvestorID_get___")]
-  public static extern string CThostFtdcQryMaxOrderVolumeWithPriceField_InvestorID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQueryMaxOrderVolumeWithPriceField_InvestorID_get___")]
+  public static extern string CThostFtdcQueryMaxOrderVolumeWithPriceField_InvestorID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryMaxOrderVolumeWithPriceField_reserve1_set___")]
-  public static extern void CThostFtdcQryMaxOrderVolumeWithPriceField_reserve1_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQueryMaxOrderVolumeWithPriceField_InstrumentID_set___")]
+  public static extern void CThostFtdcQueryMaxOrderVolumeWithPriceField_InstrumentID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryMaxOrderVolumeWithPriceField_reserve1_get___")]
-  public static extern string CThostFtdcQryMaxOrderVolumeWithPriceField_reserve1_get(global::System.Runtime.InteropServices.HandleRef jarg1);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQueryMaxOrderVolumeWithPriceField_InstrumentID_get___")]
+  public static extern string CThostFtdcQueryMaxOrderVolumeWithPriceField_InstrumentID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryMaxOrderVolumeWithPriceField_Direction_set___")]
-  public static extern void CThostFtdcQryMaxOrderVolumeWithPriceField_Direction_set(global::System.Runtime.InteropServices.HandleRef jarg1, char jarg2);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQueryMaxOrderVolumeWithPriceField_Direction_set___")]
+  public static extern void CThostFtdcQueryMaxOrderVolumeWithPriceField_Direction_set(global::System.Runtime.InteropServices.HandleRef jarg1, char jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryMaxOrderVolumeWithPriceField_Direction_get___")]
-  public static extern char CThostFtdcQryMaxOrderVolumeWithPriceField_Direction_get(global::System.Runtime.InteropServices.HandleRef jarg1);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQueryMaxOrderVolumeWithPriceField_Direction_get___")]
+  public static extern char CThostFtdcQueryMaxOrderVolumeWithPriceField_Direction_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryMaxOrderVolumeWithPriceField_OffsetFlag_set___")]
-  public static extern void CThostFtdcQryMaxOrderVolumeWithPriceField_OffsetFlag_set(global::System.Runtime.InteropServices.HandleRef jarg1, char jarg2);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQueryMaxOrderVolumeWithPriceField_OffsetFlag_set___")]
+  public static extern void CThostFtdcQueryMaxOrderVolumeWithPriceField_OffsetFlag_set(global::System.Runtime.InteropServices.HandleRef jarg1, char jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryMaxOrderVolumeWithPriceField_OffsetFlag_get___")]
-  public static extern char CThostFtdcQryMaxOrderVolumeWithPriceField_OffsetFlag_get(global::System.Runtime.InteropServices.HandleRef jarg1);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQueryMaxOrderVolumeWithPriceField_OffsetFlag_get___")]
+  public static extern char CThostFtdcQueryMaxOrderVolumeWithPriceField_OffsetFlag_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryMaxOrderVolumeWithPriceField_HedgeFlag_set___")]
-  public static extern void CThostFtdcQryMaxOrderVolumeWithPriceField_HedgeFlag_set(global::System.Runtime.InteropServices.HandleRef jarg1, char jarg2);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQueryMaxOrderVolumeWithPriceField_HedgeFlag_set___")]
+  public static extern void CThostFtdcQueryMaxOrderVolumeWithPriceField_HedgeFlag_set(global::System.Runtime.InteropServices.HandleRef jarg1, char jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryMaxOrderVolumeWithPriceField_HedgeFlag_get___")]
-  public static extern char CThostFtdcQryMaxOrderVolumeWithPriceField_HedgeFlag_get(global::System.Runtime.InteropServices.HandleRef jarg1);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQueryMaxOrderVolumeWithPriceField_HedgeFlag_get___")]
+  public static extern char CThostFtdcQueryMaxOrderVolumeWithPriceField_HedgeFlag_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryMaxOrderVolumeWithPriceField_MaxVolume_set___")]
-  public static extern void CThostFtdcQryMaxOrderVolumeWithPriceField_MaxVolume_set(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQueryMaxOrderVolumeWithPriceField_MaxVolume_set___")]
+  public static extern void CThostFtdcQueryMaxOrderVolumeWithPriceField_MaxVolume_set(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryMaxOrderVolumeWithPriceField_MaxVolume_get___")]
-  public static extern int CThostFtdcQryMaxOrderVolumeWithPriceField_MaxVolume_get(global::System.Runtime.InteropServices.HandleRef jarg1);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQueryMaxOrderVolumeWithPriceField_MaxVolume_get___")]
+  public static extern int CThostFtdcQueryMaxOrderVolumeWithPriceField_MaxVolume_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryMaxOrderVolumeWithPriceField_Price_set___")]
-  public static extern void CThostFtdcQryMaxOrderVolumeWithPriceField_Price_set(global::System.Runtime.InteropServices.HandleRef jarg1, double jarg2);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQueryMaxOrderVolumeWithPriceField_Price_set___")]
+  public static extern void CThostFtdcQueryMaxOrderVolumeWithPriceField_Price_set(global::System.Runtime.InteropServices.HandleRef jarg1, double jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryMaxOrderVolumeWithPriceField_Price_get___")]
-  public static extern double CThostFtdcQryMaxOrderVolumeWithPriceField_Price_get(global::System.Runtime.InteropServices.HandleRef jarg1);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQueryMaxOrderVolumeWithPriceField_Price_get___")]
+  public static extern double CThostFtdcQueryMaxOrderVolumeWithPriceField_Price_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryMaxOrderVolumeWithPriceField_ExchangeID_set___")]
-  public static extern void CThostFtdcQryMaxOrderVolumeWithPriceField_ExchangeID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQueryMaxOrderVolumeWithPriceField_ExchangeID_set___")]
+  public static extern void CThostFtdcQueryMaxOrderVolumeWithPriceField_ExchangeID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryMaxOrderVolumeWithPriceField_ExchangeID_get___")]
-  public static extern string CThostFtdcQryMaxOrderVolumeWithPriceField_ExchangeID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQueryMaxOrderVolumeWithPriceField_ExchangeID_get___")]
+  public static extern string CThostFtdcQueryMaxOrderVolumeWithPriceField_ExchangeID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryMaxOrderVolumeWithPriceField_InvestUnitID_set___")]
-  public static extern void CThostFtdcQryMaxOrderVolumeWithPriceField_InvestUnitID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQueryMaxOrderVolumeWithPriceField_InvestUnitID_set___")]
+  public static extern void CThostFtdcQueryMaxOrderVolumeWithPriceField_InvestUnitID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryMaxOrderVolumeWithPriceField_InvestUnitID_get___")]
-  public static extern string CThostFtdcQryMaxOrderVolumeWithPriceField_InvestUnitID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQueryMaxOrderVolumeWithPriceField_InvestUnitID_get___")]
+  public static extern string CThostFtdcQueryMaxOrderVolumeWithPriceField_InvestUnitID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryMaxOrderVolumeWithPriceField_InstrumentID_set___")]
-  public static extern void CThostFtdcQryMaxOrderVolumeWithPriceField_InstrumentID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_new_CThostFtdcQueryMaxOrderVolumeWithPriceField___")]
+  public static extern global::System.IntPtr new_CThostFtdcQueryMaxOrderVolumeWithPriceField();
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryMaxOrderVolumeWithPriceField_InstrumentID_get___")]
-  public static extern string CThostFtdcQryMaxOrderVolumeWithPriceField_InstrumentID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_new_CThostFtdcQryMaxOrderVolumeWithPriceField___")]
-  public static extern global::System.IntPtr new_CThostFtdcQryMaxOrderVolumeWithPriceField();
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_delete_CThostFtdcQryMaxOrderVolumeWithPriceField___")]
-  public static extern void delete_CThostFtdcQryMaxOrderVolumeWithPriceField(global::System.Runtime.InteropServices.HandleRef jarg1);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_delete_CThostFtdcQueryMaxOrderVolumeWithPriceField___")]
+  public static extern void delete_CThostFtdcQueryMaxOrderVolumeWithPriceField(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryBrokerTradingParamsField_BrokerID_set___")]
   public static extern void CThostFtdcQryBrokerTradingParamsField_BrokerID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
@@ -22062,12 +20826,6 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryBrokerTradingAlgosField_ExchangeID_get___")]
   public static extern string CThostFtdcQryBrokerTradingAlgosField_ExchangeID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryBrokerTradingAlgosField_reserve1_set___")]
-  public static extern void CThostFtdcQryBrokerTradingAlgosField_reserve1_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryBrokerTradingAlgosField_reserve1_get___")]
-  public static extern string CThostFtdcQryBrokerTradingAlgosField_reserve1_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryBrokerTradingAlgosField_InstrumentID_set___")]
   public static extern void CThostFtdcQryBrokerTradingAlgosField_InstrumentID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
@@ -22092,11 +20850,11 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcBrokerTradingAlgosField_ExchangeID_get___")]
   public static extern string CThostFtdcBrokerTradingAlgosField_ExchangeID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcBrokerTradingAlgosField_reserve1_set___")]
-  public static extern void CThostFtdcBrokerTradingAlgosField_reserve1_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcBrokerTradingAlgosField_InstrumentID_set___")]
+  public static extern void CThostFtdcBrokerTradingAlgosField_InstrumentID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcBrokerTradingAlgosField_reserve1_get___")]
-  public static extern string CThostFtdcBrokerTradingAlgosField_reserve1_get(global::System.Runtime.InteropServices.HandleRef jarg1);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcBrokerTradingAlgosField_InstrumentID_get___")]
+  public static extern string CThostFtdcBrokerTradingAlgosField_InstrumentID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcBrokerTradingAlgosField_HandlePositionAlgoID_set___")]
   public static extern void CThostFtdcBrokerTradingAlgosField_HandlePositionAlgoID_set(global::System.Runtime.InteropServices.HandleRef jarg1, char jarg2);
@@ -22115,12 +20873,6 @@ class CTPFutureApiPINVOKE {
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcBrokerTradingAlgosField_HandleTradingAccountAlgoID_get___")]
   public static extern char CThostFtdcBrokerTradingAlgosField_HandleTradingAccountAlgoID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcBrokerTradingAlgosField_InstrumentID_set___")]
-  public static extern void CThostFtdcBrokerTradingAlgosField_InstrumentID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcBrokerTradingAlgosField_InstrumentID_get___")]
-  public static extern string CThostFtdcBrokerTradingAlgosField_InstrumentID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_new_CThostFtdcBrokerTradingAlgosField___")]
   public static extern global::System.IntPtr new_CThostFtdcBrokerTradingAlgosField();
@@ -22542,11 +21294,11 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcEWarrantOffsetField_ExchangeID_get___")]
   public static extern string CThostFtdcEWarrantOffsetField_ExchangeID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcEWarrantOffsetField_reserve1_set___")]
-  public static extern void CThostFtdcEWarrantOffsetField_reserve1_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcEWarrantOffsetField_InstrumentID_set___")]
+  public static extern void CThostFtdcEWarrantOffsetField_InstrumentID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcEWarrantOffsetField_reserve1_get___")]
-  public static extern string CThostFtdcEWarrantOffsetField_reserve1_get(global::System.Runtime.InteropServices.HandleRef jarg1);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcEWarrantOffsetField_InstrumentID_get___")]
+  public static extern string CThostFtdcEWarrantOffsetField_InstrumentID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcEWarrantOffsetField_Direction_set___")]
   public static extern void CThostFtdcEWarrantOffsetField_Direction_set(global::System.Runtime.InteropServices.HandleRef jarg1, char jarg2);
@@ -22572,12 +21324,6 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcEWarrantOffsetField_InvestUnitID_get___")]
   public static extern string CThostFtdcEWarrantOffsetField_InvestUnitID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcEWarrantOffsetField_InstrumentID_set___")]
-  public static extern void CThostFtdcEWarrantOffsetField_InstrumentID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcEWarrantOffsetField_InstrumentID_get___")]
-  public static extern string CThostFtdcEWarrantOffsetField_InstrumentID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_new_CThostFtdcEWarrantOffsetField___")]
   public static extern global::System.IntPtr new_CThostFtdcEWarrantOffsetField();
 
@@ -22602,23 +21348,17 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryEWarrantOffsetField_ExchangeID_get___")]
   public static extern string CThostFtdcQryEWarrantOffsetField_ExchangeID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryEWarrantOffsetField_reserve1_set___")]
-  public static extern void CThostFtdcQryEWarrantOffsetField_reserve1_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryEWarrantOffsetField_InstrumentID_set___")]
+  public static extern void CThostFtdcQryEWarrantOffsetField_InstrumentID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryEWarrantOffsetField_reserve1_get___")]
-  public static extern string CThostFtdcQryEWarrantOffsetField_reserve1_get(global::System.Runtime.InteropServices.HandleRef jarg1);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryEWarrantOffsetField_InstrumentID_get___")]
+  public static extern string CThostFtdcQryEWarrantOffsetField_InstrumentID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryEWarrantOffsetField_InvestUnitID_set___")]
   public static extern void CThostFtdcQryEWarrantOffsetField_InvestUnitID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryEWarrantOffsetField_InvestUnitID_get___")]
   public static extern string CThostFtdcQryEWarrantOffsetField_InvestUnitID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryEWarrantOffsetField_InstrumentID_set___")]
-  public static extern void CThostFtdcQryEWarrantOffsetField_InstrumentID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryEWarrantOffsetField_InstrumentID_get___")]
-  public static extern string CThostFtdcQryEWarrantOffsetField_InstrumentID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_new_CThostFtdcQryEWarrantOffsetField___")]
   public static extern global::System.IntPtr new_CThostFtdcQryEWarrantOffsetField();
@@ -22638,11 +21378,11 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryInvestorProductGroupMarginField_InvestorID_get___")]
   public static extern string CThostFtdcQryInvestorProductGroupMarginField_InvestorID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryInvestorProductGroupMarginField_reserve1_set___")]
-  public static extern void CThostFtdcQryInvestorProductGroupMarginField_reserve1_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryInvestorProductGroupMarginField_ProductGroupID_set___")]
+  public static extern void CThostFtdcQryInvestorProductGroupMarginField_ProductGroupID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryInvestorProductGroupMarginField_reserve1_get___")]
-  public static extern string CThostFtdcQryInvestorProductGroupMarginField_reserve1_get(global::System.Runtime.InteropServices.HandleRef jarg1);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryInvestorProductGroupMarginField_ProductGroupID_get___")]
+  public static extern string CThostFtdcQryInvestorProductGroupMarginField_ProductGroupID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryInvestorProductGroupMarginField_HedgeFlag_set___")]
   public static extern void CThostFtdcQryInvestorProductGroupMarginField_HedgeFlag_set(global::System.Runtime.InteropServices.HandleRef jarg1, char jarg2);
@@ -22662,23 +21402,17 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryInvestorProductGroupMarginField_InvestUnitID_get___")]
   public static extern string CThostFtdcQryInvestorProductGroupMarginField_InvestUnitID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryInvestorProductGroupMarginField_ProductGroupID_set___")]
-  public static extern void CThostFtdcQryInvestorProductGroupMarginField_ProductGroupID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryInvestorProductGroupMarginField_ProductGroupID_get___")]
-  public static extern string CThostFtdcQryInvestorProductGroupMarginField_ProductGroupID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_new_CThostFtdcQryInvestorProductGroupMarginField___")]
   public static extern global::System.IntPtr new_CThostFtdcQryInvestorProductGroupMarginField();
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_delete_CThostFtdcQryInvestorProductGroupMarginField___")]
   public static extern void delete_CThostFtdcQryInvestorProductGroupMarginField(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInvestorProductGroupMarginField_reserve1_set___")]
-  public static extern void CThostFtdcInvestorProductGroupMarginField_reserve1_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInvestorProductGroupMarginField_ProductGroupID_set___")]
+  public static extern void CThostFtdcInvestorProductGroupMarginField_ProductGroupID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInvestorProductGroupMarginField_reserve1_get___")]
-  public static extern string CThostFtdcInvestorProductGroupMarginField_reserve1_get(global::System.Runtime.InteropServices.HandleRef jarg1);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInvestorProductGroupMarginField_ProductGroupID_get___")]
+  public static extern string CThostFtdcInvestorProductGroupMarginField_ProductGroupID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInvestorProductGroupMarginField_BrokerID_set___")]
   public static extern void CThostFtdcInvestorProductGroupMarginField_BrokerID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
@@ -22848,12 +21582,6 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInvestorProductGroupMarginField_InvestUnitID_get___")]
   public static extern string CThostFtdcInvestorProductGroupMarginField_InvestUnitID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInvestorProductGroupMarginField_ProductGroupID_set___")]
-  public static extern void CThostFtdcInvestorProductGroupMarginField_ProductGroupID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcInvestorProductGroupMarginField_ProductGroupID_get___")]
-  public static extern string CThostFtdcInvestorProductGroupMarginField_ProductGroupID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_new_CThostFtdcInvestorProductGroupMarginField___")]
   public static extern global::System.IntPtr new_CThostFtdcInvestorProductGroupMarginField();
 
@@ -22920,11 +21648,11 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_delete_CThostFtdcCFMMCTradingAccountTokenField___")]
   public static extern void delete_CThostFtdcCFMMCTradingAccountTokenField(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryProductGroupField_reserve1_set___")]
-  public static extern void CThostFtdcQryProductGroupField_reserve1_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryProductGroupField_ProductID_set___")]
+  public static extern void CThostFtdcQryProductGroupField_ProductID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryProductGroupField_reserve1_get___")]
-  public static extern string CThostFtdcQryProductGroupField_reserve1_get(global::System.Runtime.InteropServices.HandleRef jarg1);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryProductGroupField_ProductID_get___")]
+  public static extern string CThostFtdcQryProductGroupField_ProductID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryProductGroupField_ExchangeID_set___")]
   public static extern void CThostFtdcQryProductGroupField_ExchangeID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
@@ -22932,41 +21660,23 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryProductGroupField_ExchangeID_get___")]
   public static extern string CThostFtdcQryProductGroupField_ExchangeID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryProductGroupField_ProductID_set___")]
-  public static extern void CThostFtdcQryProductGroupField_ProductID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryProductGroupField_ProductID_get___")]
-  public static extern string CThostFtdcQryProductGroupField_ProductID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_new_CThostFtdcQryProductGroupField___")]
   public static extern global::System.IntPtr new_CThostFtdcQryProductGroupField();
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_delete_CThostFtdcQryProductGroupField___")]
   public static extern void delete_CThostFtdcQryProductGroupField(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcProductGroupField_reserve1_set___")]
-  public static extern void CThostFtdcProductGroupField_reserve1_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcProductGroupField_ProductID_set___")]
+  public static extern void CThostFtdcProductGroupField_ProductID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcProductGroupField_reserve1_get___")]
-  public static extern string CThostFtdcProductGroupField_reserve1_get(global::System.Runtime.InteropServices.HandleRef jarg1);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcProductGroupField_ProductID_get___")]
+  public static extern string CThostFtdcProductGroupField_ProductID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcProductGroupField_ExchangeID_set___")]
   public static extern void CThostFtdcProductGroupField_ExchangeID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcProductGroupField_ExchangeID_get___")]
   public static extern string CThostFtdcProductGroupField_ExchangeID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcProductGroupField_reserve2_set___")]
-  public static extern void CThostFtdcProductGroupField_reserve2_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcProductGroupField_reserve2_get___")]
-  public static extern string CThostFtdcProductGroupField_reserve2_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcProductGroupField_ProductID_set___")]
-  public static extern void CThostFtdcProductGroupField_ProductID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcProductGroupField_ProductID_get___")]
-  public static extern string CThostFtdcProductGroupField_ProductID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcProductGroupField_ProductGroupID_set___")]
   public static extern void CThostFtdcProductGroupField_ProductGroupID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
@@ -23093,102 +21803,6 @@ class CTPFutureApiPINVOKE {
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_delete_CThostFtdcQryBulletinField___")]
   public static extern void delete_CThostFtdcQryBulletinField(global::System.Runtime.InteropServices.HandleRef jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcMulticastInstrumentField_TopicID_set___")]
-  public static extern void CThostFtdcMulticastInstrumentField_TopicID_set(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcMulticastInstrumentField_TopicID_get___")]
-  public static extern int CThostFtdcMulticastInstrumentField_TopicID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcMulticastInstrumentField_reserve1_set___")]
-  public static extern void CThostFtdcMulticastInstrumentField_reserve1_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcMulticastInstrumentField_reserve1_get___")]
-  public static extern string CThostFtdcMulticastInstrumentField_reserve1_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcMulticastInstrumentField_InstrumentNo_set___")]
-  public static extern void CThostFtdcMulticastInstrumentField_InstrumentNo_set(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcMulticastInstrumentField_InstrumentNo_get___")]
-  public static extern int CThostFtdcMulticastInstrumentField_InstrumentNo_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcMulticastInstrumentField_CodePrice_set___")]
-  public static extern void CThostFtdcMulticastInstrumentField_CodePrice_set(global::System.Runtime.InteropServices.HandleRef jarg1, double jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcMulticastInstrumentField_CodePrice_get___")]
-  public static extern double CThostFtdcMulticastInstrumentField_CodePrice_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcMulticastInstrumentField_VolumeMultiple_set___")]
-  public static extern void CThostFtdcMulticastInstrumentField_VolumeMultiple_set(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcMulticastInstrumentField_VolumeMultiple_get___")]
-  public static extern int CThostFtdcMulticastInstrumentField_VolumeMultiple_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcMulticastInstrumentField_PriceTick_set___")]
-  public static extern void CThostFtdcMulticastInstrumentField_PriceTick_set(global::System.Runtime.InteropServices.HandleRef jarg1, double jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcMulticastInstrumentField_PriceTick_get___")]
-  public static extern double CThostFtdcMulticastInstrumentField_PriceTick_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcMulticastInstrumentField_InstrumentID_set___")]
-  public static extern void CThostFtdcMulticastInstrumentField_InstrumentID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcMulticastInstrumentField_InstrumentID_get___")]
-  public static extern string CThostFtdcMulticastInstrumentField_InstrumentID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_new_CThostFtdcMulticastInstrumentField___")]
-  public static extern global::System.IntPtr new_CThostFtdcMulticastInstrumentField();
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_delete_CThostFtdcMulticastInstrumentField___")]
-  public static extern void delete_CThostFtdcMulticastInstrumentField(global::System.Runtime.InteropServices.HandleRef jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryMulticastInstrumentField_TopicID_set___")]
-  public static extern void CThostFtdcQryMulticastInstrumentField_TopicID_set(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryMulticastInstrumentField_TopicID_get___")]
-  public static extern int CThostFtdcQryMulticastInstrumentField_TopicID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryMulticastInstrumentField_reserve1_set___")]
-  public static extern void CThostFtdcQryMulticastInstrumentField_reserve1_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryMulticastInstrumentField_reserve1_get___")]
-  public static extern string CThostFtdcQryMulticastInstrumentField_reserve1_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryMulticastInstrumentField_InstrumentID_set___")]
-  public static extern void CThostFtdcQryMulticastInstrumentField_InstrumentID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryMulticastInstrumentField_InstrumentID_get___")]
-  public static extern string CThostFtdcQryMulticastInstrumentField_InstrumentID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_new_CThostFtdcQryMulticastInstrumentField___")]
-  public static extern global::System.IntPtr new_CThostFtdcQryMulticastInstrumentField();
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_delete_CThostFtdcQryMulticastInstrumentField___")]
-  public static extern void delete_CThostFtdcQryMulticastInstrumentField(global::System.Runtime.InteropServices.HandleRef jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcAppIDAuthAssignField_BrokerID_set___")]
-  public static extern void CThostFtdcAppIDAuthAssignField_BrokerID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcAppIDAuthAssignField_BrokerID_get___")]
-  public static extern string CThostFtdcAppIDAuthAssignField_BrokerID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcAppIDAuthAssignField_AppID_set___")]
-  public static extern void CThostFtdcAppIDAuthAssignField_AppID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcAppIDAuthAssignField_AppID_get___")]
-  public static extern string CThostFtdcAppIDAuthAssignField_AppID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcAppIDAuthAssignField_DRIdentityID_set___")]
-  public static extern void CThostFtdcAppIDAuthAssignField_DRIdentityID_set(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcAppIDAuthAssignField_DRIdentityID_get___")]
-  public static extern int CThostFtdcAppIDAuthAssignField_DRIdentityID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_new_CThostFtdcAppIDAuthAssignField___")]
-  public static extern global::System.IntPtr new_CThostFtdcAppIDAuthAssignField();
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_delete_CThostFtdcAppIDAuthAssignField___")]
-  public static extern void delete_CThostFtdcAppIDAuthAssignField(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcReqOpenAccountField_TradeCode_set___")]
   public static extern void CThostFtdcReqOpenAccountField_TradeCode_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
@@ -29250,12 +27864,6 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcLoginForbiddenUserField_UserID_get___")]
   public static extern string CThostFtdcLoginForbiddenUserField_UserID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcLoginForbiddenUserField_reserve1_set___")]
-  public static extern void CThostFtdcLoginForbiddenUserField_reserve1_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcLoginForbiddenUserField_reserve1_get___")]
-  public static extern string CThostFtdcLoginForbiddenUserField_reserve1_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcLoginForbiddenUserField_IPAddress_set___")]
   public static extern void CThostFtdcLoginForbiddenUserField_IPAddress_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
@@ -29285,6 +27893,30 @@ class CTPFutureApiPINVOKE {
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_delete_CThostFtdcQryLoginForbiddenUserField___")]
   public static extern void delete_CThostFtdcQryLoginForbiddenUserField(global::System.Runtime.InteropServices.HandleRef jarg1);
+
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcMulticastGroupInfoField_GroupIP_set___")]
+  public static extern void CThostFtdcMulticastGroupInfoField_GroupIP_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
+
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcMulticastGroupInfoField_GroupIP_get___")]
+  public static extern string CThostFtdcMulticastGroupInfoField_GroupIP_get(global::System.Runtime.InteropServices.HandleRef jarg1);
+
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcMulticastGroupInfoField_GroupPort_set___")]
+  public static extern void CThostFtdcMulticastGroupInfoField_GroupPort_set(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2);
+
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcMulticastGroupInfoField_GroupPort_get___")]
+  public static extern int CThostFtdcMulticastGroupInfoField_GroupPort_get(global::System.Runtime.InteropServices.HandleRef jarg1);
+
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcMulticastGroupInfoField_SourceIP_set___")]
+  public static extern void CThostFtdcMulticastGroupInfoField_SourceIP_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
+
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcMulticastGroupInfoField_SourceIP_get___")]
+  public static extern string CThostFtdcMulticastGroupInfoField_SourceIP_get(global::System.Runtime.InteropServices.HandleRef jarg1);
+
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_new_CThostFtdcMulticastGroupInfoField___")]
+  public static extern global::System.IntPtr new_CThostFtdcMulticastGroupInfoField();
+
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_delete_CThostFtdcMulticastGroupInfoField___")]
+  public static extern void delete_CThostFtdcMulticastGroupInfoField(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcTradingAccountReserveField_BrokerID_set___")]
   public static extern void CThostFtdcTradingAccountReserveField_BrokerID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
@@ -29316,12 +27948,6 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_delete_CThostFtdcTradingAccountReserveField___")]
   public static extern void delete_CThostFtdcTradingAccountReserveField(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryLoginForbiddenIPField_reserve1_set___")]
-  public static extern void CThostFtdcQryLoginForbiddenIPField_reserve1_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryLoginForbiddenIPField_reserve1_get___")]
-  public static extern string CThostFtdcQryLoginForbiddenIPField_reserve1_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryLoginForbiddenIPField_IPAddress_set___")]
   public static extern void CThostFtdcQryLoginForbiddenIPField_IPAddress_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
@@ -29333,12 +27959,6 @@ class CTPFutureApiPINVOKE {
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_delete_CThostFtdcQryLoginForbiddenIPField___")]
   public static extern void delete_CThostFtdcQryLoginForbiddenIPField(global::System.Runtime.InteropServices.HandleRef jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryIPListField_reserve1_set___")]
-  public static extern void CThostFtdcQryIPListField_reserve1_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryIPListField_reserve1_get___")]
-  public static extern string CThostFtdcQryIPListField_reserve1_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryIPListField_IPAddress_set___")]
   public static extern void CThostFtdcQryIPListField_IPAddress_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
@@ -30000,6 +28620,60 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_delete_CThostFtdcQrySecAgentTradeInfoField___")]
   public static extern void delete_CThostFtdcQrySecAgentTradeInfoField(global::System.Runtime.InteropServices.HandleRef jarg1);
 
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcUserSystemInfoField_BrokerID_set___")]
+  public static extern void CThostFtdcUserSystemInfoField_BrokerID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
+
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcUserSystemInfoField_BrokerID_get___")]
+  public static extern string CThostFtdcUserSystemInfoField_BrokerID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
+
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcUserSystemInfoField_UserID_set___")]
+  public static extern void CThostFtdcUserSystemInfoField_UserID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
+
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcUserSystemInfoField_UserID_get___")]
+  public static extern string CThostFtdcUserSystemInfoField_UserID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
+
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcUserSystemInfoField_ClientSystemInfoLen_set___")]
+  public static extern void CThostFtdcUserSystemInfoField_ClientSystemInfoLen_set(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2);
+
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcUserSystemInfoField_ClientSystemInfoLen_get___")]
+  public static extern int CThostFtdcUserSystemInfoField_ClientSystemInfoLen_get(global::System.Runtime.InteropServices.HandleRef jarg1);
+
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcUserSystemInfoField_ClientSystemInfo_set___")]
+  public static extern void CThostFtdcUserSystemInfoField_ClientSystemInfo_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
+
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcUserSystemInfoField_ClientSystemInfo_get___")]
+  public static extern string CThostFtdcUserSystemInfoField_ClientSystemInfo_get(global::System.Runtime.InteropServices.HandleRef jarg1);
+
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcUserSystemInfoField_ClientPublicIP_set___")]
+  public static extern void CThostFtdcUserSystemInfoField_ClientPublicIP_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
+
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcUserSystemInfoField_ClientPublicIP_get___")]
+  public static extern string CThostFtdcUserSystemInfoField_ClientPublicIP_get(global::System.Runtime.InteropServices.HandleRef jarg1);
+
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcUserSystemInfoField_ClientIPPort_set___")]
+  public static extern void CThostFtdcUserSystemInfoField_ClientIPPort_set(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2);
+
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcUserSystemInfoField_ClientIPPort_get___")]
+  public static extern int CThostFtdcUserSystemInfoField_ClientIPPort_get(global::System.Runtime.InteropServices.HandleRef jarg1);
+
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcUserSystemInfoField_ClientLoginTime_set___")]
+  public static extern void CThostFtdcUserSystemInfoField_ClientLoginTime_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
+
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcUserSystemInfoField_ClientLoginTime_get___")]
+  public static extern string CThostFtdcUserSystemInfoField_ClientLoginTime_get(global::System.Runtime.InteropServices.HandleRef jarg1);
+
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcUserSystemInfoField_ClientAppID_set___")]
+  public static extern void CThostFtdcUserSystemInfoField_ClientAppID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
+
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcUserSystemInfoField_ClientAppID_get___")]
+  public static extern string CThostFtdcUserSystemInfoField_ClientAppID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
+
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_new_CThostFtdcUserSystemInfoField___")]
+  public static extern global::System.IntPtr new_CThostFtdcUserSystemInfoField();
+
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_delete_CThostFtdcUserSystemInfoField___")]
+  public static extern void delete_CThostFtdcUserSystemInfoField(global::System.Runtime.InteropServices.HandleRef jarg1);
+
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcReqUserAuthMethodField_TradingDay_set___")]
   public static extern void CThostFtdcReqUserAuthMethodField_TradingDay_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
@@ -30174,11 +28848,11 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcReqUserLoginWithCaptchaField_MacAddress_get___")]
   public static extern string CThostFtdcReqUserLoginWithCaptchaField_MacAddress_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcReqUserLoginWithCaptchaField_reserve1_set___")]
-  public static extern void CThostFtdcReqUserLoginWithCaptchaField_reserve1_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcReqUserLoginWithCaptchaField_ClientIPAddress_set___")]
+  public static extern void CThostFtdcReqUserLoginWithCaptchaField_ClientIPAddress_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcReqUserLoginWithCaptchaField_reserve1_get___")]
-  public static extern string CThostFtdcReqUserLoginWithCaptchaField_reserve1_get(global::System.Runtime.InteropServices.HandleRef jarg1);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcReqUserLoginWithCaptchaField_ClientIPAddress_get___")]
+  public static extern string CThostFtdcReqUserLoginWithCaptchaField_ClientIPAddress_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcReqUserLoginWithCaptchaField_LoginRemark_set___")]
   public static extern void CThostFtdcReqUserLoginWithCaptchaField_LoginRemark_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
@@ -30197,12 +28871,6 @@ class CTPFutureApiPINVOKE {
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcReqUserLoginWithCaptchaField_ClientIPPort_get___")]
   public static extern int CThostFtdcReqUserLoginWithCaptchaField_ClientIPPort_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcReqUserLoginWithCaptchaField_ClientIPAddress_set___")]
-  public static extern void CThostFtdcReqUserLoginWithCaptchaField_ClientIPAddress_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcReqUserLoginWithCaptchaField_ClientIPAddress_get___")]
-  public static extern string CThostFtdcReqUserLoginWithCaptchaField_ClientIPAddress_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_new_CThostFtdcReqUserLoginWithCaptchaField___")]
   public static extern global::System.IntPtr new_CThostFtdcReqUserLoginWithCaptchaField();
@@ -30258,11 +28926,11 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcReqUserLoginWithTextField_MacAddress_get___")]
   public static extern string CThostFtdcReqUserLoginWithTextField_MacAddress_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcReqUserLoginWithTextField_reserve1_set___")]
-  public static extern void CThostFtdcReqUserLoginWithTextField_reserve1_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcReqUserLoginWithTextField_ClientIPAddress_set___")]
+  public static extern void CThostFtdcReqUserLoginWithTextField_ClientIPAddress_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcReqUserLoginWithTextField_reserve1_get___")]
-  public static extern string CThostFtdcReqUserLoginWithTextField_reserve1_get(global::System.Runtime.InteropServices.HandleRef jarg1);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcReqUserLoginWithTextField_ClientIPAddress_get___")]
+  public static extern string CThostFtdcReqUserLoginWithTextField_ClientIPAddress_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcReqUserLoginWithTextField_LoginRemark_set___")]
   public static extern void CThostFtdcReqUserLoginWithTextField_LoginRemark_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
@@ -30281,12 +28949,6 @@ class CTPFutureApiPINVOKE {
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcReqUserLoginWithTextField_ClientIPPort_get___")]
   public static extern int CThostFtdcReqUserLoginWithTextField_ClientIPPort_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcReqUserLoginWithTextField_ClientIPAddress_set___")]
-  public static extern void CThostFtdcReqUserLoginWithTextField_ClientIPAddress_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcReqUserLoginWithTextField_ClientIPAddress_get___")]
-  public static extern string CThostFtdcReqUserLoginWithTextField_ClientIPAddress_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_new_CThostFtdcReqUserLoginWithTextField___")]
   public static extern global::System.IntPtr new_CThostFtdcReqUserLoginWithTextField();
@@ -30342,11 +29004,11 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcReqUserLoginWithOTPField_MacAddress_get___")]
   public static extern string CThostFtdcReqUserLoginWithOTPField_MacAddress_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcReqUserLoginWithOTPField_reserve1_set___")]
-  public static extern void CThostFtdcReqUserLoginWithOTPField_reserve1_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcReqUserLoginWithOTPField_ClientIPAddress_set___")]
+  public static extern void CThostFtdcReqUserLoginWithOTPField_ClientIPAddress_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcReqUserLoginWithOTPField_reserve1_get___")]
-  public static extern string CThostFtdcReqUserLoginWithOTPField_reserve1_get(global::System.Runtime.InteropServices.HandleRef jarg1);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcReqUserLoginWithOTPField_ClientIPAddress_get___")]
+  public static extern string CThostFtdcReqUserLoginWithOTPField_ClientIPAddress_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcReqUserLoginWithOTPField_LoginRemark_set___")]
   public static extern void CThostFtdcReqUserLoginWithOTPField_LoginRemark_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
@@ -30365,12 +29027,6 @@ class CTPFutureApiPINVOKE {
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcReqUserLoginWithOTPField_ClientIPPort_get___")]
   public static extern int CThostFtdcReqUserLoginWithOTPField_ClientIPPort_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcReqUserLoginWithOTPField_ClientIPAddress_set___")]
-  public static extern void CThostFtdcReqUserLoginWithOTPField_ClientIPAddress_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcReqUserLoginWithOTPField_ClientIPAddress_get___")]
-  public static extern string CThostFtdcReqUserLoginWithOTPField_ClientIPAddress_get(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_new_CThostFtdcReqUserLoginWithOTPField___")]
   public static extern global::System.IntPtr new_CThostFtdcReqUserLoginWithOTPField();
@@ -30474,288 +29130,6 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_delete_CThostFtdcQueryFreqField___")]
   public static extern void delete_CThostFtdcQueryFreqField(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcAuthForbiddenIPField_reserve1_set___")]
-  public static extern void CThostFtdcAuthForbiddenIPField_reserve1_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcAuthForbiddenIPField_reserve1_get___")]
-  public static extern string CThostFtdcAuthForbiddenIPField_reserve1_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcAuthForbiddenIPField_IPAddress_set___")]
-  public static extern void CThostFtdcAuthForbiddenIPField_IPAddress_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcAuthForbiddenIPField_IPAddress_get___")]
-  public static extern string CThostFtdcAuthForbiddenIPField_IPAddress_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_new_CThostFtdcAuthForbiddenIPField___")]
-  public static extern global::System.IntPtr new_CThostFtdcAuthForbiddenIPField();
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_delete_CThostFtdcAuthForbiddenIPField___")]
-  public static extern void delete_CThostFtdcAuthForbiddenIPField(global::System.Runtime.InteropServices.HandleRef jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryAuthForbiddenIPField_reserve1_set___")]
-  public static extern void CThostFtdcQryAuthForbiddenIPField_reserve1_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryAuthForbiddenIPField_reserve1_get___")]
-  public static extern string CThostFtdcQryAuthForbiddenIPField_reserve1_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryAuthForbiddenIPField_IPAddress_set___")]
-  public static extern void CThostFtdcQryAuthForbiddenIPField_IPAddress_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryAuthForbiddenIPField_IPAddress_get___")]
-  public static extern string CThostFtdcQryAuthForbiddenIPField_IPAddress_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_new_CThostFtdcQryAuthForbiddenIPField___")]
-  public static extern global::System.IntPtr new_CThostFtdcQryAuthForbiddenIPField();
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_delete_CThostFtdcQryAuthForbiddenIPField___")]
-  public static extern void delete_CThostFtdcQryAuthForbiddenIPField(global::System.Runtime.InteropServices.HandleRef jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcSyncDelaySwapFrozenField_DelaySwapSeqNo_set___")]
-  public static extern void CThostFtdcSyncDelaySwapFrozenField_DelaySwapSeqNo_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcSyncDelaySwapFrozenField_DelaySwapSeqNo_get___")]
-  public static extern string CThostFtdcSyncDelaySwapFrozenField_DelaySwapSeqNo_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcSyncDelaySwapFrozenField_BrokerID_set___")]
-  public static extern void CThostFtdcSyncDelaySwapFrozenField_BrokerID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcSyncDelaySwapFrozenField_BrokerID_get___")]
-  public static extern string CThostFtdcSyncDelaySwapFrozenField_BrokerID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcSyncDelaySwapFrozenField_InvestorID_set___")]
-  public static extern void CThostFtdcSyncDelaySwapFrozenField_InvestorID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcSyncDelaySwapFrozenField_InvestorID_get___")]
-  public static extern string CThostFtdcSyncDelaySwapFrozenField_InvestorID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcSyncDelaySwapFrozenField_FromCurrencyID_set___")]
-  public static extern void CThostFtdcSyncDelaySwapFrozenField_FromCurrencyID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcSyncDelaySwapFrozenField_FromCurrencyID_get___")]
-  public static extern string CThostFtdcSyncDelaySwapFrozenField_FromCurrencyID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcSyncDelaySwapFrozenField_FromRemainSwap_set___")]
-  public static extern void CThostFtdcSyncDelaySwapFrozenField_FromRemainSwap_set(global::System.Runtime.InteropServices.HandleRef jarg1, double jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcSyncDelaySwapFrozenField_FromRemainSwap_get___")]
-  public static extern double CThostFtdcSyncDelaySwapFrozenField_FromRemainSwap_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcSyncDelaySwapFrozenField_IsManualSwap_set___")]
-  public static extern void CThostFtdcSyncDelaySwapFrozenField_IsManualSwap_set(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcSyncDelaySwapFrozenField_IsManualSwap_get___")]
-  public static extern int CThostFtdcSyncDelaySwapFrozenField_IsManualSwap_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_new_CThostFtdcSyncDelaySwapFrozenField___")]
-  public static extern global::System.IntPtr new_CThostFtdcSyncDelaySwapFrozenField();
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_delete_CThostFtdcSyncDelaySwapFrozenField___")]
-  public static extern void delete_CThostFtdcSyncDelaySwapFrozenField(global::System.Runtime.InteropServices.HandleRef jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcUserSystemInfoField_BrokerID_set___")]
-  public static extern void CThostFtdcUserSystemInfoField_BrokerID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcUserSystemInfoField_BrokerID_get___")]
-  public static extern string CThostFtdcUserSystemInfoField_BrokerID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcUserSystemInfoField_UserID_set___")]
-  public static extern void CThostFtdcUserSystemInfoField_UserID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcUserSystemInfoField_UserID_get___")]
-  public static extern string CThostFtdcUserSystemInfoField_UserID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcUserSystemInfoField_ClientSystemInfoLen_set___")]
-  public static extern void CThostFtdcUserSystemInfoField_ClientSystemInfoLen_set(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcUserSystemInfoField_ClientSystemInfoLen_get___")]
-  public static extern int CThostFtdcUserSystemInfoField_ClientSystemInfoLen_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcUserSystemInfoField_ClientSystemInfo_set___")]
-  public static extern void CThostFtdcUserSystemInfoField_ClientSystemInfo_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcUserSystemInfoField_ClientSystemInfo_get___")]
-  public static extern string CThostFtdcUserSystemInfoField_ClientSystemInfo_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcUserSystemInfoField_reserve1_set___")]
-  public static extern void CThostFtdcUserSystemInfoField_reserve1_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcUserSystemInfoField_reserve1_get___")]
-  public static extern string CThostFtdcUserSystemInfoField_reserve1_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcUserSystemInfoField_ClientIPPort_set___")]
-  public static extern void CThostFtdcUserSystemInfoField_ClientIPPort_set(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcUserSystemInfoField_ClientIPPort_get___")]
-  public static extern int CThostFtdcUserSystemInfoField_ClientIPPort_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcUserSystemInfoField_ClientLoginTime_set___")]
-  public static extern void CThostFtdcUserSystemInfoField_ClientLoginTime_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcUserSystemInfoField_ClientLoginTime_get___")]
-  public static extern string CThostFtdcUserSystemInfoField_ClientLoginTime_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcUserSystemInfoField_ClientAppID_set___")]
-  public static extern void CThostFtdcUserSystemInfoField_ClientAppID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcUserSystemInfoField_ClientAppID_get___")]
-  public static extern string CThostFtdcUserSystemInfoField_ClientAppID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcUserSystemInfoField_ClientPublicIP_set___")]
-  public static extern void CThostFtdcUserSystemInfoField_ClientPublicIP_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcUserSystemInfoField_ClientPublicIP_get___")]
-  public static extern string CThostFtdcUserSystemInfoField_ClientPublicIP_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_new_CThostFtdcUserSystemInfoField___")]
-  public static extern global::System.IntPtr new_CThostFtdcUserSystemInfoField();
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_delete_CThostFtdcUserSystemInfoField___")]
-  public static extern void delete_CThostFtdcUserSystemInfoField(global::System.Runtime.InteropServices.HandleRef jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcAuthUserIDField_BrokerID_set___")]
-  public static extern void CThostFtdcAuthUserIDField_BrokerID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcAuthUserIDField_BrokerID_get___")]
-  public static extern string CThostFtdcAuthUserIDField_BrokerID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcAuthUserIDField_AppID_set___")]
-  public static extern void CThostFtdcAuthUserIDField_AppID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcAuthUserIDField_AppID_get___")]
-  public static extern string CThostFtdcAuthUserIDField_AppID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcAuthUserIDField_UserID_set___")]
-  public static extern void CThostFtdcAuthUserIDField_UserID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcAuthUserIDField_UserID_get___")]
-  public static extern string CThostFtdcAuthUserIDField_UserID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcAuthUserIDField_AuthType_set___")]
-  public static extern void CThostFtdcAuthUserIDField_AuthType_set(global::System.Runtime.InteropServices.HandleRef jarg1, char jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcAuthUserIDField_AuthType_get___")]
-  public static extern char CThostFtdcAuthUserIDField_AuthType_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_new_CThostFtdcAuthUserIDField___")]
-  public static extern global::System.IntPtr new_CThostFtdcAuthUserIDField();
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_delete_CThostFtdcAuthUserIDField___")]
-  public static extern void delete_CThostFtdcAuthUserIDField(global::System.Runtime.InteropServices.HandleRef jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcAuthIPField_BrokerID_set___")]
-  public static extern void CThostFtdcAuthIPField_BrokerID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcAuthIPField_BrokerID_get___")]
-  public static extern string CThostFtdcAuthIPField_BrokerID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcAuthIPField_AppID_set___")]
-  public static extern void CThostFtdcAuthIPField_AppID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcAuthIPField_AppID_get___")]
-  public static extern string CThostFtdcAuthIPField_AppID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcAuthIPField_IPAddress_set___")]
-  public static extern void CThostFtdcAuthIPField_IPAddress_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcAuthIPField_IPAddress_get___")]
-  public static extern string CThostFtdcAuthIPField_IPAddress_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_new_CThostFtdcAuthIPField___")]
-  public static extern global::System.IntPtr new_CThostFtdcAuthIPField();
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_delete_CThostFtdcAuthIPField___")]
-  public static extern void delete_CThostFtdcAuthIPField(global::System.Runtime.InteropServices.HandleRef jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryClassifiedInstrumentField_InstrumentID_set___")]
-  public static extern void CThostFtdcQryClassifiedInstrumentField_InstrumentID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryClassifiedInstrumentField_InstrumentID_get___")]
-  public static extern string CThostFtdcQryClassifiedInstrumentField_InstrumentID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryClassifiedInstrumentField_ExchangeID_set___")]
-  public static extern void CThostFtdcQryClassifiedInstrumentField_ExchangeID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryClassifiedInstrumentField_ExchangeID_get___")]
-  public static extern string CThostFtdcQryClassifiedInstrumentField_ExchangeID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryClassifiedInstrumentField_ExchangeInstID_set___")]
-  public static extern void CThostFtdcQryClassifiedInstrumentField_ExchangeInstID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryClassifiedInstrumentField_ExchangeInstID_get___")]
-  public static extern string CThostFtdcQryClassifiedInstrumentField_ExchangeInstID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryClassifiedInstrumentField_ProductID_set___")]
-  public static extern void CThostFtdcQryClassifiedInstrumentField_ProductID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryClassifiedInstrumentField_ProductID_get___")]
-  public static extern string CThostFtdcQryClassifiedInstrumentField_ProductID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryClassifiedInstrumentField_TradingType_set___")]
-  public static extern void CThostFtdcQryClassifiedInstrumentField_TradingType_set(global::System.Runtime.InteropServices.HandleRef jarg1, char jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryClassifiedInstrumentField_TradingType_get___")]
-  public static extern char CThostFtdcQryClassifiedInstrumentField_TradingType_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryClassifiedInstrumentField_ClassType_set___")]
-  public static extern void CThostFtdcQryClassifiedInstrumentField_ClassType_set(global::System.Runtime.InteropServices.HandleRef jarg1, char jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryClassifiedInstrumentField_ClassType_get___")]
-  public static extern char CThostFtdcQryClassifiedInstrumentField_ClassType_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_new_CThostFtdcQryClassifiedInstrumentField___")]
-  public static extern global::System.IntPtr new_CThostFtdcQryClassifiedInstrumentField();
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_delete_CThostFtdcQryClassifiedInstrumentField___")]
-  public static extern void delete_CThostFtdcQryClassifiedInstrumentField(global::System.Runtime.InteropServices.HandleRef jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryCombPromotionParamField_ExchangeID_set___")]
-  public static extern void CThostFtdcQryCombPromotionParamField_ExchangeID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryCombPromotionParamField_ExchangeID_get___")]
-  public static extern string CThostFtdcQryCombPromotionParamField_ExchangeID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryCombPromotionParamField_InstrumentID_set___")]
-  public static extern void CThostFtdcQryCombPromotionParamField_InstrumentID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcQryCombPromotionParamField_InstrumentID_get___")]
-  public static extern string CThostFtdcQryCombPromotionParamField_InstrumentID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_new_CThostFtdcQryCombPromotionParamField___")]
-  public static extern global::System.IntPtr new_CThostFtdcQryCombPromotionParamField();
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_delete_CThostFtdcQryCombPromotionParamField___")]
-  public static extern void delete_CThostFtdcQryCombPromotionParamField(global::System.Runtime.InteropServices.HandleRef jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcCombPromotionParamField_ExchangeID_set___")]
-  public static extern void CThostFtdcCombPromotionParamField_ExchangeID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcCombPromotionParamField_ExchangeID_get___")]
-  public static extern string CThostFtdcCombPromotionParamField_ExchangeID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcCombPromotionParamField_InstrumentID_set___")]
-  public static extern void CThostFtdcCombPromotionParamField_InstrumentID_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcCombPromotionParamField_InstrumentID_get___")]
-  public static extern string CThostFtdcCombPromotionParamField_InstrumentID_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcCombPromotionParamField_CombHedgeFlag_set___")]
-  public static extern void CThostFtdcCombPromotionParamField_CombHedgeFlag_set(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcCombPromotionParamField_CombHedgeFlag_get___")]
-  public static extern string CThostFtdcCombPromotionParamField_CombHedgeFlag_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcCombPromotionParamField_Xparameter_set___")]
-  public static extern void CThostFtdcCombPromotionParamField_Xparameter_set(global::System.Runtime.InteropServices.HandleRef jarg1, double jarg2);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcCombPromotionParamField_Xparameter_get___")]
-  public static extern double CThostFtdcCombPromotionParamField_Xparameter_get(global::System.Runtime.InteropServices.HandleRef jarg1);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_new_CThostFtdcCombPromotionParamField___")]
-  public static extern global::System.IntPtr new_CThostFtdcCombPromotionParamField();
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_delete_CThostFtdcCombPromotionParamField___")]
-  public static extern void delete_CThostFtdcCombPromotionParamField(global::System.Runtime.InteropServices.HandleRef jarg1);
-
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcTraderSpi_OnFrontConnected___")]
   public static extern void CThostFtdcTraderSpi_OnFrontConnected(global::System.Runtime.InteropServices.HandleRef jarg1);
 
@@ -30846,11 +29220,11 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcTraderSpi_OnRspOrderActionSwigExplicitCThostFtdcTraderSpi___")]
   public static extern void CThostFtdcTraderSpi_OnRspOrderActionSwigExplicitCThostFtdcTraderSpi(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2, global::System.Runtime.InteropServices.HandleRef jarg3, int jarg4, bool jarg5);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcTraderSpi_OnRspQryMaxOrderVolume___")]
-  public static extern void CThostFtdcTraderSpi_OnRspQryMaxOrderVolume(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2, global::System.Runtime.InteropServices.HandleRef jarg3, int jarg4, bool jarg5);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcTraderSpi_OnRspQueryMaxOrderVolume___")]
+  public static extern void CThostFtdcTraderSpi_OnRspQueryMaxOrderVolume(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2, global::System.Runtime.InteropServices.HandleRef jarg3, int jarg4, bool jarg5);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcTraderSpi_OnRspQryMaxOrderVolumeSwigExplicitCThostFtdcTraderSpi___")]
-  public static extern void CThostFtdcTraderSpi_OnRspQryMaxOrderVolumeSwigExplicitCThostFtdcTraderSpi(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2, global::System.Runtime.InteropServices.HandleRef jarg3, int jarg4, bool jarg5);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcTraderSpi_OnRspQueryMaxOrderVolumeSwigExplicitCThostFtdcTraderSpi___")]
+  public static extern void CThostFtdcTraderSpi_OnRspQueryMaxOrderVolumeSwigExplicitCThostFtdcTraderSpi(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2, global::System.Runtime.InteropServices.HandleRef jarg3, int jarg4, bool jarg5);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcTraderSpi_OnRspSettlementInfoConfirm___")]
   public static extern void CThostFtdcTraderSpi_OnRspSettlementInfoConfirm(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2, global::System.Runtime.InteropServices.HandleRef jarg3, int jarg4, bool jarg5);
@@ -31506,18 +29880,6 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcTraderSpi_OnRtnChangeAccountByBankSwigExplicitCThostFtdcTraderSpi___")]
   public static extern void CThostFtdcTraderSpi_OnRtnChangeAccountByBankSwigExplicitCThostFtdcTraderSpi(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcTraderSpi_OnRspQryClassifiedInstrument___")]
-  public static extern void CThostFtdcTraderSpi_OnRspQryClassifiedInstrument(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2, global::System.Runtime.InteropServices.HandleRef jarg3, int jarg4, bool jarg5);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcTraderSpi_OnRspQryClassifiedInstrumentSwigExplicitCThostFtdcTraderSpi___")]
-  public static extern void CThostFtdcTraderSpi_OnRspQryClassifiedInstrumentSwigExplicitCThostFtdcTraderSpi(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2, global::System.Runtime.InteropServices.HandleRef jarg3, int jarg4, bool jarg5);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcTraderSpi_OnRspQryCombPromotionParam___")]
-  public static extern void CThostFtdcTraderSpi_OnRspQryCombPromotionParam(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2, global::System.Runtime.InteropServices.HandleRef jarg3, int jarg4, bool jarg5);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcTraderSpi_OnRspQryCombPromotionParamSwigExplicitCThostFtdcTraderSpi___")]
-  public static extern void CThostFtdcTraderSpi_OnRspQryCombPromotionParamSwigExplicitCThostFtdcTraderSpi(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2, global::System.Runtime.InteropServices.HandleRef jarg3, int jarg4, bool jarg5);
-
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_new_CThostFtdcTraderSpi___")]
   public static extern global::System.IntPtr new_CThostFtdcTraderSpi();
 
@@ -31525,7 +29887,7 @@ class CTPFutureApiPINVOKE {
   public static extern void delete_CThostFtdcTraderSpi(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcTraderSpi_director_connect___")]
-  public static extern void CThostFtdcTraderSpi_director_connect(global::System.Runtime.InteropServices.HandleRef jarg1, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_0 delegate0, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_1 delegate1, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_2 delegate2, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_3 delegate3, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_4 delegate4, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_5 delegate5, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_6 delegate6, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_7 delegate7, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_8 delegate8, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_9 delegate9, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_10 delegate10, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_11 delegate11, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_12 delegate12, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_13 delegate13, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_14 delegate14, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_15 delegate15, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_16 delegate16, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_17 delegate17, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_18 delegate18, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_19 delegate19, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_20 delegate20, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_21 delegate21, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_22 delegate22, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_23 delegate23, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_24 delegate24, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_25 delegate25, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_26 delegate26, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_27 delegate27, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_28 delegate28, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_29 delegate29, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_30 delegate30, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_31 delegate31, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_32 delegate32, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_33 delegate33, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_34 delegate34, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_35 delegate35, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_36 delegate36, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_37 delegate37, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_38 delegate38, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_39 delegate39, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_40 delegate40, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_41 delegate41, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_42 delegate42, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_43 delegate43, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_44 delegate44, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_45 delegate45, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_46 delegate46, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_47 delegate47, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_48 delegate48, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_49 delegate49, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_50 delegate50, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_51 delegate51, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_52 delegate52, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_53 delegate53, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_54 delegate54, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_55 delegate55, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_56 delegate56, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_57 delegate57, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_58 delegate58, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_59 delegate59, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_60 delegate60, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_61 delegate61, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_62 delegate62, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_63 delegate63, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_64 delegate64, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_65 delegate65, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_66 delegate66, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_67 delegate67, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_68 delegate68, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_69 delegate69, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_70 delegate70, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_71 delegate71, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_72 delegate72, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_73 delegate73, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_74 delegate74, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_75 delegate75, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_76 delegate76, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_77 delegate77, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_78 delegate78, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_79 delegate79, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_80 delegate80, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_81 delegate81, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_82 delegate82, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_83 delegate83, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_84 delegate84, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_85 delegate85, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_86 delegate86, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_87 delegate87, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_88 delegate88, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_89 delegate89, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_90 delegate90, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_91 delegate91, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_92 delegate92, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_93 delegate93, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_94 delegate94, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_95 delegate95, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_96 delegate96, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_97 delegate97, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_98 delegate98, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_99 delegate99, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_100 delegate100, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_101 delegate101, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_102 delegate102, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_103 delegate103, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_104 delegate104, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_105 delegate105, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_106 delegate106, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_107 delegate107, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_108 delegate108, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_109 delegate109, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_110 delegate110, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_111 delegate111, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_112 delegate112, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_113 delegate113, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_114 delegate114, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_115 delegate115, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_116 delegate116, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_117 delegate117, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_118 delegate118, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_119 delegate119, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_120 delegate120, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_121 delegate121, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_122 delegate122, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_123 delegate123, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_124 delegate124, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_125 delegate125, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_126 delegate126);
+  public static extern void CThostFtdcTraderSpi_director_connect(global::System.Runtime.InteropServices.HandleRef jarg1, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_0 delegate0, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_1 delegate1, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_2 delegate2, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_3 delegate3, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_4 delegate4, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_5 delegate5, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_6 delegate6, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_7 delegate7, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_8 delegate8, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_9 delegate9, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_10 delegate10, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_11 delegate11, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_12 delegate12, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_13 delegate13, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_14 delegate14, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_15 delegate15, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_16 delegate16, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_17 delegate17, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_18 delegate18, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_19 delegate19, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_20 delegate20, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_21 delegate21, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_22 delegate22, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_23 delegate23, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_24 delegate24, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_25 delegate25, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_26 delegate26, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_27 delegate27, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_28 delegate28, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_29 delegate29, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_30 delegate30, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_31 delegate31, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_32 delegate32, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_33 delegate33, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_34 delegate34, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_35 delegate35, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_36 delegate36, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_37 delegate37, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_38 delegate38, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_39 delegate39, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_40 delegate40, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_41 delegate41, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_42 delegate42, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_43 delegate43, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_44 delegate44, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_45 delegate45, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_46 delegate46, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_47 delegate47, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_48 delegate48, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_49 delegate49, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_50 delegate50, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_51 delegate51, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_52 delegate52, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_53 delegate53, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_54 delegate54, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_55 delegate55, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_56 delegate56, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_57 delegate57, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_58 delegate58, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_59 delegate59, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_60 delegate60, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_61 delegate61, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_62 delegate62, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_63 delegate63, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_64 delegate64, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_65 delegate65, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_66 delegate66, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_67 delegate67, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_68 delegate68, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_69 delegate69, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_70 delegate70, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_71 delegate71, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_72 delegate72, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_73 delegate73, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_74 delegate74, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_75 delegate75, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_76 delegate76, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_77 delegate77, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_78 delegate78, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_79 delegate79, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_80 delegate80, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_81 delegate81, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_82 delegate82, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_83 delegate83, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_84 delegate84, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_85 delegate85, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_86 delegate86, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_87 delegate87, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_88 delegate88, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_89 delegate89, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_90 delegate90, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_91 delegate91, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_92 delegate92, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_93 delegate93, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_94 delegate94, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_95 delegate95, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_96 delegate96, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_97 delegate97, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_98 delegate98, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_99 delegate99, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_100 delegate100, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_101 delegate101, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_102 delegate102, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_103 delegate103, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_104 delegate104, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_105 delegate105, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_106 delegate106, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_107 delegate107, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_108 delegate108, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_109 delegate109, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_110 delegate110, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_111 delegate111, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_112 delegate112, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_113 delegate113, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_114 delegate114, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_115 delegate115, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_116 delegate116, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_117 delegate117, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_118 delegate118, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_119 delegate119, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_120 delegate120, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_121 delegate121, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_122 delegate122, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_123 delegate123, CThostFtdcTraderSpi.SwigDelegateCThostFtdcTraderSpi_124 delegate124);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcTraderApi_CreateFtdcTraderApi__SWIG_0___")]
   public static extern global::System.IntPtr CThostFtdcTraderApi_CreateFtdcTraderApi__SWIG_0(string jarg1);
@@ -31617,8 +29979,8 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcTraderApi_ReqOrderAction___")]
   public static extern int CThostFtdcTraderApi_ReqOrderAction(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2, int jarg3);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcTraderApi_ReqQryMaxOrderVolume___")]
-  public static extern int CThostFtdcTraderApi_ReqQryMaxOrderVolume(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2, int jarg3);
+  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcTraderApi_ReqQueryMaxOrderVolume___")]
+  public static extern int CThostFtdcTraderApi_ReqQueryMaxOrderVolume(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2, int jarg3);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcTraderApi_ReqSettlementInfoConfirm___")]
   public static extern int CThostFtdcTraderApi_ReqSettlementInfoConfirm(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2, int jarg3);
@@ -31818,12 +30180,6 @@ class CTPFutureApiPINVOKE {
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcTraderApi_ReqQueryBankAccountMoneyByFuture___")]
   public static extern int CThostFtdcTraderApi_ReqQueryBankAccountMoneyByFuture(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2, int jarg3);
 
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcTraderApi_ReqQryClassifiedInstrument___")]
-  public static extern int CThostFtdcTraderApi_ReqQryClassifiedInstrument(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2, int jarg3);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcTraderApi_ReqQryCombPromotionParam___")]
-  public static extern int CThostFtdcTraderApi_ReqQryCombPromotionParam(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2, int jarg3);
-
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcMdSpi_OnFrontConnected___")]
   public static extern void CThostFtdcMdSpi_OnFrontConnected(global::System.Runtime.InteropServices.HandleRef jarg1);
 
@@ -31853,12 +30209,6 @@ class CTPFutureApiPINVOKE {
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcMdSpi_OnRspUserLogoutSwigExplicitCThostFtdcMdSpi___")]
   public static extern void CThostFtdcMdSpi_OnRspUserLogoutSwigExplicitCThostFtdcMdSpi(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2, global::System.Runtime.InteropServices.HandleRef jarg3, int jarg4, bool jarg5);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcMdSpi_OnRspQryMulticastInstrument___")]
-  public static extern void CThostFtdcMdSpi_OnRspQryMulticastInstrument(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2, global::System.Runtime.InteropServices.HandleRef jarg3, int jarg4, bool jarg5);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcMdSpi_OnRspQryMulticastInstrumentSwigExplicitCThostFtdcMdSpi___")]
-  public static extern void CThostFtdcMdSpi_OnRspQryMulticastInstrumentSwigExplicitCThostFtdcMdSpi(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2, global::System.Runtime.InteropServices.HandleRef jarg3, int jarg4, bool jarg5);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcMdSpi_OnRspError___")]
   public static extern void CThostFtdcMdSpi_OnRspError(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2, int jarg3, bool jarg4);
@@ -31909,7 +30259,7 @@ class CTPFutureApiPINVOKE {
   public static extern void delete_CThostFtdcMdSpi(global::System.Runtime.InteropServices.HandleRef jarg1);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcMdSpi_director_connect___")]
-  public static extern void CThostFtdcMdSpi_director_connect(global::System.Runtime.InteropServices.HandleRef jarg1, CThostFtdcMdSpi.SwigDelegateCThostFtdcMdSpi_0 delegate0, CThostFtdcMdSpi.SwigDelegateCThostFtdcMdSpi_1 delegate1, CThostFtdcMdSpi.SwigDelegateCThostFtdcMdSpi_2 delegate2, CThostFtdcMdSpi.SwigDelegateCThostFtdcMdSpi_3 delegate3, CThostFtdcMdSpi.SwigDelegateCThostFtdcMdSpi_4 delegate4, CThostFtdcMdSpi.SwigDelegateCThostFtdcMdSpi_5 delegate5, CThostFtdcMdSpi.SwigDelegateCThostFtdcMdSpi_6 delegate6, CThostFtdcMdSpi.SwigDelegateCThostFtdcMdSpi_7 delegate7, CThostFtdcMdSpi.SwigDelegateCThostFtdcMdSpi_8 delegate8, CThostFtdcMdSpi.SwigDelegateCThostFtdcMdSpi_9 delegate9, CThostFtdcMdSpi.SwigDelegateCThostFtdcMdSpi_10 delegate10, CThostFtdcMdSpi.SwigDelegateCThostFtdcMdSpi_11 delegate11, CThostFtdcMdSpi.SwigDelegateCThostFtdcMdSpi_12 delegate12);
+  public static extern void CThostFtdcMdSpi_director_connect(global::System.Runtime.InteropServices.HandleRef jarg1, CThostFtdcMdSpi.SwigDelegateCThostFtdcMdSpi_0 delegate0, CThostFtdcMdSpi.SwigDelegateCThostFtdcMdSpi_1 delegate1, CThostFtdcMdSpi.SwigDelegateCThostFtdcMdSpi_2 delegate2, CThostFtdcMdSpi.SwigDelegateCThostFtdcMdSpi_3 delegate3, CThostFtdcMdSpi.SwigDelegateCThostFtdcMdSpi_4 delegate4, CThostFtdcMdSpi.SwigDelegateCThostFtdcMdSpi_5 delegate5, CThostFtdcMdSpi.SwigDelegateCThostFtdcMdSpi_6 delegate6, CThostFtdcMdSpi.SwigDelegateCThostFtdcMdSpi_7 delegate7, CThostFtdcMdSpi.SwigDelegateCThostFtdcMdSpi_8 delegate8, CThostFtdcMdSpi.SwigDelegateCThostFtdcMdSpi_9 delegate9, CThostFtdcMdSpi.SwigDelegateCThostFtdcMdSpi_10 delegate10, CThostFtdcMdSpi.SwigDelegateCThostFtdcMdSpi_11 delegate11);
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcMdApi_CreateFtdcMdApi__SWIG_0___")]
   public static extern global::System.IntPtr CThostFtdcMdApi_CreateFtdcMdApi__SWIG_0(string jarg1, bool jarg2, bool jarg3);
@@ -31967,9 +30317,6 @@ class CTPFutureApiPINVOKE {
 
   [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcMdApi_ReqUserLogout___")]
   public static extern int CThostFtdcMdApi_ReqUserLogout(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2, int jarg3);
-
-  [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcMdApi_ReqQryMulticastInstrument___")]
-  public static extern int CThostFtdcMdApi_ReqQryMulticastInstrument(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2, int jarg3);
 }
 
 }

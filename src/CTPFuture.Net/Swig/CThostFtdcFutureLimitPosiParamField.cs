@@ -87,12 +87,12 @@ public class CThostFtdcFutureLimitPosiParamField : global::System.IDisposable {
     } 
   }
 
-  public string reserve1 {
+  public string ProductID {
     set {
-      CTPFutureApiPINVOKE.CThostFtdcFutureLimitPosiParamField_reserve1_set(swigCPtr, value);
+      CTPFutureApiPINVOKE.CThostFtdcFutureLimitPosiParamField_ProductID_set(swigCPtr, value);
     } 
     get {
-      string ret = CTPFutureApiPINVOKE.CThostFtdcFutureLimitPosiParamField_reserve1_get(swigCPtr);
+      string ret = CTPFutureApiPINVOKE.CThostFtdcFutureLimitPosiParamField_ProductID_get(swigCPtr);
       return ret;
     } 
   }
@@ -123,16 +123,6 @@ public class CThostFtdcFutureLimitPosiParamField : global::System.IDisposable {
     } 
     get {
       int ret = CTPFutureApiPINVOKE.CThostFtdcFutureLimitPosiParamField_OpenVolume_get(swigCPtr);
-      return ret;
-    } 
-  }
-
-  public string ProductID {
-    set {
-      CTPFutureApiPINVOKE.CThostFtdcFutureLimitPosiParamField_ProductID_set(swigCPtr, value);
-    } 
-    get {
-      string ret = CTPFutureApiPINVOKE.CThostFtdcFutureLimitPosiParamField_ProductID_get(swigCPtr);
       return ret;
     } 
   }

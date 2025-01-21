@@ -57,12 +57,12 @@ public class CThostFtdcStrikeOffsetField : global::System.IDisposable {
     }
   }
 
-  public string reserve1 {
+  public string InstrumentID {
     set {
-      CTPFutureApiPINVOKE.CThostFtdcStrikeOffsetField_reserve1_set(swigCPtr, value);
+      CTPFutureApiPINVOKE.CThostFtdcStrikeOffsetField_InstrumentID_set(swigCPtr, value);
     } 
     get {
-      string ret = CTPFutureApiPINVOKE.CThostFtdcStrikeOffsetField_reserve1_get(swigCPtr);
+      string ret = CTPFutureApiPINVOKE.CThostFtdcStrikeOffsetField_InstrumentID_get(swigCPtr);
       return ret;
     } 
   }
@@ -113,16 +113,6 @@ public class CThostFtdcStrikeOffsetField : global::System.IDisposable {
     } 
     get {
       char ret = CTPFutureApiPINVOKE.CThostFtdcStrikeOffsetField_OffsetType_get(swigCPtr);
-      return ret;
-    } 
-  }
-
-  public string InstrumentID {
-    set {
-      CTPFutureApiPINVOKE.CThostFtdcStrikeOffsetField_InstrumentID_set(swigCPtr, value);
-    } 
-    get {
-      string ret = CTPFutureApiPINVOKE.CThostFtdcStrikeOffsetField_InstrumentID_get(swigCPtr);
       return ret;
     } 
   }

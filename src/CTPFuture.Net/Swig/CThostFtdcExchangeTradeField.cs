@@ -127,12 +127,12 @@ public class CThostFtdcExchangeTradeField : global::System.IDisposable {
     } 
   }
 
-  public string reserve1 {
+  public string ExchangeInstID {
     set {
-      CTPFutureApiPINVOKE.CThostFtdcExchangeTradeField_reserve1_set(swigCPtr, value);
+      CTPFutureApiPINVOKE.CThostFtdcExchangeTradeField_ExchangeInstID_set(swigCPtr, value);
     } 
     get {
-      string ret = CTPFutureApiPINVOKE.CThostFtdcExchangeTradeField_reserve1_get(swigCPtr);
+      string ret = CTPFutureApiPINVOKE.CThostFtdcExchangeTradeField_ExchangeInstID_get(swigCPtr);
       return ret;
     } 
   }
@@ -273,16 +273,6 @@ public class CThostFtdcExchangeTradeField : global::System.IDisposable {
     } 
     get {
       char ret = CTPFutureApiPINVOKE.CThostFtdcExchangeTradeField_TradeSource_get(swigCPtr);
-      return ret;
-    } 
-  }
-
-  public string ExchangeInstID {
-    set {
-      CTPFutureApiPINVOKE.CThostFtdcExchangeTradeField_ExchangeInstID_set(swigCPtr, value);
-    } 
-    get {
-      string ret = CTPFutureApiPINVOKE.CThostFtdcExchangeTradeField_ExchangeInstID_get(swigCPtr);
       return ret;
     } 
   }

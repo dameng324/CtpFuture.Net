@@ -77,16 +77,6 @@ public class CThostFtdcQryBrokerTradingAlgosField : global::System.IDisposable {
     } 
   }
 
-  public string reserve1 {
-    set {
-      CTPFutureApiPINVOKE.CThostFtdcQryBrokerTradingAlgosField_reserve1_set(swigCPtr, value);
-    } 
-    get {
-      string ret = CTPFutureApiPINVOKE.CThostFtdcQryBrokerTradingAlgosField_reserve1_get(swigCPtr);
-      return ret;
-    } 
-  }
-
   public string InstrumentID {
     set {
       CTPFutureApiPINVOKE.CThostFtdcQryBrokerTradingAlgosField_InstrumentID_set(swigCPtr, value);

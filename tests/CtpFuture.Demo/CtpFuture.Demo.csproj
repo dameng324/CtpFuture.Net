@@ -3,10 +3,12 @@
         <OutputType>Exe</OutputType>
         <LangVersion>preview</LangVersion>
         <Nullable>enable</Nullable>
-        <RuntimeIdentifier>win-x64</RuntimeIdentifier>
-        <TargetFramework>net45</TargetFramework>
+        <TargetFramework>net8.0</TargetFramework>
     </PropertyGroup>
     <ItemGroup>
-        <PackageReference Version="6.3.15" Include="CTPFuture.Net" />
+        <PackageReference Version="6.3.15-test2" Include="CTPFuture.Net" />
+    </ItemGroup>
+    <ItemGroup>
+<!--      <ProjectReference Include="..\..\src\CTPFuture.Net\CTPFuture.Net.csproj" />-->
     </ItemGroup>
 </Project>

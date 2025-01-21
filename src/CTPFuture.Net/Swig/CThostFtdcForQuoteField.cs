@@ -77,12 +77,12 @@ public class CThostFtdcForQuoteField : global::System.IDisposable {
     } 
   }
 
-  public string reserve1 {
+  public string InstrumentID {
     set {
-      CTPFutureApiPINVOKE.CThostFtdcForQuoteField_reserve1_set(swigCPtr, value);
+      CTPFutureApiPINVOKE.CThostFtdcForQuoteField_InstrumentID_set(swigCPtr, value);
     } 
     get {
-      string ret = CTPFutureApiPINVOKE.CThostFtdcForQuoteField_reserve1_get(swigCPtr);
+      string ret = CTPFutureApiPINVOKE.CThostFtdcForQuoteField_InstrumentID_get(swigCPtr);
       return ret;
     } 
   }
@@ -147,12 +147,12 @@ public class CThostFtdcForQuoteField : global::System.IDisposable {
     } 
   }
 
-  public string reserve2 {
+  public string ExchangeInstID {
     set {
-      CTPFutureApiPINVOKE.CThostFtdcForQuoteField_reserve2_set(swigCPtr, value);
+      CTPFutureApiPINVOKE.CThostFtdcForQuoteField_ExchangeInstID_set(swigCPtr, value);
     } 
     get {
-      string ret = CTPFutureApiPINVOKE.CThostFtdcForQuoteField_reserve2_get(swigCPtr);
+      string ret = CTPFutureApiPINVOKE.CThostFtdcForQuoteField_ExchangeInstID_get(swigCPtr);
       return ret;
     } 
   }
@@ -267,12 +267,12 @@ public class CThostFtdcForQuoteField : global::System.IDisposable {
     } 
   }
 
-  public string reserve3 {
+  public string IPAddress {
     set {
-      CTPFutureApiPINVOKE.CThostFtdcForQuoteField_reserve3_set(swigCPtr, value);
+      CTPFutureApiPINVOKE.CThostFtdcForQuoteField_IPAddress_set(swigCPtr, value);
     } 
     get {
-      string ret = CTPFutureApiPINVOKE.CThostFtdcForQuoteField_reserve3_get(swigCPtr);
+      string ret = CTPFutureApiPINVOKE.CThostFtdcForQuoteField_IPAddress_get(swigCPtr);
       return ret;
     } 
   }
@@ -283,36 +283,6 @@ public class CThostFtdcForQuoteField : global::System.IDisposable {
     } 
     get {
       string ret = CTPFutureApiPINVOKE.CThostFtdcForQuoteField_MacAddress_get(swigCPtr);
-      return ret;
-    } 
-  }
-
-  public string InstrumentID {
-    set {
-      CTPFutureApiPINVOKE.CThostFtdcForQuoteField_InstrumentID_set(swigCPtr, value);
-    } 
-    get {
-      string ret = CTPFutureApiPINVOKE.CThostFtdcForQuoteField_InstrumentID_get(swigCPtr);
-      return ret;
-    } 
-  }
-
-  public string ExchangeInstID {
-    set {
-      CTPFutureApiPINVOKE.CThostFtdcForQuoteField_ExchangeInstID_set(swigCPtr, value);
-    } 
-    get {
-      string ret = CTPFutureApiPINVOKE.CThostFtdcForQuoteField_ExchangeInstID_get(swigCPtr);
-      return ret;
-    } 
-  }
-
-  public string IPAddress {
-    set {
-      CTPFutureApiPINVOKE.CThostFtdcForQuoteField_IPAddress_set(swigCPtr, value);
-    } 
-    get {
-      string ret = CTPFutureApiPINVOKE.CThostFtdcForQuoteField_IPAddress_get(swigCPtr);
       return ret;
     } 
   }

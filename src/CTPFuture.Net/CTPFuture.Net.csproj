@@ -6,8 +6,9 @@
         <RepositoryType>git</RepositoryType>
         <LangVersion>preview</LangVersion>
         <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
         <IsAotCompatible Condition="$([MSBuild]::IsTargetFrameworkCompatible('$(TargetFramework)', 'net7.0'))">true</IsAotCompatible>
-        <Version>6.3.15</Version>
+        <Version>6.3.15-test2</Version>
         <PackageTags>Future;Trade;CTP;China;Quant</PackageTags>
         <RepositoryUrl>https://github.com/dameng324/CtpFuture.Net.git</RepositoryUrl>
         <PackageProjectUrl>https://github.com/dameng324/CtpFuture.Net</PackageProjectUrl>
@@ -16,14 +17,12 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <Compile Remove="runtimes\**" />
-        <Content Remove="runtimes\**"/>
-        <EmbeddedResource Remove="runtimes\**" />
-        <None Include="runtimes\**\*.*">
+        <Content Include="runtimes\**\*.*">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
             <Pack>true</Pack>
             <PackagePath>runtimes\%(RecursiveDir)%(FileName)%(Extension)</PackagePath>
-        </None>
-        <None Remove="runtimes\**\*.lib"/>
+        </Content>
+        <Content Remove="runtimes\**\*.lib"/>
     </ItemGroup>
     <ItemGroup>
         <PackageReference Condition="$(TargetFramework)=='netstandard2.0'" Include="System.Text.Encoding.CodePages" Version="9.0.0"/>

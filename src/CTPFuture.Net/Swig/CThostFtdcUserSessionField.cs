@@ -117,12 +117,12 @@ public class CThostFtdcUserSessionField : global::System.IDisposable {
     } 
   }
 
-  public string reserve1 {
+  public string IPAddress {
     set {
-      CTPFutureApiPINVOKE.CThostFtdcUserSessionField_reserve1_set(swigCPtr, value);
+      CTPFutureApiPINVOKE.CThostFtdcUserSessionField_IPAddress_set(swigCPtr, value);
     } 
     get {
-      string ret = CTPFutureApiPINVOKE.CThostFtdcUserSessionField_reserve1_get(swigCPtr);
+      string ret = CTPFutureApiPINVOKE.CThostFtdcUserSessionField_IPAddress_get(swigCPtr);
       return ret;
     } 
   }
@@ -173,16 +173,6 @@ public class CThostFtdcUserSessionField : global::System.IDisposable {
     } 
     get {
       string ret = CTPFutureApiPINVOKE.CThostFtdcUserSessionField_LoginRemark_get(swigCPtr);
-      return ret;
-    } 
-  }
-
-  public string IPAddress {
-    set {
-      CTPFutureApiPINVOKE.CThostFtdcUserSessionField_IPAddress_set(swigCPtr, value);
-    } 
-    get {
-      string ret = CTPFutureApiPINVOKE.CThostFtdcUserSessionField_IPAddress_get(swigCPtr);
       return ret;
     } 
   }

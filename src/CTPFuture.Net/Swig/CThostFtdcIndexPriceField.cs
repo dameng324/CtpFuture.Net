@@ -67,12 +67,12 @@ public class CThostFtdcIndexPriceField : global::System.IDisposable {
     } 
   }
 
-  public string reserve1 {
+  public string InstrumentID {
     set {
-      CTPFutureApiPINVOKE.CThostFtdcIndexPriceField_reserve1_set(swigCPtr, value);
+      CTPFutureApiPINVOKE.CThostFtdcIndexPriceField_InstrumentID_set(swigCPtr, value);
     } 
     get {
-      string ret = CTPFutureApiPINVOKE.CThostFtdcIndexPriceField_reserve1_get(swigCPtr);
+      string ret = CTPFutureApiPINVOKE.CThostFtdcIndexPriceField_InstrumentID_get(swigCPtr);
       return ret;
     } 
   }
@@ -83,16 +83,6 @@ public class CThostFtdcIndexPriceField : global::System.IDisposable {
     } 
     get {
       double ret = CTPFutureApiPINVOKE.CThostFtdcIndexPriceField_ClosePrice_get(swigCPtr);
-      return ret;
-    } 
-  }
-
-  public string InstrumentID {
-    set {
-      CTPFutureApiPINVOKE.CThostFtdcIndexPriceField_InstrumentID_set(swigCPtr, value);
-    } 
-    get {
-      string ret = CTPFutureApiPINVOKE.CThostFtdcIndexPriceField_InstrumentID_get(swigCPtr);
       return ret;
     } 
   }

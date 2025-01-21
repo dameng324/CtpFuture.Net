@@ -77,12 +77,12 @@ public class CThostFtdcErrorConditionalOrderField : global::System.IDisposable {
     } 
   }
 
-  public string reserve1 {
+  public string InstrumentID {
     set {
-      CTPFutureApiPINVOKE.CThostFtdcErrorConditionalOrderField_reserve1_set(swigCPtr, value);
+      CTPFutureApiPINVOKE.CThostFtdcErrorConditionalOrderField_InstrumentID_set(swigCPtr, value);
     } 
     get {
-      string ret = CTPFutureApiPINVOKE.CThostFtdcErrorConditionalOrderField_reserve1_get(swigCPtr);
+      string ret = CTPFutureApiPINVOKE.CThostFtdcErrorConditionalOrderField_InstrumentID_get(swigCPtr);
       return ret;
     } 
   }
@@ -307,12 +307,12 @@ public class CThostFtdcErrorConditionalOrderField : global::System.IDisposable {
     } 
   }
 
-  public string reserve2 {
+  public string ExchangeInstID {
     set {
-      CTPFutureApiPINVOKE.CThostFtdcErrorConditionalOrderField_reserve2_set(swigCPtr, value);
+      CTPFutureApiPINVOKE.CThostFtdcErrorConditionalOrderField_ExchangeInstID_set(swigCPtr, value);
     } 
     get {
-      string ret = CTPFutureApiPINVOKE.CThostFtdcErrorConditionalOrderField_reserve2_get(swigCPtr);
+      string ret = CTPFutureApiPINVOKE.CThostFtdcErrorConditionalOrderField_ExchangeInstID_get(swigCPtr);
       return ret;
     } 
   }
@@ -687,12 +687,12 @@ public class CThostFtdcErrorConditionalOrderField : global::System.IDisposable {
     } 
   }
 
-  public string reserve3 {
+  public string IPAddress {
     set {
-      CTPFutureApiPINVOKE.CThostFtdcErrorConditionalOrderField_reserve3_set(swigCPtr, value);
+      CTPFutureApiPINVOKE.CThostFtdcErrorConditionalOrderField_IPAddress_set(swigCPtr, value);
     } 
     get {
-      string ret = CTPFutureApiPINVOKE.CThostFtdcErrorConditionalOrderField_reserve3_get(swigCPtr);
+      string ret = CTPFutureApiPINVOKE.CThostFtdcErrorConditionalOrderField_IPAddress_get(swigCPtr);
       return ret;
     } 
   }
@@ -703,36 +703,6 @@ public class CThostFtdcErrorConditionalOrderField : global::System.IDisposable {
     } 
     get {
       string ret = CTPFutureApiPINVOKE.CThostFtdcErrorConditionalOrderField_MacAddress_get(swigCPtr);
-      return ret;
-    } 
-  }
-
-  public string InstrumentID {
-    set {
-      CTPFutureApiPINVOKE.CThostFtdcErrorConditionalOrderField_InstrumentID_set(swigCPtr, value);
-    } 
-    get {
-      string ret = CTPFutureApiPINVOKE.CThostFtdcErrorConditionalOrderField_InstrumentID_get(swigCPtr);
-      return ret;
-    } 
-  }
-
-  public string ExchangeInstID {
-    set {
-      CTPFutureApiPINVOKE.CThostFtdcErrorConditionalOrderField_ExchangeInstID_set(swigCPtr, value);
-    } 
-    get {
-      string ret = CTPFutureApiPINVOKE.CThostFtdcErrorConditionalOrderField_ExchangeInstID_get(swigCPtr);
-      return ret;
-    } 
-  }
-
-  public string IPAddress {
-    set {
-      CTPFutureApiPINVOKE.CThostFtdcErrorConditionalOrderField_IPAddress_set(swigCPtr, value);
-    } 
-    get {
-      string ret = CTPFutureApiPINVOKE.CThostFtdcErrorConditionalOrderField_IPAddress_get(swigCPtr);
       return ret;
     } 
   }

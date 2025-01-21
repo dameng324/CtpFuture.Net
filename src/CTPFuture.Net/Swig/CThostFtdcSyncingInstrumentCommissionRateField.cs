@@ -57,12 +57,12 @@ public class CThostFtdcSyncingInstrumentCommissionRateField : global::System.IDi
     }
   }
 
-  public string reserve1 {
+  public string InstrumentID {
     set {
-      CTPFutureApiPINVOKE.CThostFtdcSyncingInstrumentCommissionRateField_reserve1_set(swigCPtr, value);
+      CTPFutureApiPINVOKE.CThostFtdcSyncingInstrumentCommissionRateField_InstrumentID_set(swigCPtr, value);
     } 
     get {
-      string ret = CTPFutureApiPINVOKE.CThostFtdcSyncingInstrumentCommissionRateField_reserve1_get(swigCPtr);
+      string ret = CTPFutureApiPINVOKE.CThostFtdcSyncingInstrumentCommissionRateField_InstrumentID_get(swigCPtr);
       return ret;
     } 
   }
@@ -153,16 +153,6 @@ public class CThostFtdcSyncingInstrumentCommissionRateField : global::System.IDi
     } 
     get {
       double ret = CTPFutureApiPINVOKE.CThostFtdcSyncingInstrumentCommissionRateField_CloseTodayRatioByVolume_get(swigCPtr);
-      return ret;
-    } 
-  }
-
-  public string InstrumentID {
-    set {
-      CTPFutureApiPINVOKE.CThostFtdcSyncingInstrumentCommissionRateField_InstrumentID_set(swigCPtr, value);
-    } 
-    get {
-      string ret = CTPFutureApiPINVOKE.CThostFtdcSyncingInstrumentCommissionRateField_InstrumentID_get(swigCPtr);
       return ret;
     } 
   }

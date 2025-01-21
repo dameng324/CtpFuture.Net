@@ -147,26 +147,6 @@ public class CThostFtdcSyncDelaySwapField : global::System.IDisposable {
     } 
   }
 
-  public int IsManualSwap {
-    set {
-      CTPFutureApiPINVOKE.CThostFtdcSyncDelaySwapField_IsManualSwap_set(swigCPtr, value);
-    } 
-    get {
-      int ret = CTPFutureApiPINVOKE.CThostFtdcSyncDelaySwapField_IsManualSwap_get(swigCPtr);
-      return ret;
-    } 
-  }
-
-  public int IsAllRemainSetZero {
-    set {
-      CTPFutureApiPINVOKE.CThostFtdcSyncDelaySwapField_IsAllRemainSetZero_set(swigCPtr, value);
-    } 
-    get {
-      int ret = CTPFutureApiPINVOKE.CThostFtdcSyncDelaySwapField_IsAllRemainSetZero_get(swigCPtr);
-      return ret;
-    } 
-  }
-
   public CThostFtdcSyncDelaySwapField() : this(CTPFutureApiPINVOKE.new_CThostFtdcSyncDelaySwapField(), true) {
   }
 

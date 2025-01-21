@@ -217,12 +217,12 @@ public class CThostFtdcExchangeExecOrderActionField : global::System.IDisposable
     } 
   }
 
-  public string reserve1 {
+  public string IPAddress {
     set {
-      CTPFutureApiPINVOKE.CThostFtdcExchangeExecOrderActionField_reserve1_set(swigCPtr, value);
+      CTPFutureApiPINVOKE.CThostFtdcExchangeExecOrderActionField_IPAddress_set(swigCPtr, value);
     } 
     get {
-      string ret = CTPFutureApiPINVOKE.CThostFtdcExchangeExecOrderActionField_reserve1_get(swigCPtr);
+      string ret = CTPFutureApiPINVOKE.CThostFtdcExchangeExecOrderActionField_IPAddress_get(swigCPtr);
       return ret;
     } 
   }
@@ -237,12 +237,12 @@ public class CThostFtdcExchangeExecOrderActionField : global::System.IDisposable
     } 
   }
 
-  public string reserve2 {
+  public string ExchangeInstID {
     set {
-      CTPFutureApiPINVOKE.CThostFtdcExchangeExecOrderActionField_reserve2_set(swigCPtr, value);
+      CTPFutureApiPINVOKE.CThostFtdcExchangeExecOrderActionField_ExchangeInstID_set(swigCPtr, value);
     } 
     get {
-      string ret = CTPFutureApiPINVOKE.CThostFtdcExchangeExecOrderActionField_reserve2_get(swigCPtr);
+      string ret = CTPFutureApiPINVOKE.CThostFtdcExchangeExecOrderActionField_ExchangeInstID_get(swigCPtr);
       return ret;
     } 
   }
@@ -253,26 +253,6 @@ public class CThostFtdcExchangeExecOrderActionField : global::System.IDisposable
     } 
     get {
       int ret = CTPFutureApiPINVOKE.CThostFtdcExchangeExecOrderActionField_Volume_get(swigCPtr);
-      return ret;
-    } 
-  }
-
-  public string IPAddress {
-    set {
-      CTPFutureApiPINVOKE.CThostFtdcExchangeExecOrderActionField_IPAddress_set(swigCPtr, value);
-    } 
-    get {
-      string ret = CTPFutureApiPINVOKE.CThostFtdcExchangeExecOrderActionField_IPAddress_get(swigCPtr);
-      return ret;
-    } 
-  }
-
-  public string ExchangeInstID {
-    set {
-      CTPFutureApiPINVOKE.CThostFtdcExchangeExecOrderActionField_ExchangeInstID_set(swigCPtr, value);
-    } 
-    get {
-      string ret = CTPFutureApiPINVOKE.CThostFtdcExchangeExecOrderActionField_ExchangeInstID_get(swigCPtr);
       return ret;
     } 
   }

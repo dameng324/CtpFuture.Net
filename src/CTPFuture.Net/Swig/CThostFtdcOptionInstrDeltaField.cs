@@ -57,12 +57,12 @@ public class CThostFtdcOptionInstrDeltaField : global::System.IDisposable {
     }
   }
 
-  public string reserve1 {
+  public string InstrumentID {
     set {
-      CTPFutureApiPINVOKE.CThostFtdcOptionInstrDeltaField_reserve1_set(swigCPtr, value);
+      CTPFutureApiPINVOKE.CThostFtdcOptionInstrDeltaField_InstrumentID_set(swigCPtr, value);
     } 
     get {
-      string ret = CTPFutureApiPINVOKE.CThostFtdcOptionInstrDeltaField_reserve1_get(swigCPtr);
+      string ret = CTPFutureApiPINVOKE.CThostFtdcOptionInstrDeltaField_InstrumentID_get(swigCPtr);
       return ret;
     } 
   }
@@ -103,16 +103,6 @@ public class CThostFtdcOptionInstrDeltaField : global::System.IDisposable {
     } 
     get {
       double ret = CTPFutureApiPINVOKE.CThostFtdcOptionInstrDeltaField_Delta_get(swigCPtr);
-      return ret;
-    } 
-  }
-
-  public string InstrumentID {
-    set {
-      CTPFutureApiPINVOKE.CThostFtdcOptionInstrDeltaField_InstrumentID_set(swigCPtr, value);
-    } 
-    get {
-      string ret = CTPFutureApiPINVOKE.CThostFtdcOptionInstrDeltaField_InstrumentID_get(swigCPtr);
       return ret;
     } 
   }
