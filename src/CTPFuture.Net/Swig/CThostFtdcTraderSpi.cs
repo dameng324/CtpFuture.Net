@@ -58,503 +58,503 @@ public class CThostFtdcTraderSpi : global::System.IDisposable {
   }
 
   public virtual void OnFrontConnected() {
-    if (SwigDerivedClassHasMethod("OnFrontConnected", swigMethodTypes0)) CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnFrontConnectedSwigExplicitCThostFtdcTraderSpi(swigCPtr); else CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnFrontConnected(swigCPtr);
+    
   }
 
   public virtual void OnFrontDisconnected(int nReason) {
-    if (SwigDerivedClassHasMethod("OnFrontDisconnected", swigMethodTypes1)) CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnFrontDisconnectedSwigExplicitCThostFtdcTraderSpi(swigCPtr, nReason); else CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnFrontDisconnected(swigCPtr, nReason);
+    
   }
 
   public virtual void OnHeartBeatWarning(int nTimeLapse) {
-    if (SwigDerivedClassHasMethod("OnHeartBeatWarning", swigMethodTypes2)) CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnHeartBeatWarningSwigExplicitCThostFtdcTraderSpi(swigCPtr, nTimeLapse); else CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnHeartBeatWarning(swigCPtr, nTimeLapse);
+    
   }
 
   public virtual void OnRspAuthenticate(CThostFtdcRspAuthenticateField pRspAuthenticateField, CThostFtdcRspInfoField pRspInfo, int nRequestID, bool bIsLast) {
-    if (SwigDerivedClassHasMethod("OnRspAuthenticate", swigMethodTypes3)) CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRspAuthenticateSwigExplicitCThostFtdcTraderSpi(swigCPtr, CThostFtdcRspAuthenticateField.getCPtr(pRspAuthenticateField), CThostFtdcRspInfoField.getCPtr(pRspInfo), nRequestID, bIsLast); else CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRspAuthenticate(swigCPtr, CThostFtdcRspAuthenticateField.getCPtr(pRspAuthenticateField), CThostFtdcRspInfoField.getCPtr(pRspInfo), nRequestID, bIsLast);
+    
   }
 
   public virtual void OnRspUserLogin(CThostFtdcRspUserLoginField pRspUserLogin, CThostFtdcRspInfoField pRspInfo, int nRequestID, bool bIsLast) {
-    if (SwigDerivedClassHasMethod("OnRspUserLogin", swigMethodTypes4)) CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRspUserLoginSwigExplicitCThostFtdcTraderSpi(swigCPtr, CThostFtdcRspUserLoginField.getCPtr(pRspUserLogin), CThostFtdcRspInfoField.getCPtr(pRspInfo), nRequestID, bIsLast); else CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRspUserLogin(swigCPtr, CThostFtdcRspUserLoginField.getCPtr(pRspUserLogin), CThostFtdcRspInfoField.getCPtr(pRspInfo), nRequestID, bIsLast);
+    
   }
 
   public virtual void OnRspUserLogout(CThostFtdcUserLogoutField pUserLogout, CThostFtdcRspInfoField pRspInfo, int nRequestID, bool bIsLast) {
-    if (SwigDerivedClassHasMethod("OnRspUserLogout", swigMethodTypes5)) CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRspUserLogoutSwigExplicitCThostFtdcTraderSpi(swigCPtr, CThostFtdcUserLogoutField.getCPtr(pUserLogout), CThostFtdcRspInfoField.getCPtr(pRspInfo), nRequestID, bIsLast); else CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRspUserLogout(swigCPtr, CThostFtdcUserLogoutField.getCPtr(pUserLogout), CThostFtdcRspInfoField.getCPtr(pRspInfo), nRequestID, bIsLast);
+    
   }
 
   public virtual void OnRspUserPasswordUpdate(CThostFtdcUserPasswordUpdateField pUserPasswordUpdate, CThostFtdcRspInfoField pRspInfo, int nRequestID, bool bIsLast) {
-    if (SwigDerivedClassHasMethod("OnRspUserPasswordUpdate", swigMethodTypes6)) CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRspUserPasswordUpdateSwigExplicitCThostFtdcTraderSpi(swigCPtr, CThostFtdcUserPasswordUpdateField.getCPtr(pUserPasswordUpdate), CThostFtdcRspInfoField.getCPtr(pRspInfo), nRequestID, bIsLast); else CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRspUserPasswordUpdate(swigCPtr, CThostFtdcUserPasswordUpdateField.getCPtr(pUserPasswordUpdate), CThostFtdcRspInfoField.getCPtr(pRspInfo), nRequestID, bIsLast);
+    
   }
 
   public virtual void OnRspTradingAccountPasswordUpdate(CThostFtdcTradingAccountPasswordUpdateField pTradingAccountPasswordUpdate, CThostFtdcRspInfoField pRspInfo, int nRequestID, bool bIsLast) {
-    if (SwigDerivedClassHasMethod("OnRspTradingAccountPasswordUpdate", swigMethodTypes7)) CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRspTradingAccountPasswordUpdateSwigExplicitCThostFtdcTraderSpi(swigCPtr, CThostFtdcTradingAccountPasswordUpdateField.getCPtr(pTradingAccountPasswordUpdate), CThostFtdcRspInfoField.getCPtr(pRspInfo), nRequestID, bIsLast); else CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRspTradingAccountPasswordUpdate(swigCPtr, CThostFtdcTradingAccountPasswordUpdateField.getCPtr(pTradingAccountPasswordUpdate), CThostFtdcRspInfoField.getCPtr(pRspInfo), nRequestID, bIsLast);
+    
   }
 
   public virtual void OnRspUserAuthMethod(CThostFtdcRspUserAuthMethodField pRspUserAuthMethod, CThostFtdcRspInfoField pRspInfo, int nRequestID, bool bIsLast) {
-    if (SwigDerivedClassHasMethod("OnRspUserAuthMethod", swigMethodTypes8)) CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRspUserAuthMethodSwigExplicitCThostFtdcTraderSpi(swigCPtr, CThostFtdcRspUserAuthMethodField.getCPtr(pRspUserAuthMethod), CThostFtdcRspInfoField.getCPtr(pRspInfo), nRequestID, bIsLast); else CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRspUserAuthMethod(swigCPtr, CThostFtdcRspUserAuthMethodField.getCPtr(pRspUserAuthMethod), CThostFtdcRspInfoField.getCPtr(pRspInfo), nRequestID, bIsLast);
+    
   }
 
   public virtual void OnRspGenUserCaptcha(CThostFtdcRspGenUserCaptchaField pRspGenUserCaptcha, CThostFtdcRspInfoField pRspInfo, int nRequestID, bool bIsLast) {
-    if (SwigDerivedClassHasMethod("OnRspGenUserCaptcha", swigMethodTypes9)) CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRspGenUserCaptchaSwigExplicitCThostFtdcTraderSpi(swigCPtr, CThostFtdcRspGenUserCaptchaField.getCPtr(pRspGenUserCaptcha), CThostFtdcRspInfoField.getCPtr(pRspInfo), nRequestID, bIsLast); else CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRspGenUserCaptcha(swigCPtr, CThostFtdcRspGenUserCaptchaField.getCPtr(pRspGenUserCaptcha), CThostFtdcRspInfoField.getCPtr(pRspInfo), nRequestID, bIsLast);
+    
   }
 
   public virtual void OnRspGenUserText(CThostFtdcRspGenUserTextField pRspGenUserText, CThostFtdcRspInfoField pRspInfo, int nRequestID, bool bIsLast) {
-    if (SwigDerivedClassHasMethod("OnRspGenUserText", swigMethodTypes10)) CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRspGenUserTextSwigExplicitCThostFtdcTraderSpi(swigCPtr, CThostFtdcRspGenUserTextField.getCPtr(pRspGenUserText), CThostFtdcRspInfoField.getCPtr(pRspInfo), nRequestID, bIsLast); else CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRspGenUserText(swigCPtr, CThostFtdcRspGenUserTextField.getCPtr(pRspGenUserText), CThostFtdcRspInfoField.getCPtr(pRspInfo), nRequestID, bIsLast);
+    
   }
 
   public virtual void OnRspOrderInsert(CThostFtdcInputOrderField pInputOrder, CThostFtdcRspInfoField pRspInfo, int nRequestID, bool bIsLast) {
-    if (SwigDerivedClassHasMethod("OnRspOrderInsert", swigMethodTypes11)) CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRspOrderInsertSwigExplicitCThostFtdcTraderSpi(swigCPtr, CThostFtdcInputOrderField.getCPtr(pInputOrder), CThostFtdcRspInfoField.getCPtr(pRspInfo), nRequestID, bIsLast); else CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRspOrderInsert(swigCPtr, CThostFtdcInputOrderField.getCPtr(pInputOrder), CThostFtdcRspInfoField.getCPtr(pRspInfo), nRequestID, bIsLast);
+    
   }
 
   public virtual void OnRspParkedOrderInsert(CThostFtdcParkedOrderField pParkedOrder, CThostFtdcRspInfoField pRspInfo, int nRequestID, bool bIsLast) {
-    if (SwigDerivedClassHasMethod("OnRspParkedOrderInsert", swigMethodTypes12)) CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRspParkedOrderInsertSwigExplicitCThostFtdcTraderSpi(swigCPtr, CThostFtdcParkedOrderField.getCPtr(pParkedOrder), CThostFtdcRspInfoField.getCPtr(pRspInfo), nRequestID, bIsLast); else CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRspParkedOrderInsert(swigCPtr, CThostFtdcParkedOrderField.getCPtr(pParkedOrder), CThostFtdcRspInfoField.getCPtr(pRspInfo), nRequestID, bIsLast);
+    
   }
 
   public virtual void OnRspParkedOrderAction(CThostFtdcParkedOrderActionField pParkedOrderAction, CThostFtdcRspInfoField pRspInfo, int nRequestID, bool bIsLast) {
-    if (SwigDerivedClassHasMethod("OnRspParkedOrderAction", swigMethodTypes13)) CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRspParkedOrderActionSwigExplicitCThostFtdcTraderSpi(swigCPtr, CThostFtdcParkedOrderActionField.getCPtr(pParkedOrderAction), CThostFtdcRspInfoField.getCPtr(pRspInfo), nRequestID, bIsLast); else CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRspParkedOrderAction(swigCPtr, CThostFtdcParkedOrderActionField.getCPtr(pParkedOrderAction), CThostFtdcRspInfoField.getCPtr(pRspInfo), nRequestID, bIsLast);
+    
   }
 
   public virtual void OnRspOrderAction(CThostFtdcInputOrderActionField pInputOrderAction, CThostFtdcRspInfoField pRspInfo, int nRequestID, bool bIsLast) {
-    if (SwigDerivedClassHasMethod("OnRspOrderAction", swigMethodTypes14)) CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRspOrderActionSwigExplicitCThostFtdcTraderSpi(swigCPtr, CThostFtdcInputOrderActionField.getCPtr(pInputOrderAction), CThostFtdcRspInfoField.getCPtr(pRspInfo), nRequestID, bIsLast); else CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRspOrderAction(swigCPtr, CThostFtdcInputOrderActionField.getCPtr(pInputOrderAction), CThostFtdcRspInfoField.getCPtr(pRspInfo), nRequestID, bIsLast);
+    
   }
 
   public virtual void OnRspQueryMaxOrderVolume(CThostFtdcQueryMaxOrderVolumeField pQueryMaxOrderVolume, CThostFtdcRspInfoField pRspInfo, int nRequestID, bool bIsLast) {
-    if (SwigDerivedClassHasMethod("OnRspQueryMaxOrderVolume", swigMethodTypes15)) CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRspQueryMaxOrderVolumeSwigExplicitCThostFtdcTraderSpi(swigCPtr, CThostFtdcQueryMaxOrderVolumeField.getCPtr(pQueryMaxOrderVolume), CThostFtdcRspInfoField.getCPtr(pRspInfo), nRequestID, bIsLast); else CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRspQueryMaxOrderVolume(swigCPtr, CThostFtdcQueryMaxOrderVolumeField.getCPtr(pQueryMaxOrderVolume), CThostFtdcRspInfoField.getCPtr(pRspInfo), nRequestID, bIsLast);
+    
   }
 
   public virtual void OnRspSettlementInfoConfirm(CThostFtdcSettlementInfoConfirmField pSettlementInfoConfirm, CThostFtdcRspInfoField pRspInfo, int nRequestID, bool bIsLast) {
-    if (SwigDerivedClassHasMethod("OnRspSettlementInfoConfirm", swigMethodTypes16)) CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRspSettlementInfoConfirmSwigExplicitCThostFtdcTraderSpi(swigCPtr, CThostFtdcSettlementInfoConfirmField.getCPtr(pSettlementInfoConfirm), CThostFtdcRspInfoField.getCPtr(pRspInfo), nRequestID, bIsLast); else CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRspSettlementInfoConfirm(swigCPtr, CThostFtdcSettlementInfoConfirmField.getCPtr(pSettlementInfoConfirm), CThostFtdcRspInfoField.getCPtr(pRspInfo), nRequestID, bIsLast);
+    
   }
 
   public virtual void OnRspRemoveParkedOrder(CThostFtdcRemoveParkedOrderField pRemoveParkedOrder, CThostFtdcRspInfoField pRspInfo, int nRequestID, bool bIsLast) {
-    if (SwigDerivedClassHasMethod("OnRspRemoveParkedOrder", swigMethodTypes17)) CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRspRemoveParkedOrderSwigExplicitCThostFtdcTraderSpi(swigCPtr, CThostFtdcRemoveParkedOrderField.getCPtr(pRemoveParkedOrder), CThostFtdcRspInfoField.getCPtr(pRspInfo), nRequestID, bIsLast); else CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRspRemoveParkedOrder(swigCPtr, CThostFtdcRemoveParkedOrderField.getCPtr(pRemoveParkedOrder), CThostFtdcRspInfoField.getCPtr(pRspInfo), nRequestID, bIsLast);
+    
   }
 
   public virtual void OnRspRemoveParkedOrderAction(CThostFtdcRemoveParkedOrderActionField pRemoveParkedOrderAction, CThostFtdcRspInfoField pRspInfo, int nRequestID, bool bIsLast) {
-    if (SwigDerivedClassHasMethod("OnRspRemoveParkedOrderAction", swigMethodTypes18)) CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRspRemoveParkedOrderActionSwigExplicitCThostFtdcTraderSpi(swigCPtr, CThostFtdcRemoveParkedOrderActionField.getCPtr(pRemoveParkedOrderAction), CThostFtdcRspInfoField.getCPtr(pRspInfo), nRequestID, bIsLast); else CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRspRemoveParkedOrderAction(swigCPtr, CThostFtdcRemoveParkedOrderActionField.getCPtr(pRemoveParkedOrderAction), CThostFtdcRspInfoField.getCPtr(pRspInfo), nRequestID, bIsLast);
+    
   }
 
   public virtual void OnRspExecOrderInsert(CThostFtdcInputExecOrderField pInputExecOrder, CThostFtdcRspInfoField pRspInfo, int nRequestID, bool bIsLast) {
-    if (SwigDerivedClassHasMethod("OnRspExecOrderInsert", swigMethodTypes19)) CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRspExecOrderInsertSwigExplicitCThostFtdcTraderSpi(swigCPtr, CThostFtdcInputExecOrderField.getCPtr(pInputExecOrder), CThostFtdcRspInfoField.getCPtr(pRspInfo), nRequestID, bIsLast); else CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRspExecOrderInsert(swigCPtr, CThostFtdcInputExecOrderField.getCPtr(pInputExecOrder), CThostFtdcRspInfoField.getCPtr(pRspInfo), nRequestID, bIsLast);
+    
   }
 
   public virtual void OnRspExecOrderAction(CThostFtdcInputExecOrderActionField pInputExecOrderAction, CThostFtdcRspInfoField pRspInfo, int nRequestID, bool bIsLast) {
-    if (SwigDerivedClassHasMethod("OnRspExecOrderAction", swigMethodTypes20)) CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRspExecOrderActionSwigExplicitCThostFtdcTraderSpi(swigCPtr, CThostFtdcInputExecOrderActionField.getCPtr(pInputExecOrderAction), CThostFtdcRspInfoField.getCPtr(pRspInfo), nRequestID, bIsLast); else CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRspExecOrderAction(swigCPtr, CThostFtdcInputExecOrderActionField.getCPtr(pInputExecOrderAction), CThostFtdcRspInfoField.getCPtr(pRspInfo), nRequestID, bIsLast);
+    
   }
 
   public virtual void OnRspForQuoteInsert(CThostFtdcInputForQuoteField pInputForQuote, CThostFtdcRspInfoField pRspInfo, int nRequestID, bool bIsLast) {
-    if (SwigDerivedClassHasMethod("OnRspForQuoteInsert", swigMethodTypes21)) CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRspForQuoteInsertSwigExplicitCThostFtdcTraderSpi(swigCPtr, CThostFtdcInputForQuoteField.getCPtr(pInputForQuote), CThostFtdcRspInfoField.getCPtr(pRspInfo), nRequestID, bIsLast); else CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRspForQuoteInsert(swigCPtr, CThostFtdcInputForQuoteField.getCPtr(pInputForQuote), CThostFtdcRspInfoField.getCPtr(pRspInfo), nRequestID, bIsLast);
+    
   }
 
   public virtual void OnRspQuoteInsert(CThostFtdcInputQuoteField pInputQuote, CThostFtdcRspInfoField pRspInfo, int nRequestID, bool bIsLast) {
-    if (SwigDerivedClassHasMethod("OnRspQuoteInsert", swigMethodTypes22)) CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRspQuoteInsertSwigExplicitCThostFtdcTraderSpi(swigCPtr, CThostFtdcInputQuoteField.getCPtr(pInputQuote), CThostFtdcRspInfoField.getCPtr(pRspInfo), nRequestID, bIsLast); else CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRspQuoteInsert(swigCPtr, CThostFtdcInputQuoteField.getCPtr(pInputQuote), CThostFtdcRspInfoField.getCPtr(pRspInfo), nRequestID, bIsLast);
+    
   }
 
   public virtual void OnRspQuoteAction(CThostFtdcInputQuoteActionField pInputQuoteAction, CThostFtdcRspInfoField pRspInfo, int nRequestID, bool bIsLast) {
-    if (SwigDerivedClassHasMethod("OnRspQuoteAction", swigMethodTypes23)) CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRspQuoteActionSwigExplicitCThostFtdcTraderSpi(swigCPtr, CThostFtdcInputQuoteActionField.getCPtr(pInputQuoteAction), CThostFtdcRspInfoField.getCPtr(pRspInfo), nRequestID, bIsLast); else CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRspQuoteAction(swigCPtr, CThostFtdcInputQuoteActionField.getCPtr(pInputQuoteAction), CThostFtdcRspInfoField.getCPtr(pRspInfo), nRequestID, bIsLast);
+    
   }
 
   public virtual void OnRspBatchOrderAction(CThostFtdcInputBatchOrderActionField pInputBatchOrderAction, CThostFtdcRspInfoField pRspInfo, int nRequestID, bool bIsLast) {
-    if (SwigDerivedClassHasMethod("OnRspBatchOrderAction", swigMethodTypes24)) CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRspBatchOrderActionSwigExplicitCThostFtdcTraderSpi(swigCPtr, CThostFtdcInputBatchOrderActionField.getCPtr(pInputBatchOrderAction), CThostFtdcRspInfoField.getCPtr(pRspInfo), nRequestID, bIsLast); else CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRspBatchOrderAction(swigCPtr, CThostFtdcInputBatchOrderActionField.getCPtr(pInputBatchOrderAction), CThostFtdcRspInfoField.getCPtr(pRspInfo), nRequestID, bIsLast);
+    
   }
 
   public virtual void OnRspOptionSelfCloseInsert(CThostFtdcInputOptionSelfCloseField pInputOptionSelfClose, CThostFtdcRspInfoField pRspInfo, int nRequestID, bool bIsLast) {
-    if (SwigDerivedClassHasMethod("OnRspOptionSelfCloseInsert", swigMethodTypes25)) CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRspOptionSelfCloseInsertSwigExplicitCThostFtdcTraderSpi(swigCPtr, CThostFtdcInputOptionSelfCloseField.getCPtr(pInputOptionSelfClose), CThostFtdcRspInfoField.getCPtr(pRspInfo), nRequestID, bIsLast); else CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRspOptionSelfCloseInsert(swigCPtr, CThostFtdcInputOptionSelfCloseField.getCPtr(pInputOptionSelfClose), CThostFtdcRspInfoField.getCPtr(pRspInfo), nRequestID, bIsLast);
+    
   }
 
   public virtual void OnRspOptionSelfCloseAction(CThostFtdcInputOptionSelfCloseActionField pInputOptionSelfCloseAction, CThostFtdcRspInfoField pRspInfo, int nRequestID, bool bIsLast) {
-    if (SwigDerivedClassHasMethod("OnRspOptionSelfCloseAction", swigMethodTypes26)) CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRspOptionSelfCloseActionSwigExplicitCThostFtdcTraderSpi(swigCPtr, CThostFtdcInputOptionSelfCloseActionField.getCPtr(pInputOptionSelfCloseAction), CThostFtdcRspInfoField.getCPtr(pRspInfo), nRequestID, bIsLast); else CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRspOptionSelfCloseAction(swigCPtr, CThostFtdcInputOptionSelfCloseActionField.getCPtr(pInputOptionSelfCloseAction), CThostFtdcRspInfoField.getCPtr(pRspInfo), nRequestID, bIsLast);
+    
   }
 
   public virtual void OnRspCombActionInsert(CThostFtdcInputCombActionField pInputCombAction, CThostFtdcRspInfoField pRspInfo, int nRequestID, bool bIsLast) {
-    if (SwigDerivedClassHasMethod("OnRspCombActionInsert", swigMethodTypes27)) CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRspCombActionInsertSwigExplicitCThostFtdcTraderSpi(swigCPtr, CThostFtdcInputCombActionField.getCPtr(pInputCombAction), CThostFtdcRspInfoField.getCPtr(pRspInfo), nRequestID, bIsLast); else CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRspCombActionInsert(swigCPtr, CThostFtdcInputCombActionField.getCPtr(pInputCombAction), CThostFtdcRspInfoField.getCPtr(pRspInfo), nRequestID, bIsLast);
+    
   }
 
   public virtual void OnRspQryOrder(CThostFtdcOrderField pOrder, CThostFtdcRspInfoField pRspInfo, int nRequestID, bool bIsLast) {
-    if (SwigDerivedClassHasMethod("OnRspQryOrder", swigMethodTypes28)) CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRspQryOrderSwigExplicitCThostFtdcTraderSpi(swigCPtr, CThostFtdcOrderField.getCPtr(pOrder), CThostFtdcRspInfoField.getCPtr(pRspInfo), nRequestID, bIsLast); else CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRspQryOrder(swigCPtr, CThostFtdcOrderField.getCPtr(pOrder), CThostFtdcRspInfoField.getCPtr(pRspInfo), nRequestID, bIsLast);
+    
   }
 
   public virtual void OnRspQryTrade(CThostFtdcTradeField pTrade, CThostFtdcRspInfoField pRspInfo, int nRequestID, bool bIsLast) {
-    if (SwigDerivedClassHasMethod("OnRspQryTrade", swigMethodTypes29)) CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRspQryTradeSwigExplicitCThostFtdcTraderSpi(swigCPtr, CThostFtdcTradeField.getCPtr(pTrade), CThostFtdcRspInfoField.getCPtr(pRspInfo), nRequestID, bIsLast); else CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRspQryTrade(swigCPtr, CThostFtdcTradeField.getCPtr(pTrade), CThostFtdcRspInfoField.getCPtr(pRspInfo), nRequestID, bIsLast);
+    
   }
 
   public virtual void OnRspQryInvestorPosition(CThostFtdcInvestorPositionField pInvestorPosition, CThostFtdcRspInfoField pRspInfo, int nRequestID, bool bIsLast) {
-    if (SwigDerivedClassHasMethod("OnRspQryInvestorPosition", swigMethodTypes30)) CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRspQryInvestorPositionSwigExplicitCThostFtdcTraderSpi(swigCPtr, CThostFtdcInvestorPositionField.getCPtr(pInvestorPosition), CThostFtdcRspInfoField.getCPtr(pRspInfo), nRequestID, bIsLast); else CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRspQryInvestorPosition(swigCPtr, CThostFtdcInvestorPositionField.getCPtr(pInvestorPosition), CThostFtdcRspInfoField.getCPtr(pRspInfo), nRequestID, bIsLast);
+    
   }
 
   public virtual void OnRspQryTradingAccount(CThostFtdcTradingAccountField pTradingAccount, CThostFtdcRspInfoField pRspInfo, int nRequestID, bool bIsLast) {
-    if (SwigDerivedClassHasMethod("OnRspQryTradingAccount", swigMethodTypes31)) CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRspQryTradingAccountSwigExplicitCThostFtdcTraderSpi(swigCPtr, CThostFtdcTradingAccountField.getCPtr(pTradingAccount), CThostFtdcRspInfoField.getCPtr(pRspInfo), nRequestID, bIsLast); else CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRspQryTradingAccount(swigCPtr, CThostFtdcTradingAccountField.getCPtr(pTradingAccount), CThostFtdcRspInfoField.getCPtr(pRspInfo), nRequestID, bIsLast);
+    
   }
 
   public virtual void OnRspQryInvestor(CThostFtdcInvestorField pInvestor, CThostFtdcRspInfoField pRspInfo, int nRequestID, bool bIsLast) {
-    if (SwigDerivedClassHasMethod("OnRspQryInvestor", swigMethodTypes32)) CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRspQryInvestorSwigExplicitCThostFtdcTraderSpi(swigCPtr, CThostFtdcInvestorField.getCPtr(pInvestor), CThostFtdcRspInfoField.getCPtr(pRspInfo), nRequestID, bIsLast); else CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRspQryInvestor(swigCPtr, CThostFtdcInvestorField.getCPtr(pInvestor), CThostFtdcRspInfoField.getCPtr(pRspInfo), nRequestID, bIsLast);
+    
   }
 
   public virtual void OnRspQryTradingCode(CThostFtdcTradingCodeField pTradingCode, CThostFtdcRspInfoField pRspInfo, int nRequestID, bool bIsLast) {
-    if (SwigDerivedClassHasMethod("OnRspQryTradingCode", swigMethodTypes33)) CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRspQryTradingCodeSwigExplicitCThostFtdcTraderSpi(swigCPtr, CThostFtdcTradingCodeField.getCPtr(pTradingCode), CThostFtdcRspInfoField.getCPtr(pRspInfo), nRequestID, bIsLast); else CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRspQryTradingCode(swigCPtr, CThostFtdcTradingCodeField.getCPtr(pTradingCode), CThostFtdcRspInfoField.getCPtr(pRspInfo), nRequestID, bIsLast);
+    
   }
 
   public virtual void OnRspQryInstrumentMarginRate(CThostFtdcInstrumentMarginRateField pInstrumentMarginRate, CThostFtdcRspInfoField pRspInfo, int nRequestID, bool bIsLast) {
-    if (SwigDerivedClassHasMethod("OnRspQryInstrumentMarginRate", swigMethodTypes34)) CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRspQryInstrumentMarginRateSwigExplicitCThostFtdcTraderSpi(swigCPtr, CThostFtdcInstrumentMarginRateField.getCPtr(pInstrumentMarginRate), CThostFtdcRspInfoField.getCPtr(pRspInfo), nRequestID, bIsLast); else CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRspQryInstrumentMarginRate(swigCPtr, CThostFtdcInstrumentMarginRateField.getCPtr(pInstrumentMarginRate), CThostFtdcRspInfoField.getCPtr(pRspInfo), nRequestID, bIsLast);
+    
   }
 
   public virtual void OnRspQryInstrumentCommissionRate(CThostFtdcInstrumentCommissionRateField pInstrumentCommissionRate, CThostFtdcRspInfoField pRspInfo, int nRequestID, bool bIsLast) {
-    if (SwigDerivedClassHasMethod("OnRspQryInstrumentCommissionRate", swigMethodTypes35)) CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRspQryInstrumentCommissionRateSwigExplicitCThostFtdcTraderSpi(swigCPtr, CThostFtdcInstrumentCommissionRateField.getCPtr(pInstrumentCommissionRate), CThostFtdcRspInfoField.getCPtr(pRspInfo), nRequestID, bIsLast); else CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRspQryInstrumentCommissionRate(swigCPtr, CThostFtdcInstrumentCommissionRateField.getCPtr(pInstrumentCommissionRate), CThostFtdcRspInfoField.getCPtr(pRspInfo), nRequestID, bIsLast);
+    
   }
 
   public virtual void OnRspQryExchange(CThostFtdcExchangeField pExchange, CThostFtdcRspInfoField pRspInfo, int nRequestID, bool bIsLast) {
-    if (SwigDerivedClassHasMethod("OnRspQryExchange", swigMethodTypes36)) CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRspQryExchangeSwigExplicitCThostFtdcTraderSpi(swigCPtr, CThostFtdcExchangeField.getCPtr(pExchange), CThostFtdcRspInfoField.getCPtr(pRspInfo), nRequestID, bIsLast); else CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRspQryExchange(swigCPtr, CThostFtdcExchangeField.getCPtr(pExchange), CThostFtdcRspInfoField.getCPtr(pRspInfo), nRequestID, bIsLast);
+    
   }
 
   public virtual void OnRspQryProduct(CThostFtdcProductField pProduct, CThostFtdcRspInfoField pRspInfo, int nRequestID, bool bIsLast) {
-    if (SwigDerivedClassHasMethod("OnRspQryProduct", swigMethodTypes37)) CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRspQryProductSwigExplicitCThostFtdcTraderSpi(swigCPtr, CThostFtdcProductField.getCPtr(pProduct), CThostFtdcRspInfoField.getCPtr(pRspInfo), nRequestID, bIsLast); else CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRspQryProduct(swigCPtr, CThostFtdcProductField.getCPtr(pProduct), CThostFtdcRspInfoField.getCPtr(pRspInfo), nRequestID, bIsLast);
+    
   }
 
   public virtual void OnRspQryInstrument(CThostFtdcInstrumentField pInstrument, CThostFtdcRspInfoField pRspInfo, int nRequestID, bool bIsLast) {
-    if (SwigDerivedClassHasMethod("OnRspQryInstrument", swigMethodTypes38)) CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRspQryInstrumentSwigExplicitCThostFtdcTraderSpi(swigCPtr, CThostFtdcInstrumentField.getCPtr(pInstrument), CThostFtdcRspInfoField.getCPtr(pRspInfo), nRequestID, bIsLast); else CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRspQryInstrument(swigCPtr, CThostFtdcInstrumentField.getCPtr(pInstrument), CThostFtdcRspInfoField.getCPtr(pRspInfo), nRequestID, bIsLast);
+    
   }
 
   public virtual void OnRspQryDepthMarketData(CThostFtdcDepthMarketDataField pDepthMarketData, CThostFtdcRspInfoField pRspInfo, int nRequestID, bool bIsLast) {
-    if (SwigDerivedClassHasMethod("OnRspQryDepthMarketData", swigMethodTypes39)) CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRspQryDepthMarketDataSwigExplicitCThostFtdcTraderSpi(swigCPtr, CThostFtdcDepthMarketDataField.getCPtr(pDepthMarketData), CThostFtdcRspInfoField.getCPtr(pRspInfo), nRequestID, bIsLast); else CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRspQryDepthMarketData(swigCPtr, CThostFtdcDepthMarketDataField.getCPtr(pDepthMarketData), CThostFtdcRspInfoField.getCPtr(pRspInfo), nRequestID, bIsLast);
+    
   }
 
   public virtual void OnRspQrySettlementInfo(CThostFtdcSettlementInfoField pSettlementInfo, CThostFtdcRspInfoField pRspInfo, int nRequestID, bool bIsLast) {
-    if (SwigDerivedClassHasMethod("OnRspQrySettlementInfo", swigMethodTypes40)) CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRspQrySettlementInfoSwigExplicitCThostFtdcTraderSpi(swigCPtr, CThostFtdcSettlementInfoField.getCPtr(pSettlementInfo), CThostFtdcRspInfoField.getCPtr(pRspInfo), nRequestID, bIsLast); else CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRspQrySettlementInfo(swigCPtr, CThostFtdcSettlementInfoField.getCPtr(pSettlementInfo), CThostFtdcRspInfoField.getCPtr(pRspInfo), nRequestID, bIsLast);
+    
   }
 
   public virtual void OnRspQryTransferBank(CThostFtdcTransferBankField pTransferBank, CThostFtdcRspInfoField pRspInfo, int nRequestID, bool bIsLast) {
-    if (SwigDerivedClassHasMethod("OnRspQryTransferBank", swigMethodTypes41)) CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRspQryTransferBankSwigExplicitCThostFtdcTraderSpi(swigCPtr, CThostFtdcTransferBankField.getCPtr(pTransferBank), CThostFtdcRspInfoField.getCPtr(pRspInfo), nRequestID, bIsLast); else CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRspQryTransferBank(swigCPtr, CThostFtdcTransferBankField.getCPtr(pTransferBank), CThostFtdcRspInfoField.getCPtr(pRspInfo), nRequestID, bIsLast);
+    
   }
 
   public virtual void OnRspQryInvestorPositionDetail(CThostFtdcInvestorPositionDetailField pInvestorPositionDetail, CThostFtdcRspInfoField pRspInfo, int nRequestID, bool bIsLast) {
-    if (SwigDerivedClassHasMethod("OnRspQryInvestorPositionDetail", swigMethodTypes42)) CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRspQryInvestorPositionDetailSwigExplicitCThostFtdcTraderSpi(swigCPtr, CThostFtdcInvestorPositionDetailField.getCPtr(pInvestorPositionDetail), CThostFtdcRspInfoField.getCPtr(pRspInfo), nRequestID, bIsLast); else CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRspQryInvestorPositionDetail(swigCPtr, CThostFtdcInvestorPositionDetailField.getCPtr(pInvestorPositionDetail), CThostFtdcRspInfoField.getCPtr(pRspInfo), nRequestID, bIsLast);
+    
   }
 
   public virtual void OnRspQryNotice(CThostFtdcNoticeField pNotice, CThostFtdcRspInfoField pRspInfo, int nRequestID, bool bIsLast) {
-    if (SwigDerivedClassHasMethod("OnRspQryNotice", swigMethodTypes43)) CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRspQryNoticeSwigExplicitCThostFtdcTraderSpi(swigCPtr, CThostFtdcNoticeField.getCPtr(pNotice), CThostFtdcRspInfoField.getCPtr(pRspInfo), nRequestID, bIsLast); else CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRspQryNotice(swigCPtr, CThostFtdcNoticeField.getCPtr(pNotice), CThostFtdcRspInfoField.getCPtr(pRspInfo), nRequestID, bIsLast);
+    
   }
 
   public virtual void OnRspQrySettlementInfoConfirm(CThostFtdcSettlementInfoConfirmField pSettlementInfoConfirm, CThostFtdcRspInfoField pRspInfo, int nRequestID, bool bIsLast) {
-    if (SwigDerivedClassHasMethod("OnRspQrySettlementInfoConfirm", swigMethodTypes44)) CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRspQrySettlementInfoConfirmSwigExplicitCThostFtdcTraderSpi(swigCPtr, CThostFtdcSettlementInfoConfirmField.getCPtr(pSettlementInfoConfirm), CThostFtdcRspInfoField.getCPtr(pRspInfo), nRequestID, bIsLast); else CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRspQrySettlementInfoConfirm(swigCPtr, CThostFtdcSettlementInfoConfirmField.getCPtr(pSettlementInfoConfirm), CThostFtdcRspInfoField.getCPtr(pRspInfo), nRequestID, bIsLast);
+    
   }
 
   public virtual void OnRspQryInvestorPositionCombineDetail(CThostFtdcInvestorPositionCombineDetailField pInvestorPositionCombineDetail, CThostFtdcRspInfoField pRspInfo, int nRequestID, bool bIsLast) {
-    if (SwigDerivedClassHasMethod("OnRspQryInvestorPositionCombineDetail", swigMethodTypes45)) CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRspQryInvestorPositionCombineDetailSwigExplicitCThostFtdcTraderSpi(swigCPtr, CThostFtdcInvestorPositionCombineDetailField.getCPtr(pInvestorPositionCombineDetail), CThostFtdcRspInfoField.getCPtr(pRspInfo), nRequestID, bIsLast); else CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRspQryInvestorPositionCombineDetail(swigCPtr, CThostFtdcInvestorPositionCombineDetailField.getCPtr(pInvestorPositionCombineDetail), CThostFtdcRspInfoField.getCPtr(pRspInfo), nRequestID, bIsLast);
+    
   }
 
   public virtual void OnRspQryCFMMCTradingAccountKey(CThostFtdcCFMMCTradingAccountKeyField pCFMMCTradingAccountKey, CThostFtdcRspInfoField pRspInfo, int nRequestID, bool bIsLast) {
-    if (SwigDerivedClassHasMethod("OnRspQryCFMMCTradingAccountKey", swigMethodTypes46)) CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRspQryCFMMCTradingAccountKeySwigExplicitCThostFtdcTraderSpi(swigCPtr, CThostFtdcCFMMCTradingAccountKeyField.getCPtr(pCFMMCTradingAccountKey), CThostFtdcRspInfoField.getCPtr(pRspInfo), nRequestID, bIsLast); else CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRspQryCFMMCTradingAccountKey(swigCPtr, CThostFtdcCFMMCTradingAccountKeyField.getCPtr(pCFMMCTradingAccountKey), CThostFtdcRspInfoField.getCPtr(pRspInfo), nRequestID, bIsLast);
+    
   }
 
   public virtual void OnRspQryEWarrantOffset(CThostFtdcEWarrantOffsetField pEWarrantOffset, CThostFtdcRspInfoField pRspInfo, int nRequestID, bool bIsLast) {
-    if (SwigDerivedClassHasMethod("OnRspQryEWarrantOffset", swigMethodTypes47)) CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRspQryEWarrantOffsetSwigExplicitCThostFtdcTraderSpi(swigCPtr, CThostFtdcEWarrantOffsetField.getCPtr(pEWarrantOffset), CThostFtdcRspInfoField.getCPtr(pRspInfo), nRequestID, bIsLast); else CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRspQryEWarrantOffset(swigCPtr, CThostFtdcEWarrantOffsetField.getCPtr(pEWarrantOffset), CThostFtdcRspInfoField.getCPtr(pRspInfo), nRequestID, bIsLast);
+    
   }
 
   public virtual void OnRspQryInvestorProductGroupMargin(CThostFtdcInvestorProductGroupMarginField pInvestorProductGroupMargin, CThostFtdcRspInfoField pRspInfo, int nRequestID, bool bIsLast) {
-    if (SwigDerivedClassHasMethod("OnRspQryInvestorProductGroupMargin", swigMethodTypes48)) CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRspQryInvestorProductGroupMarginSwigExplicitCThostFtdcTraderSpi(swigCPtr, CThostFtdcInvestorProductGroupMarginField.getCPtr(pInvestorProductGroupMargin), CThostFtdcRspInfoField.getCPtr(pRspInfo), nRequestID, bIsLast); else CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRspQryInvestorProductGroupMargin(swigCPtr, CThostFtdcInvestorProductGroupMarginField.getCPtr(pInvestorProductGroupMargin), CThostFtdcRspInfoField.getCPtr(pRspInfo), nRequestID, bIsLast);
+    
   }
 
   public virtual void OnRspQryExchangeMarginRate(CThostFtdcExchangeMarginRateField pExchangeMarginRate, CThostFtdcRspInfoField pRspInfo, int nRequestID, bool bIsLast) {
-    if (SwigDerivedClassHasMethod("OnRspQryExchangeMarginRate", swigMethodTypes49)) CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRspQryExchangeMarginRateSwigExplicitCThostFtdcTraderSpi(swigCPtr, CThostFtdcExchangeMarginRateField.getCPtr(pExchangeMarginRate), CThostFtdcRspInfoField.getCPtr(pRspInfo), nRequestID, bIsLast); else CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRspQryExchangeMarginRate(swigCPtr, CThostFtdcExchangeMarginRateField.getCPtr(pExchangeMarginRate), CThostFtdcRspInfoField.getCPtr(pRspInfo), nRequestID, bIsLast);
+    
   }
 
   public virtual void OnRspQryExchangeMarginRateAdjust(CThostFtdcExchangeMarginRateAdjustField pExchangeMarginRateAdjust, CThostFtdcRspInfoField pRspInfo, int nRequestID, bool bIsLast) {
-    if (SwigDerivedClassHasMethod("OnRspQryExchangeMarginRateAdjust", swigMethodTypes50)) CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRspQryExchangeMarginRateAdjustSwigExplicitCThostFtdcTraderSpi(swigCPtr, CThostFtdcExchangeMarginRateAdjustField.getCPtr(pExchangeMarginRateAdjust), CThostFtdcRspInfoField.getCPtr(pRspInfo), nRequestID, bIsLast); else CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRspQryExchangeMarginRateAdjust(swigCPtr, CThostFtdcExchangeMarginRateAdjustField.getCPtr(pExchangeMarginRateAdjust), CThostFtdcRspInfoField.getCPtr(pRspInfo), nRequestID, bIsLast);
+    
   }
 
   public virtual void OnRspQryExchangeRate(CThostFtdcExchangeRateField pExchangeRate, CThostFtdcRspInfoField pRspInfo, int nRequestID, bool bIsLast) {
-    if (SwigDerivedClassHasMethod("OnRspQryExchangeRate", swigMethodTypes51)) CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRspQryExchangeRateSwigExplicitCThostFtdcTraderSpi(swigCPtr, CThostFtdcExchangeRateField.getCPtr(pExchangeRate), CThostFtdcRspInfoField.getCPtr(pRspInfo), nRequestID, bIsLast); else CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRspQryExchangeRate(swigCPtr, CThostFtdcExchangeRateField.getCPtr(pExchangeRate), CThostFtdcRspInfoField.getCPtr(pRspInfo), nRequestID, bIsLast);
+    
   }
 
   public virtual void OnRspQrySecAgentACIDMap(CThostFtdcSecAgentACIDMapField pSecAgentACIDMap, CThostFtdcRspInfoField pRspInfo, int nRequestID, bool bIsLast) {
-    if (SwigDerivedClassHasMethod("OnRspQrySecAgentACIDMap", swigMethodTypes52)) CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRspQrySecAgentACIDMapSwigExplicitCThostFtdcTraderSpi(swigCPtr, CThostFtdcSecAgentACIDMapField.getCPtr(pSecAgentACIDMap), CThostFtdcRspInfoField.getCPtr(pRspInfo), nRequestID, bIsLast); else CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRspQrySecAgentACIDMap(swigCPtr, CThostFtdcSecAgentACIDMapField.getCPtr(pSecAgentACIDMap), CThostFtdcRspInfoField.getCPtr(pRspInfo), nRequestID, bIsLast);
+    
   }
 
   public virtual void OnRspQryProductExchRate(CThostFtdcProductExchRateField pProductExchRate, CThostFtdcRspInfoField pRspInfo, int nRequestID, bool bIsLast) {
-    if (SwigDerivedClassHasMethod("OnRspQryProductExchRate", swigMethodTypes53)) CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRspQryProductExchRateSwigExplicitCThostFtdcTraderSpi(swigCPtr, CThostFtdcProductExchRateField.getCPtr(pProductExchRate), CThostFtdcRspInfoField.getCPtr(pRspInfo), nRequestID, bIsLast); else CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRspQryProductExchRate(swigCPtr, CThostFtdcProductExchRateField.getCPtr(pProductExchRate), CThostFtdcRspInfoField.getCPtr(pRspInfo), nRequestID, bIsLast);
+    
   }
 
   public virtual void OnRspQryProductGroup(CThostFtdcProductGroupField pProductGroup, CThostFtdcRspInfoField pRspInfo, int nRequestID, bool bIsLast) {
-    if (SwigDerivedClassHasMethod("OnRspQryProductGroup", swigMethodTypes54)) CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRspQryProductGroupSwigExplicitCThostFtdcTraderSpi(swigCPtr, CThostFtdcProductGroupField.getCPtr(pProductGroup), CThostFtdcRspInfoField.getCPtr(pRspInfo), nRequestID, bIsLast); else CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRspQryProductGroup(swigCPtr, CThostFtdcProductGroupField.getCPtr(pProductGroup), CThostFtdcRspInfoField.getCPtr(pRspInfo), nRequestID, bIsLast);
+    
   }
 
   public virtual void OnRspQryMMInstrumentCommissionRate(CThostFtdcMMInstrumentCommissionRateField pMMInstrumentCommissionRate, CThostFtdcRspInfoField pRspInfo, int nRequestID, bool bIsLast) {
-    if (SwigDerivedClassHasMethod("OnRspQryMMInstrumentCommissionRate", swigMethodTypes55)) CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRspQryMMInstrumentCommissionRateSwigExplicitCThostFtdcTraderSpi(swigCPtr, CThostFtdcMMInstrumentCommissionRateField.getCPtr(pMMInstrumentCommissionRate), CThostFtdcRspInfoField.getCPtr(pRspInfo), nRequestID, bIsLast); else CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRspQryMMInstrumentCommissionRate(swigCPtr, CThostFtdcMMInstrumentCommissionRateField.getCPtr(pMMInstrumentCommissionRate), CThostFtdcRspInfoField.getCPtr(pRspInfo), nRequestID, bIsLast);
+    
   }
 
   public virtual void OnRspQryMMOptionInstrCommRate(CThostFtdcMMOptionInstrCommRateField pMMOptionInstrCommRate, CThostFtdcRspInfoField pRspInfo, int nRequestID, bool bIsLast) {
-    if (SwigDerivedClassHasMethod("OnRspQryMMOptionInstrCommRate", swigMethodTypes56)) CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRspQryMMOptionInstrCommRateSwigExplicitCThostFtdcTraderSpi(swigCPtr, CThostFtdcMMOptionInstrCommRateField.getCPtr(pMMOptionInstrCommRate), CThostFtdcRspInfoField.getCPtr(pRspInfo), nRequestID, bIsLast); else CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRspQryMMOptionInstrCommRate(swigCPtr, CThostFtdcMMOptionInstrCommRateField.getCPtr(pMMOptionInstrCommRate), CThostFtdcRspInfoField.getCPtr(pRspInfo), nRequestID, bIsLast);
+    
   }
 
   public virtual void OnRspQryInstrumentOrderCommRate(CThostFtdcInstrumentOrderCommRateField pInstrumentOrderCommRate, CThostFtdcRspInfoField pRspInfo, int nRequestID, bool bIsLast) {
-    if (SwigDerivedClassHasMethod("OnRspQryInstrumentOrderCommRate", swigMethodTypes57)) CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRspQryInstrumentOrderCommRateSwigExplicitCThostFtdcTraderSpi(swigCPtr, CThostFtdcInstrumentOrderCommRateField.getCPtr(pInstrumentOrderCommRate), CThostFtdcRspInfoField.getCPtr(pRspInfo), nRequestID, bIsLast); else CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRspQryInstrumentOrderCommRate(swigCPtr, CThostFtdcInstrumentOrderCommRateField.getCPtr(pInstrumentOrderCommRate), CThostFtdcRspInfoField.getCPtr(pRspInfo), nRequestID, bIsLast);
+    
   }
 
   public virtual void OnRspQrySecAgentTradingAccount(CThostFtdcTradingAccountField pTradingAccount, CThostFtdcRspInfoField pRspInfo, int nRequestID, bool bIsLast) {
-    if (SwigDerivedClassHasMethod("OnRspQrySecAgentTradingAccount", swigMethodTypes58)) CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRspQrySecAgentTradingAccountSwigExplicitCThostFtdcTraderSpi(swigCPtr, CThostFtdcTradingAccountField.getCPtr(pTradingAccount), CThostFtdcRspInfoField.getCPtr(pRspInfo), nRequestID, bIsLast); else CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRspQrySecAgentTradingAccount(swigCPtr, CThostFtdcTradingAccountField.getCPtr(pTradingAccount), CThostFtdcRspInfoField.getCPtr(pRspInfo), nRequestID, bIsLast);
+    
   }
 
   public virtual void OnRspQrySecAgentCheckMode(CThostFtdcSecAgentCheckModeField pSecAgentCheckMode, CThostFtdcRspInfoField pRspInfo, int nRequestID, bool bIsLast) {
-    if (SwigDerivedClassHasMethod("OnRspQrySecAgentCheckMode", swigMethodTypes59)) CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRspQrySecAgentCheckModeSwigExplicitCThostFtdcTraderSpi(swigCPtr, CThostFtdcSecAgentCheckModeField.getCPtr(pSecAgentCheckMode), CThostFtdcRspInfoField.getCPtr(pRspInfo), nRequestID, bIsLast); else CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRspQrySecAgentCheckMode(swigCPtr, CThostFtdcSecAgentCheckModeField.getCPtr(pSecAgentCheckMode), CThostFtdcRspInfoField.getCPtr(pRspInfo), nRequestID, bIsLast);
+    
   }
 
   public virtual void OnRspQrySecAgentTradeInfo(CThostFtdcSecAgentTradeInfoField pSecAgentTradeInfo, CThostFtdcRspInfoField pRspInfo, int nRequestID, bool bIsLast) {
-    if (SwigDerivedClassHasMethod("OnRspQrySecAgentTradeInfo", swigMethodTypes60)) CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRspQrySecAgentTradeInfoSwigExplicitCThostFtdcTraderSpi(swigCPtr, CThostFtdcSecAgentTradeInfoField.getCPtr(pSecAgentTradeInfo), CThostFtdcRspInfoField.getCPtr(pRspInfo), nRequestID, bIsLast); else CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRspQrySecAgentTradeInfo(swigCPtr, CThostFtdcSecAgentTradeInfoField.getCPtr(pSecAgentTradeInfo), CThostFtdcRspInfoField.getCPtr(pRspInfo), nRequestID, bIsLast);
+    
   }
 
   public virtual void OnRspQryOptionInstrTradeCost(CThostFtdcOptionInstrTradeCostField pOptionInstrTradeCost, CThostFtdcRspInfoField pRspInfo, int nRequestID, bool bIsLast) {
-    if (SwigDerivedClassHasMethod("OnRspQryOptionInstrTradeCost", swigMethodTypes61)) CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRspQryOptionInstrTradeCostSwigExplicitCThostFtdcTraderSpi(swigCPtr, CThostFtdcOptionInstrTradeCostField.getCPtr(pOptionInstrTradeCost), CThostFtdcRspInfoField.getCPtr(pRspInfo), nRequestID, bIsLast); else CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRspQryOptionInstrTradeCost(swigCPtr, CThostFtdcOptionInstrTradeCostField.getCPtr(pOptionInstrTradeCost), CThostFtdcRspInfoField.getCPtr(pRspInfo), nRequestID, bIsLast);
+    
   }
 
   public virtual void OnRspQryOptionInstrCommRate(CThostFtdcOptionInstrCommRateField pOptionInstrCommRate, CThostFtdcRspInfoField pRspInfo, int nRequestID, bool bIsLast) {
-    if (SwigDerivedClassHasMethod("OnRspQryOptionInstrCommRate", swigMethodTypes62)) CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRspQryOptionInstrCommRateSwigExplicitCThostFtdcTraderSpi(swigCPtr, CThostFtdcOptionInstrCommRateField.getCPtr(pOptionInstrCommRate), CThostFtdcRspInfoField.getCPtr(pRspInfo), nRequestID, bIsLast); else CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRspQryOptionInstrCommRate(swigCPtr, CThostFtdcOptionInstrCommRateField.getCPtr(pOptionInstrCommRate), CThostFtdcRspInfoField.getCPtr(pRspInfo), nRequestID, bIsLast);
+    
   }
 
   public virtual void OnRspQryExecOrder(CThostFtdcExecOrderField pExecOrder, CThostFtdcRspInfoField pRspInfo, int nRequestID, bool bIsLast) {
-    if (SwigDerivedClassHasMethod("OnRspQryExecOrder", swigMethodTypes63)) CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRspQryExecOrderSwigExplicitCThostFtdcTraderSpi(swigCPtr, CThostFtdcExecOrderField.getCPtr(pExecOrder), CThostFtdcRspInfoField.getCPtr(pRspInfo), nRequestID, bIsLast); else CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRspQryExecOrder(swigCPtr, CThostFtdcExecOrderField.getCPtr(pExecOrder), CThostFtdcRspInfoField.getCPtr(pRspInfo), nRequestID, bIsLast);
+    
   }
 
   public virtual void OnRspQryForQuote(CThostFtdcForQuoteField pForQuote, CThostFtdcRspInfoField pRspInfo, int nRequestID, bool bIsLast) {
-    if (SwigDerivedClassHasMethod("OnRspQryForQuote", swigMethodTypes64)) CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRspQryForQuoteSwigExplicitCThostFtdcTraderSpi(swigCPtr, CThostFtdcForQuoteField.getCPtr(pForQuote), CThostFtdcRspInfoField.getCPtr(pRspInfo), nRequestID, bIsLast); else CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRspQryForQuote(swigCPtr, CThostFtdcForQuoteField.getCPtr(pForQuote), CThostFtdcRspInfoField.getCPtr(pRspInfo), nRequestID, bIsLast);
+    
   }
 
   public virtual void OnRspQryQuote(CThostFtdcQuoteField pQuote, CThostFtdcRspInfoField pRspInfo, int nRequestID, bool bIsLast) {
-    if (SwigDerivedClassHasMethod("OnRspQryQuote", swigMethodTypes65)) CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRspQryQuoteSwigExplicitCThostFtdcTraderSpi(swigCPtr, CThostFtdcQuoteField.getCPtr(pQuote), CThostFtdcRspInfoField.getCPtr(pRspInfo), nRequestID, bIsLast); else CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRspQryQuote(swigCPtr, CThostFtdcQuoteField.getCPtr(pQuote), CThostFtdcRspInfoField.getCPtr(pRspInfo), nRequestID, bIsLast);
+    
   }
 
   public virtual void OnRspQryOptionSelfClose(CThostFtdcOptionSelfCloseField pOptionSelfClose, CThostFtdcRspInfoField pRspInfo, int nRequestID, bool bIsLast) {
-    if (SwigDerivedClassHasMethod("OnRspQryOptionSelfClose", swigMethodTypes66)) CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRspQryOptionSelfCloseSwigExplicitCThostFtdcTraderSpi(swigCPtr, CThostFtdcOptionSelfCloseField.getCPtr(pOptionSelfClose), CThostFtdcRspInfoField.getCPtr(pRspInfo), nRequestID, bIsLast); else CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRspQryOptionSelfClose(swigCPtr, CThostFtdcOptionSelfCloseField.getCPtr(pOptionSelfClose), CThostFtdcRspInfoField.getCPtr(pRspInfo), nRequestID, bIsLast);
+    
   }
 
   public virtual void OnRspQryInvestUnit(CThostFtdcInvestUnitField pInvestUnit, CThostFtdcRspInfoField pRspInfo, int nRequestID, bool bIsLast) {
-    if (SwigDerivedClassHasMethod("OnRspQryInvestUnit", swigMethodTypes67)) CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRspQryInvestUnitSwigExplicitCThostFtdcTraderSpi(swigCPtr, CThostFtdcInvestUnitField.getCPtr(pInvestUnit), CThostFtdcRspInfoField.getCPtr(pRspInfo), nRequestID, bIsLast); else CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRspQryInvestUnit(swigCPtr, CThostFtdcInvestUnitField.getCPtr(pInvestUnit), CThostFtdcRspInfoField.getCPtr(pRspInfo), nRequestID, bIsLast);
+    
   }
 
   public virtual void OnRspQryCombInstrumentGuard(CThostFtdcCombInstrumentGuardField pCombInstrumentGuard, CThostFtdcRspInfoField pRspInfo, int nRequestID, bool bIsLast) {
-    if (SwigDerivedClassHasMethod("OnRspQryCombInstrumentGuard", swigMethodTypes68)) CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRspQryCombInstrumentGuardSwigExplicitCThostFtdcTraderSpi(swigCPtr, CThostFtdcCombInstrumentGuardField.getCPtr(pCombInstrumentGuard), CThostFtdcRspInfoField.getCPtr(pRspInfo), nRequestID, bIsLast); else CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRspQryCombInstrumentGuard(swigCPtr, CThostFtdcCombInstrumentGuardField.getCPtr(pCombInstrumentGuard), CThostFtdcRspInfoField.getCPtr(pRspInfo), nRequestID, bIsLast);
+    
   }
 
   public virtual void OnRspQryCombAction(CThostFtdcCombActionField pCombAction, CThostFtdcRspInfoField pRspInfo, int nRequestID, bool bIsLast) {
-    if (SwigDerivedClassHasMethod("OnRspQryCombAction", swigMethodTypes69)) CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRspQryCombActionSwigExplicitCThostFtdcTraderSpi(swigCPtr, CThostFtdcCombActionField.getCPtr(pCombAction), CThostFtdcRspInfoField.getCPtr(pRspInfo), nRequestID, bIsLast); else CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRspQryCombAction(swigCPtr, CThostFtdcCombActionField.getCPtr(pCombAction), CThostFtdcRspInfoField.getCPtr(pRspInfo), nRequestID, bIsLast);
+    
   }
 
   public virtual void OnRspQryTransferSerial(CThostFtdcTransferSerialField pTransferSerial, CThostFtdcRspInfoField pRspInfo, int nRequestID, bool bIsLast) {
-    if (SwigDerivedClassHasMethod("OnRspQryTransferSerial", swigMethodTypes70)) CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRspQryTransferSerialSwigExplicitCThostFtdcTraderSpi(swigCPtr, CThostFtdcTransferSerialField.getCPtr(pTransferSerial), CThostFtdcRspInfoField.getCPtr(pRspInfo), nRequestID, bIsLast); else CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRspQryTransferSerial(swigCPtr, CThostFtdcTransferSerialField.getCPtr(pTransferSerial), CThostFtdcRspInfoField.getCPtr(pRspInfo), nRequestID, bIsLast);
+    
   }
 
   public virtual void OnRspQryAccountregister(CThostFtdcAccountregisterField pAccountregister, CThostFtdcRspInfoField pRspInfo, int nRequestID, bool bIsLast) {
-    if (SwigDerivedClassHasMethod("OnRspQryAccountregister", swigMethodTypes71)) CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRspQryAccountregisterSwigExplicitCThostFtdcTraderSpi(swigCPtr, CThostFtdcAccountregisterField.getCPtr(pAccountregister), CThostFtdcRspInfoField.getCPtr(pRspInfo), nRequestID, bIsLast); else CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRspQryAccountregister(swigCPtr, CThostFtdcAccountregisterField.getCPtr(pAccountregister), CThostFtdcRspInfoField.getCPtr(pRspInfo), nRequestID, bIsLast);
+    
   }
 
   public virtual void OnRspError(CThostFtdcRspInfoField pRspInfo, int nRequestID, bool bIsLast) {
-    if (SwigDerivedClassHasMethod("OnRspError", swigMethodTypes72)) CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRspErrorSwigExplicitCThostFtdcTraderSpi(swigCPtr, CThostFtdcRspInfoField.getCPtr(pRspInfo), nRequestID, bIsLast); else CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRspError(swigCPtr, CThostFtdcRspInfoField.getCPtr(pRspInfo), nRequestID, bIsLast);
+    
   }
 
   public virtual void OnRtnOrder(CThostFtdcOrderField pOrder) {
-    if (SwigDerivedClassHasMethod("OnRtnOrder", swigMethodTypes73)) CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRtnOrderSwigExplicitCThostFtdcTraderSpi(swigCPtr, CThostFtdcOrderField.getCPtr(pOrder)); else CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRtnOrder(swigCPtr, CThostFtdcOrderField.getCPtr(pOrder));
+    
   }
 
   public virtual void OnRtnTrade(CThostFtdcTradeField pTrade) {
-    if (SwigDerivedClassHasMethod("OnRtnTrade", swigMethodTypes74)) CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRtnTradeSwigExplicitCThostFtdcTraderSpi(swigCPtr, CThostFtdcTradeField.getCPtr(pTrade)); else CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRtnTrade(swigCPtr, CThostFtdcTradeField.getCPtr(pTrade));
+    
   }
 
   public virtual void OnErrRtnOrderInsert(CThostFtdcInputOrderField pInputOrder, CThostFtdcRspInfoField pRspInfo) {
-    if (SwigDerivedClassHasMethod("OnErrRtnOrderInsert", swigMethodTypes75)) CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnErrRtnOrderInsertSwigExplicitCThostFtdcTraderSpi(swigCPtr, CThostFtdcInputOrderField.getCPtr(pInputOrder), CThostFtdcRspInfoField.getCPtr(pRspInfo)); else CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnErrRtnOrderInsert(swigCPtr, CThostFtdcInputOrderField.getCPtr(pInputOrder), CThostFtdcRspInfoField.getCPtr(pRspInfo));
+    
   }
 
   public virtual void OnErrRtnOrderAction(CThostFtdcOrderActionField pOrderAction, CThostFtdcRspInfoField pRspInfo) {
-    if (SwigDerivedClassHasMethod("OnErrRtnOrderAction", swigMethodTypes76)) CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnErrRtnOrderActionSwigExplicitCThostFtdcTraderSpi(swigCPtr, CThostFtdcOrderActionField.getCPtr(pOrderAction), CThostFtdcRspInfoField.getCPtr(pRspInfo)); else CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnErrRtnOrderAction(swigCPtr, CThostFtdcOrderActionField.getCPtr(pOrderAction), CThostFtdcRspInfoField.getCPtr(pRspInfo));
+    
   }
 
   public virtual void OnRtnInstrumentStatus(CThostFtdcInstrumentStatusField pInstrumentStatus) {
-    if (SwigDerivedClassHasMethod("OnRtnInstrumentStatus", swigMethodTypes77)) CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRtnInstrumentStatusSwigExplicitCThostFtdcTraderSpi(swigCPtr, CThostFtdcInstrumentStatusField.getCPtr(pInstrumentStatus)); else CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRtnInstrumentStatus(swigCPtr, CThostFtdcInstrumentStatusField.getCPtr(pInstrumentStatus));
+    
   }
 
   public virtual void OnRtnBulletin(CThostFtdcBulletinField pBulletin) {
-    if (SwigDerivedClassHasMethod("OnRtnBulletin", swigMethodTypes78)) CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRtnBulletinSwigExplicitCThostFtdcTraderSpi(swigCPtr, CThostFtdcBulletinField.getCPtr(pBulletin)); else CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRtnBulletin(swigCPtr, CThostFtdcBulletinField.getCPtr(pBulletin));
+    
   }
 
   public virtual void OnRtnTradingNotice(CThostFtdcTradingNoticeInfoField pTradingNoticeInfo) {
-    if (SwigDerivedClassHasMethod("OnRtnTradingNotice", swigMethodTypes79)) CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRtnTradingNoticeSwigExplicitCThostFtdcTraderSpi(swigCPtr, CThostFtdcTradingNoticeInfoField.getCPtr(pTradingNoticeInfo)); else CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRtnTradingNotice(swigCPtr, CThostFtdcTradingNoticeInfoField.getCPtr(pTradingNoticeInfo));
+    
   }
 
   public virtual void OnRtnErrorConditionalOrder(CThostFtdcErrorConditionalOrderField pErrorConditionalOrder) {
-    if (SwigDerivedClassHasMethod("OnRtnErrorConditionalOrder", swigMethodTypes80)) CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRtnErrorConditionalOrderSwigExplicitCThostFtdcTraderSpi(swigCPtr, CThostFtdcErrorConditionalOrderField.getCPtr(pErrorConditionalOrder)); else CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRtnErrorConditionalOrder(swigCPtr, CThostFtdcErrorConditionalOrderField.getCPtr(pErrorConditionalOrder));
+    
   }
 
   public virtual void OnRtnExecOrder(CThostFtdcExecOrderField pExecOrder) {
-    if (SwigDerivedClassHasMethod("OnRtnExecOrder", swigMethodTypes81)) CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRtnExecOrderSwigExplicitCThostFtdcTraderSpi(swigCPtr, CThostFtdcExecOrderField.getCPtr(pExecOrder)); else CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRtnExecOrder(swigCPtr, CThostFtdcExecOrderField.getCPtr(pExecOrder));
+    
   }
 
   public virtual void OnErrRtnExecOrderInsert(CThostFtdcInputExecOrderField pInputExecOrder, CThostFtdcRspInfoField pRspInfo) {
-    if (SwigDerivedClassHasMethod("OnErrRtnExecOrderInsert", swigMethodTypes82)) CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnErrRtnExecOrderInsertSwigExplicitCThostFtdcTraderSpi(swigCPtr, CThostFtdcInputExecOrderField.getCPtr(pInputExecOrder), CThostFtdcRspInfoField.getCPtr(pRspInfo)); else CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnErrRtnExecOrderInsert(swigCPtr, CThostFtdcInputExecOrderField.getCPtr(pInputExecOrder), CThostFtdcRspInfoField.getCPtr(pRspInfo));
+    
   }
 
   public virtual void OnErrRtnExecOrderAction(CThostFtdcExecOrderActionField pExecOrderAction, CThostFtdcRspInfoField pRspInfo) {
-    if (SwigDerivedClassHasMethod("OnErrRtnExecOrderAction", swigMethodTypes83)) CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnErrRtnExecOrderActionSwigExplicitCThostFtdcTraderSpi(swigCPtr, CThostFtdcExecOrderActionField.getCPtr(pExecOrderAction), CThostFtdcRspInfoField.getCPtr(pRspInfo)); else CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnErrRtnExecOrderAction(swigCPtr, CThostFtdcExecOrderActionField.getCPtr(pExecOrderAction), CThostFtdcRspInfoField.getCPtr(pRspInfo));
+    
   }
 
   public virtual void OnErrRtnForQuoteInsert(CThostFtdcInputForQuoteField pInputForQuote, CThostFtdcRspInfoField pRspInfo) {
-    if (SwigDerivedClassHasMethod("OnErrRtnForQuoteInsert", swigMethodTypes84)) CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnErrRtnForQuoteInsertSwigExplicitCThostFtdcTraderSpi(swigCPtr, CThostFtdcInputForQuoteField.getCPtr(pInputForQuote), CThostFtdcRspInfoField.getCPtr(pRspInfo)); else CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnErrRtnForQuoteInsert(swigCPtr, CThostFtdcInputForQuoteField.getCPtr(pInputForQuote), CThostFtdcRspInfoField.getCPtr(pRspInfo));
+    
   }
 
   public virtual void OnRtnQuote(CThostFtdcQuoteField pQuote) {
-    if (SwigDerivedClassHasMethod("OnRtnQuote", swigMethodTypes85)) CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRtnQuoteSwigExplicitCThostFtdcTraderSpi(swigCPtr, CThostFtdcQuoteField.getCPtr(pQuote)); else CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRtnQuote(swigCPtr, CThostFtdcQuoteField.getCPtr(pQuote));
+    
   }
 
   public virtual void OnErrRtnQuoteInsert(CThostFtdcInputQuoteField pInputQuote, CThostFtdcRspInfoField pRspInfo) {
-    if (SwigDerivedClassHasMethod("OnErrRtnQuoteInsert", swigMethodTypes86)) CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnErrRtnQuoteInsertSwigExplicitCThostFtdcTraderSpi(swigCPtr, CThostFtdcInputQuoteField.getCPtr(pInputQuote), CThostFtdcRspInfoField.getCPtr(pRspInfo)); else CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnErrRtnQuoteInsert(swigCPtr, CThostFtdcInputQuoteField.getCPtr(pInputQuote), CThostFtdcRspInfoField.getCPtr(pRspInfo));
+    
   }
 
   public virtual void OnErrRtnQuoteAction(CThostFtdcQuoteActionField pQuoteAction, CThostFtdcRspInfoField pRspInfo) {
-    if (SwigDerivedClassHasMethod("OnErrRtnQuoteAction", swigMethodTypes87)) CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnErrRtnQuoteActionSwigExplicitCThostFtdcTraderSpi(swigCPtr, CThostFtdcQuoteActionField.getCPtr(pQuoteAction), CThostFtdcRspInfoField.getCPtr(pRspInfo)); else CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnErrRtnQuoteAction(swigCPtr, CThostFtdcQuoteActionField.getCPtr(pQuoteAction), CThostFtdcRspInfoField.getCPtr(pRspInfo));
+    
   }
 
   public virtual void OnRtnForQuoteRsp(CThostFtdcForQuoteRspField pForQuoteRsp) {
-    if (SwigDerivedClassHasMethod("OnRtnForQuoteRsp", swigMethodTypes88)) CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRtnForQuoteRspSwigExplicitCThostFtdcTraderSpi(swigCPtr, CThostFtdcForQuoteRspField.getCPtr(pForQuoteRsp)); else CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRtnForQuoteRsp(swigCPtr, CThostFtdcForQuoteRspField.getCPtr(pForQuoteRsp));
+    
   }
 
   public virtual void OnRtnCFMMCTradingAccountToken(CThostFtdcCFMMCTradingAccountTokenField pCFMMCTradingAccountToken) {
-    if (SwigDerivedClassHasMethod("OnRtnCFMMCTradingAccountToken", swigMethodTypes89)) CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRtnCFMMCTradingAccountTokenSwigExplicitCThostFtdcTraderSpi(swigCPtr, CThostFtdcCFMMCTradingAccountTokenField.getCPtr(pCFMMCTradingAccountToken)); else CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRtnCFMMCTradingAccountToken(swigCPtr, CThostFtdcCFMMCTradingAccountTokenField.getCPtr(pCFMMCTradingAccountToken));
+    
   }
 
   public virtual void OnErrRtnBatchOrderAction(CThostFtdcBatchOrderActionField pBatchOrderAction, CThostFtdcRspInfoField pRspInfo) {
-    if (SwigDerivedClassHasMethod("OnErrRtnBatchOrderAction", swigMethodTypes90)) CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnErrRtnBatchOrderActionSwigExplicitCThostFtdcTraderSpi(swigCPtr, CThostFtdcBatchOrderActionField.getCPtr(pBatchOrderAction), CThostFtdcRspInfoField.getCPtr(pRspInfo)); else CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnErrRtnBatchOrderAction(swigCPtr, CThostFtdcBatchOrderActionField.getCPtr(pBatchOrderAction), CThostFtdcRspInfoField.getCPtr(pRspInfo));
+    
   }
 
   public virtual void OnRtnOptionSelfClose(CThostFtdcOptionSelfCloseField pOptionSelfClose) {
-    if (SwigDerivedClassHasMethod("OnRtnOptionSelfClose", swigMethodTypes91)) CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRtnOptionSelfCloseSwigExplicitCThostFtdcTraderSpi(swigCPtr, CThostFtdcOptionSelfCloseField.getCPtr(pOptionSelfClose)); else CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRtnOptionSelfClose(swigCPtr, CThostFtdcOptionSelfCloseField.getCPtr(pOptionSelfClose));
+    
   }
 
   public virtual void OnErrRtnOptionSelfCloseInsert(CThostFtdcInputOptionSelfCloseField pInputOptionSelfClose, CThostFtdcRspInfoField pRspInfo) {
-    if (SwigDerivedClassHasMethod("OnErrRtnOptionSelfCloseInsert", swigMethodTypes92)) CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnErrRtnOptionSelfCloseInsertSwigExplicitCThostFtdcTraderSpi(swigCPtr, CThostFtdcInputOptionSelfCloseField.getCPtr(pInputOptionSelfClose), CThostFtdcRspInfoField.getCPtr(pRspInfo)); else CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnErrRtnOptionSelfCloseInsert(swigCPtr, CThostFtdcInputOptionSelfCloseField.getCPtr(pInputOptionSelfClose), CThostFtdcRspInfoField.getCPtr(pRspInfo));
+    
   }
 
   public virtual void OnErrRtnOptionSelfCloseAction(CThostFtdcOptionSelfCloseActionField pOptionSelfCloseAction, CThostFtdcRspInfoField pRspInfo) {
-    if (SwigDerivedClassHasMethod("OnErrRtnOptionSelfCloseAction", swigMethodTypes93)) CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnErrRtnOptionSelfCloseActionSwigExplicitCThostFtdcTraderSpi(swigCPtr, CThostFtdcOptionSelfCloseActionField.getCPtr(pOptionSelfCloseAction), CThostFtdcRspInfoField.getCPtr(pRspInfo)); else CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnErrRtnOptionSelfCloseAction(swigCPtr, CThostFtdcOptionSelfCloseActionField.getCPtr(pOptionSelfCloseAction), CThostFtdcRspInfoField.getCPtr(pRspInfo));
+    
   }
 
   public virtual void OnRtnCombAction(CThostFtdcCombActionField pCombAction) {
-    if (SwigDerivedClassHasMethod("OnRtnCombAction", swigMethodTypes94)) CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRtnCombActionSwigExplicitCThostFtdcTraderSpi(swigCPtr, CThostFtdcCombActionField.getCPtr(pCombAction)); else CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRtnCombAction(swigCPtr, CThostFtdcCombActionField.getCPtr(pCombAction));
+    
   }
 
   public virtual void OnErrRtnCombActionInsert(CThostFtdcInputCombActionField pInputCombAction, CThostFtdcRspInfoField pRspInfo) {
-    if (SwigDerivedClassHasMethod("OnErrRtnCombActionInsert", swigMethodTypes95)) CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnErrRtnCombActionInsertSwigExplicitCThostFtdcTraderSpi(swigCPtr, CThostFtdcInputCombActionField.getCPtr(pInputCombAction), CThostFtdcRspInfoField.getCPtr(pRspInfo)); else CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnErrRtnCombActionInsert(swigCPtr, CThostFtdcInputCombActionField.getCPtr(pInputCombAction), CThostFtdcRspInfoField.getCPtr(pRspInfo));
+    
   }
 
   public virtual void OnRspQryContractBank(CThostFtdcContractBankField pContractBank, CThostFtdcRspInfoField pRspInfo, int nRequestID, bool bIsLast) {
-    if (SwigDerivedClassHasMethod("OnRspQryContractBank", swigMethodTypes96)) CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRspQryContractBankSwigExplicitCThostFtdcTraderSpi(swigCPtr, CThostFtdcContractBankField.getCPtr(pContractBank), CThostFtdcRspInfoField.getCPtr(pRspInfo), nRequestID, bIsLast); else CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRspQryContractBank(swigCPtr, CThostFtdcContractBankField.getCPtr(pContractBank), CThostFtdcRspInfoField.getCPtr(pRspInfo), nRequestID, bIsLast);
+    
   }
 
   public virtual void OnRspQryParkedOrder(CThostFtdcParkedOrderField pParkedOrder, CThostFtdcRspInfoField pRspInfo, int nRequestID, bool bIsLast) {
-    if (SwigDerivedClassHasMethod("OnRspQryParkedOrder", swigMethodTypes97)) CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRspQryParkedOrderSwigExplicitCThostFtdcTraderSpi(swigCPtr, CThostFtdcParkedOrderField.getCPtr(pParkedOrder), CThostFtdcRspInfoField.getCPtr(pRspInfo), nRequestID, bIsLast); else CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRspQryParkedOrder(swigCPtr, CThostFtdcParkedOrderField.getCPtr(pParkedOrder), CThostFtdcRspInfoField.getCPtr(pRspInfo), nRequestID, bIsLast);
+    
   }
 
   public virtual void OnRspQryParkedOrderAction(CThostFtdcParkedOrderActionField pParkedOrderAction, CThostFtdcRspInfoField pRspInfo, int nRequestID, bool bIsLast) {
-    if (SwigDerivedClassHasMethod("OnRspQryParkedOrderAction", swigMethodTypes98)) CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRspQryParkedOrderActionSwigExplicitCThostFtdcTraderSpi(swigCPtr, CThostFtdcParkedOrderActionField.getCPtr(pParkedOrderAction), CThostFtdcRspInfoField.getCPtr(pRspInfo), nRequestID, bIsLast); else CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRspQryParkedOrderAction(swigCPtr, CThostFtdcParkedOrderActionField.getCPtr(pParkedOrderAction), CThostFtdcRspInfoField.getCPtr(pRspInfo), nRequestID, bIsLast);
+    
   }
 
   public virtual void OnRspQryTradingNotice(CThostFtdcTradingNoticeField pTradingNotice, CThostFtdcRspInfoField pRspInfo, int nRequestID, bool bIsLast) {
-    if (SwigDerivedClassHasMethod("OnRspQryTradingNotice", swigMethodTypes99)) CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRspQryTradingNoticeSwigExplicitCThostFtdcTraderSpi(swigCPtr, CThostFtdcTradingNoticeField.getCPtr(pTradingNotice), CThostFtdcRspInfoField.getCPtr(pRspInfo), nRequestID, bIsLast); else CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRspQryTradingNotice(swigCPtr, CThostFtdcTradingNoticeField.getCPtr(pTradingNotice), CThostFtdcRspInfoField.getCPtr(pRspInfo), nRequestID, bIsLast);
+    
   }
 
   public virtual void OnRspQryBrokerTradingParams(CThostFtdcBrokerTradingParamsField pBrokerTradingParams, CThostFtdcRspInfoField pRspInfo, int nRequestID, bool bIsLast) {
-    if (SwigDerivedClassHasMethod("OnRspQryBrokerTradingParams", swigMethodTypes100)) CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRspQryBrokerTradingParamsSwigExplicitCThostFtdcTraderSpi(swigCPtr, CThostFtdcBrokerTradingParamsField.getCPtr(pBrokerTradingParams), CThostFtdcRspInfoField.getCPtr(pRspInfo), nRequestID, bIsLast); else CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRspQryBrokerTradingParams(swigCPtr, CThostFtdcBrokerTradingParamsField.getCPtr(pBrokerTradingParams), CThostFtdcRspInfoField.getCPtr(pRspInfo), nRequestID, bIsLast);
+    
   }
 
   public virtual void OnRspQryBrokerTradingAlgos(CThostFtdcBrokerTradingAlgosField pBrokerTradingAlgos, CThostFtdcRspInfoField pRspInfo, int nRequestID, bool bIsLast) {
-    if (SwigDerivedClassHasMethod("OnRspQryBrokerTradingAlgos", swigMethodTypes101)) CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRspQryBrokerTradingAlgosSwigExplicitCThostFtdcTraderSpi(swigCPtr, CThostFtdcBrokerTradingAlgosField.getCPtr(pBrokerTradingAlgos), CThostFtdcRspInfoField.getCPtr(pRspInfo), nRequestID, bIsLast); else CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRspQryBrokerTradingAlgos(swigCPtr, CThostFtdcBrokerTradingAlgosField.getCPtr(pBrokerTradingAlgos), CThostFtdcRspInfoField.getCPtr(pRspInfo), nRequestID, bIsLast);
+    
   }
 
   public virtual void OnRspQueryCFMMCTradingAccountToken(CThostFtdcQueryCFMMCTradingAccountTokenField pQueryCFMMCTradingAccountToken, CThostFtdcRspInfoField pRspInfo, int nRequestID, bool bIsLast) {
-    if (SwigDerivedClassHasMethod("OnRspQueryCFMMCTradingAccountToken", swigMethodTypes102)) CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRspQueryCFMMCTradingAccountTokenSwigExplicitCThostFtdcTraderSpi(swigCPtr, CThostFtdcQueryCFMMCTradingAccountTokenField.getCPtr(pQueryCFMMCTradingAccountToken), CThostFtdcRspInfoField.getCPtr(pRspInfo), nRequestID, bIsLast); else CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRspQueryCFMMCTradingAccountToken(swigCPtr, CThostFtdcQueryCFMMCTradingAccountTokenField.getCPtr(pQueryCFMMCTradingAccountToken), CThostFtdcRspInfoField.getCPtr(pRspInfo), nRequestID, bIsLast);
+    
   }
 
   public virtual void OnRtnFromBankToFutureByBank(CThostFtdcRspTransferField pRspTransfer) {
-    if (SwigDerivedClassHasMethod("OnRtnFromBankToFutureByBank", swigMethodTypes103)) CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRtnFromBankToFutureByBankSwigExplicitCThostFtdcTraderSpi(swigCPtr, CThostFtdcRspTransferField.getCPtr(pRspTransfer)); else CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRtnFromBankToFutureByBank(swigCPtr, CThostFtdcRspTransferField.getCPtr(pRspTransfer));
+    
   }
 
   public virtual void OnRtnFromFutureToBankByBank(CThostFtdcRspTransferField pRspTransfer) {
-    if (SwigDerivedClassHasMethod("OnRtnFromFutureToBankByBank", swigMethodTypes104)) CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRtnFromFutureToBankByBankSwigExplicitCThostFtdcTraderSpi(swigCPtr, CThostFtdcRspTransferField.getCPtr(pRspTransfer)); else CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRtnFromFutureToBankByBank(swigCPtr, CThostFtdcRspTransferField.getCPtr(pRspTransfer));
+    
   }
 
   public virtual void OnRtnRepealFromBankToFutureByBank(CThostFtdcRspRepealField pRspRepeal) {
-    if (SwigDerivedClassHasMethod("OnRtnRepealFromBankToFutureByBank", swigMethodTypes105)) CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRtnRepealFromBankToFutureByBankSwigExplicitCThostFtdcTraderSpi(swigCPtr, CThostFtdcRspRepealField.getCPtr(pRspRepeal)); else CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRtnRepealFromBankToFutureByBank(swigCPtr, CThostFtdcRspRepealField.getCPtr(pRspRepeal));
+    
   }
 
   public virtual void OnRtnRepealFromFutureToBankByBank(CThostFtdcRspRepealField pRspRepeal) {
-    if (SwigDerivedClassHasMethod("OnRtnRepealFromFutureToBankByBank", swigMethodTypes106)) CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRtnRepealFromFutureToBankByBankSwigExplicitCThostFtdcTraderSpi(swigCPtr, CThostFtdcRspRepealField.getCPtr(pRspRepeal)); else CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRtnRepealFromFutureToBankByBank(swigCPtr, CThostFtdcRspRepealField.getCPtr(pRspRepeal));
+    
   }
 
   public virtual void OnRtnFromBankToFutureByFuture(CThostFtdcRspTransferField pRspTransfer) {
-    if (SwigDerivedClassHasMethod("OnRtnFromBankToFutureByFuture", swigMethodTypes107)) CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRtnFromBankToFutureByFutureSwigExplicitCThostFtdcTraderSpi(swigCPtr, CThostFtdcRspTransferField.getCPtr(pRspTransfer)); else CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRtnFromBankToFutureByFuture(swigCPtr, CThostFtdcRspTransferField.getCPtr(pRspTransfer));
+    
   }
 
   public virtual void OnRtnFromFutureToBankByFuture(CThostFtdcRspTransferField pRspTransfer) {
-    if (SwigDerivedClassHasMethod("OnRtnFromFutureToBankByFuture", swigMethodTypes108)) CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRtnFromFutureToBankByFutureSwigExplicitCThostFtdcTraderSpi(swigCPtr, CThostFtdcRspTransferField.getCPtr(pRspTransfer)); else CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRtnFromFutureToBankByFuture(swigCPtr, CThostFtdcRspTransferField.getCPtr(pRspTransfer));
+    
   }
 
   public virtual void OnRtnRepealFromBankToFutureByFutureManual(CThostFtdcRspRepealField pRspRepeal) {
-    if (SwigDerivedClassHasMethod("OnRtnRepealFromBankToFutureByFutureManual", swigMethodTypes109)) CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRtnRepealFromBankToFutureByFutureManualSwigExplicitCThostFtdcTraderSpi(swigCPtr, CThostFtdcRspRepealField.getCPtr(pRspRepeal)); else CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRtnRepealFromBankToFutureByFutureManual(swigCPtr, CThostFtdcRspRepealField.getCPtr(pRspRepeal));
+    
   }
 
   public virtual void OnRtnRepealFromFutureToBankByFutureManual(CThostFtdcRspRepealField pRspRepeal) {
-    if (SwigDerivedClassHasMethod("OnRtnRepealFromFutureToBankByFutureManual", swigMethodTypes110)) CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRtnRepealFromFutureToBankByFutureManualSwigExplicitCThostFtdcTraderSpi(swigCPtr, CThostFtdcRspRepealField.getCPtr(pRspRepeal)); else CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRtnRepealFromFutureToBankByFutureManual(swigCPtr, CThostFtdcRspRepealField.getCPtr(pRspRepeal));
+    
   }
 
   public virtual void OnRtnQueryBankBalanceByFuture(CThostFtdcNotifyQueryAccountField pNotifyQueryAccount) {
-    if (SwigDerivedClassHasMethod("OnRtnQueryBankBalanceByFuture", swigMethodTypes111)) CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRtnQueryBankBalanceByFutureSwigExplicitCThostFtdcTraderSpi(swigCPtr, CThostFtdcNotifyQueryAccountField.getCPtr(pNotifyQueryAccount)); else CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRtnQueryBankBalanceByFuture(swigCPtr, CThostFtdcNotifyQueryAccountField.getCPtr(pNotifyQueryAccount));
+    
   }
 
   public virtual void OnErrRtnBankToFutureByFuture(CThostFtdcReqTransferField pReqTransfer, CThostFtdcRspInfoField pRspInfo) {
-    if (SwigDerivedClassHasMethod("OnErrRtnBankToFutureByFuture", swigMethodTypes112)) CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnErrRtnBankToFutureByFutureSwigExplicitCThostFtdcTraderSpi(swigCPtr, CThostFtdcReqTransferField.getCPtr(pReqTransfer), CThostFtdcRspInfoField.getCPtr(pRspInfo)); else CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnErrRtnBankToFutureByFuture(swigCPtr, CThostFtdcReqTransferField.getCPtr(pReqTransfer), CThostFtdcRspInfoField.getCPtr(pRspInfo));
+    
   }
 
   public virtual void OnErrRtnFutureToBankByFuture(CThostFtdcReqTransferField pReqTransfer, CThostFtdcRspInfoField pRspInfo) {
-    if (SwigDerivedClassHasMethod("OnErrRtnFutureToBankByFuture", swigMethodTypes113)) CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnErrRtnFutureToBankByFutureSwigExplicitCThostFtdcTraderSpi(swigCPtr, CThostFtdcReqTransferField.getCPtr(pReqTransfer), CThostFtdcRspInfoField.getCPtr(pRspInfo)); else CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnErrRtnFutureToBankByFuture(swigCPtr, CThostFtdcReqTransferField.getCPtr(pReqTransfer), CThostFtdcRspInfoField.getCPtr(pRspInfo));
+    
   }
 
   public virtual void OnErrRtnRepealBankToFutureByFutureManual(CThostFtdcReqRepealField pReqRepeal, CThostFtdcRspInfoField pRspInfo) {
-    if (SwigDerivedClassHasMethod("OnErrRtnRepealBankToFutureByFutureManual", swigMethodTypes114)) CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnErrRtnRepealBankToFutureByFutureManualSwigExplicitCThostFtdcTraderSpi(swigCPtr, CThostFtdcReqRepealField.getCPtr(pReqRepeal), CThostFtdcRspInfoField.getCPtr(pRspInfo)); else CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnErrRtnRepealBankToFutureByFutureManual(swigCPtr, CThostFtdcReqRepealField.getCPtr(pReqRepeal), CThostFtdcRspInfoField.getCPtr(pRspInfo));
+    
   }
 
   public virtual void OnErrRtnRepealFutureToBankByFutureManual(CThostFtdcReqRepealField pReqRepeal, CThostFtdcRspInfoField pRspInfo) {
-    if (SwigDerivedClassHasMethod("OnErrRtnRepealFutureToBankByFutureManual", swigMethodTypes115)) CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnErrRtnRepealFutureToBankByFutureManualSwigExplicitCThostFtdcTraderSpi(swigCPtr, CThostFtdcReqRepealField.getCPtr(pReqRepeal), CThostFtdcRspInfoField.getCPtr(pRspInfo)); else CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnErrRtnRepealFutureToBankByFutureManual(swigCPtr, CThostFtdcReqRepealField.getCPtr(pReqRepeal), CThostFtdcRspInfoField.getCPtr(pRspInfo));
+    
   }
 
   public virtual void OnErrRtnQueryBankBalanceByFuture(CThostFtdcReqQueryAccountField pReqQueryAccount, CThostFtdcRspInfoField pRspInfo) {
-    if (SwigDerivedClassHasMethod("OnErrRtnQueryBankBalanceByFuture", swigMethodTypes116)) CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnErrRtnQueryBankBalanceByFutureSwigExplicitCThostFtdcTraderSpi(swigCPtr, CThostFtdcReqQueryAccountField.getCPtr(pReqQueryAccount), CThostFtdcRspInfoField.getCPtr(pRspInfo)); else CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnErrRtnQueryBankBalanceByFuture(swigCPtr, CThostFtdcReqQueryAccountField.getCPtr(pReqQueryAccount), CThostFtdcRspInfoField.getCPtr(pRspInfo));
+    
   }
 
   public virtual void OnRtnRepealFromBankToFutureByFuture(CThostFtdcRspRepealField pRspRepeal) {
-    if (SwigDerivedClassHasMethod("OnRtnRepealFromBankToFutureByFuture", swigMethodTypes117)) CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRtnRepealFromBankToFutureByFutureSwigExplicitCThostFtdcTraderSpi(swigCPtr, CThostFtdcRspRepealField.getCPtr(pRspRepeal)); else CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRtnRepealFromBankToFutureByFuture(swigCPtr, CThostFtdcRspRepealField.getCPtr(pRspRepeal));
+    
   }
 
   public virtual void OnRtnRepealFromFutureToBankByFuture(CThostFtdcRspRepealField pRspRepeal) {
-    if (SwigDerivedClassHasMethod("OnRtnRepealFromFutureToBankByFuture", swigMethodTypes118)) CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRtnRepealFromFutureToBankByFutureSwigExplicitCThostFtdcTraderSpi(swigCPtr, CThostFtdcRspRepealField.getCPtr(pRspRepeal)); else CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRtnRepealFromFutureToBankByFuture(swigCPtr, CThostFtdcRspRepealField.getCPtr(pRspRepeal));
+    
   }
 
   public virtual void OnRspFromBankToFutureByFuture(CThostFtdcReqTransferField pReqTransfer, CThostFtdcRspInfoField pRspInfo, int nRequestID, bool bIsLast) {
-    if (SwigDerivedClassHasMethod("OnRspFromBankToFutureByFuture", swigMethodTypes119)) CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRspFromBankToFutureByFutureSwigExplicitCThostFtdcTraderSpi(swigCPtr, CThostFtdcReqTransferField.getCPtr(pReqTransfer), CThostFtdcRspInfoField.getCPtr(pRspInfo), nRequestID, bIsLast); else CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRspFromBankToFutureByFuture(swigCPtr, CThostFtdcReqTransferField.getCPtr(pReqTransfer), CThostFtdcRspInfoField.getCPtr(pRspInfo), nRequestID, bIsLast);
+    
   }
 
   public virtual void OnRspFromFutureToBankByFuture(CThostFtdcReqTransferField pReqTransfer, CThostFtdcRspInfoField pRspInfo, int nRequestID, bool bIsLast) {
-    if (SwigDerivedClassHasMethod("OnRspFromFutureToBankByFuture", swigMethodTypes120)) CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRspFromFutureToBankByFutureSwigExplicitCThostFtdcTraderSpi(swigCPtr, CThostFtdcReqTransferField.getCPtr(pReqTransfer), CThostFtdcRspInfoField.getCPtr(pRspInfo), nRequestID, bIsLast); else CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRspFromFutureToBankByFuture(swigCPtr, CThostFtdcReqTransferField.getCPtr(pReqTransfer), CThostFtdcRspInfoField.getCPtr(pRspInfo), nRequestID, bIsLast);
+    
   }
 
   public virtual void OnRspQueryBankAccountMoneyByFuture(CThostFtdcReqQueryAccountField pReqQueryAccount, CThostFtdcRspInfoField pRspInfo, int nRequestID, bool bIsLast) {
-    if (SwigDerivedClassHasMethod("OnRspQueryBankAccountMoneyByFuture", swigMethodTypes121)) CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRspQueryBankAccountMoneyByFutureSwigExplicitCThostFtdcTraderSpi(swigCPtr, CThostFtdcReqQueryAccountField.getCPtr(pReqQueryAccount), CThostFtdcRspInfoField.getCPtr(pRspInfo), nRequestID, bIsLast); else CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRspQueryBankAccountMoneyByFuture(swigCPtr, CThostFtdcReqQueryAccountField.getCPtr(pReqQueryAccount), CThostFtdcRspInfoField.getCPtr(pRspInfo), nRequestID, bIsLast);
+    
   }
 
   public virtual void OnRtnOpenAccountByBank(CThostFtdcOpenAccountField pOpenAccount) {
-    if (SwigDerivedClassHasMethod("OnRtnOpenAccountByBank", swigMethodTypes122)) CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRtnOpenAccountByBankSwigExplicitCThostFtdcTraderSpi(swigCPtr, CThostFtdcOpenAccountField.getCPtr(pOpenAccount)); else CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRtnOpenAccountByBank(swigCPtr, CThostFtdcOpenAccountField.getCPtr(pOpenAccount));
+    
   }
 
   public virtual void OnRtnCancelAccountByBank(CThostFtdcCancelAccountField pCancelAccount) {
-    if (SwigDerivedClassHasMethod("OnRtnCancelAccountByBank", swigMethodTypes123)) CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRtnCancelAccountByBankSwigExplicitCThostFtdcTraderSpi(swigCPtr, CThostFtdcCancelAccountField.getCPtr(pCancelAccount)); else CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRtnCancelAccountByBank(swigCPtr, CThostFtdcCancelAccountField.getCPtr(pCancelAccount));
+    
   }
 
   public virtual void OnRtnChangeAccountByBank(CThostFtdcChangeAccountField pChangeAccount) {
-    if (SwigDerivedClassHasMethod("OnRtnChangeAccountByBank", swigMethodTypes124)) CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRtnChangeAccountByBankSwigExplicitCThostFtdcTraderSpi(swigCPtr, CThostFtdcChangeAccountField.getCPtr(pChangeAccount)); else CTPFutureApiPINVOKE.CThostFtdcTraderSpi_OnRtnChangeAccountByBank(swigCPtr, CThostFtdcChangeAccountField.getCPtr(pChangeAccount));
+    
   }
 
   public CThostFtdcTraderSpi() : this(CTPFutureApiPINVOKE.new_CThostFtdcTraderSpi(), true) {
@@ -562,292 +562,259 @@ public class CThostFtdcTraderSpi : global::System.IDisposable {
   }
 
   private void SwigDirectorConnect() {
-    if (SwigDerivedClassHasMethod("OnFrontConnected", swigMethodTypes0))
+    
       swigDelegate0 = new SwigDelegateCThostFtdcTraderSpi_0(SwigDirectorMethodOnFrontConnected);
-    if (SwigDerivedClassHasMethod("OnFrontDisconnected", swigMethodTypes1))
+    
       swigDelegate1 = new SwigDelegateCThostFtdcTraderSpi_1(SwigDirectorMethodOnFrontDisconnected);
-    if (SwigDerivedClassHasMethod("OnHeartBeatWarning", swigMethodTypes2))
+    
       swigDelegate2 = new SwigDelegateCThostFtdcTraderSpi_2(SwigDirectorMethodOnHeartBeatWarning);
-    if (SwigDerivedClassHasMethod("OnRspAuthenticate", swigMethodTypes3))
+    
       swigDelegate3 = new SwigDelegateCThostFtdcTraderSpi_3(SwigDirectorMethodOnRspAuthenticate);
-    if (SwigDerivedClassHasMethod("OnRspUserLogin", swigMethodTypes4))
+    
       swigDelegate4 = new SwigDelegateCThostFtdcTraderSpi_4(SwigDirectorMethodOnRspUserLogin);
-    if (SwigDerivedClassHasMethod("OnRspUserLogout", swigMethodTypes5))
+    
       swigDelegate5 = new SwigDelegateCThostFtdcTraderSpi_5(SwigDirectorMethodOnRspUserLogout);
-    if (SwigDerivedClassHasMethod("OnRspUserPasswordUpdate", swigMethodTypes6))
+    
       swigDelegate6 = new SwigDelegateCThostFtdcTraderSpi_6(SwigDirectorMethodOnRspUserPasswordUpdate);
-    if (SwigDerivedClassHasMethod("OnRspTradingAccountPasswordUpdate", swigMethodTypes7))
+    
       swigDelegate7 = new SwigDelegateCThostFtdcTraderSpi_7(SwigDirectorMethodOnRspTradingAccountPasswordUpdate);
-    if (SwigDerivedClassHasMethod("OnRspUserAuthMethod", swigMethodTypes8))
+    
       swigDelegate8 = new SwigDelegateCThostFtdcTraderSpi_8(SwigDirectorMethodOnRspUserAuthMethod);
-    if (SwigDerivedClassHasMethod("OnRspGenUserCaptcha", swigMethodTypes9))
+    
       swigDelegate9 = new SwigDelegateCThostFtdcTraderSpi_9(SwigDirectorMethodOnRspGenUserCaptcha);
-    if (SwigDerivedClassHasMethod("OnRspGenUserText", swigMethodTypes10))
+    
       swigDelegate10 = new SwigDelegateCThostFtdcTraderSpi_10(SwigDirectorMethodOnRspGenUserText);
-    if (SwigDerivedClassHasMethod("OnRspOrderInsert", swigMethodTypes11))
+    
       swigDelegate11 = new SwigDelegateCThostFtdcTraderSpi_11(SwigDirectorMethodOnRspOrderInsert);
-    if (SwigDerivedClassHasMethod("OnRspParkedOrderInsert", swigMethodTypes12))
+    
       swigDelegate12 = new SwigDelegateCThostFtdcTraderSpi_12(SwigDirectorMethodOnRspParkedOrderInsert);
-    if (SwigDerivedClassHasMethod("OnRspParkedOrderAction", swigMethodTypes13))
+    
       swigDelegate13 = new SwigDelegateCThostFtdcTraderSpi_13(SwigDirectorMethodOnRspParkedOrderAction);
-    if (SwigDerivedClassHasMethod("OnRspOrderAction", swigMethodTypes14))
+    
       swigDelegate14 = new SwigDelegateCThostFtdcTraderSpi_14(SwigDirectorMethodOnRspOrderAction);
-    if (SwigDerivedClassHasMethod("OnRspQueryMaxOrderVolume", swigMethodTypes15))
+    
       swigDelegate15 = new SwigDelegateCThostFtdcTraderSpi_15(SwigDirectorMethodOnRspQueryMaxOrderVolume);
-    if (SwigDerivedClassHasMethod("OnRspSettlementInfoConfirm", swigMethodTypes16))
+    
       swigDelegate16 = new SwigDelegateCThostFtdcTraderSpi_16(SwigDirectorMethodOnRspSettlementInfoConfirm);
-    if (SwigDerivedClassHasMethod("OnRspRemoveParkedOrder", swigMethodTypes17))
+    
       swigDelegate17 = new SwigDelegateCThostFtdcTraderSpi_17(SwigDirectorMethodOnRspRemoveParkedOrder);
-    if (SwigDerivedClassHasMethod("OnRspRemoveParkedOrderAction", swigMethodTypes18))
+    
       swigDelegate18 = new SwigDelegateCThostFtdcTraderSpi_18(SwigDirectorMethodOnRspRemoveParkedOrderAction);
-    if (SwigDerivedClassHasMethod("OnRspExecOrderInsert", swigMethodTypes19))
+    
       swigDelegate19 = new SwigDelegateCThostFtdcTraderSpi_19(SwigDirectorMethodOnRspExecOrderInsert);
-    if (SwigDerivedClassHasMethod("OnRspExecOrderAction", swigMethodTypes20))
+    
       swigDelegate20 = new SwigDelegateCThostFtdcTraderSpi_20(SwigDirectorMethodOnRspExecOrderAction);
-    if (SwigDerivedClassHasMethod("OnRspForQuoteInsert", swigMethodTypes21))
+    
       swigDelegate21 = new SwigDelegateCThostFtdcTraderSpi_21(SwigDirectorMethodOnRspForQuoteInsert);
-    if (SwigDerivedClassHasMethod("OnRspQuoteInsert", swigMethodTypes22))
+    
       swigDelegate22 = new SwigDelegateCThostFtdcTraderSpi_22(SwigDirectorMethodOnRspQuoteInsert);
-    if (SwigDerivedClassHasMethod("OnRspQuoteAction", swigMethodTypes23))
+    
       swigDelegate23 = new SwigDelegateCThostFtdcTraderSpi_23(SwigDirectorMethodOnRspQuoteAction);
-    if (SwigDerivedClassHasMethod("OnRspBatchOrderAction", swigMethodTypes24))
+    
       swigDelegate24 = new SwigDelegateCThostFtdcTraderSpi_24(SwigDirectorMethodOnRspBatchOrderAction);
-    if (SwigDerivedClassHasMethod("OnRspOptionSelfCloseInsert", swigMethodTypes25))
+    
       swigDelegate25 = new SwigDelegateCThostFtdcTraderSpi_25(SwigDirectorMethodOnRspOptionSelfCloseInsert);
-    if (SwigDerivedClassHasMethod("OnRspOptionSelfCloseAction", swigMethodTypes26))
+    
       swigDelegate26 = new SwigDelegateCThostFtdcTraderSpi_26(SwigDirectorMethodOnRspOptionSelfCloseAction);
-    if (SwigDerivedClassHasMethod("OnRspCombActionInsert", swigMethodTypes27))
+    
       swigDelegate27 = new SwigDelegateCThostFtdcTraderSpi_27(SwigDirectorMethodOnRspCombActionInsert);
-    if (SwigDerivedClassHasMethod("OnRspQryOrder", swigMethodTypes28))
+    
       swigDelegate28 = new SwigDelegateCThostFtdcTraderSpi_28(SwigDirectorMethodOnRspQryOrder);
-    if (SwigDerivedClassHasMethod("OnRspQryTrade", swigMethodTypes29))
+    
       swigDelegate29 = new SwigDelegateCThostFtdcTraderSpi_29(SwigDirectorMethodOnRspQryTrade);
-    if (SwigDerivedClassHasMethod("OnRspQryInvestorPosition", swigMethodTypes30))
+    
       swigDelegate30 = new SwigDelegateCThostFtdcTraderSpi_30(SwigDirectorMethodOnRspQryInvestorPosition);
-    if (SwigDerivedClassHasMethod("OnRspQryTradingAccount", swigMethodTypes31))
+    
       swigDelegate31 = new SwigDelegateCThostFtdcTraderSpi_31(SwigDirectorMethodOnRspQryTradingAccount);
-    if (SwigDerivedClassHasMethod("OnRspQryInvestor", swigMethodTypes32))
+    
       swigDelegate32 = new SwigDelegateCThostFtdcTraderSpi_32(SwigDirectorMethodOnRspQryInvestor);
-    if (SwigDerivedClassHasMethod("OnRspQryTradingCode", swigMethodTypes33))
+    
       swigDelegate33 = new SwigDelegateCThostFtdcTraderSpi_33(SwigDirectorMethodOnRspQryTradingCode);
-    if (SwigDerivedClassHasMethod("OnRspQryInstrumentMarginRate", swigMethodTypes34))
+    
       swigDelegate34 = new SwigDelegateCThostFtdcTraderSpi_34(SwigDirectorMethodOnRspQryInstrumentMarginRate);
-    if (SwigDerivedClassHasMethod("OnRspQryInstrumentCommissionRate", swigMethodTypes35))
+    
       swigDelegate35 = new SwigDelegateCThostFtdcTraderSpi_35(SwigDirectorMethodOnRspQryInstrumentCommissionRate);
-    if (SwigDerivedClassHasMethod("OnRspQryExchange", swigMethodTypes36))
+    
       swigDelegate36 = new SwigDelegateCThostFtdcTraderSpi_36(SwigDirectorMethodOnRspQryExchange);
-    if (SwigDerivedClassHasMethod("OnRspQryProduct", swigMethodTypes37))
+    
       swigDelegate37 = new SwigDelegateCThostFtdcTraderSpi_37(SwigDirectorMethodOnRspQryProduct);
-    if (SwigDerivedClassHasMethod("OnRspQryInstrument", swigMethodTypes38))
+    
       swigDelegate38 = new SwigDelegateCThostFtdcTraderSpi_38(SwigDirectorMethodOnRspQryInstrument);
-    if (SwigDerivedClassHasMethod("OnRspQryDepthMarketData", swigMethodTypes39))
+    
       swigDelegate39 = new SwigDelegateCThostFtdcTraderSpi_39(SwigDirectorMethodOnRspQryDepthMarketData);
-    if (SwigDerivedClassHasMethod("OnRspQrySettlementInfo", swigMethodTypes40))
+    
       swigDelegate40 = new SwigDelegateCThostFtdcTraderSpi_40(SwigDirectorMethodOnRspQrySettlementInfo);
-    if (SwigDerivedClassHasMethod("OnRspQryTransferBank", swigMethodTypes41))
+    
       swigDelegate41 = new SwigDelegateCThostFtdcTraderSpi_41(SwigDirectorMethodOnRspQryTransferBank);
-    if (SwigDerivedClassHasMethod("OnRspQryInvestorPositionDetail", swigMethodTypes42))
+    
       swigDelegate42 = new SwigDelegateCThostFtdcTraderSpi_42(SwigDirectorMethodOnRspQryInvestorPositionDetail);
-    if (SwigDerivedClassHasMethod("OnRspQryNotice", swigMethodTypes43))
+    
       swigDelegate43 = new SwigDelegateCThostFtdcTraderSpi_43(SwigDirectorMethodOnRspQryNotice);
-    if (SwigDerivedClassHasMethod("OnRspQrySettlementInfoConfirm", swigMethodTypes44))
+    
       swigDelegate44 = new SwigDelegateCThostFtdcTraderSpi_44(SwigDirectorMethodOnRspQrySettlementInfoConfirm);
-    if (SwigDerivedClassHasMethod("OnRspQryInvestorPositionCombineDetail", swigMethodTypes45))
+    
       swigDelegate45 = new SwigDelegateCThostFtdcTraderSpi_45(SwigDirectorMethodOnRspQryInvestorPositionCombineDetail);
-    if (SwigDerivedClassHasMethod("OnRspQryCFMMCTradingAccountKey", swigMethodTypes46))
+    
       swigDelegate46 = new SwigDelegateCThostFtdcTraderSpi_46(SwigDirectorMethodOnRspQryCFMMCTradingAccountKey);
-    if (SwigDerivedClassHasMethod("OnRspQryEWarrantOffset", swigMethodTypes47))
+    
       swigDelegate47 = new SwigDelegateCThostFtdcTraderSpi_47(SwigDirectorMethodOnRspQryEWarrantOffset);
-    if (SwigDerivedClassHasMethod("OnRspQryInvestorProductGroupMargin", swigMethodTypes48))
+    
       swigDelegate48 = new SwigDelegateCThostFtdcTraderSpi_48(SwigDirectorMethodOnRspQryInvestorProductGroupMargin);
-    if (SwigDerivedClassHasMethod("OnRspQryExchangeMarginRate", swigMethodTypes49))
+    
       swigDelegate49 = new SwigDelegateCThostFtdcTraderSpi_49(SwigDirectorMethodOnRspQryExchangeMarginRate);
-    if (SwigDerivedClassHasMethod("OnRspQryExchangeMarginRateAdjust", swigMethodTypes50))
+    
       swigDelegate50 = new SwigDelegateCThostFtdcTraderSpi_50(SwigDirectorMethodOnRspQryExchangeMarginRateAdjust);
-    if (SwigDerivedClassHasMethod("OnRspQryExchangeRate", swigMethodTypes51))
+    
       swigDelegate51 = new SwigDelegateCThostFtdcTraderSpi_51(SwigDirectorMethodOnRspQryExchangeRate);
-    if (SwigDerivedClassHasMethod("OnRspQrySecAgentACIDMap", swigMethodTypes52))
+    
       swigDelegate52 = new SwigDelegateCThostFtdcTraderSpi_52(SwigDirectorMethodOnRspQrySecAgentACIDMap);
-    if (SwigDerivedClassHasMethod("OnRspQryProductExchRate", swigMethodTypes53))
+    
       swigDelegate53 = new SwigDelegateCThostFtdcTraderSpi_53(SwigDirectorMethodOnRspQryProductExchRate);
-    if (SwigDerivedClassHasMethod("OnRspQryProductGroup", swigMethodTypes54))
+    
       swigDelegate54 = new SwigDelegateCThostFtdcTraderSpi_54(SwigDirectorMethodOnRspQryProductGroup);
-    if (SwigDerivedClassHasMethod("OnRspQryMMInstrumentCommissionRate", swigMethodTypes55))
+    
       swigDelegate55 = new SwigDelegateCThostFtdcTraderSpi_55(SwigDirectorMethodOnRspQryMMInstrumentCommissionRate);
-    if (SwigDerivedClassHasMethod("OnRspQryMMOptionInstrCommRate", swigMethodTypes56))
+    
       swigDelegate56 = new SwigDelegateCThostFtdcTraderSpi_56(SwigDirectorMethodOnRspQryMMOptionInstrCommRate);
-    if (SwigDerivedClassHasMethod("OnRspQryInstrumentOrderCommRate", swigMethodTypes57))
+    
       swigDelegate57 = new SwigDelegateCThostFtdcTraderSpi_57(SwigDirectorMethodOnRspQryInstrumentOrderCommRate);
-    if (SwigDerivedClassHasMethod("OnRspQrySecAgentTradingAccount", swigMethodTypes58))
+    
       swigDelegate58 = new SwigDelegateCThostFtdcTraderSpi_58(SwigDirectorMethodOnRspQrySecAgentTradingAccount);
-    if (SwigDerivedClassHasMethod("OnRspQrySecAgentCheckMode", swigMethodTypes59))
+    
       swigDelegate59 = new SwigDelegateCThostFtdcTraderSpi_59(SwigDirectorMethodOnRspQrySecAgentCheckMode);
-    if (SwigDerivedClassHasMethod("OnRspQrySecAgentTradeInfo", swigMethodTypes60))
+    
       swigDelegate60 = new SwigDelegateCThostFtdcTraderSpi_60(SwigDirectorMethodOnRspQrySecAgentTradeInfo);
-    if (SwigDerivedClassHasMethod("OnRspQryOptionInstrTradeCost", swigMethodTypes61))
+    
       swigDelegate61 = new SwigDelegateCThostFtdcTraderSpi_61(SwigDirectorMethodOnRspQryOptionInstrTradeCost);
-    if (SwigDerivedClassHasMethod("OnRspQryOptionInstrCommRate", swigMethodTypes62))
+    
       swigDelegate62 = new SwigDelegateCThostFtdcTraderSpi_62(SwigDirectorMethodOnRspQryOptionInstrCommRate);
-    if (SwigDerivedClassHasMethod("OnRspQryExecOrder", swigMethodTypes63))
+    
       swigDelegate63 = new SwigDelegateCThostFtdcTraderSpi_63(SwigDirectorMethodOnRspQryExecOrder);
-    if (SwigDerivedClassHasMethod("OnRspQryForQuote", swigMethodTypes64))
+    
       swigDelegate64 = new SwigDelegateCThostFtdcTraderSpi_64(SwigDirectorMethodOnRspQryForQuote);
-    if (SwigDerivedClassHasMethod("OnRspQryQuote", swigMethodTypes65))
+    
       swigDelegate65 = new SwigDelegateCThostFtdcTraderSpi_65(SwigDirectorMethodOnRspQryQuote);
-    if (SwigDerivedClassHasMethod("OnRspQryOptionSelfClose", swigMethodTypes66))
+    
       swigDelegate66 = new SwigDelegateCThostFtdcTraderSpi_66(SwigDirectorMethodOnRspQryOptionSelfClose);
-    if (SwigDerivedClassHasMethod("OnRspQryInvestUnit", swigMethodTypes67))
+    
       swigDelegate67 = new SwigDelegateCThostFtdcTraderSpi_67(SwigDirectorMethodOnRspQryInvestUnit);
-    if (SwigDerivedClassHasMethod("OnRspQryCombInstrumentGuard", swigMethodTypes68))
+    
       swigDelegate68 = new SwigDelegateCThostFtdcTraderSpi_68(SwigDirectorMethodOnRspQryCombInstrumentGuard);
-    if (SwigDerivedClassHasMethod("OnRspQryCombAction", swigMethodTypes69))
+    
       swigDelegate69 = new SwigDelegateCThostFtdcTraderSpi_69(SwigDirectorMethodOnRspQryCombAction);
-    if (SwigDerivedClassHasMethod("OnRspQryTransferSerial", swigMethodTypes70))
+    
       swigDelegate70 = new SwigDelegateCThostFtdcTraderSpi_70(SwigDirectorMethodOnRspQryTransferSerial);
-    if (SwigDerivedClassHasMethod("OnRspQryAccountregister", swigMethodTypes71))
+    
       swigDelegate71 = new SwigDelegateCThostFtdcTraderSpi_71(SwigDirectorMethodOnRspQryAccountregister);
-    if (SwigDerivedClassHasMethod("OnRspError", swigMethodTypes72))
+    
       swigDelegate72 = new SwigDelegateCThostFtdcTraderSpi_72(SwigDirectorMethodOnRspError);
-    if (SwigDerivedClassHasMethod("OnRtnOrder", swigMethodTypes73))
+    
       swigDelegate73 = new SwigDelegateCThostFtdcTraderSpi_73(SwigDirectorMethodOnRtnOrder);
-    if (SwigDerivedClassHasMethod("OnRtnTrade", swigMethodTypes74))
+    
       swigDelegate74 = new SwigDelegateCThostFtdcTraderSpi_74(SwigDirectorMethodOnRtnTrade);
-    if (SwigDerivedClassHasMethod("OnErrRtnOrderInsert", swigMethodTypes75))
+    
       swigDelegate75 = new SwigDelegateCThostFtdcTraderSpi_75(SwigDirectorMethodOnErrRtnOrderInsert);
-    if (SwigDerivedClassHasMethod("OnErrRtnOrderAction", swigMethodTypes76))
+    
       swigDelegate76 = new SwigDelegateCThostFtdcTraderSpi_76(SwigDirectorMethodOnErrRtnOrderAction);
-    if (SwigDerivedClassHasMethod("OnRtnInstrumentStatus", swigMethodTypes77))
+    
       swigDelegate77 = new SwigDelegateCThostFtdcTraderSpi_77(SwigDirectorMethodOnRtnInstrumentStatus);
-    if (SwigDerivedClassHasMethod("OnRtnBulletin", swigMethodTypes78))
+    
       swigDelegate78 = new SwigDelegateCThostFtdcTraderSpi_78(SwigDirectorMethodOnRtnBulletin);
-    if (SwigDerivedClassHasMethod("OnRtnTradingNotice", swigMethodTypes79))
+    
       swigDelegate79 = new SwigDelegateCThostFtdcTraderSpi_79(SwigDirectorMethodOnRtnTradingNotice);
-    if (SwigDerivedClassHasMethod("OnRtnErrorConditionalOrder", swigMethodTypes80))
+    
       swigDelegate80 = new SwigDelegateCThostFtdcTraderSpi_80(SwigDirectorMethodOnRtnErrorConditionalOrder);
-    if (SwigDerivedClassHasMethod("OnRtnExecOrder", swigMethodTypes81))
+    
       swigDelegate81 = new SwigDelegateCThostFtdcTraderSpi_81(SwigDirectorMethodOnRtnExecOrder);
-    if (SwigDerivedClassHasMethod("OnErrRtnExecOrderInsert", swigMethodTypes82))
+    
       swigDelegate82 = new SwigDelegateCThostFtdcTraderSpi_82(SwigDirectorMethodOnErrRtnExecOrderInsert);
-    if (SwigDerivedClassHasMethod("OnErrRtnExecOrderAction", swigMethodTypes83))
+    
       swigDelegate83 = new SwigDelegateCThostFtdcTraderSpi_83(SwigDirectorMethodOnErrRtnExecOrderAction);
-    if (SwigDerivedClassHasMethod("OnErrRtnForQuoteInsert", swigMethodTypes84))
+    
       swigDelegate84 = new SwigDelegateCThostFtdcTraderSpi_84(SwigDirectorMethodOnErrRtnForQuoteInsert);
-    if (SwigDerivedClassHasMethod("OnRtnQuote", swigMethodTypes85))
+    
       swigDelegate85 = new SwigDelegateCThostFtdcTraderSpi_85(SwigDirectorMethodOnRtnQuote);
-    if (SwigDerivedClassHasMethod("OnErrRtnQuoteInsert", swigMethodTypes86))
+    
       swigDelegate86 = new SwigDelegateCThostFtdcTraderSpi_86(SwigDirectorMethodOnErrRtnQuoteInsert);
-    if (SwigDerivedClassHasMethod("OnErrRtnQuoteAction", swigMethodTypes87))
+    
       swigDelegate87 = new SwigDelegateCThostFtdcTraderSpi_87(SwigDirectorMethodOnErrRtnQuoteAction);
-    if (SwigDerivedClassHasMethod("OnRtnForQuoteRsp", swigMethodTypes88))
+    
       swigDelegate88 = new SwigDelegateCThostFtdcTraderSpi_88(SwigDirectorMethodOnRtnForQuoteRsp);
-    if (SwigDerivedClassHasMethod("OnRtnCFMMCTradingAccountToken", swigMethodTypes89))
+    
       swigDelegate89 = new SwigDelegateCThostFtdcTraderSpi_89(SwigDirectorMethodOnRtnCFMMCTradingAccountToken);
-    if (SwigDerivedClassHasMethod("OnErrRtnBatchOrderAction", swigMethodTypes90))
+    
       swigDelegate90 = new SwigDelegateCThostFtdcTraderSpi_90(SwigDirectorMethodOnErrRtnBatchOrderAction);
-    if (SwigDerivedClassHasMethod("OnRtnOptionSelfClose", swigMethodTypes91))
+    
       swigDelegate91 = new SwigDelegateCThostFtdcTraderSpi_91(SwigDirectorMethodOnRtnOptionSelfClose);
-    if (SwigDerivedClassHasMethod("OnErrRtnOptionSelfCloseInsert", swigMethodTypes92))
+    
       swigDelegate92 = new SwigDelegateCThostFtdcTraderSpi_92(SwigDirectorMethodOnErrRtnOptionSelfCloseInsert);
-    if (SwigDerivedClassHasMethod("OnErrRtnOptionSelfCloseAction", swigMethodTypes93))
+    
       swigDelegate93 = new SwigDelegateCThostFtdcTraderSpi_93(SwigDirectorMethodOnErrRtnOptionSelfCloseAction);
-    if (SwigDerivedClassHasMethod("OnRtnCombAction", swigMethodTypes94))
+    
       swigDelegate94 = new SwigDelegateCThostFtdcTraderSpi_94(SwigDirectorMethodOnRtnCombAction);
-    if (SwigDerivedClassHasMethod("OnErrRtnCombActionInsert", swigMethodTypes95))
+    
       swigDelegate95 = new SwigDelegateCThostFtdcTraderSpi_95(SwigDirectorMethodOnErrRtnCombActionInsert);
-    if (SwigDerivedClassHasMethod("OnRspQryContractBank", swigMethodTypes96))
+    
       swigDelegate96 = new SwigDelegateCThostFtdcTraderSpi_96(SwigDirectorMethodOnRspQryContractBank);
-    if (SwigDerivedClassHasMethod("OnRspQryParkedOrder", swigMethodTypes97))
+    
       swigDelegate97 = new SwigDelegateCThostFtdcTraderSpi_97(SwigDirectorMethodOnRspQryParkedOrder);
-    if (SwigDerivedClassHasMethod("OnRspQryParkedOrderAction", swigMethodTypes98))
+    
       swigDelegate98 = new SwigDelegateCThostFtdcTraderSpi_98(SwigDirectorMethodOnRspQryParkedOrderAction);
-    if (SwigDerivedClassHasMethod("OnRspQryTradingNotice", swigMethodTypes99))
+    
       swigDelegate99 = new SwigDelegateCThostFtdcTraderSpi_99(SwigDirectorMethodOnRspQryTradingNotice);
-    if (SwigDerivedClassHasMethod("OnRspQryBrokerTradingParams", swigMethodTypes100))
+    
       swigDelegate100 = new SwigDelegateCThostFtdcTraderSpi_100(SwigDirectorMethodOnRspQryBrokerTradingParams);
-    if (SwigDerivedClassHasMethod("OnRspQryBrokerTradingAlgos", swigMethodTypes101))
+    
       swigDelegate101 = new SwigDelegateCThostFtdcTraderSpi_101(SwigDirectorMethodOnRspQryBrokerTradingAlgos);
-    if (SwigDerivedClassHasMethod("OnRspQueryCFMMCTradingAccountToken", swigMethodTypes102))
+    
       swigDelegate102 = new SwigDelegateCThostFtdcTraderSpi_102(SwigDirectorMethodOnRspQueryCFMMCTradingAccountToken);
-    if (SwigDerivedClassHasMethod("OnRtnFromBankToFutureByBank", swigMethodTypes103))
+    
       swigDelegate103 = new SwigDelegateCThostFtdcTraderSpi_103(SwigDirectorMethodOnRtnFromBankToFutureByBank);
-    if (SwigDerivedClassHasMethod("OnRtnFromFutureToBankByBank", swigMethodTypes104))
+    
       swigDelegate104 = new SwigDelegateCThostFtdcTraderSpi_104(SwigDirectorMethodOnRtnFromFutureToBankByBank);
-    if (SwigDerivedClassHasMethod("OnRtnRepealFromBankToFutureByBank", swigMethodTypes105))
+    
       swigDelegate105 = new SwigDelegateCThostFtdcTraderSpi_105(SwigDirectorMethodOnRtnRepealFromBankToFutureByBank);
-    if (SwigDerivedClassHasMethod("OnRtnRepealFromFutureToBankByBank", swigMethodTypes106))
+    
       swigDelegate106 = new SwigDelegateCThostFtdcTraderSpi_106(SwigDirectorMethodOnRtnRepealFromFutureToBankByBank);
-    if (SwigDerivedClassHasMethod("OnRtnFromBankToFutureByFuture", swigMethodTypes107))
+    
       swigDelegate107 = new SwigDelegateCThostFtdcTraderSpi_107(SwigDirectorMethodOnRtnFromBankToFutureByFuture);
-    if (SwigDerivedClassHasMethod("OnRtnFromFutureToBankByFuture", swigMethodTypes108))
+    
       swigDelegate108 = new SwigDelegateCThostFtdcTraderSpi_108(SwigDirectorMethodOnRtnFromFutureToBankByFuture);
-    if (SwigDerivedClassHasMethod("OnRtnRepealFromBankToFutureByFutureManual", swigMethodTypes109))
+    
       swigDelegate109 = new SwigDelegateCThostFtdcTraderSpi_109(SwigDirectorMethodOnRtnRepealFromBankToFutureByFutureManual);
-    if (SwigDerivedClassHasMethod("OnRtnRepealFromFutureToBankByFutureManual", swigMethodTypes110))
+    
       swigDelegate110 = new SwigDelegateCThostFtdcTraderSpi_110(SwigDirectorMethodOnRtnRepealFromFutureToBankByFutureManual);
-    if (SwigDerivedClassHasMethod("OnRtnQueryBankBalanceByFuture", swigMethodTypes111))
+    
       swigDelegate111 = new SwigDelegateCThostFtdcTraderSpi_111(SwigDirectorMethodOnRtnQueryBankBalanceByFuture);
-    if (SwigDerivedClassHasMethod("OnErrRtnBankToFutureByFuture", swigMethodTypes112))
+    
       swigDelegate112 = new SwigDelegateCThostFtdcTraderSpi_112(SwigDirectorMethodOnErrRtnBankToFutureByFuture);
-    if (SwigDerivedClassHasMethod("OnErrRtnFutureToBankByFuture", swigMethodTypes113))
+    
       swigDelegate113 = new SwigDelegateCThostFtdcTraderSpi_113(SwigDirectorMethodOnErrRtnFutureToBankByFuture);
-    if (SwigDerivedClassHasMethod("OnErrRtnRepealBankToFutureByFutureManual", swigMethodTypes114))
+    
       swigDelegate114 = new SwigDelegateCThostFtdcTraderSpi_114(SwigDirectorMethodOnErrRtnRepealBankToFutureByFutureManual);
-    if (SwigDerivedClassHasMethod("OnErrRtnRepealFutureToBankByFutureManual", swigMethodTypes115))
+    
       swigDelegate115 = new SwigDelegateCThostFtdcTraderSpi_115(SwigDirectorMethodOnErrRtnRepealFutureToBankByFutureManual);
-    if (SwigDerivedClassHasMethod("OnErrRtnQueryBankBalanceByFuture", swigMethodTypes116))
+    
       swigDelegate116 = new SwigDelegateCThostFtdcTraderSpi_116(SwigDirectorMethodOnErrRtnQueryBankBalanceByFuture);
-    if (SwigDerivedClassHasMethod("OnRtnRepealFromBankToFutureByFuture", swigMethodTypes117))
+    
       swigDelegate117 = new SwigDelegateCThostFtdcTraderSpi_117(SwigDirectorMethodOnRtnRepealFromBankToFutureByFuture);
-    if (SwigDerivedClassHasMethod("OnRtnRepealFromFutureToBankByFuture", swigMethodTypes118))
+    
       swigDelegate118 = new SwigDelegateCThostFtdcTraderSpi_118(SwigDirectorMethodOnRtnRepealFromFutureToBankByFuture);
-    if (SwigDerivedClassHasMethod("OnRspFromBankToFutureByFuture", swigMethodTypes119))
+    
       swigDelegate119 = new SwigDelegateCThostFtdcTraderSpi_119(SwigDirectorMethodOnRspFromBankToFutureByFuture);
-    if (SwigDerivedClassHasMethod("OnRspFromFutureToBankByFuture", swigMethodTypes120))
+    
       swigDelegate120 = new SwigDelegateCThostFtdcTraderSpi_120(SwigDirectorMethodOnRspFromFutureToBankByFuture);
-    if (SwigDerivedClassHasMethod("OnRspQueryBankAccountMoneyByFuture", swigMethodTypes121))
+    
       swigDelegate121 = new SwigDelegateCThostFtdcTraderSpi_121(SwigDirectorMethodOnRspQueryBankAccountMoneyByFuture);
-    if (SwigDerivedClassHasMethod("OnRtnOpenAccountByBank", swigMethodTypes122))
+    
       swigDelegate122 = new SwigDelegateCThostFtdcTraderSpi_122(SwigDirectorMethodOnRtnOpenAccountByBank);
-    if (SwigDerivedClassHasMethod("OnRtnCancelAccountByBank", swigMethodTypes123))
+    
       swigDelegate123 = new SwigDelegateCThostFtdcTraderSpi_123(SwigDirectorMethodOnRtnCancelAccountByBank);
-    if (SwigDerivedClassHasMethod("OnRtnChangeAccountByBank", swigMethodTypes124))
+    
       swigDelegate124 = new SwigDelegateCThostFtdcTraderSpi_124(SwigDirectorMethodOnRtnChangeAccountByBank);
     CTPFutureApiPINVOKE.CThostFtdcTraderSpi_director_connect(swigCPtr, swigDelegate0, swigDelegate1, swigDelegate2, swigDelegate3, swigDelegate4, swigDelegate5, swigDelegate6, swigDelegate7, swigDelegate8, swigDelegate9, swigDelegate10, swigDelegate11, swigDelegate12, swigDelegate13, swigDelegate14, swigDelegate15, swigDelegate16, swigDelegate17, swigDelegate18, swigDelegate19, swigDelegate20, swigDelegate21, swigDelegate22, swigDelegate23, swigDelegate24, swigDelegate25, swigDelegate26, swigDelegate27, swigDelegate28, swigDelegate29, swigDelegate30, swigDelegate31, swigDelegate32, swigDelegate33, swigDelegate34, swigDelegate35, swigDelegate36, swigDelegate37, swigDelegate38, swigDelegate39, swigDelegate40, swigDelegate41, swigDelegate42, swigDelegate43, swigDelegate44, swigDelegate45, swigDelegate46, swigDelegate47, swigDelegate48, swigDelegate49, swigDelegate50, swigDelegate51, swigDelegate52, swigDelegate53, swigDelegate54, swigDelegate55, swigDelegate56, swigDelegate57, swigDelegate58, swigDelegate59, swigDelegate60, swigDelegate61, swigDelegate62, swigDelegate63, swigDelegate64, swigDelegate65, swigDelegate66, swigDelegate67, swigDelegate68, swigDelegate69, swigDelegate70, swigDelegate71, swigDelegate72, swigDelegate73, swigDelegate74, swigDelegate75, swigDelegate76, swigDelegate77, swigDelegate78, swigDelegate79, swigDelegate80, swigDelegate81, swigDelegate82, swigDelegate83, swigDelegate84, swigDelegate85, swigDelegate86, swigDelegate87, swigDelegate88, swigDelegate89, swigDelegate90, swigDelegate91, swigDelegate92, swigDelegate93, swigDelegate94, swigDelegate95, swigDelegate96, swigDelegate97, swigDelegate98, swigDelegate99, swigDelegate100, swigDelegate101, swigDelegate102, swigDelegate103, swigDelegate104, swigDelegate105, swigDelegate106, swigDelegate107, swigDelegate108, swigDelegate109, swigDelegate110, swigDelegate111, swigDelegate112, swigDelegate113, swigDelegate114, swigDelegate115, swigDelegate116, swigDelegate117, swigDelegate118, swigDelegate119, swigDelegate120, swigDelegate121, swigDelegate122, swigDelegate123, swigDelegate124);
   }
 
-  private bool SwigDerivedClassHasMethod(string methodName, global::System.Type[] methodTypes) {
-    global::System.Reflection.MethodInfo[] methodInfos = this.GetType().GetMethods(
-        global::System.Reflection.BindingFlags.Public | global::System.Reflection.BindingFlags.NonPublic | global::System.Reflection.BindingFlags.Instance);
-    foreach (global::System.Reflection.MethodInfo methodInfo in methodInfos) {
-      if (methodInfo.DeclaringType == null)
-        continue;
-
-      if (methodInfo.Name != methodName)
-        continue;
-
-      var parameters = methodInfo.GetParameters();
-      if (parameters.Length != methodTypes.Length)
-        continue;
-
-      bool parametersMatch = true;
-      for (var i = 0; i < parameters.Length; i++) {
-        if (parameters[i].ParameterType != methodTypes[i]) {
-          parametersMatch = false;
-          break;
-        }
-      }
-
-      if (!parametersMatch)
-        continue;
-
-      if (methodInfo.IsVirtual && (methodInfo.DeclaringType.IsSubclassOf(typeof(CThostFtdcTraderSpi))) &&
-        methodInfo.DeclaringType != methodInfo.GetBaseDefinition().DeclaringType) {
-        return true;
-      }
-    }
-
-    return false;
-  }
 
   private void SwigDirectorMethodOnFrontConnected() {
     OnFrontConnected();
