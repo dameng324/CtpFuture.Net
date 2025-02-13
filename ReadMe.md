@@ -24,10 +24,6 @@ v6.3.15_20190220 20:39:53
 - Windows: `<RuntimeIdentifier>win-x64</RuntimeIdentifier>`
 - Linux: `<RuntimeIdentifier>linux-x64</RuntimeIdentifier>`
 
-```csharp
-SwigStringHelper.Register();
-```
-
 ## 安装
 
 使用 dotnet 命令安装
