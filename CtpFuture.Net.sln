@@ -15,6 +15,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "items", "items", "{A98F0B49
 		.gitattributes = .gitattributes
 		.gitignore = .gitignore
 		ReadMe.md = ReadMe.md
+		Build.md = Build.md
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CtpFuture.Demo", "tests\CtpFuture.Demo\CtpFuture.Demo.csproj", "{0D9B07C3-A6E2-4ABC-AC6A-177B9BE24815}"

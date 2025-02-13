@@ -2,28 +2,47 @@
 
 [![NuGet](https://img.shields.io/nuget/v/CTPFuture.Net.svg)](https://www.nuget.org/packages/CTPFuture.Net)
 
-CTPFuture.Net is a .NET library for the CTP Futures API. It is a wrapper of the CTP C++ API using swig.
+CTPFuture.Net是一个用于CTP期货API的.NET库。它使用swig技术，将CTP的C++ API封装成.NET库。可以通过nuget一键安装，支持Windows和Linux。
 
-Please read FAQ before using this library.[FAQ](#faq)
+## 主要功能
 
+- 支持交易接口和行情接口
+- 支持旧的.Net Framework 4.5和.Net Standard 2.0，以及.NET6和.NET8
+- 编译时会自动将依赖的dll拷贝到输出目录
+- 支持Native AOT编译，避免代码被反编译
+- 同时支持Windows和Linux。Mac/IOS/Android理论上也可以支持，但是我这边没有环境可以测试。
 
-## Features
+## 常见问题
 
-- Support both CTP Trade and CTP Market API
-- Support .Net framework 4.5 and .Net Standard 2.0 and Modern .Net6 and .Net8
-- Auto copy the native dlls to the output directory
-- Native AOT support
-- Solved the GB2312 encoding problem
-- Both Windows and Linux supported.
+### 包里CTP API的版本号是多少？
 
+v6.3.15_20190220 20:39:53
 
-## Installation
+### Dll文件没有自动拷贝到输出目录
+
+默认情况下编译后会拷贝到runtimes/目录下以适应不同的操作系统。如果你的程序只在特定的操作系统下运行，可以在项目csproj配置文件中配置特定的RuntimeIdentifier。
+- Windows: `<RuntimeIdentifier>win-x64</RuntimeIdentifier>`
+- Linux: `<RuntimeIdentifier>linux-x64</RuntimeIdentifier>`
+
+```csharp
+SwigStringHelper.Register();
+```
+
+## 安装
+
+使用 dotnet 命令安装
 
 ```bash
 dotnet add package CTPFuture.Net
 ```
 
-## Usage
+PackageReference
+
+```xml
+<PackageReference Include="CTPFuture.Net" Version="6.3.15.3" />
+```
+
+## 用法
 
 ```csharp
 using System;
@@ -105,38 +124,11 @@ public class TraderSpiImpl : CThostFtdcTraderSpi
 }
 ```
 
-## Build from source
+## 打赏
 
-### Prerequisites
+如果这个项目有帮助到你，请随意打赏
 
-- dotnet sdk 8.0 or later
-- swig 4.3.0 or later, use `scoop install swig` to install swig on windows, do not use `winget`.
-- cmake 3.31.3 or later.
-
-### Build
-
-1. Clone the repository and open the solution file `CTPFuture.sln` with Visual Studio 2022.
-2. run the command in `CTPFutureApi/SwigGenerator.sh` to generate the cpp and C# wrapper code.
-3. run `win-build.sh` for windows native build or `linux-build.sh` for linux native build.
-4. Build the `CTPFuture.Net` C# project.
-
-## FAQ
-
-### How to use GB2312 encoding?
-
-Add the following code before using the API
-
-```csharp
-SwigStringHelper.Register();
-```
-
-### The version of the CTP API?
-
-v6.3.15_20190220 20:39:53
-
-### dll doesn't copy to the output directory?
-
-set `RuntimeIdentifier` to `win-x64` in the project file.
+![img.png](img.png)
 
 ## License
 
