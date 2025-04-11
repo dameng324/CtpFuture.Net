@@ -4,9 +4,10 @@
         <LangVersion>preview</LangVersion>
         <Nullable>enable</Nullable>
         <TargetFramework>net8.0</TargetFramework>
+        <ShowCTPFutureIncludeFile>true</ShowCTPFutureIncludeFile>
     </PropertyGroup>
     <ItemGroup>
-        <PackageReference Version="6.3.15-test2" Include="CTPFuture.Net" />
+        <PackageReference Version="6.3.15-test3" Include="CTPFuture.Net" />
     </ItemGroup>
     <ItemGroup>
 <!--      <ProjectReference Include="..\..\src\CTPFuture.Net\CTPFuture.Net.csproj" />-->

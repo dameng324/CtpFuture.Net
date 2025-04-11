@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+    <ItemGroup>
+        <None Condition="'$(ShowCTPFutureIncludeFile)'=='true'" Include="$(MSBuildThisFileDirectory)..\include\*.*" Link="include\CTPFuture.Net\(FileName)%(Extension)"/>
+    </ItemGroup>
+</Project>
