@@ -13,7 +13,7 @@ void QuoteTest()
     var api = CThostFtdcMdApi.CreateFtdcMdApi();
     spi.SetApi(api);
     api.RegisterSpi(spi);
-    
+
     api.RegisterFront("tcp://180.168.146.187:10211");
     api.RegisterFront("tcp://180.168.146.187:10212");
     api.Init();
@@ -21,14 +21,13 @@ void QuoteTest()
 }
 void TradeTest()
 {
-    
     var spi = new TraderSpiImpl();
     var api = CThostFtdcTraderApi.CreateFtdcTraderApi();
     spi.SetApi(api);
     api.RegisterSpi(spi);
     api.SubscribePrivateTopic(THOST_TE_RESUME_TYPE.THOST_TERT_QUICK);
     api.SubscribePublicTopic(THOST_TE_RESUME_TYPE.THOST_TERT_QUICK);
-    
+
     //simnow front address
     api.RegisterFront("tcp://180.168.146.187:10131");
     api.Init();
@@ -67,7 +66,7 @@ public class TraderSpiImpl : CThostFtdcTraderSpi
 
     public override void OnRspAuthenticate(CThostFtdcRspAuthenticateField? pRspAuthenticateField, CThostFtdcRspInfoField? pRspInfo, int nRequestID, bool bIsLast)
     {
-        Console.WriteLine("OnRspAuthenticate: " + pRspInfo?.ErrorMsg?? "");
+        Console.WriteLine("OnRspAuthenticate: " + pRspInfo?.ErrorMsg ?? "");
         if (pRspInfo?.ErrorID == 0)
         {
             var ret = api.ReqUserLogin(
@@ -77,7 +76,6 @@ public class TraderSpiImpl : CThostFtdcTraderSpi
                     UserID = "xxxx",
                     Password = "xxxx",
                     UserProductInfo = "Test",
-                    
                 },
                 2
             );
@@ -94,6 +92,7 @@ public class TraderSpiImpl : CThostFtdcTraderSpi
         Console.WriteLine($"OnRspUserLogin: ErrorId：{pRspInfo?.ErrorID} {pRspInfo.ErrorMsg}");
     }
 }
+
 public class QuoteSpiImpl : CThostFtdcMdSpi
 {
     private CThostFtdcMdApi api;
@@ -125,7 +124,7 @@ public class QuoteSpiImpl : CThostFtdcMdSpi
     public override void OnRspUserLogin(CThostFtdcRspUserLoginField? pRspUserLogin, CThostFtdcRspInfoField? pRspInfo, int nRequestID, bool bIsLast)
     {
         Console.WriteLine($"OnRspUserLogin: ErrorId：{pRspInfo?.ErrorID} {pRspInfo.ErrorMsg}");
-        api.SubscribeMarketData(["IF2502","IF2503"]);
+        api.SubscribeMarketData(["IF2502", "IF2503"]);
     }
 
     public override void OnFrontDisconnected(int nReason)
@@ -143,25 +142,14 @@ public class QuoteSpiImpl : CThostFtdcMdSpi
         Console.WriteLine("OnHeartBeatWarning: " + nTimeLapse);
     }
 
-    public override void OnRspSubMarketData(CThostFtdcSpecificInstrumentField pSpecificInstrument, CThostFtdcRspInfoField pRspInfo, int nRequestID,
-        bool bIsLast)
+    public override void OnRspSubMarketData(CThostFtdcSpecificInstrumentField pSpecificInstrument, CThostFtdcRspInfoField pRspInfo, int nRequestID, bool bIsLast)
     {
         Console.WriteLine("OnRspSubMarketData: ");
     }
 
-    public override void OnRtnDepthMarketData(CThostFtdcDepthMarketDataField pDepthMarketData)
-    {
-        
-    }
+    public override void OnRtnDepthMarketData(CThostFtdcDepthMarketDataField pDepthMarketData) { }
 
-    public override void OnRtnForQuoteRsp(CThostFtdcForQuoteRspField pForQuoteRsp)
-    {
-        
-    }
+    public override void OnRtnForQuoteRsp(CThostFtdcForQuoteRspField pForQuoteRsp) { }
 
-    public override void OnRspSubForQuoteRsp(CThostFtdcSpecificInstrumentField pSpecificInstrument, CThostFtdcRspInfoField pRspInfo, int nRequestID,
-        bool bIsLast)
-    {
-        
-    }
+    public override void OnRspSubForQuoteRsp(CThostFtdcSpecificInstrumentField pSpecificInstrument, CThostFtdcRspInfoField pRspInfo, int nRequestID, bool bIsLast) { }
 }

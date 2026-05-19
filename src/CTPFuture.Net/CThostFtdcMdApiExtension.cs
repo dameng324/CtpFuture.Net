@@ -17,9 +17,9 @@ public static class CThostFtdcMdApiExtension
         return ret;
     }
 
-    [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcMdApi_SubscribeMarketData___")]
+    [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint = "CSharp_CtpFuturefNet_CThostFtdcMdApi_SubscribeMarketData___")]
     public static extern int CThostFtdcMdApi_SubscribeMarketData(global::System.Runtime.InteropServices.HandleRef jarg1, string[] jarg2, int jarg3);
 
-    [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint="CSharp_CtpFuturefNet_CThostFtdcMdApi_UnSubscribeMarketData___")]
+    [global::System.Runtime.InteropServices.DllImport("CTPFutureApi", EntryPoint = "CSharp_CtpFuturefNet_CThostFtdcMdApi_UnSubscribeMarketData___")]
     public static extern int CThostFtdcMdApi_UnSubscribeMarketData(global::System.Runtime.InteropServices.HandleRef jarg1, string[] jarg2, int jarg3);
 }

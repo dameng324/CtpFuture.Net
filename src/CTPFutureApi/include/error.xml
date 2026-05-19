@@ -2,215 +2,214 @@
 <!-- edited with XMLSPY v2004 rel. 4 U (http://www.xmlspy.com) by wangzhaodong (ORiON) -->
 <!DOCTYPE errors SYSTEM "error.dtd">
 <errors>
-	<error id="NONE" value="0" prompt="CTP:ÕýÈ·"/>
-	<error id="INVALID_DATA_SYNC_STATUS" value="1" prompt="CTP:²»ÔÚÒÑÍ¬²½×´Ì¬"/>
-	<error id="INCONSISTENT_INFORMATION" value="2" prompt="CTP:»á»°ÐÅÏ¢²»Ò»ÖÂ"/>
-	<error id="INVALID_LOGIN" value="3" prompt="CTP:²»ºÏ·¨µÄµÇÂ¼"/>
-	<error id="USER_NOT_ACTIVE" value="4" prompt="CTP:ÓÃ»§²»»îÔ¾"/>
-	<error id="DUPLICATE_LOGIN" value="5" prompt="CTP:ÖØ¸´µÄµÇÂ¼"/>
-	<error id="NOT_LOGIN_YET" value="6" prompt="CTP:»¹Ã»ÓÐµÇÂ¼"/>
-	<error id="NOT_INITED" value="7" prompt="CTP:»¹Ã»ÓÐ³õÊ¼»¯"/>
-	<error id="FRONT_NOT_ACTIVE" value="8" prompt="CTP:Ç°ÖÃ²»»îÔ¾"/>
-	<error id="NO_PRIVILEGE" value="9" prompt="CTP:ÎÞ´ËÈ¨ÏÞ"/>
-	<error id="CHANGE_OTHER_PASSWORD" value="10" prompt="CTP:ÐÞ¸Ä±ðÈËµÄ¿ÚÁî"/>
-	<error id="USER_NOT_FOUND" value="11" prompt="CTP:ÕÒ²»µ½¸ÃÓÃ»§"/>
-	<error id="BROKER_NOT_FOUND" value="12" prompt="CTP:ÕÒ²»µ½¸Ã¾­¼Í¹«Ë¾"/>
-	<error id="INVESTOR_NOT_FOUND" value="13" prompt="CTP:ÕÒ²»µ½Í¶×ÊÕß"/>
-	<error id="OLD_PASSWORD_MISMATCH" value="14" prompt="CTP:Ô­¿ÚÁî²»Æ¥Åä"/>
-	<error id="BAD_FIELD" value="15" prompt="CTP:±¨µ¥×Ö¶ÎÓÐÎó"/>
-	<error id="INSTRUMENT_NOT_FOUND" value="16" prompt="CTP:ÕÒ²»µ½ºÏÔ¼"/>
-	<error id="INSTRUMENT_NOT_TRADING" value="17" prompt="CTP:ºÏÔ¼²»ÄÜ½»Ò×"/>
-	<error id="NOT_EXCHANGE_PARTICIPANT" value="18" prompt="CTP:¾­¼Í¹«Ë¾²»ÊÇ½»Ò×ËùµÄ»áÔ±"/>
-	<error id="INVESTOR_NOT_ACTIVE" value="19" prompt="CTP:Í¶×ÊÕß²»»îÔ¾"/>
-	<error id="NOT_EXCHANGE_CLIENT" value="20" prompt="CTP:Í¶×ÊÕßÎ´ÔÚ½»Ò×Ëù¿ª»§"/>
-	<error id="NO_VALID_TRADER_AVAILABLE" value="21" prompt="CTP:¸Ã½»Ò×Ï¯Î»Î´Á¬½Óµ½½»Ò×Ëù"/>
-	<error id="DUPLICATE_ORDER_REF" value="22" prompt="CTP:±¨µ¥´íÎó£º²»ÔÊÐíÖØ¸´±¨µ¥"/>
-	<error id="BAD_ORDER_ACTION_FIELD" value="23" prompt="CTP:´íÎóµÄ±¨µ¥²Ù×÷×Ö¶Î"/>
-	<error id="DUPLICATE_ORDER_ACTION_REF" value="24" prompt="CTP:³·µ¥ÒÑ±¨ËÍ£¬²»ÔÊÐíÖØ¸´³·µ¥"/>
-	<error id="ORDER_NOT_FOUND" value="25" prompt="CTP:³·µ¥ÕÒ²»µ½ÏàÓ¦±¨µ¥"/>
-	<error id="INSUITABLE_ORDER_STATUS" value="26" prompt="CTP:±¨µ¥ÒÑÈ«³É½»»òÒÑ³·Ïú£¬²»ÄÜÔÙ³·"/>
-	<error id="UNSUPPORTED_FUNCTION" value="27" prompt="CTP:²»Ö§³ÖµÄ¹¦ÄÜ"/>
-	<error id="NO_TRADING_RIGHT" value="28" prompt="CTP:Ã»ÓÐ±¨µ¥½»Ò×È¨ÏÞ"/>
-	<error id="CLOSE_ONLY" value="29" prompt="CTP:Ö»ÄÜÆ½²Ö"/>
-	<error id="OVER_CLOSE_POSITION" value="30" prompt="CTP:Æ½²ÖÁ¿³¬¹ý³Ö²ÖÁ¿"/>
-	<error id="INSUFFICIENT_MONEY" value="31" prompt="CTP:×Ê½ð²»×ã"/>
-	<error id="DUPLICATE_PK" value="32" prompt="CTP:Ö÷¼üÖØ¸´"/>
-	<error id="CANNOT_FIND_PK" value="33" prompt="CTP:ÕÒ²»µ½Ö÷¼ü"/>
-	<error id="CAN_NOT_INACTIVE_BROKER" value="34" prompt="CTP:ÉèÖÃ¾­¼Í¹«Ë¾²»»îÔ¾×´Ì¬Ê§°Ü"/>
-	<error id="BROKER_SYNCHRONIZING" value="35" prompt="CTP:¾­¼Í¹«Ë¾ÕýÔÚÍ¬²½"/>
-	<error id="BROKER_SYNCHRONIZED" value="36" prompt="CTP:¾­¼Í¹«Ë¾ÒÑÍ¬²½"/>
-	<error id="SHORT_SELL" value="37" prompt="CTP:ÏÖ»õ½»Ò×²»ÄÜÂô¿Õ"/>
-	<error id="INVALID_SETTLEMENT_REF" value="38" prompt="CTP:²»ºÏ·¨µÄ½áËãÒýÓÃ"/>
-	<error id="CFFEX_NETWORK_ERROR" value="39" prompt="CTP:½»Ò×ËùÍøÂçÁ¬½ÓÊ§°Ü"/>
-	<error id="CFFEX_OVER_REQUEST" value="40" prompt="CTP:½»Ò×ËùÎ´´¦ÀíÇëÇó³¬¹ýÐí¿ÉÊý"/>
-	<error id="CFFEX_OVER_REQUEST_PER_SECOND" value="41" prompt="CTP:½»Ò×ËùÃ¿Ãë·¢ËÍÇëÇóÊý³¬¹ýÐí¿ÉÊý"/>
-	<error id="SETTLEMENT_INFO_NOT_CONFIRMED" value="42" prompt="CTP:½áËã½á¹ûÎ´È·ÈÏ"/>
-	<error id="DEPOSIT_NOT_FOUND" value="43" prompt="CTP:Ã»ÓÐ¶ÔÓ¦µÄÈë½ð¼ÇÂ¼"/>
-	<error id="EXCHANG_TRADING" value="44" prompt="CTP:½»Ò×ËùÒÑ¾­½øÈëÁ¬Ðø½»Ò××´Ì¬"/>
-	<error id="PARKEDORDER_NOT_FOUND" value="45" prompt="CTP:ÕÒ²»µ½Ô¤Âñ£¨³·µ¥£©µ¥"/>
-	<error id="PARKEDORDER_HASSENDED" value="46" prompt="CTP:Ô¤Âñ£¨³·µ¥£©µ¥ÒÑ¾­·¢ËÍ"/>
-	<error id="PARKEDORDER_HASDELETE" value="47" prompt="CTP:Ô¤Âñ£¨³·µ¥£©µ¥ÒÑ¾­É¾³ý"/>
-	<error id="INVALID_INVESTORIDORPASSWORD" value="48" prompt="CTP:ÎÞÐ§µÄÍ¶×ÊÕß»òÕßÃÜÂë"/>
-	<error id="INVALID_LOGIN_IPADDRESS" value="49" prompt="CTP:²»ºÏ·¨µÄµÇÂ¼IPµØÖ·"/>
-	<error id="OVER_CLOSETODAY_POSITION" value="50" prompt="CTP:Æ½½ñ²ÖÎ»²»×ã"/>
-	<error id="OVER_CLOSEYESTERDAY_POSITION" value="51" prompt="CTP:Æ½×ò²ÖÎ»²»×ã"/>
-	<error id="BROKER_NOT_ENOUGH_CONDORDER" value="52" prompt="CTP:¾­¼Í¹«Ë¾Ã»ÓÐ×ã¹»¿ÉÓÃµÄÌõ¼þµ¥ÊýÁ¿"/>
-	<error id="INVESTOR_NOT_ENOUGH_CONDORDER" value="53" prompt="CTP:Í¶×ÊÕßÃ»ÓÐ×ã¹»¿ÉÓÃµÄÌõ¼þµ¥ÊýÁ¿"/>
-	<error id="BROKER_NOT_SUPPORT_CONDORDER" value="54" prompt="CTP:¾­¼Í¹«Ë¾²»Ö§³ÖÌõ¼þµ¥"/>
-	<error id="RESEND_ORDER_BROKERINVESTOR_NOTMATCH" value="55" prompt="CTP:ÖØ·¢Î´Öªµ¥¾­¼Í¹«Ë¾/Í¶×ÊÕß²»Æ¥Åä"/>
-	<error id="SYC_OTP_FAILED" value="56" prompt="CTP:Í¬²½¶¯Ì¬ÁîÅÆÊ§°Ü"/>
-	<error id="OTP_MISMATCH" value="57" prompt="CTP:¶¯Ì¬ÁîÅÆÐ£Ñé´íÎó"/>
-	<error id="OTPPARAM_NOT_FOUND" value="58" prompt="CTP:ÕÒ²»µ½¶¯Ì¬ÁîÅÆÅäÖÃÐÅÏ¢"/>
-	<error id="UNSUPPORTED_OTPTYPE" value="59" prompt="CTP:²»Ö§³ÖµÄ¶¯Ì¬ÁîÅÆÀàÐÍ"/>
-	<error id="SINGLEUSERSESSION_EXCEED_LIMIT" value="60" prompt="CTP:ÓÃ»§ÔÚÏß»á»°³¬³öÉÏÏÞ"/>
-	<error id="EXCHANGE_UNSUPPORTED_ARBITRAGE" value="61" prompt="CTP:¸Ã½»Ò×Ëù²»Ö§³ÖÌ×Àû/×öÊÐÉÌÀàÐÍ±¨µ¥"/>
-	<error id="NO_CONDITIONAL_ORDER_RIGHT" value="62" prompt="CTP:Ã»ÓÐÌõ¼þµ¥½»Ò×È¨ÏÞ"/>
-	<error id="AUTH_FAILED" value="63" prompt="CTP:¿Í»§¶ËÈÏÖ¤Ê§°Ü"/>
-	<error id="NOT_AUTHENT" value="64" prompt="CTP:¿Í»§¶ËÎ´ÈÏÖ¤"/>
-	<error id="SWAPORDER_UNSUPPORTED" value="65" prompt="CTP:¸ÃºÏÔ¼²»Ö§³Ö»¥»»ÀàÐÍ±¨µ¥"/>
-	<error id="OPTIONS_ONLY_SUPPORT_SPEC" value="66" prompt="CTP:¸ÃÆÚÈ¨ºÏÔ¼Ö»Ö§³ÖÍ¶»úÀàÐÍ±¨µ¥"/>
-	<error id="DUPLICATE_EXECORDER_REF" value="67" prompt="CTP:Ö´ÐÐÐû¸æ´íÎó£¬²»ÔÊÐíÖØ¸´Ö´ÐÐ"/>
-	<error id="RESEND_EXECORDER_BROKERINVESTOR_NOTMATCH" value="68" prompt="CTP:ÖØ·¢Î´ÖªÖ´ÐÐÐû¸æ¾­¼Í¹«Ë¾/Í¶×ÊÕß²»Æ¥Åä"/>
-	<error id="EXECORDER_NOTOPTIONS" value="69" prompt="CTP:Ö»ÓÐÆÚÈ¨ºÏÔ¼¿ÉÖ´ÐÐ"/>
-	<error id="OPTIONS_NOT_SUPPORT_EXEC" value="70" prompt="CTP:¸ÃÆÚÈ¨ºÏÔ¼²»Ö§³ÖÖ´ÐÐ"/>
-	<error id="BAD_EXECORDER_ACTION_FIELD" value="71" prompt="CTP:Ö´ÐÐÐû¸æ×Ö¶ÎÓÐÎó"/>
-	<error id="DUPLICATE_EXECORDER_ACTION_REF" value="72" prompt="CTP:Ö´ÐÐÐû¸æ³·µ¥ÒÑ±¨ËÍ£¬²»ÔÊÐíÖØ¸´³·µ¥"/>
-	<error id="EXECORDER_NOT_FOUND" value="73" prompt="CTP:Ö´ÐÐÐû¸æ³·µ¥ÕÒ²»µ½ÏàÓ¦Ö´ÐÐÐû¸æ"/>
-	<error id="OVER_EXECUTE_POSITION" value="74" prompt="CTP:Ö´ÐÐ²ÖÎ»²»×ã"/>
-	<error id="LOGIN_FORBIDDEN" value="75" prompt="CTP:Á¬ÐøµÇÂ¼Ê§°Ü´ÎÊý³¬ÏÞ£¬µÇÂ¼±»½ûÖ¹"/>
-	<error id="INVALID_TRANSFER_AGENT" value="76" prompt="CTP:·Ç·¨ÒøÆÚ´úÀí¹ØÏµ"/>
-	<error id="NO_FOUND_FUNCTION" value="77" prompt="CTP:ÎÞ´Ë¹¦ÄÜ"/>
-	<error id="SEND_EXCHANGEORDER_FAILED" value="78" prompt="CTP:·¢ËÍ±¨µ¥Ê§°Ü"/>
-	<error id="SEND_EXCHANGEORDERACTION_FAILED" value="79" prompt="CTP:·¢ËÍ±¨µ¥²Ù×÷Ê§°Ü"/>
-	<error id="PRICETYPE_NOTSUPPORT_BYEXCHANGE" value="80" prompt="CTP:½»Ò×Ëù²»Ö§³ÖµÄ¼Û¸ñÀàÐÍ"/>
-	<error id="BAD_EXECUTE_TYPE" value="81" prompt="CTP:´íÎóµÄÖ´ÐÐÀàÐÍ"/>
-	<error id="BAD_OPTION_INSTR" value="82" prompt="CTP:ÎÞÐ§µÄ×éºÏºÏÔ¼"/>
-	<error id="INSTR_NOTSUPPORT_FORQUOTE" value="83" prompt="CTP:¸ÃºÏÔ¼²»Ö§³ÖÑ¯¼Û"/>
-	<error id="RESEND_QUOTE_BROKERINVESTOR_NOTMATCH" value="84" prompt="CTP:ÖØ·¢Î´Öª±¨¼Û¾­¼Í¹«Ë¾/Í¶×ÊÕß²»Æ¥Åä"/>
-	<error id="INSTR_NOTSUPPORT_QUOTE" value="85" prompt="CTP:¸ÃºÏÔ¼²»Ö§³Ö±¨¼Û"/>
-	<error id="QUOTE_NOT_FOUND" value="86" prompt="CTP:±¨¼Û³·µ¥ÕÒ²»µ½ÏàÓ¦±¨¼Û"/>
-	<error id="OPTIONS_NOT_SUPPORT_ABANDON" value="87" prompt="CTP:¸ÃÆÚÈ¨ºÏÔ¼²»Ö§³Ö·ÅÆúÖ´ÐÐ"/>
-	<error id="COMBOPTIONS_SUPPORT_IOC_ONLY" value="88" prompt="CTP:¸Ã×éºÏÆÚÈ¨ºÏÔ¼Ö»Ö§³ÖIOC"/>
-	<error id="OPEN_FILE_FAILED" value="89" prompt="CTP:´ò¿ªÎÄ¼þÊ§°Ü"/>
-	<error id="NEED_RETRY" value="90" prompt="CTP£º²éÑ¯Î´¾ÍÐ÷£¬ÇëÉÔºóÖØÊÔ"/>
-	<error id="EXCHANGE_RTNERROR" value="91" prompt="CTP£º½»Ò×Ëù·µ»ØµÄ´íÎó"/>
-	<error id="QUOTE_DERIVEDORDER_ACTIONERROR" value="92" prompt="CTP:±¨¼ÛÑÜÉúµ¥ÒªµÈ´ý½»Ò×Ëù·µ»Ø²ÅÄÜ³·µ¥"/>
-	<error id="INSTRUMENTMAP_NOT_FOUND" value="93" prompt="CTP:ÕÒ²»µ½×éºÏºÏÔ¼Ó³Éä"/>
-	<error id="CANCELLATION_OF_OTC_DERIVED_ORDER_NOT_ALLOWED" value="94" prompt="CTP:²»ÔÊÐí³·ÏúOTCÑÜÉú±¨µ¥"/>
-	<!--ÔÖ±¸ÏµÍ³´íÎó´úÂë -->		
-	<error id="NO_TRADING_RIGHT_IN_SEPC_DR" value="101" prompt="CTP:ÓÃ»§ÔÚ±¾ÏµÍ³Ã»ÓÐ±¨µ¥È¨ÏÞ"/>
-	<error id="NO_DR_NO" value="102" prompt="CTP:ÏµÍ³È±ÉÙÔÖ±¸±êÊ¾ºÅ"/>
-	<error id="BATCHACTION_NOSUPPORT" value="103" prompt="CTP:¸Ã½»Ò×Ëù²»Ö§³ÖÅúÁ¿³·µ¥"/>
-	<error id="POSI_LIMIT" value="106" prompt="CTP:Í¶×ÊÕßÏÞ²Ö"/>
-	<error id="OUT_OF_TIMEINTERVAL" value="113" prompt="CTP:µ±Ç°Ê±¼ä½ûÖ¹Ñ¯¼Û"/>
-	<error id="OUT_OF_PRICEINTERVAL" value="114" prompt="CTP:µ±Ç°¼Û²î½ûÖ¹Ñ¯¼Û"/>
-	<error id="ORDER_FREQ_LIMIT" value="116" prompt="CTP:ÏÂµ¥ÆµÂÊÏÞÖÆ"/>
-	<error id="WEAK_PASSWORD" value="131" prompt="CTP£ºÄúµ±Ç°ÃÜÂëÎªÈõÃÜÂë£¬ÇëÐÞ¸Ä³ÉÇ¿ÃÜÂëºóÖØÐÂµÇÂ¼"/>
-	<error id="EXEC_FORBIDDEN_TIME" value="139" prompt="CTP:µ±Ç°Ê±¼ä½ûÖ¹ÐÐÈ¨"/>
-	<error id="FIRST_LOGIN" value="140" prompt="CTP:Ê×´ÎµÇÂ¼±ØÐëÐÞ¸ÄÃÜÂë£¬ÇëÐÞ¸ÄÃÜÂëºóÖØÐÂµÇÂ¼"/>
-	<error id="PWD_OUT_OF_DATE" value="141" prompt="CTP:Äúµ±Ç°ÃÜÂëÒÑ¹ýÆÚ£¬ÇëÐÞ¸ÄºóµÇÂ¼"/>
-	<error id="PWD_MUST_DIFF" value="142" prompt="CTP:ÐÞ¸ÄÃÜÂëÊ§°Ü¡£ÐÂÃÜÂë²»ÔÊÐíÓë¾ÉÃÜÂëÏàÍ¬"/>
-	<error id="IP_FORBIDDEN" value="143" prompt="CTP:ÄúµÇÂ¼Ê§°Ü´ÎÊý¹ý¶à£¬IP±»½ûÖ¹µÇÈëCTP"/>
-	<error id="IP_BLACK" value="144" prompt="CTP:Äúµ±Ç°IPÔÚºÚÃûµ¥ÖÐ£¬±»½ûÖ¹µÇÈëCTP"/>
-	
-	<!--×ªÕÊÏµÍ³´íÎó´úÂë -->
-	<error id="SEND_INSTITUTION_CODE_ERROR" value="1000" prompt="CTP:ÒøÆÚ×ªÕË£º·¢ËÍ»ú¹¹´úÂë´íÎó"/>
-	<error id="NO_GET_PLATFORM_SN" value="1001" prompt="CTP:ÒøÆÚ×ªÕË£ºÈ¡Æ½Ì¨Á÷Ë®ºÅ´íÎó"/>
-	<error id="ILLEGAL_TRANSFER_BANK" value="1002" prompt="CTP:ÒøÆÚ×ªÕË£º²»ºÏ·¨µÄ×ªÕËÒøÐÐ"/>
-	<error id="ALREADY_OPEN_ACCOUNT" value="1003" prompt="CTP:ÒøÆÚ×ªÕË£ºÒÑ¾­¿ª»§"/>
-	<error id="NOT_OPEN_ACCOUNT" value="1004" prompt="CTP:ÒøÆÚ×ªÕË£ºÎ´¿ª»§"/>
-	<error id="PROCESSING" value="1005" prompt="CTP:ÒøÆÚ×ªÕË£º´¦ÀíÖÐ"/>
-	<error id="OVERTIME" value="1006" prompt="CTP:ÒøÆÚ×ªÕË£º½»Ò×³¬Ê±"/>
-	<error id="RECORD_NOT_FOUND" value="1007" prompt="CTP:ÒøÆÚ×ªÕË£ºÕÒ²»µ½¼ÇÂ¼"/>
-	<error id="NO_FOUND_REVERSAL_ORIGINAL_TRANSACTION" value="1008" prompt="CTP:ÒøÆÚ×ªÕË£ºÕÒ²»µ½±»³åÕýµÄÔ­Ê¼½»Ò×"/>
-	<error id="CONNECT_HOST_FAILED" value="1009" prompt="CTP:ÒøÆÚ×ªÕË£ºÁ¬½ÓÖ÷»úÊ§°Ü"/>
-	<error id="SEND_FAILED" value="1010" prompt="CTP:ÒøÆÚ×ªÕË£º·¢ËÍÊ§°Ü"/>
-	<error id="LATE_RESPONSE" value="1011" prompt="CTP:ÒøÆÚ×ªÕË£º³Ùµ½Ó¦´ð"/>	
-	<error id="REVERSAL_BANKID_NOT_MATCH" value="1012" prompt="CTP:ÒøÆÚ×ªÕË£º³åÕý½»Ò×ÒøÐÐ´úÂë´íÎó"/>
-	<error id="REVERSAL_BANKACCOUNT_NOT_MATCH" value="1013" prompt="CTP:ÒøÆÚ×ªÕË£º³åÕý½»Ò×ÒøÐÐÕË»§´íÎó"/>
-	<error id="REVERSAL_BROKERID_NOT_MATCH" value="1014" prompt="CTP:ÒøÆÚ×ªÕË£º³åÕý½»Ò×¾­¼Í¹«Ë¾´úÂë´íÎó"/>
-	<error id="REVERSAL_ACCOUNTID_NOT_MATCH" value="1015" prompt="CTP:ÒøÆÚ×ªÕË£º³åÕý½»Ò××Ê½ðÕË»§´íÎó"/>
-	<error id="REVERSAL_AMOUNT_NOT_MATCH" value="1016" prompt="CTP:ÒøÆÚ×ªÕË£º³åÕý½»Ò×½»Ò×½ð¶î´íÎó"/>
-	<error id="DB_OPERATION_FAILED" value="1017" prompt="CTP:ÒøÆÚ×ªÕË£ºÊý¾Ý¿â²Ù×÷´íÎó"/>
- 	<error id="SEND_ASP_FAILURE" value="1018" prompt="CTP:ÒøÆÚ×ªÕË£º·¢ËÍµ½½»Ò×ÏµÍ³Ê§°Ü"/>
-  <error id="NOT_SIGNIN" value="1019" prompt="CTP:ÒøÆÚ×ªÕË£ºÃ»ÓÐÇ©µ½"/>
-  <error id="ALREADY_SIGNIN" value="1020" prompt="CTP:ÒøÆÚ×ªÕË£ºÒÑ¾­Ç©µ½"/>		
-  <error id="AMOUNT_OR_TIMES_OVER" value="1021" prompt="CTP:ÒøÆÚ×ªÕË£º½ð¶î»ò´ÎÊý³¬ÏÞ"/>
-  <error id="NOT_IN_TRANSFER_TIME" value="1022" prompt="CTP:ÒøÆÚ×ªÕË£ºÕâÒ»Ê±¼ä¶Î²»ÄÜ×ªÕË"/>  
-  <error id="BANK_SERVER_ERROR" value="1023" prompt="ÒøÐÐÖ÷»ú´í"/>  
-  <error id="BANK_SERIAL_IS_REPEALED" value="1024" prompt="CTP:ÒøÆÚ×ªÕË£ºÒøÐÐÒÑ¾­³åÕý"/>  
-  <error id="BANK_SERIAL_NOT_EXIST" value="1025" prompt="CTP:ÒøÆÚ×ªÕË£ºÒøÐÐÁ÷Ë®²»´æÔÚ"/> 
-  <error id="NOT_ORGAN_MAP" value="1026" prompt="CTP:ÒøÆÚ×ªÕË£º»ú¹¹Ã»ÓÐÇ©Ô¼"/>
-  <error id="EXIST_TRANSFER" value="1027" prompt="CTP:ÒøÆÚ×ªÕË£º´æÔÚ×ªÕË£¬²»ÄÜÏú»§"/>    
-  <error id="BANK_FORBID_REVERSAL" value="1028" prompt="CTP:ÒøÆÚ×ªÕË£ºÒøÐÐ²»Ö§³Ö³åÕý"/> 
-  <error id="DUP_BANK_SERIAL" value="1029" prompt="CTP:ÒøÆÚ×ªÕË£ºÖØ¸´µÄÒøÐÐÁ÷Ë®"/>
-  <error id="FBT_SYSTEM_BUSY" value="1030" prompt="CTP:ÒøÆÚ×ªÕË£º×ªÕËÏµÍ³Ã¦£¬ÉÔºóÔÙÊÔ"/>
-  <error id="MACKEY_SYNCING" value="1031" prompt="CTP:ÒøÆÚ×ªÕË£ºMACÃÜÔ¿ÕýÔÚÍ¬²½"/>
-  <error id="ACCOUNTID_ALREADY_REGISTER" value="1032" prompt="CTP:ÒøÆÚ×ªÕË£º×Ê½ðÕË»§ÒÑ¾­µÇ¼Ç"/>
-  <error id="BANKACCOUNT_ALREADY_REGISTER" value="1033" prompt="CTP:ÒøÆÚ×ªÕË£ºÒøÐÐÕË»§ÒÑ¾­µÇ¼Ç"/>
-  <error id="DUP_BANK_SERIAL_REDO_OK" value="1034" prompt="CTP:ÒøÆÚ×ªÕË£ºÖØ¸´µÄÒøÐÐÁ÷Ë®,ÖØ·¢³É¹¦"/>       
-  <error id="CURRENCYID_NOT_SUPPORTED" value="1035" prompt="CTP:ÒøÆÚ×ªÕË£º¸Ã±ÒÖÖ´úÂë²»Ö§³Ö"/>
-  <error id="INVALID_MAC" value="1036" prompt="CTP:ÒøÆÚ×ªÕË£ºMACÖµÑéÖ¤Ê§°Ü"/>
-  <error id="NOT_SUPPORT_SECAGENT_BY_BANK" value="1037" prompt="CTP:ÒøÆÚ×ªÕË£º²»Ö§³ÖÒøÐÐ¶Ë·¢ÆðµÄ¶þ¼¶´úÀíÉÌ×ªÕËºÍ²éÑ¯"/>
-  <error id="PINKEY_SYNCING" value="1038" prompt="CTP:ÒøÆÚ×ªÕË£ºPINÃÜÔ¿ÕýÔÚÍ¬²½"/>
-  <error id="SECAGENT_QUERY_BY_CCB" value="1039" prompt="CTP:ÒøÆÚ×ªÕË£º½¨ÐÐ·¢ÆðµÄ¶þ¼¶´úÀíÉÌ²éÑ¯"/>
-  <error id="BANKACCOUNT_NOT_EMPTY" value="1040" prompt="CTP:ÒøÆÚ×ªÕË£ºÒøÐÐÕË»§²»ÄÜÎª¿Õ"/>
-  <error id="INVALID_RESERVE_OPEN_ACCOUNT" value="1041" prompt="CTP:ÒøÆÚ×ªÕË£º×Ê½ðÕË»§´æÔÚ£¬Ô¤Ô¼¿ª»§Ê§°Ü"/>
-  <error id="OPEN_ACCOUNT_NOT_DEFAULT_ACCOUNT" value="1042" prompt="CTP:ÒøÆÚ×ªÕË£º¿ª»§ÇëÇóµÄÒøÐÐ¿¨ºÅºÍÔ¤ÁôµÄÕËºÅ²»Í¬"/>
-  <error id="BANK_SYSTEM_INTERNAL_ERROR" value="1043" prompt="ÒøÐÐÏµÍ³ÄÚ²¿´íÎó"/>
-<!-- add for transfer begin -->
-	<error id="NO_VALID_BANKOFFER_AVAILABLE" value="2000" prompt="CTP:¸Ã±¨ÅÌÎ´Á¬½Óµ½ÒøÐÐ"/>
-	<error id="PASSWORD_MISMATCH" value="2001" prompt="CTP:×Ê½ðÃÜÂë´íÎó"/>
-	<error id="DUPLATION_BANK_SERIAL" value="2004" prompt="CTP:ÒøÐÐÁ÷Ë®ºÅÖØ¸´"/>
-	<error id="DUPLATION_OFFER_SERIAL" value="2005" prompt="CTP:±¨ÅÌÁ÷Ë®ºÅÖØ¸´"/>
-	<error id="SERIAL_NOT_EXSIT" value="2006" prompt="CTP:±»³åÕýÁ÷Ë®²»´æÔÚ(³åÕý½»Ò×)"/>
-	<error id="SERIAL_IS_REPEALED" value="2007" prompt="CTP:Ô­Á÷Ë®ÒÑ³åÕý(³åÕý½»Ò×)"/>
-	<error id="SERIAL_MISMATCH" value="2008" prompt="CTP:ÓëÔ­Á÷Ë®ÐÅÏ¢²»·û(³åÕý½»Ò×)"/>
-	<error id="IdentifiedCardNo_MISMATCH" value="2009" prompt="CTP:Ö¤¼þºÅÂë»òÀàÐÍ´íÎó"/>
-	<error id="ACCOUNT_NOT_FUND" value="2011" prompt="CTP:×Ê½ðÕË»§²»´æÔÚ"/>
-	<error id="ACCOUNT_NOT_ACTIVE" value="2012" prompt="CTP:×Ê½ðÕË»§ÒÑ¾­Ïú»§"/>
-	<error id="NOT_ALLOW_REPEAL_BYMANUAL" value="2013" prompt="CTP:¸Ã½»Ò×²»ÄÜÖ´ÐÐÊÖ¹¤³åÕý"/>
-	<error id="AMOUNT_OUTOFTHEWAY" value="2014" prompt="CTP:×ªÕÊ½ð¶î´íÎó"/>
-	<error id="EXCHANGERATE_NOT_FOUND" value="2015" prompt="CTP:ÕÒ²»µ½»ãÂÊ"/>
-	<error id="RESERVE_OPEN_ACCOUNT_NOT_FUND" value="2016" prompt="CTP:ÕÒ²»µ½Ô¤Ô¼¿ª»§ÇëÇó"/>
-	<error id="DUPLICATE_RESERVE_OPEN_ACCOUNT_NOT_FUND" value="2017" prompt="CTP:ÖØ¸´µÄÔ¤Ô¼¿ª»§ÇëÇó"/>
-	<error id="WAITING_OFFER_RSP" value="999999" prompt="CTP:µÈ´ýÒøÆÚ±¨ÅÌ´¦Àí½á¹û"/>
-	
-	<!-- add for transfer end -->
-	<!--»»»ãÏµÍ³´íÎó´úÂë bgn-->
-	<error id="FBE_NO_GET_PLATFORM_SN" value="3001" prompt="CTP:ÒøÆÚ»»»ã£ºÈ¡Æ½Ì¨Á÷Ë®ºÅ´íÎó"/>
-	<error id="FBE_ILLEGAL_TRANSFER_BANK" value="3002" prompt="CTP:ÒøÆÚ»»»ã£º²»ºÏ·¨µÄ×ªÕËÒøÐÐ"/>
-	<error id="FBE_PROCESSING" value="3005" prompt="CTP:ÒøÆÚ»»»ã£º´¦ÀíÖÐ"/>
-	<error id="FBE_OVERTIME" value="3006" prompt="CTP:ÒøÆÚ»»»ã£º½»Ò×³¬Ê±"/>
-	<error id="FBE_RECORD_NOT_FOUND" value="3007" prompt="CTP:ÒøÆÚ»»»ã£ºÕÒ²»µ½¼ÇÂ¼"/>
-	<error id="FBE_CONNECT_HOST_FAILED" value="3009" prompt="CTP:ÒøÆÚ»»»ã£ºÁ¬½ÓÖ÷»úÊ§°Ü"/>
-	<error id="FBE_SEND_FAILED" value="3010" prompt="CTP:ÒøÆÚ»»»ã£º·¢ËÍÊ§°Ü"/>
-	<error id="FBE_LATE_RESPONSE" value="3011" prompt="CTP:ÒøÆÚ»»»ã£º³Ùµ½Ó¦´ð"/>	
-	<error id="FBE_DB_OPERATION_FAILED" value="3017" prompt="CTP:ÒøÆÚ»»»ã£ºÊý¾Ý¿â²Ù×÷´íÎó"/>
-  <error id="FBE_NOT_SIGNIN" value="3019" prompt="CTP:ÒøÆÚ»»»ã£ºÃ»ÓÐÇ©µ½"/>
-  <error id="FBE_ALREADY_SIGNIN" value="3020" prompt="CTP:ÒøÆÚ»»»ã£ºÒÑ¾­Ç©µ½"/>		
-  <error id="FBE_AMOUNT_OR_TIMES_OVER" value="3021" prompt="CTP:ÒøÆÚ»»»ã£º½ð¶î»ò´ÎÊý³¬ÏÞ"/>
-  <error id="FBE_NOT_IN_TRANSFER_TIME" value="3022" prompt="CTP:ÒøÆÚ»»»ã£ºÕâÒ»Ê±¼ä¶Î²»ÄÜ»»»ã"/>  
-  <error id="FBE_BANK_SERVER_ERROR" value="3023" prompt="CTP:ÒøÆÚ»»»ã£ºÒøÐÐÖ÷»ú´í"/>  
-  <error id="FBE_NOT_ORGAN_MAP" value="3026" prompt="CTP:ÒøÆÚ»»»ã£º»ú¹¹Ã»ÓÐÇ©Ô¼"/>
-  <error id="FBE_SYSTEM_BUSY" value="3030" prompt="CTP:ÒøÆÚ»»»ã£º»»»ãÏµÍ³Ã¦£¬ÉÔºóÔÙÊÔ"/>
-  <error id="FBE_CURRENCYID_NOT_SUPPORTED" value="3035" prompt="CTP:ÒøÆÚ»»»ã£º¸Ã±ÒÖÖ´úÂë²»Ö§³Ö"/>
-  <error id="FBE_WRONG_BANK_ACCOUNT" value="3036" prompt="CTP:ÒøÆÚ»»»ã£ºÒøÐÐÕÊºÅ²»ÕýÈ·"/>
-  <error id="FBE_BANK_ACCOUNT_NO_FUNDS" value="3037" prompt="CTP:ÒøÆÚ»»»ã£ºÒøÐÐÕÊ»§Óà¶î²»×ã"/>
-  <error id="FBE_DUP_CERT_NO" value="3038" prompt="CTP:ÒøÆÚ»»»ã£ºÆ¾Ö¤ºÅÖØ¸´"/>
-  <!--»»»ãÏµÍ³´íÎó´úÂë end-->
+  <error id="NONE" value="0" prompt="CTP:ï¿½ï¿½È·" />
+  <error id="INVALID_DATA_SYNC_STATUS" value="1" prompt="CTP:ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Í¬ï¿½ï¿½×´Ì¬" />
+  <error id="INCONSISTENT_INFORMATION" value="2" prompt="CTP:ï¿½á»°ï¿½ï¿½Ï¢ï¿½ï¿½Ò»ï¿½ï¿½" />
+  <error id="INVALID_LOGIN" value="3" prompt="CTP:ï¿½ï¿½ï¿½Ï·ï¿½ï¿½Äµï¿½Â¼" />
+  <error id="USER_NOT_ACTIVE" value="4" prompt="CTP:ï¿½Ã»ï¿½ï¿½ï¿½ï¿½ï¿½Ô¾" />
+  <error id="DUPLICATE_LOGIN" value="5" prompt="CTP:ï¿½Ø¸ï¿½ï¿½Äµï¿½Â¼" />
+  <error id="NOT_LOGIN_YET" value="6" prompt="CTP:ï¿½ï¿½Ã»ï¿½Ðµï¿½Â¼" />
+  <error id="NOT_INITED" value="7" prompt="CTP:ï¿½ï¿½Ã»ï¿½Ð³ï¿½Ê¼ï¿½ï¿½" />
+  <error id="FRONT_NOT_ACTIVE" value="8" prompt="CTP:Ç°ï¿½Ã²ï¿½ï¿½ï¿½Ô¾" />
+  <error id="NO_PRIVILEGE" value="9" prompt="CTP:ï¿½Þ´ï¿½È¨ï¿½ï¿½" />
+  <error id="CHANGE_OTHER_PASSWORD" value="10" prompt="CTP:ï¿½Þ¸Ä±ï¿½ï¿½ËµÄ¿ï¿½ï¿½ï¿½" />
+  <error id="USER_NOT_FOUND" value="11" prompt="CTP:ï¿½Ò²ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ã»ï¿½" />
+  <error id="BROKER_NOT_FOUND" value="12" prompt="CTP:ï¿½Ò²ï¿½ï¿½ï¿½ï¿½Ã¾ï¿½ï¿½Í¹ï¿½Ë¾" />
+  <error id="INVESTOR_NOT_FOUND" value="13" prompt="CTP:ï¿½Ò²ï¿½ï¿½ï¿½Í¶ï¿½ï¿½ï¿½ï¿½" />
+  <error id="OLD_PASSWORD_MISMATCH" value="14" prompt="CTP:Ô­ï¿½ï¿½ï¿½î²»Æ¥ï¿½ï¿½" />
+  <error id="BAD_FIELD" value="15" prompt="CTP:ï¿½ï¿½ï¿½ï¿½ï¿½Ö¶ï¿½ï¿½ï¿½ï¿½ï¿½" />
+  <error id="INSTRUMENT_NOT_FOUND" value="16" prompt="CTP:ï¿½Ò²ï¿½ï¿½ï¿½ï¿½ï¿½Ô¼" />
+  <error id="INSTRUMENT_NOT_TRADING" value="17" prompt="CTP:ï¿½ï¿½Ô¼ï¿½ï¿½ï¿½Ü½ï¿½ï¿½ï¿½" />
+  <error id="NOT_EXCHANGE_PARTICIPANT" value="18" prompt="CTP:ï¿½ï¿½ï¿½Í¹ï¿½Ë¾ï¿½ï¿½ï¿½Ç½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä»ï¿½Ô±" />
+  <error id="INVESTOR_NOT_ACTIVE" value="19" prompt="CTP:Í¶ï¿½ï¿½ï¿½ß²ï¿½ï¿½ï¿½Ô¾" />
+  <error id="NOT_EXCHANGE_CLIENT" value="20" prompt="CTP:Í¶ï¿½ï¿½ï¿½ï¿½Î´ï¿½Ú½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½" />
+  <error id="NO_VALID_TRADER_AVAILABLE" value="21" prompt="CTP:ï¿½Ã½ï¿½ï¿½ï¿½Ï¯Î»Î´ï¿½ï¿½ï¿½Óµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½" />
+  <error id="DUPLICATE_ORDER_REF" value="22" prompt="CTP:ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ó£º²ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ø¸ï¿½ï¿½ï¿½ï¿½ï¿½" />
+  <error id="BAD_ORDER_ACTION_FIELD" value="23" prompt="CTP:ï¿½ï¿½ï¿½ï¿½Ä±ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ö¶ï¿½" />
+  <error id="DUPLICATE_ORDER_ACTION_REF" value="24" prompt="CTP:ï¿½ï¿½ï¿½ï¿½ï¿½Ñ±ï¿½ï¿½Í£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ø¸ï¿½ï¿½ï¿½ï¿½ï¿½" />
+  <error id="ORDER_NOT_FOUND" value="25" prompt="CTP:ï¿½ï¿½ï¿½ï¿½ï¿½Ò²ï¿½ï¿½ï¿½ï¿½ï¿½Ó¦ï¿½ï¿½ï¿½ï¿½" />
+  <error id="INSUITABLE_ORDER_STATUS" value="26" prompt="CTP:ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È«ï¿½É½ï¿½ï¿½ï¿½ï¿½Ñ³ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ù³ï¿½" />
+  <error id="UNSUPPORTED_FUNCTION" value="27" prompt="CTP:ï¿½ï¿½Ö§ï¿½ÖµÄ¹ï¿½ï¿½ï¿½" />
+  <error id="NO_TRADING_RIGHT" value="28" prompt="CTP:Ã»ï¿½Ð±ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È¨ï¿½ï¿½" />
+  <error id="CLOSE_ONLY" value="29" prompt="CTP:Ö»ï¿½ï¿½Æ½ï¿½ï¿½" />
+  <error id="OVER_CLOSE_POSITION" value="30" prompt="CTP:Æ½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ö²ï¿½ï¿½ï¿½" />
+  <error id="INSUFFICIENT_MONEY" value="31" prompt="CTP:ï¿½Ê½ï¿½ï¿½ï¿½" />
+  <error id="DUPLICATE_PK" value="32" prompt="CTP:ï¿½ï¿½ï¿½ï¿½ï¿½Ø¸ï¿½" />
+  <error id="CANNOT_FIND_PK" value="33" prompt="CTP:ï¿½Ò²ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½" />
+  <error id="CAN_NOT_INACTIVE_BROKER" value="34" prompt="CTP:ï¿½ï¿½ï¿½Ã¾ï¿½ï¿½Í¹ï¿½Ë¾ï¿½ï¿½ï¿½ï¿½Ô¾×´Ì¬Ê§ï¿½ï¿½" />
+  <error id="BROKER_SYNCHRONIZING" value="35" prompt="CTP:ï¿½ï¿½ï¿½Í¹ï¿½Ë¾ï¿½ï¿½ï¿½ï¿½Í¬ï¿½ï¿½" />
+  <error id="BROKER_SYNCHRONIZED" value="36" prompt="CTP:ï¿½ï¿½ï¿½Í¹ï¿½Ë¾ï¿½ï¿½Í¬ï¿½ï¿½" />
+  <error id="SHORT_SELL" value="37" prompt="CTP:ï¿½Ö»ï¿½ï¿½ï¿½ï¿½×²ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½" />
+  <error id="INVALID_SETTLEMENT_REF" value="38" prompt="CTP:ï¿½ï¿½ï¿½Ï·ï¿½ï¿½Ä½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½" />
+  <error id="CFFEX_NETWORK_ERROR" value="39" prompt="CTP:ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê§ï¿½ï¿½" />
+  <error id="CFFEX_OVER_REQUEST" value="40" prompt="CTP:ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Î´ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ó³¬¹ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½" />
+  <error id="CFFEX_OVER_REQUEST_PER_SECOND" value="41" prompt="CTP:ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ã¿ï¿½ë·¢ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½" />
+  <error id="SETTLEMENT_INFO_NOT_CONFIRMED" value="42" prompt="CTP:ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Î´È·ï¿½ï¿½" />
+  <error id="DEPOSIT_NOT_FOUND" value="43" prompt="CTP:Ã»ï¿½Ð¶ï¿½Ó¦ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Â¼" />
+  <error id="EXCHANG_TRADING" value="44" prompt="CTP:ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ñ¾ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½×´Ì¬" />
+  <error id="PARKEDORDER_NOT_FOUND" value="45" prompt="CTP:ï¿½Ò²ï¿½ï¿½ï¿½Ô¤ï¿½ñ£¨³ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½" />
+  <error id="PARKEDORDER_HASSENDED" value="46" prompt="CTP:Ô¤ï¿½ñ£¨³ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ñ¾ï¿½ï¿½ï¿½ï¿½ï¿½" />
+  <error id="PARKEDORDER_HASDELETE" value="47" prompt="CTP:Ô¤ï¿½ñ£¨³ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ñ¾ï¿½É¾ï¿½ï¿½" />
+  <error id="INVALID_INVESTORIDORPASSWORD" value="48" prompt="CTP:ï¿½ï¿½Ð§ï¿½ï¿½Í¶ï¿½ï¿½ï¿½ß»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½" />
+  <error id="INVALID_LOGIN_IPADDRESS" value="49" prompt="CTP:ï¿½ï¿½ï¿½Ï·ï¿½ï¿½Äµï¿½Â¼IPï¿½ï¿½Ö·" />
+  <error id="OVER_CLOSETODAY_POSITION" value="50" prompt="CTP:Æ½ï¿½ï¿½ï¿½Î»ï¿½ï¿½ï¿½ï¿½" />
+  <error id="OVER_CLOSEYESTERDAY_POSITION" value="51" prompt="CTP:Æ½ï¿½ï¿½ï¿½Î»ï¿½ï¿½ï¿½ï¿½" />
+  <error id="BROKER_NOT_ENOUGH_CONDORDER" value="52" prompt="CTP:ï¿½ï¿½ï¿½Í¹ï¿½Ë¾Ã»ï¿½ï¿½ï¿½ã¹»ï¿½ï¿½ï¿½Ãµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½" />
+  <error id="INVESTOR_NOT_ENOUGH_CONDORDER" value="53" prompt="CTP:Í¶ï¿½ï¿½ï¿½ï¿½Ã»ï¿½ï¿½ï¿½ã¹»ï¿½ï¿½ï¿½Ãµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½" />
+  <error id="BROKER_NOT_SUPPORT_CONDORDER" value="54" prompt="CTP:ï¿½ï¿½ï¿½Í¹ï¿½Ë¾ï¿½ï¿½Ö§ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½" />
+  <error id="RESEND_ORDER_BROKERINVESTOR_NOTMATCH" value="55" prompt="CTP:ï¿½Ø·ï¿½Î´Öªï¿½ï¿½ï¿½ï¿½ï¿½Í¹ï¿½Ë¾/Í¶ï¿½ï¿½ï¿½ß²ï¿½Æ¥ï¿½ï¿½" />
+  <error id="SYC_OTP_FAILED" value="56" prompt="CTP:Í¬ï¿½ï¿½ï¿½ï¿½Ì¬ï¿½ï¿½ï¿½ï¿½Ê§ï¿½ï¿½" />
+  <error id="OTP_MISMATCH" value="57" prompt="CTP:ï¿½ï¿½Ì¬ï¿½ï¿½ï¿½ï¿½Ð£ï¿½ï¿½ï¿½ï¿½ï¿½" />
+  <error id="OTPPARAM_NOT_FOUND" value="58" prompt="CTP:ï¿½Ò²ï¿½ï¿½ï¿½ï¿½ï¿½Ì¬ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ï¢" />
+  <error id="UNSUPPORTED_OTPTYPE" value="59" prompt="CTP:ï¿½ï¿½Ö§ï¿½ÖµÄ¶ï¿½Ì¬ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½" />
+  <error id="SINGLEUSERSESSION_EXCEED_LIMIT" value="60" prompt="CTP:ï¿½Ã»ï¿½ï¿½ï¿½ï¿½ß»á»°ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½" />
+  <error id="EXCHANGE_UNSUPPORTED_ARBITRAGE" value="61" prompt="CTP:ï¿½Ã½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ö§ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½/ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Í±ï¿½ï¿½ï¿½" />
+  <error id="NO_CONDITIONAL_ORDER_RIGHT" value="62" prompt="CTP:Ã»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È¨ï¿½ï¿½" />
+  <error id="AUTH_FAILED" value="63" prompt="CTP:ï¿½Í»ï¿½ï¿½ï¿½ï¿½ï¿½Ö¤Ê§ï¿½ï¿½" />
+  <error id="NOT_AUTHENT" value="64" prompt="CTP:ï¿½Í»ï¿½ï¿½ï¿½Î´ï¿½ï¿½Ö¤" />
+  <error id="SWAPORDER_UNSUPPORTED" value="65" prompt="CTP:ï¿½Ãºï¿½Ô¼ï¿½ï¿½Ö§ï¿½Ö»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Í±ï¿½ï¿½ï¿½" />
+  <error id="OPTIONS_ONLY_SUPPORT_SPEC" value="66" prompt="CTP:ï¿½ï¿½ï¿½ï¿½È¨ï¿½ï¿½Ô¼Ö»Ö§ï¿½ï¿½Í¶ï¿½ï¿½ï¿½ï¿½ï¿½Í±ï¿½ï¿½ï¿½" />
+  <error id="DUPLICATE_EXECORDER_REF" value="67" prompt="CTP:Ö´ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ó£¬²ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ø¸ï¿½Ö´ï¿½ï¿½" />
+  <error id="RESEND_EXECORDER_BROKERINVESTOR_NOTMATCH" value="68" prompt="CTP:ï¿½Ø·ï¿½Î´ÖªÖ´ï¿½ï¿½ï¿½ï¿½ï¿½æ¾­ï¿½Í¹ï¿½Ë¾/Í¶ï¿½ï¿½ï¿½ß²ï¿½Æ¥ï¿½ï¿½" />
+  <error id="EXECORDER_NOTOPTIONS" value="69" prompt="CTP:Ö»ï¿½ï¿½ï¿½ï¿½È¨ï¿½ï¿½Ô¼ï¿½ï¿½Ö´ï¿½ï¿½" />
+  <error id="OPTIONS_NOT_SUPPORT_EXEC" value="70" prompt="CTP:ï¿½ï¿½ï¿½ï¿½È¨ï¿½ï¿½Ô¼ï¿½ï¿½Ö§ï¿½ï¿½Ö´ï¿½ï¿½" />
+  <error id="BAD_EXECORDER_ACTION_FIELD" value="71" prompt="CTP:Ö´ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ö¶ï¿½ï¿½ï¿½ï¿½ï¿½" />
+  <error id="DUPLICATE_EXECORDER_ACTION_REF" value="72" prompt="CTP:Ö´ï¿½ï¿½ï¿½ï¿½ï¿½æ³·ï¿½ï¿½ï¿½Ñ±ï¿½ï¿½Í£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ø¸ï¿½ï¿½ï¿½ï¿½ï¿½" />
+  <error id="EXECORDER_NOT_FOUND" value="73" prompt="CTP:Ö´ï¿½ï¿½ï¿½ï¿½ï¿½æ³·ï¿½ï¿½ï¿½Ò²ï¿½ï¿½ï¿½ï¿½ï¿½Ó¦Ö´ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½" />
+  <error id="OVER_EXECUTE_POSITION" value="74" prompt="CTP:Ö´ï¿½Ð²ï¿½Î»ï¿½ï¿½ï¿½ï¿½" />
+  <error id="LOGIN_FORBIDDEN" value="75" prompt="CTP:ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Â¼Ê§ï¿½Ü´ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Þ£ï¿½ï¿½ï¿½Â¼ï¿½ï¿½ï¿½ï¿½Ö¹" />
+  <error id="INVALID_TRANSFER_AGENT" value="76" prompt="CTP:ï¿½Ç·ï¿½ï¿½ï¿½ï¿½Ú´ï¿½ï¿½ï¿½ï¿½ï¿½Ïµ" />
+  <error id="NO_FOUND_FUNCTION" value="77" prompt="CTP:ï¿½Þ´Ë¹ï¿½ï¿½ï¿½" />
+  <error id="SEND_EXCHANGEORDER_FAILED" value="78" prompt="CTP:ï¿½ï¿½ï¿½Í±ï¿½ï¿½ï¿½Ê§ï¿½ï¿½" />
+  <error id="SEND_EXCHANGEORDERACTION_FAILED" value="79" prompt="CTP:ï¿½ï¿½ï¿½Í±ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê§ï¿½ï¿½" />
+  <error id="PRICETYPE_NOTSUPPORT_BYEXCHANGE" value="80" prompt="CTP:ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ö§ï¿½ÖµÄ¼Û¸ï¿½ï¿½ï¿½ï¿½ï¿½" />
+  <error id="BAD_EXECUTE_TYPE" value="81" prompt="CTP:ï¿½ï¿½ï¿½ï¿½ï¿½Ö´ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½" />
+  <error id="BAD_OPTION_INSTR" value="82" prompt="CTP:ï¿½ï¿½Ð§ï¿½ï¿½ï¿½ï¿½Ïºï¿½Ô¼" />
+  <error id="INSTR_NOTSUPPORT_FORQUOTE" value="83" prompt="CTP:ï¿½Ãºï¿½Ô¼ï¿½ï¿½Ö§ï¿½ï¿½Ñ¯ï¿½ï¿½" />
+  <error id="RESEND_QUOTE_BROKERINVESTOR_NOTMATCH" value="84" prompt="CTP:ï¿½Ø·ï¿½Î´Öªï¿½ï¿½ï¿½Û¾ï¿½ï¿½Í¹ï¿½Ë¾/Í¶ï¿½ï¿½ï¿½ß²ï¿½Æ¥ï¿½ï¿½" />
+  <error id="INSTR_NOTSUPPORT_QUOTE" value="85" prompt="CTP:ï¿½Ãºï¿½Ô¼ï¿½ï¿½Ö§ï¿½Ö±ï¿½ï¿½ï¿½" />
+  <error id="QUOTE_NOT_FOUND" value="86" prompt="CTP:ï¿½ï¿½ï¿½Û³ï¿½ï¿½ï¿½ï¿½Ò²ï¿½ï¿½ï¿½ï¿½ï¿½Ó¦ï¿½ï¿½ï¿½ï¿½" />
+  <error id="OPTIONS_NOT_SUPPORT_ABANDON" value="87" prompt="CTP:ï¿½ï¿½ï¿½ï¿½È¨ï¿½ï¿½Ô¼ï¿½ï¿½Ö§ï¿½Ö·ï¿½ï¿½ï¿½Ö´ï¿½ï¿½" />
+  <error id="COMBOPTIONS_SUPPORT_IOC_ONLY" value="88" prompt="CTP:ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È¨ï¿½ï¿½Ô¼Ö»Ö§ï¿½ï¿½IOC" />
+  <error id="OPEN_FILE_FAILED" value="89" prompt="CTP:ï¿½ï¿½ï¿½Ä¼ï¿½Ê§ï¿½ï¿½" />
+  <error id="NEED_RETRY" value="90" prompt="CTPï¿½ï¿½ï¿½ï¿½Ñ¯Î´ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ôºï¿½ï¿½ï¿½ï¿½ï¿½" />
+  <error id="EXCHANGE_RTNERROR" value="91" prompt="CTPï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ØµÄ´ï¿½ï¿½ï¿½" />
+  <error id="QUOTE_DERIVEDORDER_ACTIONERROR" value="92" prompt="CTP:ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Òªï¿½È´ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ø²ï¿½ï¿½Ü³ï¿½ï¿½ï¿½" />
+  <error id="INSTRUMENTMAP_NOT_FOUND" value="93" prompt="CTP:ï¿½Ò²ï¿½ï¿½ï¿½ï¿½ï¿½Ïºï¿½Ô¼Ó³ï¿½ï¿½" />
+  <error id="CANCELLATION_OF_OTC_DERIVED_ORDER_NOT_ALLOWED" value="94" prompt="CTP:ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½OTCï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½" />
+  <!--ï¿½Ö±ï¿½ÏµÍ³ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ -->
+  <error id="NO_TRADING_RIGHT_IN_SEPC_DR" value="101" prompt="CTP:ï¿½Ã»ï¿½ï¿½Ú±ï¿½ÏµÍ³Ã»ï¿½Ð±ï¿½ï¿½ï¿½È¨ï¿½ï¿½" />
+  <error id="NO_DR_NO" value="102" prompt="CTP:ÏµÍ³È±ï¿½ï¿½ï¿½Ö±ï¿½ï¿½ï¿½Ê¾ï¿½ï¿½" />
+  <error id="BATCHACTION_NOSUPPORT" value="103" prompt="CTP:ï¿½Ã½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ö§ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½" />
+  <error id="POSI_LIMIT" value="106" prompt="CTP:Í¶ï¿½ï¿½ï¿½ï¿½ï¿½Þ²ï¿½" />
+  <error id="OUT_OF_TIMEINTERVAL" value="113" prompt="CTP:ï¿½ï¿½Ç°Ê±ï¿½ï¿½ï¿½Ö¹Ñ¯ï¿½ï¿½" />
+  <error id="OUT_OF_PRICEINTERVAL" value="114" prompt="CTP:ï¿½ï¿½Ç°ï¿½Û²ï¿½ï¿½Ö¹Ñ¯ï¿½ï¿½" />
+  <error id="ORDER_FREQ_LIMIT" value="116" prompt="CTP:ï¿½Âµï¿½Æµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½" />
+  <error id="WEAK_PASSWORD" value="131" prompt="CTPï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ç°ï¿½ï¿½ï¿½ï¿½Îªï¿½ï¿½ï¿½ï¿½ï¿½ë£¬ï¿½ï¿½ï¿½Þ¸Ä³ï¿½Ç¿ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Âµï¿½Â¼" />
+  <error id="EXEC_FORBIDDEN_TIME" value="139" prompt="CTP:ï¿½ï¿½Ç°Ê±ï¿½ï¿½ï¿½Ö¹ï¿½ï¿½È¨" />
+  <error id="FIRST_LOGIN" value="140" prompt="CTP:ï¿½×´Îµï¿½Â¼ï¿½ï¿½ï¿½ï¿½ï¿½Þ¸ï¿½ï¿½ï¿½ï¿½ë£¬ï¿½ï¿½ï¿½Þ¸ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Âµï¿½Â¼" />
+  <error id="PWD_OUT_OF_DATE" value="141" prompt="CTP:ï¿½ï¿½ï¿½ï¿½Ç°ï¿½ï¿½ï¿½ï¿½ï¿½Ñ¹ï¿½ï¿½Ú£ï¿½ï¿½ï¿½ï¿½Þ¸Äºï¿½ï¿½Â¼" />
+  <error id="PWD_MUST_DIFF" value="142" prompt="CTP:ï¿½Þ¸ï¿½ï¿½ï¿½ï¿½ï¿½Ê§ï¿½Ü¡ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ë²»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Í¬" />
+  <error id="IP_FORBIDDEN" value="143" prompt="CTP:ï¿½ï¿½ï¿½ï¿½Â¼Ê§ï¿½Ü´ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½à£¬IPï¿½ï¿½ï¿½ï¿½Ö¹ï¿½ï¿½ï¿½ï¿½CTP" />
+  <error id="IP_BLACK" value="144" prompt="CTP:ï¿½ï¿½ï¿½ï¿½Ç°IPï¿½Úºï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ð£ï¿½ï¿½ï¿½ï¿½ï¿½Ö¹ï¿½ï¿½ï¿½ï¿½CTP" />
 
-   <!--µÇÂ¼¼øÈ¨´íÎó´úÂë begin-->
-  <error id="API_UNSUPPORTED_VERSION" value="3039" prompt="CTP: ²»Ö§³Ö¸ÃAPI°æ±¾"/>
-  <error id="API_INVALID_KEY" value="3040" prompt="CTP: ÎÞÐ§µÄAPI KEY"/>
-  <!--µÇÂ¼¼øÈ¨´íÎó´úÂë end-->
-  
-  <error id="OPTION_SELF_CLOSE_NOT_OPTION" value="3041" prompt="CTP:ÆÚÈ¨¶Ô³å,ÂÄÔ¼¶Ô³å:·ÇÆÚÈ¨ºÏÔ¼"/>
-  <error id="OPTION_SELF_CLOSE_DUPLICATE_REF" value="3042" prompt="CTP:ÆÚÈ¨¶Ô³å,ÂÄÔ¼¶Ô³å:ÇëÇóÒýÓÃ²»ºÏ·¨"/>
-  <error id="OPTION_SELF_CLOSE_BAD_FIELD" value="3043" prompt="CTP:ÆÚÈ¨¶Ô³å,ÂÄÔ¼¶Ô³å:·Ç·¨×Ö¶Î "/>
-  <error id="OPTION_SELF_CLOSE_REC_NOT_FOUND" value="3044" prompt="CTP:ÆÚÈ¨¶Ô³å,ÂÄÔ¼¶Ô³å:³·ÏúÎ´ÕÒµ½¼ÇÂ¼"/>
-  <error id="OPTION_SELF_CLOSE_STATUS_ERR" value="3045" prompt="CTP:ÆÚÈ¨¶Ô³å,ÂÄÔ¼¶Ô³å:¶Ô³å×´Ì¬²»¶Ô£¬²»ÄÜ³·Ïú"/>
-  <error id="OPTION_SELF_CLOSE_DOUBLE_SET_ERR" value="3046" prompt="CTP:ÆÚÈ¨¶Ô³å,ÂÄÔ¼¶Ô³å:²»ÄÜÖØ¸´ÉèÖÃ£¬Ö»ÄÜÏÈ³·ÏúÔÙÉèÖÃ"/>
-  <error id="QUOTE_WRONG_HEDGE_TYPE" value="3047" prompt="CTP:±¨¼Û²»Ö§³Ö¸ÄÍ¶»úÌ×±£ÀàÐÍ"/>
+  <!--×ªï¿½ï¿½ÏµÍ³ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ -->
+  <error id="SEND_INSTITUTION_CODE_ERROR" value="1000" prompt="CTP:ï¿½ï¿½ï¿½ï¿½×ªï¿½Ë£ï¿½ï¿½ï¿½ï¿½Í»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½" />
+  <error id="NO_GET_PLATFORM_SN" value="1001" prompt="CTP:ï¿½ï¿½ï¿½ï¿½×ªï¿½Ë£ï¿½È¡Æ½Ì¨ï¿½ï¿½Ë®ï¿½Å´ï¿½ï¿½ï¿½" />
+  <error id="ILLEGAL_TRANSFER_BANK" value="1002" prompt="CTP:ï¿½ï¿½ï¿½ï¿½×ªï¿½Ë£ï¿½ï¿½ï¿½ï¿½Ï·ï¿½ï¿½ï¿½×ªï¿½ï¿½ï¿½ï¿½ï¿½ï¿½" />
+  <error id="ALREADY_OPEN_ACCOUNT" value="1003" prompt="CTP:ï¿½ï¿½ï¿½ï¿½×ªï¿½Ë£ï¿½ï¿½Ñ¾ï¿½ï¿½ï¿½ï¿½ï¿½" />
+  <error id="NOT_OPEN_ACCOUNT" value="1004" prompt="CTP:ï¿½ï¿½ï¿½ï¿½×ªï¿½Ë£ï¿½Î´ï¿½ï¿½ï¿½ï¿½" />
+  <error id="PROCESSING" value="1005" prompt="CTP:ï¿½ï¿½ï¿½ï¿½×ªï¿½Ë£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½" />
+  <error id="OVERTIME" value="1006" prompt="CTP:ï¿½ï¿½ï¿½ï¿½×ªï¿½Ë£ï¿½ï¿½ï¿½ï¿½×³ï¿½Ê±" />
+  <error id="RECORD_NOT_FOUND" value="1007" prompt="CTP:ï¿½ï¿½ï¿½ï¿½×ªï¿½Ë£ï¿½ï¿½Ò²ï¿½ï¿½ï¿½ï¿½ï¿½Â¼" />
+  <error id="NO_FOUND_REVERSAL_ORIGINAL_TRANSACTION" value="1008" prompt="CTP:ï¿½ï¿½ï¿½ï¿½×ªï¿½Ë£ï¿½ï¿½Ò²ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ô­Ê¼ï¿½ï¿½ï¿½ï¿½" />
+  <error id="CONNECT_HOST_FAILED" value="1009" prompt="CTP:ï¿½ï¿½ï¿½ï¿½×ªï¿½Ë£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê§ï¿½ï¿½" />
+  <error id="SEND_FAILED" value="1010" prompt="CTP:ï¿½ï¿½ï¿½ï¿½×ªï¿½Ë£ï¿½ï¿½ï¿½ï¿½ï¿½Ê§ï¿½ï¿½" />
+  <error id="LATE_RESPONSE" value="1011" prompt="CTP:ï¿½ï¿½ï¿½ï¿½×ªï¿½Ë£ï¿½ï¿½Ùµï¿½Ó¦ï¿½ï¿½" />
+  <error id="REVERSAL_BANKID_NOT_MATCH" value="1012" prompt="CTP:ï¿½ï¿½ï¿½ï¿½×ªï¿½Ë£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ð´ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½" />
+  <error id="REVERSAL_BANKACCOUNT_NOT_MATCH" value="1013" prompt="CTP:ï¿½ï¿½ï¿½ï¿½×ªï¿½Ë£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ë»ï¿½ï¿½ï¿½ï¿½ï¿½" />
+  <error id="REVERSAL_BROKERID_NOT_MATCH" value="1014" prompt="CTP:ï¿½ï¿½ï¿½ï¿½×ªï¿½Ë£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½×¾ï¿½ï¿½Í¹ï¿½Ë¾ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½" />
+  <error id="REVERSAL_ACCOUNTID_NOT_MATCH" value="1015" prompt="CTP:ï¿½ï¿½ï¿½ï¿½×ªï¿½Ë£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê½ï¿½ï¿½Ë»ï¿½ï¿½ï¿½ï¿½ï¿½" />
+  <error id="REVERSAL_AMOUNT_NOT_MATCH" value="1016" prompt="CTP:ï¿½ï¿½ï¿½ï¿½×ªï¿½Ë£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½×½ï¿½ï¿½×½ï¿½ï¿½ï¿½ï¿½ï¿½" />
+  <error id="DB_OPERATION_FAILED" value="1017" prompt="CTP:ï¿½ï¿½ï¿½ï¿½×ªï¿½Ë£ï¿½ï¿½ï¿½ï¿½Ý¿ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½" />
+  <error id="SEND_ASP_FAILURE" value="1018" prompt="CTP:ï¿½ï¿½ï¿½ï¿½×ªï¿½Ë£ï¿½ï¿½ï¿½ï¿½Íµï¿½ï¿½ï¿½ï¿½ï¿½ÏµÍ³Ê§ï¿½ï¿½" />
+  <error id="NOT_SIGNIN" value="1019" prompt="CTP:ï¿½ï¿½ï¿½ï¿½×ªï¿½Ë£ï¿½Ã»ï¿½ï¿½Ç©ï¿½ï¿½" />
+  <error id="ALREADY_SIGNIN" value="1020" prompt="CTP:ï¿½ï¿½ï¿½ï¿½×ªï¿½Ë£ï¿½ï¿½Ñ¾ï¿½Ç©ï¿½ï¿½" />
+  <error id="AMOUNT_OR_TIMES_OVER" value="1021" prompt="CTP:ï¿½ï¿½ï¿½ï¿½×ªï¿½Ë£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½" />
+  <error id="NOT_IN_TRANSFER_TIME" value="1022" prompt="CTP:ï¿½ï¿½ï¿½ï¿½×ªï¿½Ë£ï¿½ï¿½ï¿½Ò»Ê±ï¿½ï¿½Î²ï¿½ï¿½ï¿½×ªï¿½ï¿½" />
+  <error id="BANK_SERVER_ERROR" value="1023" prompt="ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½" />
+  <error id="BANK_SERIAL_IS_REPEALED" value="1024" prompt="CTP:ï¿½ï¿½ï¿½ï¿½×ªï¿½Ë£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ñ¾ï¿½ï¿½ï¿½ï¿½ï¿½" />
+  <error id="BANK_SERIAL_NOT_EXIST" value="1025" prompt="CTP:ï¿½ï¿½ï¿½ï¿½×ªï¿½Ë£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ë®ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½" />
+  <error id="NOT_ORGAN_MAP" value="1026" prompt="CTP:ï¿½ï¿½ï¿½ï¿½×ªï¿½Ë£ï¿½ï¿½ï¿½ï¿½ï¿½Ã»ï¿½ï¿½Ç©Ô¼" />
+  <error id="EXIST_TRANSFER" value="1027" prompt="CTP:ï¿½ï¿½ï¿½ï¿½×ªï¿½Ë£ï¿½ï¿½ï¿½ï¿½ï¿½×ªï¿½Ë£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½" />
+  <error id="BANK_FORBID_REVERSAL" value="1028" prompt="CTP:ï¿½ï¿½ï¿½ï¿½×ªï¿½Ë£ï¿½ï¿½ï¿½ï¿½Ð²ï¿½Ö§ï¿½Ö³ï¿½ï¿½ï¿½" />
+  <error id="DUP_BANK_SERIAL" value="1029" prompt="CTP:ï¿½ï¿½ï¿½ï¿½×ªï¿½Ë£ï¿½ï¿½Ø¸ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ë®" />
+  <error id="FBT_SYSTEM_BUSY" value="1030" prompt="CTP:ï¿½ï¿½ï¿½ï¿½×ªï¿½Ë£ï¿½×ªï¿½ï¿½ÏµÍ³Ã¦ï¿½ï¿½ï¿½Ôºï¿½ï¿½ï¿½ï¿½ï¿½" />
+  <error id="MACKEY_SYNCING" value="1031" prompt="CTP:ï¿½ï¿½ï¿½ï¿½×ªï¿½Ë£ï¿½MACï¿½ï¿½Ô¿ï¿½ï¿½ï¿½ï¿½Í¬ï¿½ï¿½" />
+  <error id="ACCOUNTID_ALREADY_REGISTER" value="1032" prompt="CTP:ï¿½ï¿½ï¿½ï¿½×ªï¿½Ë£ï¿½ï¿½Ê½ï¿½ï¿½Ë»ï¿½ï¿½Ñ¾ï¿½ï¿½Ç¼ï¿½" />
+  <error id="BANKACCOUNT_ALREADY_REGISTER" value="1033" prompt="CTP:ï¿½ï¿½ï¿½ï¿½×ªï¿½Ë£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ë»ï¿½ï¿½Ñ¾ï¿½ï¿½Ç¼ï¿½" />
+  <error id="DUP_BANK_SERIAL_REDO_OK" value="1034" prompt="CTP:ï¿½ï¿½ï¿½ï¿½×ªï¿½Ë£ï¿½ï¿½Ø¸ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ë®,ï¿½Ø·ï¿½ï¿½É¹ï¿½" />
+  <error id="CURRENCYID_NOT_SUPPORTED" value="1035" prompt="CTP:ï¿½ï¿½ï¿½ï¿½×ªï¿½Ë£ï¿½ï¿½Ã±ï¿½ï¿½Ö´ï¿½ï¿½ë²»Ö§ï¿½ï¿½" />
+  <error id="INVALID_MAC" value="1036" prompt="CTP:ï¿½ï¿½ï¿½ï¿½×ªï¿½Ë£ï¿½MACÖµï¿½ï¿½Ö¤Ê§ï¿½ï¿½" />
+  <error id="NOT_SUPPORT_SECAGENT_BY_BANK" value="1037" prompt="CTP:ï¿½ï¿½ï¿½ï¿½×ªï¿½Ë£ï¿½ï¿½ï¿½Ö§ï¿½ï¿½ï¿½ï¿½ï¿½Ð¶Ë·ï¿½ï¿½ï¿½Ä¶ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½×ªï¿½ËºÍ²ï¿½Ñ¯" />
+  <error id="PINKEY_SYNCING" value="1038" prompt="CTP:ï¿½ï¿½ï¿½ï¿½×ªï¿½Ë£ï¿½PINï¿½ï¿½Ô¿ï¿½ï¿½ï¿½ï¿½Í¬ï¿½ï¿½" />
+  <error id="SECAGENT_QUERY_BY_CCB" value="1039" prompt="CTP:ï¿½ï¿½ï¿½ï¿½×ªï¿½Ë£ï¿½ï¿½ï¿½ï¿½Ð·ï¿½ï¿½ï¿½Ä¶ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì²ï¿½Ñ¯" />
+  <error id="BANKACCOUNT_NOT_EMPTY" value="1040" prompt="CTP:ï¿½ï¿½ï¿½ï¿½×ªï¿½Ë£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ë»ï¿½ï¿½ï¿½ï¿½ï¿½Îªï¿½ï¿½" />
+  <error id="INVALID_RESERVE_OPEN_ACCOUNT" value="1041" prompt="CTP:ï¿½ï¿½ï¿½ï¿½×ªï¿½Ë£ï¿½ï¿½Ê½ï¿½ï¿½Ë»ï¿½ï¿½ï¿½ï¿½Ú£ï¿½Ô¤Ô¼ï¿½ï¿½ï¿½ï¿½Ê§ï¿½ï¿½" />
+  <error id="OPEN_ACCOUNT_NOT_DEFAULT_ACCOUNT" value="1042" prompt="CTP:ï¿½ï¿½ï¿½ï¿½×ªï¿½Ë£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ð¿ï¿½ï¿½Åºï¿½Ô¤ï¿½ï¿½ï¿½ï¿½ï¿½ËºÅ²ï¿½Í¬" />
+  <error id="BANK_SYSTEM_INTERNAL_ERROR" value="1043" prompt="ï¿½ï¿½ï¿½ï¿½ÏµÍ³ï¿½Ú²ï¿½ï¿½ï¿½ï¿½ï¿½" />
+  <!-- add for transfer begin -->
+  <error id="NO_VALID_BANKOFFER_AVAILABLE" value="2000" prompt="CTP:ï¿½Ã±ï¿½ï¿½ï¿½Î´ï¿½ï¿½ï¿½Óµï¿½ï¿½ï¿½ï¿½ï¿½" />
+  <error id="PASSWORD_MISMATCH" value="2001" prompt="CTP:ï¿½Ê½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½" />
+  <error id="DUPLATION_BANK_SERIAL" value="2004" prompt="CTP:ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ë®ï¿½ï¿½ï¿½Ø¸ï¿½" />
+  <error id="DUPLATION_OFFER_SERIAL" value="2005" prompt="CTP:ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ë®ï¿½ï¿½ï¿½Ø¸ï¿½" />
+  <error id="SERIAL_NOT_EXSIT" value="2006" prompt="CTP:ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ë®ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½(ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½)" />
+  <error id="SERIAL_IS_REPEALED" value="2007" prompt="CTP:Ô­ï¿½ï¿½Ë®ï¿½Ñ³ï¿½ï¿½ï¿½(ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½)" />
+  <error id="SERIAL_MISMATCH" value="2008" prompt="CTP:ï¿½ï¿½Ô­ï¿½ï¿½Ë®ï¿½ï¿½Ï¢ï¿½ï¿½ï¿½ï¿½(ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½)" />
+  <error id="IdentifiedCardNo_MISMATCH" value="2009" prompt="CTP:Ö¤ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Í´ï¿½ï¿½ï¿½" />
+  <error id="ACCOUNT_NOT_FUND" value="2011" prompt="CTP:ï¿½Ê½ï¿½ï¿½Ë»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½" />
+  <error id="ACCOUNT_NOT_ACTIVE" value="2012" prompt="CTP:ï¿½Ê½ï¿½ï¿½Ë»ï¿½ï¿½Ñ¾ï¿½ï¿½ï¿½ï¿½ï¿½" />
+  <error id="NOT_ALLOW_REPEAL_BYMANUAL" value="2013" prompt="CTP:ï¿½Ã½ï¿½ï¿½×²ï¿½ï¿½ï¿½Ö´ï¿½ï¿½ï¿½Ö¹ï¿½ï¿½ï¿½ï¿½ï¿½" />
+  <error id="AMOUNT_OUTOFTHEWAY" value="2014" prompt="CTP:×ªï¿½Ê½ï¿½ï¿½ï¿½ï¿½ï¿½" />
+  <error id="EXCHANGERATE_NOT_FOUND" value="2015" prompt="CTP:ï¿½Ò²ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½" />
+  <error id="RESERVE_OPEN_ACCOUNT_NOT_FUND" value="2016" prompt="CTP:ï¿½Ò²ï¿½ï¿½ï¿½Ô¤Ô¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½" />
+  <error id="DUPLICATE_RESERVE_OPEN_ACCOUNT_NOT_FUND" value="2017" prompt="CTP:ï¿½Ø¸ï¿½ï¿½ï¿½Ô¤Ô¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½" />
+  <error id="WAITING_OFFER_RSP" value="999999" prompt="CTP:ï¿½È´ï¿½ï¿½ï¿½ï¿½Ú±ï¿½ï¿½Ì´ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½" />
 
+  <!-- add for transfer end -->
+  <!--ï¿½ï¿½ï¿½ï¿½ÏµÍ³ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ bgn-->
+  <error id="FBE_NO_GET_PLATFORM_SN" value="3001" prompt="CTP:ï¿½ï¿½ï¿½Ú»ï¿½ï¿½ã£ºÈ¡Æ½Ì¨ï¿½ï¿½Ë®ï¿½Å´ï¿½ï¿½ï¿½" />
+  <error id="FBE_ILLEGAL_TRANSFER_BANK" value="3002" prompt="CTP:ï¿½ï¿½ï¿½Ú»ï¿½ï¿½ã£ºï¿½ï¿½ï¿½Ï·ï¿½ï¿½ï¿½×ªï¿½ï¿½ï¿½ï¿½ï¿½ï¿½" />
+  <error id="FBE_PROCESSING" value="3005" prompt="CTP:ï¿½ï¿½ï¿½Ú»ï¿½ï¿½ã£ºï¿½ï¿½ï¿½ï¿½ï¿½ï¿½" />
+  <error id="FBE_OVERTIME" value="3006" prompt="CTP:ï¿½ï¿½ï¿½Ú»ï¿½ï¿½ã£ºï¿½ï¿½ï¿½×³ï¿½Ê±" />
+  <error id="FBE_RECORD_NOT_FOUND" value="3007" prompt="CTP:ï¿½ï¿½ï¿½Ú»ï¿½ï¿½ã£ºï¿½Ò²ï¿½ï¿½ï¿½ï¿½ï¿½Â¼" />
+  <error id="FBE_CONNECT_HOST_FAILED" value="3009" prompt="CTP:ï¿½ï¿½ï¿½Ú»ï¿½ï¿½ã£ºï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê§ï¿½ï¿½" />
+  <error id="FBE_SEND_FAILED" value="3010" prompt="CTP:ï¿½ï¿½ï¿½Ú»ï¿½ï¿½ã£ºï¿½ï¿½ï¿½ï¿½Ê§ï¿½ï¿½" />
+  <error id="FBE_LATE_RESPONSE" value="3011" prompt="CTP:ï¿½ï¿½ï¿½Ú»ï¿½ï¿½ã£ºï¿½Ùµï¿½Ó¦ï¿½ï¿½" />
+  <error id="FBE_DB_OPERATION_FAILED" value="3017" prompt="CTP:ï¿½ï¿½ï¿½Ú»ï¿½ï¿½ã£ºï¿½ï¿½ï¿½Ý¿ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½" />
+  <error id="FBE_NOT_SIGNIN" value="3019" prompt="CTP:ï¿½ï¿½ï¿½Ú»ï¿½ï¿½ã£ºÃ»ï¿½ï¿½Ç©ï¿½ï¿½" />
+  <error id="FBE_ALREADY_SIGNIN" value="3020" prompt="CTP:ï¿½ï¿½ï¿½Ú»ï¿½ï¿½ã£ºï¿½Ñ¾ï¿½Ç©ï¿½ï¿½" />
+  <error id="FBE_AMOUNT_OR_TIMES_OVER" value="3021" prompt="CTP:ï¿½ï¿½ï¿½Ú»ï¿½ï¿½ã£ºï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½" />
+  <error id="FBE_NOT_IN_TRANSFER_TIME" value="3022" prompt="CTP:ï¿½ï¿½ï¿½Ú»ï¿½ï¿½ã£ºï¿½ï¿½Ò»Ê±ï¿½ï¿½Î²ï¿½ï¿½Ü»ï¿½ï¿½ï¿½" />
+  <error id="FBE_BANK_SERVER_ERROR" value="3023" prompt="CTP:ï¿½ï¿½ï¿½Ú»ï¿½ï¿½ã£ºï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½" />
+  <error id="FBE_NOT_ORGAN_MAP" value="3026" prompt="CTP:ï¿½ï¿½ï¿½Ú»ï¿½ï¿½ã£ºï¿½ï¿½ï¿½ï¿½Ã»ï¿½ï¿½Ç©Ô¼" />
+  <error id="FBE_SYSTEM_BUSY" value="3030" prompt="CTP:ï¿½ï¿½ï¿½Ú»ï¿½ï¿½ã£ºï¿½ï¿½ï¿½ï¿½ÏµÍ³Ã¦ï¿½ï¿½ï¿½Ôºï¿½ï¿½ï¿½ï¿½ï¿½" />
+  <error id="FBE_CURRENCYID_NOT_SUPPORTED" value="3035" prompt="CTP:ï¿½ï¿½ï¿½Ú»ï¿½ï¿½ã£ºï¿½Ã±ï¿½ï¿½Ö´ï¿½ï¿½ë²»Ö§ï¿½ï¿½" />
+  <error id="FBE_WRONG_BANK_ACCOUNT" value="3036" prompt="CTP:ï¿½ï¿½ï¿½Ú»ï¿½ï¿½ã£ºï¿½ï¿½ï¿½ï¿½ï¿½ÊºÅ²ï¿½ï¿½ï¿½È·" />
+  <error id="FBE_BANK_ACCOUNT_NO_FUNDS" value="3037" prompt="CTP:ï¿½ï¿½ï¿½Ú»ï¿½ï¿½ã£ºï¿½ï¿½ï¿½ï¿½ï¿½Ê»ï¿½ï¿½ï¿½î²»ï¿½ï¿½" />
+  <error id="FBE_DUP_CERT_NO" value="3038" prompt="CTP:ï¿½ï¿½ï¿½Ú»ï¿½ï¿½ã£ºÆ¾Ö¤ï¿½ï¿½ï¿½Ø¸ï¿½" />
+  <!--ï¿½ï¿½ï¿½ï¿½ÏµÍ³ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ end-->
+
+  <!--ï¿½ï¿½Â¼ï¿½ï¿½È¨ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ begin-->
+  <error id="API_UNSUPPORTED_VERSION" value="3039" prompt="CTP: ï¿½ï¿½Ö§ï¿½Ö¸ï¿½APIï¿½æ±¾" />
+  <error id="API_INVALID_KEY" value="3040" prompt="CTP: ï¿½ï¿½Ð§ï¿½ï¿½API KEY" />
+  <!--ï¿½ï¿½Â¼ï¿½ï¿½È¨ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ end-->
+
+  <error id="OPTION_SELF_CLOSE_NOT_OPTION" value="3041" prompt="CTP:ï¿½ï¿½È¨ï¿½Ô³ï¿½,ï¿½ï¿½Ô¼ï¿½Ô³ï¿½:ï¿½ï¿½ï¿½ï¿½È¨ï¿½ï¿½Ô¼" />
+  <error id="OPTION_SELF_CLOSE_DUPLICATE_REF" value="3042" prompt="CTP:ï¿½ï¿½È¨ï¿½Ô³ï¿½,ï¿½ï¿½Ô¼ï¿½Ô³ï¿½:ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ã²ï¿½ï¿½Ï·ï¿½" />
+  <error id="OPTION_SELF_CLOSE_BAD_FIELD" value="3043" prompt="CTP:ï¿½ï¿½È¨ï¿½Ô³ï¿½,ï¿½ï¿½Ô¼ï¿½Ô³ï¿½:ï¿½Ç·ï¿½ï¿½Ö¶ï¿½ " />
+  <error id="OPTION_SELF_CLOSE_REC_NOT_FOUND" value="3044" prompt="CTP:ï¿½ï¿½È¨ï¿½Ô³ï¿½,ï¿½ï¿½Ô¼ï¿½Ô³ï¿½:ï¿½ï¿½ï¿½ï¿½Î´ï¿½Òµï¿½ï¿½ï¿½Â¼" />
+  <error id="OPTION_SELF_CLOSE_STATUS_ERR" value="3045" prompt="CTP:ï¿½ï¿½È¨ï¿½Ô³ï¿½,ï¿½ï¿½Ô¼ï¿½Ô³ï¿½:ï¿½Ô³ï¿½×´Ì¬ï¿½ï¿½ï¿½Ô£ï¿½ï¿½ï¿½ï¿½Ü³ï¿½ï¿½ï¿½" />
+  <error id="OPTION_SELF_CLOSE_DOUBLE_SET_ERR" value="3046" prompt="CTP:ï¿½ï¿½È¨ï¿½Ô³ï¿½,ï¿½ï¿½Ô¼ï¿½Ô³ï¿½:ï¿½ï¿½ï¿½ï¿½ï¿½Ø¸ï¿½ï¿½ï¿½ï¿½Ã£ï¿½Ö»ï¿½ï¿½ï¿½È³ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½" />
+  <error id="QUOTE_WRONG_HEDGE_TYPE" value="3047" prompt="CTP:ï¿½ï¿½ï¿½Û²ï¿½Ö§ï¿½Ö¸ï¿½Í¶ï¿½ï¿½ï¿½×±ï¿½ï¿½ï¿½ï¿½ï¿½" />
 </errors>
