@@ -14,6 +14,6 @@ fi
 
 mkdir -p win-build
 cd win-build
-cmake .. -G "Visual Studio 17 2022"
+cmake .. -G "Visual Studio 18 2026"
 cmake --build . --config Release
 
