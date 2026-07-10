@@ -23,9 +23,9 @@
       <PackagePath>runtimes\%(RecursiveDir)%(FileName)%(Extension)</PackagePath>
     </Content>
     <Content Remove="runtimes\**\*.lib" />
-    <Content Include="build\**\*.*">
+    <Content Include="buildTransitive\**\*.*">
       <Pack>true</Pack>
-      <PackagePath>build\%(RecursiveDir)%(FileName)%(Extension)</PackagePath>
+      <PackagePath>buildTransitive\%(RecursiveDir)%(FileName)%(Extension)</PackagePath>
     </Content>
     <Content Include="../CTPFutureApi/include/*.*">
       <Visible>false</Visible>

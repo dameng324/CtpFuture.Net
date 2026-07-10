@@ -60,18 +60,12 @@ public class TraderSpiImpl : CThostFtdcTraderSpi
 dotnet add package CTPFuture.Net
 ```
 
-或在 `.csproj` 文件中添加：
-
-```xml
-<PackageReference Include="CTPFuture.Net" Version="6.3.15.3" />
-```
-
 ---
 
 ## ❓ 常见问题
 
 - **CTP API 版本号？**  
-  v6.3.15_20190220 20:39:53
+  v6.7.11_20250617 16:22:00.10369
 
 - **DLL 未自动拷贝？**  
   默认 DLL 会拷贝到 `runtimes/` 目录以适配多平台。如仅需特定平台，建议在 `.csproj` 设置 `<RuntimeIdentifier>`：
@@ -88,16 +82,11 @@ dotnet add package CTPFuture.Net
 
 ---
 
-## 🤝 贡献指南
-
-欢迎提交 PR、Issue 或建议。详情请参考 [CONTRIBUTING.md](CONTRIBUTING.md)（如有）。
-
 ---
 
 ## 💬 社区与支持
 
-- [GitHub Issues](https://github.com/ctpnet/CTPFuture.Net/issues)
-- 邮箱：your@email.com
+- [GitHub Issues](https://github.com/dameng324/CTPFuture.Net/issues)
 
 ---
 
