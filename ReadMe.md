@@ -1,148 +1,109 @@
-# CTPFuture.Net
+# CtpFuture.Net
 
-[![NuGet 版本](https://img.shields.io/nuget/v/CTPFuture.Net.svg)](https://www.nuget.org/packages/CTPFuture.Net)
-[![构建状态](https://img.shields.io/github/actions/workflow/status/dameng324/CtpFuture.Net/publish.yml)](https://github.com/dameng324/CTPFuture.Net/actions)
-[![平台](https://img.shields.io/badge/platform-windows%20%7C%20linux-blue)](#)
-[![下载量](https://img.shields.io/nuget/dt/CTPFuture.Net.svg)](https://www.nuget.org/packages/CTPFuture.Net)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![NuGet](https://img.shields.io/nuget/v/CtpFuture.Net.svg)](https://www.nuget.org/packages/CtpFuture.Net)
+[![CI](https://github.com/dameng324/CtpFuture.Net/actions/workflows/ci.yml/badge.svg)](https://github.com/dameng324/CtpFuture.Net/actions/workflows/ci.yml)
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
-> 现代化的 CTP 期货 API .NET 封装库，跨平台，基于 swig 技术集成 C++，支持 Windows 和 Linux。
+CTP 行情与交易 API 的 .NET 封装。项目通过 SWIG 生成 C# 绑定，并随 NuGet 包提供对应平台的原生库。
 
----
+## 支持范围
 
-## ✨ 功能特性
+| 项目 | 支持范围 |
+|---|---|
+| .NET 目标框架 | .NET 8、.NET 10、.NET Framework 4.5、.NET Standard 2.0 |
+| 原生运行时 | Windows x64（win-x64）、Linux x64（linux-x64） |
+| API | 行情、交易 |
 
-- 支持交易与行情接口
-- 兼容 .NET Framework 4.5、.NET Standard 2.0、.NET 8、.NET 10
-- 自动拷贝依赖 DLL 至输出目录
-- 支持 Native AOT 编译，提升安全性
-- 跨平台支持：Windows、Linux（Mac/iOS/Android 理论可用）
+.NET 8 和 .NET 10 目标设置了 IsAotCompatible=true。发布应用时，RID 仍须与上表中的原生运行时匹配。
 
----
+## 安装
 
-## 🚀 快速开始
+~~~bash
+dotnet add package CtpFuture.Net
+~~~
 
-```csharp
+## 快速开始
+
+下面展示交易 API 的创建和连接流程。请将前置地址替换为实际接入地址，并在回调类中实现所需业务逻辑。
+
+~~~csharp
 using System;
 using CtpFuture.Net;
 
-Console.WriteLine(CThostFtdcTraderApi.GetApiVersion());
-Console.WriteLine(CThostFtdcMdApi.GetApiVersion());
-
-var spi = new TraderSpiImpl();
+var spi = new TraderSpi();
 var api = CThostFtdcTraderApi.CreateFtdcTraderApi();
-spi.SetApi(api);
 api.RegisterSpi(spi);
-api.SubscribePrivateTopic(THOST_TE_RESUME_TYPE.THOST_TERT_QUICK);
-api.SubscribePublicTopic(THOST_TE_RESUME_TYPE.THOST_TERT_QUICK);
-
-// simnow 前置地址
-api.RegisterFront("tcp://180.168.146.187:10131");
+api.RegisterFront("<trade-front-address>");
 api.Init();
 api.Join();
 
-public class TraderSpiImpl : CThostFtdcTraderSpi
+sealed class TraderSpi : CThostFtdcTraderSpi
 {
-    private CThostFtdcTraderApi api;
-    public void SetApi(CThostFtdcTraderApi api) => this.api = api;
-    public override void OnFrontConnected() => Console.WriteLine("OnFrontConnected");
-    // ...实现其他回调...
+    public override void OnFrontConnected()
+    {
+        Console.WriteLine("Trade front connected");
+    }
 }
-```
+~~~
 
----
+行情 API 可通过 CThostFtdcMdApi.CreateFtdcMdApi 创建。更完整的接口说明见 [CTP API 文档](doc/ctp_docs.zip)。
 
-## 📦 安装
+## API 版本
 
-通过 NuGet 安装：
+当前仓库包含的 CTP API 版本为 v6.7.11_20250617 16:22:00.10369。运行时可通过行情和交易 API 的 GetApiVersion 方法查询版本。
 
-```bash
-dotnet add package CTPFuture.Net
-```
+## 原生依赖
 
----
+NuGet 包包含以下平台目录中的原生库：
 
-## ❓ 常见问题
+- Windows x64：runtimes/win-x64/native
+- Linux x64：runtimes/linux-x64/native
 
-- **CTP API 版本号？**  
-  v6.7.11_20250617 16:22:00.10369
+发布应用时，将 RuntimeIdentifier 设置为 win-x64 或 linux-x64，以选择目标平台对应的原生依赖。
 
-- **DLL 未自动拷贝？**  
-  默认 DLL 会拷贝到 `runtimes/` 目录以适配多平台。如仅需特定平台，建议在 `.csproj` 设置 `<RuntimeIdentifier>`：
+## 构建
 
-  - Windows: `<RuntimeIdentifier>win-x64</RuntimeIdentifier>`
-  - Linux: `<RuntimeIdentifier>linux-x64</RuntimeIdentifier>`
+### 环境与本地构建
 
----
+- 使用 global.json 指定的 .NET SDK，并在仓库根目录执行 dotnet tool restore。
+- 使用 .swig-version 指定的 SWIG 版本。
+- 原生构建需要 CMake 和对应平台的 C++ 工具链。Windows 使用 Git Bash 和 Visual Studio C++ 工具；Linux 构建可在 Linux 或 WSL2 中运行。
 
-## 📝 文档
+SWIG 生成的 C# 和 C++ 文件不提交到 Git。每次本地构建前，进入 SWIG 项目重新生成：
 
-- [API 文档](doc/ctp_docs.zip)
-- [更新日志](https://github.com/ctpnet/CTPFuture.Net/releases)
-
----
-
----
-
-## 💬 社区与支持
-
-- [GitHub Issues](https://github.com/dameng324/CTPFuture.Net/issues)
-
----
-
-## ☕ 打赏
-
-如果本项目对你有帮助，欢迎打赏支持：
-
-![img.png](img.png)
-
----
-
-## 许可证
-
-MIT License
-
-## Build
-
-### Requirements
-
-Use the .NET SDK pinned in `global.json` and restore the repository tools:
-
-```bash
-dotnet tool restore
-```
-
-SWIG must match the version in `.swig-version` (currently 4.5.1). CI runs SWIG generation on Ubuntu 24.04 and builds the Windows wrapper and NuGet package on windows-latest. Windows native builds use CMake 4.3 or later with Visual Studio 2026.
-
-### Regenerate SWIG bindings
-
-Generated C# and C++ files are not tracked in Git. CI regenerates them before compiling. Before each local solution build, regenerate the bindings from the pinned SWIG version:
-
-```bash
+~~~bash
 cd src/CTPFutureApi
-dotnet tool restore
 bash ./SwigGenerate.sh
-cd ../..
-```
+~~~
 
-The script runs this repository's C# post-processing and formatting steps.
+在 Git Bash 中构建 Windows 原生库：
 
-### Build the solution
-
-```bash
-dotnet build CtpFuture.Net.slnx --configuration Release
-```
-
-### Build native wrappers
-
-Build the Windows wrapper from Git Bash and the Linux wrapper from WSL2. Run these commands from `src/CTPFutureApi`:
-
-```bash
+~~~bash
 bash ./win-build.sh
-bash ./linux-build.sh
-```
+~~~
 
+在 Linux 或 WSL2 中构建 Linux 原生库：
+
+~~~bash
+bash ./linux-build.sh
+~~~
+
+回到仓库根目录构建解决方案并检查格式：
+
+~~~bash
+cd ../..
+dotnet build CtpFuture.Net.slnx --configuration Release
+dotnet tool run csharpier check .
+~~~
 
 ### GitHub Actions
 
-Pull requests and pushes to `main` run `.github/workflows/ci.yml`. It calls `.github/workflows/build.yml` to generate SWIG bindings on Linux, build the Windows wrapper, and pack the NuGet package; the `.nupkg` is uploaded as a 30-day workflow artifact. All workflow run steps use Bash, including Git Bash on Windows. `.github/workflows/publish.yml` calls the same build workflow, then publishes to NuGet for a `vX.Y.Z` tag or a manual run from `main` with a supplied version; tag publishing also creates a GitHub Release.
+向 main 提交 PR 或推送提交时，ci.yml 调用共享的 build.yml：Ubuntu job 生成 SWIG 绑定并构建 Linux 原生库，Windows job 构建 Windows 原生库、构建解决方案并打包 NuGet。CI 不会发布到 NuGet；生成的 nupkg 会作为保留 30 天的 workflow artifact。
+
+publish.yml 复用同一构建流程。推送 v 前缀版本 tag 会发布 NuGet 包并创建 GitHub Release；也可以在 main 上手动运行该 workflow，并填写不带 v 前缀的版本号。
+
+## 许可证
+
+[MIT License](LICENSE)
+
+问题与建议请提交到 [GitHub Issues](https://github.com/dameng324/CtpFuture.Net/issues)。
