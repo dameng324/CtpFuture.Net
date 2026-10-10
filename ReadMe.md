@@ -144,4 +144,4 @@ bash ./linux-build.sh
 
 ### GitHub Actions
 
-Pull requests and pushes to `main` run the Linux generation job followed by the Windows build job. Workflow steps use Bash on both runners (Git Bash on Windows). The Linux job uploads generated C# files, SWIG wrapper sources, and the Linux native library when the SDK provides one. A `vX.Y.Z` tag publishes the NuGet package and creates a GitHub Release. Manual publishing runs from `main` and requires a version without the `v` prefix.
+Pull requests and pushes to `main` run `.github/workflows/ci.yml`. It calls `.github/workflows/build.yml` to generate SWIG bindings on Linux, build the Windows wrapper, and pack the NuGet package; the `.nupkg` is uploaded as a 30-day workflow artifact. All workflow run steps use Bash, including Git Bash on Windows. `.github/workflows/publish.yml` calls the same build workflow, then publishes to NuGet for a `vX.Y.Z` tag or a manual run from `main` with a supplied version; tag publishing also creates a GitHub Release.
