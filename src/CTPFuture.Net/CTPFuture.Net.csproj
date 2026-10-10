@@ -8,7 +8,7 @@
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <IsAotCompatible Condition="$([MSBuild]::IsTargetFrameworkCompatible('$(TargetFramework)', 'net7.0'))">true</IsAotCompatible>
-    <Version>6.3.15-test3</Version>
+    <Version>6.7.11-test</Version>
     <PackageTags>Future;Trade;CTP;China;Quant</PackageTags>
     <RepositoryUrl>https://github.com/dameng324/CtpFuture.Net.git</RepositoryUrl>
     <PackageProjectUrl>https://github.com/dameng324/CtpFuture.Net</PackageProjectUrl>
