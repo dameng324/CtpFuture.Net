@@ -10,6 +10,7 @@
 /* turn on director wrapping Callback */
 %feature("director") CThostFtdcTraderSpi;
 %feature("director") CThostFtdcMdSpi;
+%copyctor;
 
 %include "include/ThostFtdcUserApiDataType.h"
 %include "include/ThostFtdcUserApiStruct.h"

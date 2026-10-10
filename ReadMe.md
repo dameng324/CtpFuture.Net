@@ -13,7 +13,7 @@
 ## ✨ 功能特性
 
 - 支持交易与行情接口
-- 兼容 .NET Framework 4.5、.NET Standard 2.0、.NET 6、.NET 8
+- 兼容 .NET Framework 4.5、.NET Standard 2.0、.NET 8、.NET 10
 - 自动拷贝依赖 DLL 至输出目录
 - 支持 Native AOT 编译，提升安全性
 - 跨平台支持：Windows、Linux（Mac/iOS/Android 理论可用）
@@ -101,3 +101,47 @@ dotnet add package CTPFuture.Net
 ## 许可证
 
 MIT License
+
+## Build
+
+### Requirements
+
+Use the .NET SDK pinned in `global.json` and restore the repository tools:
+
+```bash
+dotnet tool restore
+```
+
+SWIG must match the version in `.swig-version` (currently 4.5.1). CI runs SWIG generation on Ubuntu 24.04 and builds the Windows wrapper and NuGet package on windows-latest. Windows native builds use CMake 4.3 or later with Visual Studio 2026.
+
+### Build the solution
+
+```bash
+dotnet build CtpFuture.Net.slnx --configuration Release
+```
+
+### Regenerate SWIG bindings
+
+From Ubuntu 24.04 in WSL2, run:
+
+```bash
+cd src/CTPFutureApi
+dotnet tool restore
+bash ./SwigGenerate.sh
+```
+
+This regenerates the C++ and C# wrappers, applies the shared C# post-processing, and formats the generated C# files.
+
+### Build native wrappers
+
+Build the Windows wrapper from Git Bash and the Linux wrapper from WSL2. Run these commands from `src/CTPFutureApi`:
+
+```bash
+bash ./win-build.sh
+bash ./linux-build.sh
+```
+
+
+### GitHub Actions
+
+Pull requests and pushes to `main` run the Linux generation job followed by the Windows build job. Workflow steps use Bash on both runners (Git Bash on Windows). The Linux job uploads generated C# files, SWIG wrapper sources, and the Linux native library when the SDK provides one. A `vX.Y.Z` tag publishes the NuGet package and creates a GitHub Release. Manual publishing runs from `main` and requires a version without the `v` prefix.

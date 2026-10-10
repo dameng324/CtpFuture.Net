@@ -473,12 +473,12 @@ static class SwigTransformer
         Console.WriteLine(
             """
 用法：
-  dotnet run StripSwigDerivedChecks.cs -- <文件或目录> [更多路径] [--no-backup]
+  dotnet StripSwigDerivedChecks.cs -- <文件或目录> [更多路径] [--no-backup]
 
 示例：
-  dotnet run StripSwigDerivedChecks.cs -- CThostFtdcMdSpi.cs
-  dotnet run StripSwigDerivedChecks.cs -- ./generated
-  dotnet run StripSwigDerivedChecks.cs -- ./generated --no-backup
+  dotnet StripSwigDerivedChecks.cs -- CThostFtdcMdSpi.cs
+  dotnet StripSwigDerivedChecks.cs -- ./generated
+  dotnet StripSwigDerivedChecks.cs -- ./generated --no-backup
 
 默认行为：
   - 递归处理目录中的所有 .cs 文件

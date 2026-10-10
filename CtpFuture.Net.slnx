@@ -3,7 +3,6 @@
     <File Path=".csharpierrc.json" />
     <File Path=".gitattributes" />
     <File Path=".gitignore" />
-    <File Path="Build.md" />
     <File Path="ReadMe.md" />
   </Folder>
   <Folder Name="/src/">

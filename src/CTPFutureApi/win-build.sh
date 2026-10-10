@@ -1,19 +1,11 @@
-#!/usr/bin/bash
+#!/usr/bin/env bash
+set -euo pipefail
 
-# 获取脚本所在目录的绝对路径
-SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
-
-# 获取当前工作目录
-CURRENT_DIR="$(pwd)"
-
-# 比较路径，如果不同则退出
-if [ "$SCRIPT_DIR" != "$CURRENT_DIR" ]; then
-    echo "Error: This script must be run from its own directory ($SCRIPT_DIR)."
+SCRIPT_DIR="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd)"
+if [[ "$SCRIPT_DIR" != "$(pwd -P)" ]]; then
+    echo "Error: This script must be run from its own directory: $SCRIPT_DIR" >&2
     exit 1
 fi
 
-mkdir -p win-build
-cd win-build
-cmake .. -G "Visual Studio 18 2026"
-cmake --build . --config Release
-
+cmake -S "$SCRIPT_DIR" -B "$SCRIPT_DIR/win-build" -G "Visual Studio 18 2026" -A x64
+cmake --build "$SCRIPT_DIR/win-build" --config Release
