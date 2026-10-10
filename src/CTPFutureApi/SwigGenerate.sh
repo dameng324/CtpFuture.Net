@@ -10,6 +10,8 @@ if [[ "$ACTUAL_SWIG_VERSION" != "$EXPECTED_SWIG_VERSION" ]]; then
     exit 1
 fi
 
+rm -rf ../CTPFuture.Net/Swig/
+rm -f swig_wrap.cxx swig_wrap.h
 mkdir -p ../CTPFuture.Net/Swig/
 swig -c++ -csharp -namespace CtpFuture.Net -outdir ../CTPFuture.Net/Swig/ swig.i
 dotnet StripSwigDerivedChecks.cs -- --no-backup \

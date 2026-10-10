@@ -114,23 +114,24 @@ dotnet tool restore
 
 SWIG must match the version in `.swig-version` (currently 4.5.1). CI runs SWIG generation on Ubuntu 24.04 and builds the Windows wrapper and NuGet package on windows-latest. Windows native builds use CMake 4.3 or later with Visual Studio 2026.
 
-### Build the solution
-
-```bash
-dotnet build CtpFuture.Net.slnx --configuration Release
-```
-
 ### Regenerate SWIG bindings
 
-From Ubuntu 24.04 in WSL2, run:
+Generated C# and C++ files are not tracked in Git. CI regenerates them before compiling. Before each local solution build, regenerate the bindings from the pinned SWIG version:
 
 ```bash
 cd src/CTPFutureApi
 dotnet tool restore
 bash ./SwigGenerate.sh
+cd ../..
 ```
 
-This regenerates the C++ and C# wrappers, applies the shared C# post-processing, and formats the generated C# files.
+The script runs this repository's C# post-processing and formatting steps.
+
+### Build the solution
+
+```bash
+dotnet build CtpFuture.Net.slnx --configuration Release
+```
 
 ### Build native wrappers
 
